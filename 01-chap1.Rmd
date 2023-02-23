@@ -121,7 +121,7 @@ Second, I was interested in how to space measurements when the nature of change 
 
 #### Function Used to Generate Each Data Set
 
-Data for each simulation experiment were generated using R [@rstudio]. The code used to run the simulations and create the data set can be found in Appendix \ref{simulation-code}. To generate the data, the *multilevel logistic function* shown below in Equation \@ref(eq:logFunction-generation) was used:
+Data for each simulation experiment were generated using R [@rstudio]. The code used to run the simulations and create the data set can be found in Appendix \ref{simulation-code} and the data file can be found at the following Github repository:  To generate the data, the *multilevel logistic function* shown below in Equation \@ref(eq:logFunction-generation) was used:
 
 ```{=tex}
 \begin{align}
