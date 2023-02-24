@@ -20,6 +20,9 @@ To investigate the effects of longitudinal design and analysis factors on model 
 
 In Experiment 1, I was interested in answering two questions: 1) Does placing measurements near periods of change increase model performance and 2) how should measurements be spaced when the nature of change is unknown. To answer these two questions, I manipulated measurement spacing, number of measurements, and nature of change (i.e., shape of the s-shaped curve). With respect to the first question, the results of Experiment 1 suggest that model performance increases when measurements are placed closer to periods of change (see section discussing [measurement spacing](#meas-placing)). With respect to the second question, the results of Experiment 1 suggest that measurements should be spaced equally over time when the nature of change is unknown (see section discussing measurement spacing when the nature of change is [unknown](#unknown)). 
 
+In Experiment 2, I was interested in the measurement number/sample size pairings needed to obtain high model performance (i.e., low bias, high precision) under different spacing schedules. To answer this question, I manipulated measurement spacing, measurement number, and sample size. Although no manipulated measurement number/sample size pairing results in high model performance (low bias, high precision) of all parameters, moderate measurement numbers and sample sizes often yield low bias and the largest improvements in model performance. For all spacing schedules (except middle-and-extreme spacing), the largest improvements in model performance result from using either either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100. The results for middle-and-extreme spacing are largely a byproduct of the nature of change used in Experiment 2, and so are of little value to emphasize. 
+
+
 ```{r exp-summary-table, echo=F}
 summary_df <- data.frame('Simulation Exeriment' = c("Experiment 1", "Experiment 2", "Experiment 3"), 
                          'Independent Variables' = c("\\thead[lt]{Spacing of measurements \\\\ Number of measurements \\\\ Nature of change}", 
@@ -37,8 +40,6 @@ kbl(x = summary_df, format = 'latex', digits = 2,align = c('l', 'l', 'l'),
    kable_styling(latex_options= c('repeat_header'), position = 'left')
 ```
 
-
-In Experiment 2, I was interested in the measurement number/sample size pairings needed to obtain high model performance (i.e., low bias, high precision) under different spacing schedules. To answer this question, I manipulated measurement spacing, measurement number, and sample size. Although no manipulated measurement number/sample size pairing results in high model performance (low bias, high precision) of all parameters, moderate measurement numbers and sample sizes often yield low bias and the largest improvements in model performance. For all spacing schedules (except middle-and-extreme spacing), the largest improvements in model performance result from using either either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100. The results for middle-and-extreme spacing are largely a byproduct of the nature of change used in Experiment 2, and so are of little value to emphasize. 
 
 In Experiment 3, I was interested in examining how time structuredness affected model performance. To answer this question, I manipulated measurement spacing, measurement number, and time structuredness. Although the measurement number/sample size pairings that result in the greatest improvements in model performance are the same as in Experiment 2, two results suggest that model performance decreases as time structuredness decreases. First, precision decreases as time structuredness decreases. That is, precision decreases as response patterns of participants become increasingly dissimilar. Second, and more concerning, bias decreases as time structuredness decreases regardless of the measurement number or sample size. That is, as response patterns of participants become increasingly dissimilar, bias increases across all measurement number/sample size pairings.
 
@@ -123,6 +124,4 @@ In modelling nonlinear change, researchers should prioritize the interpretabilit
 ## Conclusion 
 
 Investigating nonlinear patterns of change is a growing area of organizational research. By understanding nonlinear patterns of change, organizational research can develop a more nuanced understanding of temporal dynamics and provide practitioners with more specific recommendations. The simulation experiments conducted in my dissertation contribute to this goal by providing boundary conditions for model performance.  
-
-
 

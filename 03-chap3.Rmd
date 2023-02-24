@@ -128,7 +128,7 @@ For sample size, I used the same values as in Experiment 2 of 30, 50, 100, 200, 
 
 *Time structuredness* describes the extent to which participants provide data over time with the same response pattern. That is, at each time point, do participants provide their data at the exact same time point. If one response pattern characterizes the way in which participants provide their data, then participants always provide data at the exact same moment, and the resulting data are *time structured*. If response patterns differ between participants, the resulting data lose their time structuredness and become *time unstructured*, with the extent of the time unstructuredness depending on the extent to which response patterns differ between participants. The manipulation of time structuredness was adopted from the manipulation used in @coulombe2016 with a slight modification. Below, I describe the original procedure used in @coulombe2016 and, following this explanation, I describe my improved procedure. 
 
-In  @coulombe2016, time-unstructured data were generated according to an exponential pattern such that most data were obtained at the beginning of the response window, with a smaller amount of data being obtained towards the end of the response window. Importantly, @coulombe2016 employed a non-continuous function for generating time-unstructured data: A binning method was employed such that 80% of the data were obtained within a time period equivalent to 12% (fast response rate) or 30% (slow response rate) of the entire response window. Using a response window length of 10 days with a fast response rate, the procedure employed by @coulombe2016 for generating time-unstructured data would have generated the following percentages of data in each of the four bins (note that, using the data generation procedure for @coulombe2016, the effective response window length for a fast response rate would be 4 days in the current example instead of 10 days):\footnote{The data generation procedure in (ref:coulombe2016) for a fast response rate assumed that all of the data were collected within the initial 40\% length of the nominal response window length (i.e., 4 days in the current example).}
+In  @coulombe2016, time-unstructured data were generated according to an exponential pattern such that most data were obtained at the beginning of the response window, with a smaller amount of data being obtained towards the end of the response window. Importantly, @coulombe2016 employed a non-continuous function for generating time-unstructured data: A binning method was employed such that 80% of the data were obtained within a time period equivalent to 12% (fast response rate) or 30% (slow response rate) of the entire response window. Using a response window length of 10 days with a fast response rate, the procedure employed by @coulombe2016 for generating time-unstructured data would have generated the following percentages of data in each of the four bins (note that, using the data generation procedure for @coulombe2016, the effective response window length for a fast response rate would be 4 days in the current example instead of 10 days):\footnote{The data generation procedure in \textcite{coulombe2016} for a fast response rate assumed that all of the data were collected within the initial 40\% length of the nominal response window length (i.e., 4 days in the current example).}
 
 1) Bin 1: 60% of the data would be generated in the initial 10% length of the response window (0–0.40 day).
 2) Bin 2: 20% of the data would be generated in the next 20% length of the response response window (0.40–1.20 days).
@@ -320,7 +320,7 @@ In addition to computing bias, precision was calculated to evaluate the variabil
 
 ### Overview of Data Generation
 
-Data generation was computed the same way as in Experiment 1 (see [data generation](#data-generation)) with one addition to the procedure needed for time structuredness. The section that follows details how time structuredness was simulated. 
+Data generation was computed the same way as in Experiment 1 (see [data generation](#data-generation)) with one addition to the procedure needed for time structuredness. The section that follows details how time structuredness was simulated. Note that the code used to run the simulations and create the data set can be found in Appendix \ref{simulation-code} and the data file (`exp_3_data.csv`) can be found in the following GitHub repository: [https://github.com/sciarraseb/dissertation](https://github.com/sciarraseb/dissertation). 
 
 ##### Simulation Procedure for Time Structuredness {#simulating-time-struc}
 
@@ -376,22 +376,7 @@ distribution function for the fast response rate (with a growth
 parameter value $a$ set to 0.37; see Equation \ref{eq:cdf-fast}) and
 Panel B shows the probability density function that results from
 computing the derivative of the fast response rate cumulative
-distribution function with respect to $x$ (see Equation
-\ref{eq:fast-pdf-function}). Panel C shows the cumulative distribution
-function for the slow response rate (with a growth parameter value $a$
-set to 0.15; see Equation \ref{eq:cdf-slow})) and Panel D shows the
-probability density function that results from computing the derivative
-of the slow response rate cumulative distribution function with respect
-to $x$ (see Equation \ref{eq:slow-pdf-function} and section on [time
-structuredness](#sec:time-structuredness) for more discussion). For the
-fast response rate functions, an 80% response rate is obtained after
-4.32 days or, equivalently, 80% of the area underneath the probability
-density function is obtained at 4.32 days
-($\int^{4.32}_{0} f_{fast}^\prime (x) = 0.80$; the integral from 0 to 4.32 of the probability density function for a fast response rate $f^\prime(x)_{fast}$ is 0.80). For the slow response
-rate functions, an 80% response rate is obtained after 10.80 days or,
-equivalently, 80% of the area underneath the probability density
-function is obtained at 10.80 days
-($\int^{10.80}_{0} f_{slow}^\prime (x) = 0.80$; the integral from 0 to 10.80 of the probability density function for a slow response rate $f^\prime(x)_{slow}$ is 0.80).
+distribution function 
 
 ```{r pdf-time-structuredness, eval=F, include=F}
 #1) Generate CDFs
@@ -596,7 +581,26 @@ set_panel_size(p = plot_converted, height = unit(x = 32, units = 'cm'),
 \end{apaFigure}
 ```
 
-Having computed probability density functions for fast and slow response rates, time delays could be generated to create time-unstructured data. To generate time-unstructured data,  a time delay was first
+
+\noindent with respect to $x$ (see Equation
+\ref{eq:fast-pdf-function}). Panel C shows the cumulative distribution
+function for the slow response rate (with a growth parameter value $a$
+set to 0.15; see Equation \ref{eq:cdf-slow})) and Panel D shows the
+probability density function that results from computing the derivative
+of the slow response rate cumulative distribution function with respect
+to $x$ (see Equation \ref{eq:slow-pdf-function} and section on [time
+structuredness](#sec:time-structuredness) for more discussion). For the
+fast response rate functions, an 80% response rate is obtained after
+4.32 days or, equivalently, 80% of the area underneath the probability
+density function is obtained at 4.32 days
+($\int^{4.32}_{0} f_{fast}^\prime (x) = 0.80$; the integral from 0 to 4.32 of the probability density function for a fast response rate $f^\prime(x)_{fast}$ is 0.80). For the slow response
+rate functions, an 80% response rate is obtained after 10.80 days or,
+equivalently, 80% of the area underneath the probability density
+function is obtained at 10.80 days
+($\int^{10.80}_{0} f_{slow}^\prime (x) = 0.80$; the integral from 0 to 10.80 of the probability density function for a slow response rate $f^\prime(x)_{slow}$ is 0.80).
+
+
+Having computed probability density functions for fast and slow response rates, time delays could be generated to create time-unstructured data. To generate time-unstructured data, a time delay was first
 generated by sampling values according to the probability density function defined by either a fast or slow response rate (Equations \ref{eq:fast-pdf-function}--\ref{eq:slow-pdf-function}). The sampled time delay was then added to the value of the current measurement day for a person at a given time point. That is, if the collection window opened on day 60 and the generated time delay for a given person was 4.50 days, then their data would be generated by inserting a value of 64.50 for the $time_i$ parameter of the logistic function (Equation \ref{eq:logFunction-generation}; along with the fixed-effect parameter values and the person-specific parameter values [or random-effects]). 
 
 ### Modelling of Each Generated Data Set {#data-modelling-exp3}
@@ -617,7 +621,7 @@ For each level of time structuredness, I first provide a concise summary of the 
 
 To conduct Experiment 3, the three variables of number of measurements (4 levels), sample size (6 levels), and time structuredness (3 levels) were manipulated, which yielded a total of 72 cells. Importantly, within each cell, bias and precision values were also computed for each of the nine parameters estimated by the structured latent growth curve model (for a review, see [modelling of each generated data set](#modelling-data-sets)). Thus, because the analysis of Experiment 3 computed values for many dependent variables, interpreting the results can become overwhelming. Therefore, I will provide a framework to help the reader efficiently navigate the results section. 
 
-Because I will present the results of Experiment 3 by each level of time structuredness, the framework I will describe in Figure \ref{fig:results-plot-primer} shows a template for the bias/precision plots that I will present for each level of time structuredness. The results presented for each time structuredness level contain a bias/precision plot for each of the nine estimated parameters. Each bias/precision plot shows the bias and precision for the estimation of one parameter across all measurement number and nature-of change levels. Within each bias/precision plot, dots indicate the average estimated value (which indicates bias) and error bars represent the middle 95% range of estimated values (which indicates precision). Bias/precision plots with black border show the results for day-unit parameters and plots with gray borders show the results for Likert-unit parameters. Importantly, only the results for the day-unit parameters will be presented (i.e., fixed- and random-effect days-to-halfway elevation and halfway-triquarter delta parameters [$\upbeta_{fixed}$, $\upbeta_{random}$, $\upgamma_{fixed}$, $\upgamma_{random}$, respectively]). The results for the Likert-unit parameters (i.e., fixed- and random-effect baseline and maximal elevation parameters [$\uptheta_{fixed}$, $\uptheta_{random}$, $\upalpha_{fixed}$, $\upalpha_{random}$, respectively]) were largely trivial and so are presented in Appendix \ref{complete-versions}. Therefore, the results of time structuredness level will only present the bias/precision plots for four parameters (i.e., the day-unit parameters). 
+Because I will present the results of Experiment 3 by each level of time structuredness, the framework I will describe in Figure \ref{fig:results-plot-primer} shows a template for the bias/precision plots that I will present for each level of time structuredness. The results presented for each time structuredness level contain a bias/precision plot for each of the nine estimated parameters. Each bias/precision plot shows the bias and precision for the estimation of one parameter across all measurement number and nature-of change levels. Within each bias/precision plot, dots indicate the average estimated value (which indicates bias) and error bars represent the middle 95% range of estimated values (which indicates precision). Bias/precision plots with black border show the results for day-unit parameters and plots with gray borders show the results for Likert-unit parameters. Importantly, only the results for the day-unit parameters will be presented (i.e., fixed- and random-effect days-to-halfway elevation and halfway-triquarter delta parameters [$\upbeta_{fixed}$, $\upbeta_{random}$, $\upgamma_{fixed}$, $\upgamma_{random}$, 
 
 ```{=tex}
 \begin{apaFigure}
@@ -632,6 +636,7 @@ Because I will present the results of Experiment 3 by each level of time structu
 \end{apaFigure}
 ```
 
+\noindent respectively]). The results for the Likert-unit parameters (i.e., fixed- and random-effect baseline and maximal elevation parameters [$\uptheta_{fixed}$, $\uptheta_{random}$, $\upalpha_{fixed}$, $\upalpha_{random}$, respectively]) were largely trivial and so are presented in Appendix \ref{complete-versions}. Therefore, the results of time structuredness level will only present the bias/precision plots for four parameters (i.e., the day-unit parameters). 
 
 
 ### Pre-Processing of Data and Model Convergence
@@ -645,7 +650,9 @@ success rates for each cell in Experiment 3. Model convergence never goes below 
 
 For time-structured data, Table \ref{tab:summary-table-time-struc-exp3} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp3_plot_days_time_struc} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-time-struc-exp3} and provide elaboration when necessary. 
 
-Before presenting the results for equal spacing, I provide a brief description of the concise summary table created for each level of time structuredness and shown below for time-structured data in Table \ref{tab:summary-table-time-struc-exp3}. Text in the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairings that, respectively, resulted in unbiased and precise estimation. Emboldened text in the 'Unbiased' and 'Qualitative Description' columns indicates the measurement number/sample size pairing that, respectively, resulted in unbiased estimation and the greatest improvements in bias and precision across all day-unit parameters (acceptable precision was not obtained in the estimation of all day-unit parameters with time-structured data). The 'Error Bar Length' column indicates the error bar length that results from using the lower-bounding measurement number/sample size pairing listed in the 'Qualitative Description' column (i.e., the maximum error bar length).
+Before presenting the results for equal spacing, I provide a brief description of the concise summary table created for each level of time structuredness and shown below for time-structured data in Table \ref{tab:summary-table-time-struc-exp3}. Text in the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairings that, respectively, resulted in unbiased and precise estimation. Emboldened text in the 'Unbiased' and 'Qualitative Description' columns indicates the measurement number/sample size pairing that, respectively, resulted in unbiased estimation and the greatest improvements in bias and precision across 
+
+\noindent
 
 ```{r summary-table-time-struc-exp3, echo=F}
 
@@ -710,18 +717,12 @@ kbl(x = summary_table, format = 'latex',
   landscape(margin = '2.54cm')
 ```
 
+all day-unit parameters (acceptable precision was not obtained in the estimation of all day-unit parameters with time-structured data). The 'Error Bar Length' column indicates the error bar length that results from using the lower-bounding measurement number/sample size pairing listed in the 'Qualitative Description' column (i.e., the maximum error bar length).
+
+
 ##### Bias {#bias-time-struc-exp3}
 
 Before presenting the results for bias, I provide a description of the set of bias/precision plots shown in Figure \ref{fig:exp3_plot_days_time_struc} and in the results sections for the other level of time structuredness in Experiment 3. Figure \ref{fig:exp3_plot_days_time_struc} shows the bias/precision plots for each day-unit parameter and Table \ref{tab:omega-exp2-equal} provides the partial $\upomega^2$ values for each independent variable of each day-unit parameter. In Figure \ref{fig:exp3_plot_days_time_struc}, blue horizontal lines indicate the population values for each parameter (with population values of $\upbeta_{fixed}$ = 180.00, $\upbeta_{random}$ = 10.00, $\upgamma_{fixed}$ = 20.00, and $\upgamma_{random}$ = 4.00). Gray bands indicate the $\pm 10\%$ margin of error for each parameter and unfilled dots indicate cells with average parameter estimates outside of the margin. Error bars represent the middle 95% of estimated values, with light blue error bars indicating imprecise estimation. I considered dots that fell outside the gray bands as biased and error bar lengths with at least one whisker length exceeding the 10% cutoff (i.e., or longer than the portion of the gray band underlying the whisker) as imprecise. Panels A--B show the bias/precision plots for the fixed- and random-effect days-to-halfway elevation parameters ($\upbeta_{fixed}$ and $\upbeta_{random}$, respectively). Panels C--D show the bias/precision plots for the fixed- and random-effect triquarter-halfway delta parameters ($\upgamma_{fixed}$ and $\upgamma_{random}$, respectively). Note that random-effect parameter units are in standard deviation units.
-
-With respect to bias for time-structured data, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_time_struc}A): no cells. 
-* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_time_struc}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_time_struc}C): no cells. 
-* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_time_struc}D): five and seven measurements across all sample sizes and nine and 11 measurements with $N \le 100$.
-
-In summary, with time-structured data, estimation of all the day-unit parameters across all manipulated nature-of-change values were unbiased using at least nine measurements with $N \ge 200$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-struc-exp3}. 
 
 ```{r figure-time-struc-exp3, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_3_analytical, 
@@ -758,6 +759,17 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp3_plot_days_time_s
 
 ```
 
+
+With respect to bias for time-structured data, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_time_struc}A): no cells. 
+* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_time_struc}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_time_struc}C): no cells. 
+* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_time_struc}D): five and seven measurements across all sample sizes and nine and 11 measurements with $N \le 100$.
+
+In summary, with time-structured data, estimation of all the day-unit parameters across all manipulated nature-of-change values were unbiased using at least nine measurements with $N \ge 200$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-struc-exp3}. 
+
+
 ##### Precision {#precision-time-struc-exp3}
 
 With respect to precision for time-structured data, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
@@ -792,6 +804,15 @@ In summarizing the results for time-structured data, estimation of all the day-u
 ### Time-Unstructured Data Characterized by a Fast Response Rate
 
 For time-unstructured data characterized by a fast response rate, Table \ref{tab:summary-table-fast-exp3} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp3_plot_days_fast} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-fast-exp3} and provide elaboration when necessary (for a description of Table \ref{tab:summary-table-fast-exp3}, see [concise summary](#concise-example-exp3)). 
+
+#### Bias {#bias-fast-exp3}
+
+With respect to bias for time-unstructured data characterized by a fast response rate, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}A): no cells. 
+* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_fast}C): no cells.
+
 
 ```{r summary-table-fast-exp3, echo=F}
 
@@ -860,18 +881,18 @@ kbl(x = summary_table, format = 'latex',
 ```
 
 
-#### Bias {#bias-fast-exp3}
-
-With respect to bias for time-unstructured data characterized by a fast response rate, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}A): no cells. 
-* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_fast}C): no cells.
 * random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_fast}D): five measurements across all sample sizes, seven measurements with $N \le 500$, nine measurements with $N \ge 100$, and 11 measurements with $N \le 50$.
 
 \noindent Importantly, for the fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$), although bias was still within the acceptable margin of error, bias appeared to be constant across all manipulated measurement number/sample size pairings. In comparing the bias/precision plots between time-unstructured data characterized by a fast response rate (Figure \ref{fig:exp3_plot_days_fast}A) and time-structured data (Figure \ref{fig:exp3_plot_days_time_struc}A), the systematic decline in bias observed for fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$) appeared to result from thedecrease in time structuredness. 
 
 In summary, with time-unstructured data characterized by a fast response rate, estimation of all the day-unit parameters across all manipulated nature-of-change values was unbiased using at least seven measurements with $N = 1000$, nine measurements with $N \ge 200$, or 11 measurements with $N \ge 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-fast-exp3}. 
+
+#### Precision {#precision-fast-exp3}
+
+With respect to precision for time-unstructured data characterized by a fast response rate, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}A): no cells. 
+* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}B): five and seven measurements across all sample sizes and nine and 11 measurements with $N \le 200$.
 
 ```{r plots-fast-response-exp3, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_3_analytical, 
@@ -907,12 +928,7 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp3_plot_days_fast}A
 
 ```
 
-#### Precision {#precision-fast-exp3}
 
-With respect to precision for time-unstructured data characterized by a fast response rate, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}A): no cells. 
-* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_fast}B): five and seven measurements across all sample sizes and nine and 11 measurements with $N \le 200$.
 * random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_fast}C): all cells. 
 * random-effect halfway-triquarter delta parameter [$\upgamma_{random}$] in Figure \ref{fig:exp3_plot_days_fast}D): all cells. 
 
@@ -941,6 +957,19 @@ In summarizing the results for time-unstructured data characterized by a fast re
 ### Time-Unstructured Data Characterized by a Slow Response Rate
 
 For time-unstructured data characterized by a slow response rate, Table \ref{tab:summary-table-slow-exp3} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp3_plot_days_slow} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-slow-exp3} and provide elaboration when necessary (for a description of Table \ref{tab:summary-table-slow-exp3}, see [concise summary](#concise-example-exp3)). 
+
+#### Bias {#bias-slow-exp3}
+
+With respect to bias for time-unstructured data characterized by a slow response rate, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells: 
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}A): no cells. 
+* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_slow}C): no cells. 
+* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_slow}D): five measurements across all sample sizes, seven measurements with $N \le 500$, nine measurements with $N \ge 100$, and 11 measurements with $N \le 50$.
+
+\noindent Note that, for all parameters except the halfway-triquarter delta parameter ($\upgamma_{fixed}$), bias appeared to be constant across all manipulated measurement number/sample size pairings.
+
+In summary, with time-unstructured data characterized by a slow response rate, estimation of all the day-unit parameters across all manipulated nature-of-change values was unbiased using at least seven measurements with $N = 1000$, nine measurements with $N \ge 200$, or 11 measurements with $N \ge 100$, which is indicated by the emboldened text 
 
 ```{r summary-table-slow-exp3, echo=F}
 errorbar_lengths_nm5_s30 <- compute_errorbar_lengths(exp_analytical_days = exp_3_analytical$days, iv_level = 'slow response', num_measurements = 5, sample_size = 30)
@@ -991,32 +1020,21 @@ kbl(x = summary_table, format = 'latex',
        align = c('l', rep('l', times = ncol(summary_table) - 1)),
     caption = 'Concise Summary of Results for Time-Unstructured Data (Slow Response Rate) in Experiment 3') %>%
    #header
-   column_spec(column = 1, width = '2cm') %>%
+  column_spec(column = 1, width = '3cm') %>%
   column_spec(column = 2, width = '5cm') %>%
-  column_spec(column = 3, width = '4cm') %>%
+  column_spec(column = 3, width = '5cm') %>%
   column_spec(column = 4, width = '6.5cm') %>%
-  column_spec(column = 5, width = '2.5cm') %>%
+  column_spec(column = 5, width = '3cm') %>%
+  add_header_above(header = c(' ' = 3, 'Description' = 2)) %>%
+  
 add_header_above(header = c(' ' = 3, 'Summary' = 2)) %>%
-   footnote(escape = F, threeparttable = T, general_title = '\\\\textit{Note.}\\\\hspace{-1.1pc}',
+   footnote(escape = F, threeparttable = T, general_title = '',
            general = "\\\\textit{Note. }Text in the `Unbiased' and `Precise' columns indicates the measurement number/sample size pairings that, respectively, resulted in unbiased and precise estimation. Emboldened text in the `Unbiased' and `Qualitative Description' columns indicates the number of measurements that, respectively, resulted in unbiased estimation and the greatest improvements in bias and precision across all day-unit parameters (acceptable precision was not obtained in the estimation of all day-unit parameters with time-unstructured data characterized by a slow response rate). `Error Bar Length' column indicates the maximum error bar length that resulted from using the measurement number/sample size recommendation listed in the `Qualitative Description' column. Parameter names and population values are as follows: $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter = 180; $\\\\upgamma_{fixed}$ = fixed-effect halfway-triquarter delta parameter = 20; $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter = 10; $\\\\upgamma_{random}$ = random-effect halfway-triquarter delta parameter = 4. NM = number of measurements.") %>% 
   kable_styling(position = 'left') %>%
   kable_styling(position = 'left') %>%
   landscape(margin = '2.54cm')
 ```
 
-
-#### Bias {#bias-slow-exp3}
-
-With respect to bias for time-unstructured data characterized by a slow response rate, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells: 
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}A): no cells. 
-* fixed-effect halfway-triquarter delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_slow}C): no cells. 
-* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_slow}D): five measurements across all sample sizes, seven measurements with $N \le 500$, nine measurements with $N \ge 100$, and 11 measurements with $N \le 50$.
-
-\noindent Note that, for all parameters except the halfway-triquarter delta parameter ($\upgamma_{fixed}$), bias appeared to be constant across all manipulated measurement number/sample size pairings.
-
-In summary, with time-unstructured data characterized by a slow response rate, estimation of all the day-unit parameters across all manipulated nature-of-change values was unbiased using at least seven measurements with $N = 1000$, nine measurements with $N \ge 200$, or 11 measurements with $N \ge 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-slow-exp3}. 
 
 ```{r plots-slow-response-exp3, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_3_analytical, 
@@ -1059,6 +1077,8 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp3_plot_days_slow}A
 
 ```
 
+in the 'Unbiased' column of Table \ref{tab:summary-table-slow-exp3}. 
+
 #### Precision {#precision-slow-exp3}
 
 With respect to precision for time-unstructured data characterized by a slow response rate, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
@@ -1094,7 +1114,7 @@ In summarizing the results for time-unstructured data characterized by a slow re
 
 In Experiment 3, I was interested in how decreasing time structuredness affected model performance. Table \ref{tab:summary-table-exp3} summarizes the results for each spacing schedule in Experiment 3. Text within the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairing needed to, respectively, obtain unbiased an precise estimation for all the day-unit parameters. The 'Error Bar Length' column indicates longest error bar lengths that result in the estimation of each day-unit parameter from using the measurement number/sample size pairings listed in the 'Qualitative Description' column. In looking at the 'Qualitative Description' column, the greatest improvements in bias and precision for all time structuredness levels result from using either seven measurements with $N \ge 200$ or nine measurements with $N \le 100$. 
 
-Although the same measurement number/sample size pairing can be used to obtain the greatest improvements in model performance under any time structuredness level, two results suggest that model performance decreases as the time structuredness decreases. First, the error bar lengths in Table \ref{tab:summary-table-exp3} increase as time structuredness decreases. As an example, the error bar length of the fixed-effect days-to-halfway elevation parameter is `r errorbar_lengths_ts[1]` days with time-structured data and increases to `r errorbar_lengths_slow[1]` days with time-unstructured data characterized by a slow response rate. Second, and more alarming, the bias incurred as time structuredness decreases is constant across all measurement number/sample size pairings (see Figure \ref{fig:exp3_plot_days_slow}). That is, the increase in bias that results from time-unstructured data cannot be reduced by increasing the number of measurements or sample size. An an example, the fixed-effect days-to-halfway elevation parameter is underestimated by approximately 6 days across all measurement number/sample size pairings ($\upbeta_{fixed}$; see Figure \ref{fig:exp3_plot_days_slow}A). 
+Although the same measurement number/sample size pairing can be used to obtain the greatest improvements in model performance under any time structuredness level, two results suggest that model performance decreases as the time structuredness decreases. First, the error bar lengths in Table \ref{tab:summary-table-exp3} increase as time structuredness decreases. As an  
 
 ```{r summary-table-exp3, echo=F}
 #combine vectors into a list 
@@ -1166,6 +1186,7 @@ kbl(x = summary_table, format = 'latex',
   landscape(margin = '2.54cm')
 ``` 
 
+\noindent example, the error bar length of the fixed-effect days-to-halfway elevation parameter is `r errorbar_lengths_ts[1]` days with time-structured data and increases to `r errorbar_lengths_slow[1]` days with time-unstructured data characterized by a slow response rate. Second, and more alarming, the bias incurred as time structuredness decreases is constant across all measurement number/sample size pairings (see Figure \ref{fig:exp3_plot_days_slow}). That is, the increase in bias that results from time-unstructured data cannot be reduced by increasing the number of measurements or sample size. An an example, the fixed-effect days-to-halfway elevation parameter is underestimated by approximately 6 days across all measurement number/sample size pairings ($\upbeta_{fixed}$; see Figure \ref{fig:exp3_plot_days_slow}A).
 
 To understand why bias is systematic as time structure decreases, it is important to first understand latent growth curve models more deeply. By default, latent growth curve models assume time-structured data. As a reminder, data are time structured when participants provide data at the exact same moment at each time point (e.g., if a study collects data on the first day of each month for a year, then time-structured data would only be obtained if participants all provide their data at the exact same moment each time data are collected). In other words, one response schedule characterized the response patterns of all participants. Consider a random-intercept-random-slope model shown in Figure \ref{fig:latent-growth} that is used to model stress ratings collected on the first day of each month over the course of five months from $j$ people. Stress ratings at each $i$ time point for each $j$ person are predicted by person-specific intercepts ($b_{0j}$) and slopes ($b_{1j}$; in addition to a residual term [$\upepsilon_{ij}$]) as shown below in Equation \ref{eq:stressLevel1} (which is often called  Level-1 equation):
 
@@ -1201,8 +1222,7 @@ To understand why bias is systematic as time structure decreases, it is importan
 
 To understand why bias in parameter estimation increases as time structuredness decreases, it is important to discuss one component of the latent growth curve model not yet discussed: loadings. In latent variable models, *loadings* comprise numbers that indicate how a latent variable should be modelled. The numbers in loadings satisfy two needs of latent variables. First, loadings  give latent variables a unit; latent variables are inherently unitless, and so require a unit so that they can be meaningfully interpreted. By fixing at least one pathway between a latent variable and observed variable with a loading, the latent variable takes on the units of the observed variable. In the current example, the intercept and slope latent variables take on the units of the stress ratings (e.g., Likert units). Second, in latent growth curve models, latent variables need their effect to be specified, and loadings satisfy this need. In the current example, the intercept has a constant effect at each time point, and this is represented by setting its loadings at each time point to 1. The slope represents linearly increasing change over time, and so its loadings are set to increase by an integer value of 1 after each time point. 
 
-Although loadings allow latent variables to model change over time, their values are constant across participants and it is this characteristic that causes model performance to decrease as time structuredness decreases. In focusing on the slope variable in Figure \ref{fig:latent-growth}, the loadings of 0, 1, 2, 3, and 4 assume that only one response pattern describes how each participant provides their data over some period of time. If the period of time is assume to be five months, then the loadings assume that each participant provides data on the first day of each month, which is indicated by the gray rectangles (along with the loading number above each gray rectangle) in each panel of Figure \ref{fig:time-structure}. With time-structured data, constant loadings do not decrease model performance because each participant provides their data on the first day of each month. As examples of model performance with time-structured data, panels A and C of Figure \ref{fig:time-structure} show the predicted and actual patterns for individual participants with linear and logistic patterns of change, respectively. Because each individual participant displays a response pattern identical to the one specified by the loadings, the predicted and actual patterns of change are identical. With time-unstructured data however, the predicted and actual patterns of change no longer overlap because response patterns in participants differ from the one assumed by the loadings. As examples of model performance with time-unstructured data, panels B and D of Figure \ref{fig:time-structure} show the predicted and actual patterns for individual participants with linear and logistic patterns of change, respectively. Although each participant provides data many days after the first day of each month, the constant loadings set in the model lead it to assume that data were collected on the first day of each month. Because the model misattributes the time at which data are recorded, the predicted patterns of change are shifted leftward, leading to a decrease in model performance. In Figure \ref{fig:time-structure}B, the intercept parameter value ($b_{0j}$) increases due to time-unstructured data. In Figure \ref{fig:time-structure}D, the value for the fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$) decreases due to time-unstructured data. Therefore, the loading structured specified by default in latent growth curve model causes model performance to decrease when data are time unstructured.  
-
+Although loadings allow latent variables to model change over time, their values are constant across participants and it is this characteristic that causes model performance to decrease as time structuredness decreases. In focusing on the slope variable in Figure \ref{fig:latent-growth}, the loadings of 0, 1, 2, 3, and 4 assume that only one response pattern describes how each participant provides their data over some period of time. If the period of time is assume to be five months, then the loadings assume that each participant provides data on the first day of each month, which is indicated by the gray rectangles (along with the loading number above each gray rectangle) in each panel of Figure \ref{fig:time-structure}. With time-structured data, constant loadings do not decrease model performance because each participant provides their data on the first day of each month. As examples of model performance with time-structured data, panels A and C of Figure \ref{fig:time-structure} show the predicted and actual patterns for individual participants with linear and logistic patterns of change, respectively. Because each individual participant displays a response pattern identical to the one specified by the loadings, the predicted and actual patterns of change are identical. With time-unstructured data however, the predicted and actual patterns of change no longer overlap because response patterns in participants differ from the one assumed by the
 
 ```{r time-structured-plot, eval=F, include=F}
 #Create  data set
@@ -1437,6 +1457,10 @@ set_panel_size(p = time_structure_plot, height = unit(x = 32, units = 'cm'),
 \end{apaFigure}
 ```
 
+\noindent loadings. As examples of model performance with time-unstructured data, panels B and D of Figure \ref{fig:time-structure} show the predicted and actual patterns for individual participants with linear and logistic patterns of change, respectively. Although each participant provides data many days after the first day of each month, the constant loadings set in the model lead it to assume that data were collected on the first day of each month. Because the model misattributes the time at which data are recorded, the predicted patterns of change are shifted leftward, leading to a decrease in model performance. In Figure \ref{fig:time-structure}B, the intercept parameter value ($b_{0j}$) increases due to time-unstructured data. In Figure \ref{fig:time-structure}D, the value for the fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$) decreases due to time-unstructured data. Therefore, the loading structured specified by default in latent growth curve model causes model performance to decrease when data are time unstructured.  
+
+
+
 ### Eliminating the Bias Caused by Time Unstructuredness: Using Definition Variables {#def-variables}
 
 In examining the effects of time structuredness, the results show that model performance decreases as time structuredness decreases. Importantly, increasing the number of measurements and/or sample size has no effect on eliminating the decline in model performance.  Because data are likely to be time unstructured under realistic conditions, the resulting decline in model performance seems inevitable and this can be disconcerting. Fortunately, the error incurred when time unstructuredness is overlooked can be prevented by allowing loadings to vary across people by using *definition variables*: Observed variables are placed in parameter matrices so that values in the matrix (specifically, the loadings) are constrained to person-specific values [@mehta2000; @mehta2005; @blozis2008; @sterba2014]. In the current example, definition variables are used to set loadings to the specific time points at which each participant provides their data. Thus, the observed variable is the specific $i$ time point at which a $j$ person provides a datum and this value is inserted into the $\uplambda$ matrix (for details of this matrix, see Appendix \ref{structured-lgc}). Figure \ref{fig:latent-def} shows a path diagram for a random-intercept-random-slope latent variable model with definition variables. In comparing it to the latent growth curve model in Figure \ref{fig:latent-growth}, there is only one difference. Instead of setting the loadings to be constant across all participants, definition variables (indicated by diamonds) are used so that loadings for each $j$ person are set to the specific $i$ time point at which a datum was provided. 
@@ -1457,14 +1481,6 @@ In examining the effects of time structuredness, the results show that model per
 To show that definition variables can eliminate the error incurred by time-unstructured data, I ran an additional set of simulations. In these simulations, time-unstructured data characterized by a slow response rate were analyzed with a structured latent growth curve model equipped with definition variables (see Appendix \ref{def-model-code} for the corresponding code). Number of measurements and sample size were manipulated as in Experiment 3, thus yielding 24 cells (i.e., 4[number of measurements: 5, 7, 9, 11] x 6[sample size: 30, 50, 100, 200, 500, 1000]). As in all previous simulation experiments, I only present the results for the day-unit parameters because the results for the Likert-unit parameters were largely negligible (for Likert-unit bias/precision plots, see Appendix \ref{complete-versions}). Similar to the results for convergence success rates obtained in all other simulation experiments, convergence success rates across all cells were always above 90%, with the specific values presented in Table \ref{tab:conv-exp-3-def}.\footnote{It should be noted that convergence times increased by approximately eightfold when definition variables were used.}
 
 Figure \ref{fig:exp3_plot_days_def} shows the bias/precision plots that result from using definition variables to model time-unstructured data characterized by a slow response rate. In comparing the bias/precision plot of Figure \ref{fig:exp3_plot_days_def} to that of Figure \ref{fig:exp3_plot_days_slow}, model performance improves in the following four ways: 
-
-1) Bias in the estimation of the fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}A) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}A). 
-2) Bias in the estimation of the fixed-effect triquarter-halfway elevation parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}B) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}B). 
-3) Bias in the estimation of the random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_slow}C) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}C). 
-4) Bias in the estimation of the random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_slow}D) returns to levels observed with time-structured data (see Figure \ref{fig:exp3_plot_days_time_struc}A) with definition variables.  Precision also decreases (especially with five measurements) when using definition variables (Figure \ref{fig:exp3_plot_days_def}C). 
-
-\noindent Therefore, given the improvements in the estimation of each day-unit parameter that follow from using definition variables, latent variable models, by default, should use definition variables to improve model performance when data are time unstructured.
-
 
 ```{r plots-slow-response-def, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_3_def_analytical, 
@@ -1500,6 +1516,15 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp3_plot_days_def}A)
                      '$\\upgamma_{random}$ (Figure \\ref{fig:exp3_plot_days_def}D)'))
 
 ```
+
+
+1) Bias in the estimation of the fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}A) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}A). 
+2) Bias in the estimation of the fixed-effect triquarter-halfway elevation parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp3_plot_days_slow}B) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}B). 
+3) Bias in the estimation of the random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp3_plot_days_slow}C) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}C). 
+4) Bias in the estimation of the random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp3_plot_days_slow}D) returns to levels observed with time-structured data (see Figure \ref{fig:exp3_plot_days_time_struc}A) with definition variables.  Precision also decreases (especially with five measurements) when using definition variables (Figure \ref{fig:exp3_plot_days_def}C). 
+
+\noindent Therefore, given the improvements in the estimation of each day-unit parameter that follow from using definition variables, latent variable models, by default, should use definition variables to improve model performance when data are time unstructured.
+
 
 
 ## Summary of Experiment 3

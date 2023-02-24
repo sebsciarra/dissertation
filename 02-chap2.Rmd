@@ -104,7 +104,7 @@ In Experiment 2, I investigated the measurement number and sample size combinati
 ## Methods
 ### Overview of Data Generation
 
-Data generation was computed the same way as in Experiment 1 (see [data generation](#data-generation)).  
+Data generation was computed the same way as in Experiment 1 (see [data generation](#data-generation)). Note that the code used to run the simulations and create the data set can be found in Appendix \ref{simulation-code} and the data file (`exp_2_data.csv`) can be found in the following GitHub repository: [https://github.com/sciarraseb/dissertation](https://github.com/sciarraseb/dissertation).  
 
 ### Modelling of Each Generated Data Set {#data-modelling-exp2}
 
@@ -217,7 +217,7 @@ success rates for each cell in Experiment 2. Model convergence was almost always
 
 For equal spacing, Table \ref{tab:summary-table-equal-spacing-exp2} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp2_plot_equal} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-equal-spacing-exp2} and provide elaboration when necessary. 
 
-Before presenting the results for equal spacing, I provide a brief description of the concise summary table created for each spacing schedule and shown for equal spacing below in Table \ref{tab:summary-table-equal-spacing-exp2}. Text in the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairings that, respectively, resulted in unbiased and precise estimation. Emboldened text in the 'Unbiased' and 'Qualitative Description' columns indicates the measurement number/sample size pairing that, respectively, resulted in unbiased estimation and the greatest improvements in bias and precision across all day-unit parameters (note that acceptable precision was not obtained in the estimation of all day-unit parameters with equal spacing). The 'Error Bar Length' column indicates the error bar length that resulted from using the lower-bounding measurement number/sample size pairing listed in the 'Qualitative Description' column (i.e., the maximum error bar length).
+Before presenting the results for equal spacing, I provide a brief description of the concise summary table created for each spacing schedule and shown for equal spacing below in Table \ref{tab:summary-table-equal-spacing-exp2}. Text in the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairings that, respectively, resulted in unbiased and precise estimation. Emboldened text in the 'Unbiased' and 'Qualitative Description' columns indicates the measurement number/sample size pairing that, respectively, resulted in unbiased estimation and the greatest improvements in bias and precision across all day-unit parameters (note that acceptable precision was not obtained in the estimation of all day-unit parameters with equal spacing). The 'Error Bar Length' column indicates the error bar length that resulted from using the lower-bounding measurement number/sample size pairing listed in the 'Qualitative Description' column (i.e., the maximum error bar
 
 ```{r summary-table-equal-spacing-exp2, echo=F}
 
@@ -293,6 +293,8 @@ kbl(x = summary_table, format = 'latex',
   landscape(margin = '2.54cm')
 
 ```
+
+\noindent length).
 
 #### Bias {#bias-equal-exp2}
 
@@ -591,9 +593,19 @@ For an applied researcher, one plausible question might be what measurement numb
 
 In summarizing the results for equal spacing, estimation of all day-unit parameters was unbiased using nine measurements with $N \ge 200$ or 11 measurements with $N = 1000$ (see the emboldened text in in the 'Unbiased' column of Table \ref{tab:summary-table-equal-spacing-exp2}). Precise estimation was never obtained in the estimation of all day-unit parameters with any manipulated measurement number/sample size pairing (see [precision](#precision-time-inc-exp2)). Although it may be discouraging that no manipulated measurement number/sample size pairing under equal spacing resulted in precise estimation of all the day-unit parameters, the largest improvements in precision (and bias) across all day-unit parameters resulted with moderate measurement number/sample size pairings. With equal spacing, the largest improvements in bias and precision in the estimation of all day-unit parameters resulted from using seven measurements with $N \ge 200$ or nine measurements with $N \le 100$ (see the emboldened text in the 'Qualitative Description' column of Table \ref{tab:summary-table-equal-spacing-exp2}). 
 
+
 ### Time-Interval Increasing Spacing
 
 For time-interval increasing spacing, Table \ref{tab:summary-table-time-inc-exp2} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp2_plot_time_inc} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-time-inc-exp2} and provide elaboration when necessary (for a description of Table \ref{tab:summary-table-time-inc-exp2}, see [concise summary table](#concise-example)). 
+
+#### Bias {#bias-time-inc-exp2}
+
+With respect to bias for time-interval increasing spacing, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_inc}A): no cells. 
+* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_inc}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_inc}C): NM = 5 with $N = 30$.  
+
 
 ```{r summary-table-time-inc-exp2, echo=F}
 #beta_fixed 
@@ -662,17 +674,6 @@ kbl(x = summary_table, format = 'latex',
 
 ```
 
-#### Bias {#bias-time-inc-exp2}
-
-With respect to bias for time-interval increasing spacing, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_inc}A): no cells. 
-* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_inc}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_inc}C): NM = 5 with $N = 30$.  
-* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_inc}D): five an seven measurements across all sample sizes, nine measurements with $N \le 100$, and 11 measurements with $N \le 50$.
-
-In summary, with time-interval increasing spacing, estimation of all the day-unit parameters was unbiased using nine measurements with $N \ge 200$ or 11 measurements with $N = 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-inc-exp2}. 
-
 ```{r plots-time-inc-exp2, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_2_analytical,
                                target_col = 'measurement_spacing', target_value = 'Time-interval increasing',
@@ -708,6 +709,11 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp2_plot_time_inc}A)
                      '$\\upgamma_{random}$ (Figure \\ref{fig:exp2_plot_time_inc}D)'))
 ```
 
+* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_inc}D): five and seven measurements across all sample sizes, nine measurements with $N \le 100$, and 11 measurements with $N \le 50$.
+
+In summary, with time-interval increasing spacing, estimation of all the day-unit parameters was unbiased using nine measurements with $N \ge 200$ or 11 measurements with $N = 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-inc-exp2}. 
+
+
 #### Precision {#precision-time-inc-exp2}
 
 With respect to precision for time-interval increasing spacing, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
@@ -741,6 +747,11 @@ In summarizing the results for time-interval increasing spacing, estimation of a
 ### Time-Interval Decreasing Spacing
 
 For time-interval decreasing spacing, Table \ref{tab:summary-table-time-dec-exp2} provides a concise summary of the results for the day-unit parameters (see Figure \ref{fig:exp2_plot_time_dec} for the corresponding bias/precision plots). The sections that follow will present the results for each column of Table \ref{tab:summary-table-time-dec-exp2} and provide elaboration when necessary (for a description of Table \ref{tab:summary-table-time-dec-exp2}, see [concise summary table](#concise-example)). 
+
+#### Bias {#bias-time-dec-exp2}
+
+With respect to bias for time-interval decreasing spacing, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
+
 
 ```{r summary-table-time-dec-exp2, echo=F}
 #beta_fixed 
@@ -809,16 +820,6 @@ kbl(x = summary_table, format = 'latex',
 
 ```
 
-#### Bias {#bias-time-dec-exp2}
-
-With respect to bias for time-interval decreasing spacing, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}A): no cells. 
-* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): NM = 5 with $N = 30$.  
-* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_dec}D): five, seven, and nine measurements across all sample sizes an 11 measurements with $N \le 50$, and 11 measurements with $N \le 50$.
-
-In summary, with time-interval decreasing spacing, estimation of all the day-unit parameters was unbiased using 11 measurements with $N \ge 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-dec-exp2}. 
 
 ```{r plots-time-dec-exp2, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_2_analytical,
@@ -855,6 +856,14 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp2_plot_time_dec}A)
                      '$\\upgamma_{fixed}$ (Figure \\ref{fig:exp2_plot_time_dec}C)',
                      '$\\upgamma_{random}$ (Figure \\ref{fig:exp2_plot_time_dec}D)'))
 ```
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}A): no cells.
+* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): NM = 5 with $N = 30$.
+* random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_dec}D): five, seven, and nine measurements across all sample sizes an 11 measurements with $N \le 50$, and 11 measurements with $N \le 50$.
+
+In summary, with time-interval decreasing spacing, estimation of all the day-unit parameters was unbiased using 11 measurements with $N \ge 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-time-dec-exp2}. 
+
 
 #### Precision {#precision-time-dec-exp2}
 
@@ -962,10 +971,21 @@ With respect to bias for middle-and-extreme spacing, estimates were biased (i.e.
 
 * fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}A): no cells. 
 * fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): no cells.  
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): no cells.
 * random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_dec}D): five and nine measurements with $N \le 100$ and seven an 11 with $N \le 50$.
 
 In summary, with middle-and-extreme spacing, estimation of all the day-unit parameters was unbiased using five and nine measurements with $N \le 100$ and seven an 11 with $N \le 50$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-mid-ext-exp2}. 
+
+#### Precision {#precision-mid-ext-exp2}
+
+With respect to precision for middle-and-extreme spacing, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
+
+* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}A): no cells. 
+* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}B): all measurements numbers with $N \ge 200$. 
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): all cells. 
+* random-effect triquarter-halfway delta parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_dec}D): all cells. 
+
+In summary, with middle-and-extreme spacing, precise estimation for the fixed-effect day-unit parameters resulted from using at least five measurements with $N \ge 500$.
 
 ```{r plots-mid-ext-exp2, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_2_analytical,
@@ -987,7 +1007,6 @@ generate_day_likert_facet_plot(analytical_data = exp_2_analytical,
 \end{apaFigure}
 ```
 
-
 ```{r omega-exp2-mid-ext, echo=F}
 print_bias_var_omega_table(exp_data = exp_2_raw, target_col = 'measurement_spacing', target_value = 'time_dec', 
 ind_vars = c('number_measurements', 'sample_size'), 
@@ -1003,16 +1022,7 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp2_plot_mid_ext}A)'
                      '$\\upgamma_{random}$ (Figure \\ref{fig:exp2_plot_mid_ext}D)'))
 ```
 
-#### Precision {#precision-mid-ext-exp2}
-
-With respect to precision for middle-and-extreme spacing, estimates were imprecise (i.e., error bar length with at least one whisker length exceeding 10% of a parameter's population value) in the following cells for each day-unit parameter: 
-
-* fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}A): no cells. 
-* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_time_dec}B): all measurements numbers with $N \ge 200$. 
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_time_dec}C): all cells. 
-* random-effect triquarter-halfway delta parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_time_dec}D): all cells. 
-
-In summary, with middle-and-extreme spacing, precise estimation for the fixed-effect day-unit parameters resulted from using at least five measurements with $N \ge 500$. For the random-effect day-unit parameters, no manipulated measurement number/sample size pairing resulted in precise estimation (see the 'Precise' column of Table \ref{tab:summary-table-mid-ext-exp2}).
+\noindent For the random-effect day-unit parameters, no manipulated measurement number/sample size pairing resulted in precise estimation (see the 'Precise' column of Table \ref{tab:summary-table-mid-ext-exp2}).
 
 
 #### Qualitative Description {#qualitative-mid-ext-exp2}
@@ -1036,11 +1046,6 @@ In summarizing the results for middle-and-extreme spacing, estimation of all day
 In Experiment 2, I was interested in determining the measurement number/sample size pairings that resulted in high model performance (unbiased and precise parameter estimation) for each spacing schedule. Table \ref{tab:summary-table-exp2} summarizes the results for each spacing schedule in Experiment 2. Text within the 'Unbiased' and 'Precise' columns indicates the measurement number/sample size pairing needed to, respectively, obtain unbiased an precise estimation of all the day-unit parameters. The 'Error Bar Length' column indicates maximum error bar length that results in the estimation of each day-unit parameter from using the measurement number/sample size pairings listed in the 'Qualitative Description' column. Although no measurement number/sample size pairing results in high model performance for any spacing schedule, the greatest improvements in model performance result from using the following measurement number/sample size pairings for each spacing schedule (see Table \ref{tab:summary-table-exp2}): 
 
 * equal: seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100.
-* time-interval increasing: five measurements with *N* $\ge$ 500, seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 200. 
-* time-interval decreasing: five measurements with *N* $\ge$ 500, seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 200. 
-* middle-and-extreme: five measurements with any manipulated sample size. 
-
-\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, given that only five measurements are needed with middle-and-extreme spacing to obtain model performance levels that the other spacing schedules obtained with at least seven measurements, middle-and-extreme spacing results in the highest model performance. Importantly, given that middle-and-extreme spacing results in the highest model performance in Experiment 1 with a midway halfway point (see section discussing [measurement spacing](#meas-placing)), the result here that middle-and-extreme spacing leads to the highest model performance is an expected outcome because the nature-of-change was fixed to 180 (see [constants](#constants-exp2)). 
 
 ```{r summary-table-exp2, echo=F}
 
@@ -1142,6 +1147,12 @@ linesep = c('\\cmidrule{1-8}', '\\cmidrule{1-8}', '\\cmidrule{1-8}'),
   landscape(margin = '2.47cm')
 
 ```
+
+* time-interval increasing: five measurements with *N* $\ge$ 500, seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 200. 
+* time-interval decreasing: five measurements with *N* $\ge$ 500, seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 200. 
+* middle-and-extreme: five measurements with any manipulated sample size. 
+
+\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, given that only five measurements are needed with middle-and-extreme spacing to obtain model performance levels that the other spacing schedules obtained with at least seven measurements, middle-and-extreme spacing results in the highest model performance. Importantly, given that middle-and-extreme spacing results in the highest model performance in Experiment 1 with a midway halfway point (see section discussing [measurement spacing](#meas-placing)), the result here that middle-and-extreme spacing leads to the highest model performance is an expected outcome because the nature-of-change was fixed to 180 (see [constants](#constants-exp2)). 
 
 The results of Experiment 2 are the first (to my knowledge) to provide measurement number and sample size guidelines for researchers interested in using nonlinear functions to model nonlinear change. Although previous simulation studies have investigated how to accurately model nonlinear change, three characteristics limit these results. First, some studies investigated the issue with fixed-effects models [e.g., @finch2017]. Given that researchers often model effects as random, findings with fixed-effects effects models are limited in their application. Second, some studies used linear functions to model nonlinear change [e.g., @fine2019; @liu2022]. Given that the parameters of linear functions become uninterpretable when modelling nonlinear change (with the intercept parameter being an exception), these models are less useful to practitioners. Third, some studies implemented unrealistic model fitting procedures by dropping a random-effect parameter from the model each time convergence failed [@finch2017]. By dropping random-effect parameters when model convergence failed, estimation accuracy could not meaningfully evaluated for parameters because values could have been obtained with reduced or simplified models. 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.8)  23 FEB 2023 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.23)  23 FEB 2023 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,7 @@ Package chngcntr Info: \counterwithout already defined.
 \cftbeforeloabtitleskip=\skip148
 \cftafterloabtitleskip=\skip149
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -738,7 +738,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@linkcounter=\count361
 \Hy@pagecounter=\count362
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -748,19 +748,19 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count363
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
+Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count364
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen300
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -770,13 +770,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count365
 \Field@Width=\dimen301
 \Fld@charsize=\dimen302
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -787,7 +787,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
@@ -1046,21 +1046,21 @@ Package biblatex Info: ... and expl3
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 549.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 589.
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 549.
+(hyperref)                setting the option has no effect on input line 589.
 
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/hypernat/hypernat.sty
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 568.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 568.
-Package hyperref Info: Option `colorlinks' set `true' on input line 568.
-Package hyperref Info: Option `breaklinks' set `true' on input line 568.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 608.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 608.
+Package hyperref Info: Option `colorlinks' set `true' on input line 608.
+Package hyperref Info: Option `breaklinks' set `true' on input line 608.
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 568.
+(hyperref)                setting the option has no effect on input line 608.
 
 \c@theorem=\count507
 \c@example=\count508
@@ -1092,7 +1092,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 \@quotelevel=\count509
 \@quotereset=\count510
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 599.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 639.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./thesis.aux
@@ -1105,27 +1105,90 @@ LaTeX Warning: Label `tab:systematicReview' multiply defined.
 
 LaTeX Warning: Label `tab:measurementDays' multiply defined.
 
+
+LaTeX Warning: Label `fig:equal-spacing-nc' multiply defined.
+
+
+LaTeX Warning: Label `eq:convergence' multiply defined.
+
+
+LaTeX Warning: Label `eq:convergence' multiply defined.
+
+
+LaTeX Warning: Label `pres-precision' multiply defined.
+
+
+LaTeX Warning: Label `fig:results-plot-primer-exp2' multiply defined.
+
+
+LaTeX Warning: Label `eq:middle' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp1_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp2_plot_equal_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp2_plot_time_inc_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp2_plot_time_dec_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp2_plot_mid_ext_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp3_plot_days_time_struc_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp3_plot_days_fast_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp3_plot_days_slow_app' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp3_plot_days_def_app' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 599.
-LaTeX Font Info:    ... okay on input line 599.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 639.
+LaTeX Font Info:    ... okay on input line 639.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1177,7 +1240,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 599.
+Package hyperref Info: Link coloring ON on input line 639.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1232,9 +1295,16 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'mcneish2018':
 (biblatex)                - Overwriting field 'year' with year value from field 'date' for entry 'mcneish2018'.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                metha2000
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
-Package biblatex Info: Reference section=0 on input line 599.
-Package biblatex Info: Reference segment=0 on input line 599.
+Package biblatex Info: Reference section=0 on input line 639.
+Package biblatex Info: Reference segment=0 on input line 639.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1267,7 +1337,7 @@ Package biblatex Info: Reference segment=0 on input line 599.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 603.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 643.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1{/Users/sebastiansciarra/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1278,35 +1348,35 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 608.
+(hyperref)                removing `\titlecap' on input line 648.
 
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 608.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 608.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 608.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 608.
+(Font)              <12> on input line 648.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 608.
+(Font)              <8> on input line 648.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 608.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 608.
+(Font)              <6> on input line 648.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 608.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 608.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 648.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
@@ -1323,7 +1393,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 614.
+(hyperref)                removing `\titlecap' on input line 654.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1337,7 +1407,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 617.
+(hyperref)                removing `\titlecap' on input line 657.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1363,10 +1433,6 @@ Overfull \hbox (0.76242pt too wide) in paragraph at lines 37--37
  [][] [][][]\OT1/lmr/m/n/12 Population Val-ues Set for The Fixed-Effect Days- 
  []
 
-)
-\tf@toc=\write6
-\openout6 = `thesis.toc'.
-
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1382,9 +1448,25 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[8] (./thesis.lot)
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
+[8]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[10])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1393,38 +1475,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[9
-
-] (./thesis.lof)
-\tf@lof=\write8
-\openout8 = `thesis.lof'.
-
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[10
-
-] (./thesis.loab)
-\tf@loab=\write9
-\openout9 = `thesis.loab'.
-
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[11
-
-] (./thesis.loa)
-\tf@loa=\write10
-\openout10 = `thesis.loa'.
-
+[11] (./thesis.lot
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1436,29 +1487,134 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 ]
 
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 668.
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 668.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 668.
+[13])
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[14] (./thesis.lof
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[15
+
+]
+Overfull \hbox (4.4002pt too wide) in paragraph at lines 29--29
+ [][] [][][]\OT1/lmr/m/n/12 Path Di-a-gram for a Random-Intercept-Random-Slope La-tent Growth Curve 
+ []
+
+
+Overfull \hbox (4.4002pt too wide) in paragraph at lines 31--31
+ [][] [][][]\OT1/lmr/m/n/12 Path Di-a-gram for a Random-Intercept-Random-Slope La-tent Growth Curve 
+ []
+
+
+Overfull \hbox (11.14032pt too wide) in paragraph at lines 36--36
+ [][] [][][]\OT1/lmr/m/n/12 Procedure for Com-put-ing Mea-sure-ment Sched-ules With Middle-and-Extreme 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[16])
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[17] (./thesis.loab)
+\tf@loab=\write9
+\openout9 = `thesis.loab'.
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[18
+
+] (./thesis.loa
+Overfull \hbox (2.70284pt too wide) in paragraph at lines 3--3
+ [][] [][]\OT1/lmr/m/n/12 Ap-pendix C: Pro-ce-dure for Gen-er-at-ing Mea-sure-ment Sched-ules Mea-sure-ment Sched- 
+ []
+
+
+Overfull \hbox (1.66823pt too wide) in paragraph at lines 8--8
+ [][] [][]\OT1/lmr/m/n/12 Ap-pendix D: Us-ing Non-lin-ear Func-tion in the Struc-tural Equa-tion Mod-elling Frame- 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[19
+
+])
+\tf@loa=\write10
+\openout10 = `thesis.loa'.
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[20]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 708.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 708.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 708.
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 668.
+(hyperref)                setting the option has no effect on input line 708.
 
 
 Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 668.
+(hyperref)                setting the option has no effect on input line 708.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 668.
+Package hyperref Info: Option `breaklinks' set `true' on input line 708.
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 668.
+(hyperref)                setting the option has no effect on input line 708.
 
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 668.
+(hyperref)                setting the option has no effect on input line 708.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 673.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 713.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1466,43 +1622,39 @@ File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 687.
+(Font)              <10> on input line 727.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 687.
+(Font)              <7> on input line 727.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 687.
-[2] [3]
-
-LaTeX Warning: Reference `ergodicity' on page 4 undefined on input line 696.
-
-[4] [5] [6]
-Overfull \hbox (1.65854pt too wide) in paragraph at lines 712--713
+(Font)              <5> on input line 727.
+[2] [3] [4] [5] [6]
+Overfull \hbox (1.65854pt too wide) in paragraph at lines 752--753
 \OT1/lmr/m/n/12 chal-lenges are those from cross-sectional re-search only am-pli-fied (for a re-view, see[][] Bergman
  []
 
 [7] [8] [9] [10] [11] [12] [13] [14]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 771.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 811.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 771.
-<Figures/Monte_Carlo_comparison.png, id=692, 936.49875pt x 528.97626pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 811.
+<Figures/Monte_Carlo_comparison.png, id=1763, 936.49875pt x 528.97626pt>
 File: Figures/Monte_Carlo_comparison.png Graphic file (type png)
 <use Figures/Monte_Carlo_comparison.png>
-Package pdftex.def Info: Figures/Monte_Carlo_comparison.png  used on input line 771.
+Package pdftex.def Info: Figures/Monte_Carlo_comparison.png  used on input line 811.
 (pdftex.def)             Requested size: 655.54466pt x 370.28085pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 771.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 811.
 [15
 
  <./Figures/Monte_Carlo_comparison.png>] [16] [17
 
 ] [18]
-<Figures/prisma_diagram.png, id=753, 854.19125pt x 517.935pt>
+<Figures/prisma_diagram.png, id=1826, 854.19125pt x 517.935pt>
 File: Figures/prisma_diagram.png Graphic file (type png)
 <use Figures/prisma_diagram.png>
-Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 795.
+Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 835.
 (pdftex.def)             Requested size: 597.92981pt x 362.55202pt.
 [19
 
@@ -1539,27 +1691,15 @@ Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 795.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 816.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 856.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.5> on input line 816.
+(Font)              <10.5> on input line 856.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.34996> on input line 816.
+(Font)              <7.34996> on input line 856.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.25> on input line 816.
+(Font)              <5.25> on input line 856.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 816.
-
-LaTeX Warning: Hyper reference `Exp3' on page 20 undefined on input line 832.
-
-
-LaTeX Warning: Hyper reference `Exp2' on page 20 undefined on input line 838.
-
-
-LaTeX Warning: Hyper reference `Exp2' on page 20 undefined on input line 846.
-
-
-LaTeX Warning: Hyper reference `Exp3' on page 20 undefined on input line 848.
-
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 856.
 [20
 
 
@@ -1597,23 +1737,11 @@ LaTeX Warning: Hyper reference `Exp3' on page 20 undefined on input line 848.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 878.
+LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 918.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.14494> on input line 878.
+(Font)              <5.14494> on input line 918.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.67497> on input line 878.
-
-LaTeX Warning: Hyper reference `Exp3' on page 22 undefined on input line 894.
-
-
-LaTeX Warning: Hyper reference `Exp2' on page 22 undefined on input line 900.
-
-
-LaTeX Warning: Hyper reference `Exp2' on page 22 undefined on input line 908.
-
-
-LaTeX Warning: Hyper reference `Exp3' on page 22 undefined on input line 910.
-
+(Font)              <3.67497> on input line 918.
 [22
 
 
@@ -1626,40 +1754,36 @@ Overfull \vbox (6.72644pt too high) has occurred while \output is active []
 
 
 ]
-<Figures/polynomial_vs_nonlinear_plot.pdf, id=879, 1734.48pt x 867.24pt>
+<Figures/polynomial_vs_nonlinear_plot.pdf, id=1960, 1734.48pt x 867.24pt>
 File: Figures/polynomial_vs_nonlinear_plot.pdf Graphic file (type pdf)
 <use Figures/polynomial_vs_nonlinear_plot.pdf>
-Package pdftex.def Info: Figures/polynomial_vs_nonlinear_plot.pdf  used on input line 947.
+Package pdftex.def Info: Figures/polynomial_vs_nonlinear_plot.pdf  used on input line 987.
 (pdftex.def)             Requested size: 450.95416pt x 225.47708pt.
 [25] [26 <./Figures/polynomial_vs_nonlinear_plot.pdf>]
-<Figures/parameter_explanation_plot.pdf, id=911, 3257.16875pt x 2353.79375pt>
+<Figures/parameter_explanation_plot.pdf, id=1990, 3257.16875pt x 2353.79375pt>
 File: Figures/parameter_explanation_plot.pdf Graphic file (type pdf)
 <use Figures/parameter_explanation_plot.pdf>
-Package pdftex.def Info: Figures/parameter_explanation_plot.pdf  used on input line 969.
+Package pdftex.def Info: Figures/parameter_explanation_plot.pdf  used on input line 1009.
 (pdftex.def)             Requested size: 553.71136pt x 400.13965pt.
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 969.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 1009.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.5> on input line 969.
+(Font)              <9.5> on input line 1009.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.64996> on input line 969.
+(Font)              <6.64996> on input line 1009.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.75> on input line 969.
+(Font)              <4.75> on input line 1009.
 [27
 
  <./Figures/parameter_explanation_plot.pdf>] [28] [29
 
-] [30] [31] [32] [33] [34]
+] [30] [31]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 1055.
+(/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [32] [33] [34] [35]
+Overfull \vbox (1.66794pt too high) has occurred while \output is active []
 
-LaTeX Warning: Reference `structured-lgc' on page 35 undefined on input line 1082.
-
-
-LaTeX Warning: Reference `structured-lgc-code' on page 35 undefined on input line 1082.
-
-[35] [36]
-
-LaTeX Warning: Reference `measurement-schedules' on page 37 undefined on input line 1107.
-
-[37] [38]
+[36] [37] [38]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1698,43 +1822,28 @@ LaTeX Warning: Reference `measurement-schedules' on page 37 undefined on input l
 ] [40] [41
 
 
-] [42]
-
-LaTeX Warning: Reference `convergence-tables' on page 43 undefined on input line 1214.
-
-[43] [44]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 1233.
+] [42] [43] [44] [45]
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 1277.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 1233.
+(Font)              <11> on input line 1277.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 1233.
+(Font)              <7.69997> on input line 1277.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 1233.
-<Figures/param_estimation_ex.png, id=1099, 314.17375pt x 374.39874pt>
+(Font)              <5.5> on input line 1277.
+<Figures/param_estimation_ex.png, id=2195, 314.17375pt x 374.39874pt>
 File: Figures/param_estimation_ex.png Graphic file (type png)
 <use Figures/param_estimation_ex.png>
-Package pdftex.def Info: Figures/param_estimation_ex.png  used on input line 1233.
+Package pdftex.def Info: Figures/param_estimation_ex.png  used on input line 1277.
 (pdftex.def)             Requested size: 282.75375pt x 336.95575pt.
-[45 <./Figures/param_estimation_ex.png>] [46] [47] [48]
-
-LaTeX Warning: Reference `complete-versions' on page 49 undefined on input line 1275.
-
-
-Overfull \hbox (3.5571pt too wide) in paragraph at lines 1275--1276
+[46 <./Figures/param_estimation_ex.png>] [47] [48] [49]
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 1315--1324
 \OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated pa-ram-e-ters. Each bias/precision
  []
 
-[49]
-
-LaTeX Warning: Reference `tab:conv-exp-1' on page 50 undefined on input line 1280.
-
-
-LaTeX Warning: Reference `convergence-tables' on page 50 undefined on input line 1280.
-
-<Figures/logistic_results_plot_exp1.png, id=1153, 456.70625pt x 594.22pt>
+<Figures/logistic_results_plot_exp1.png, id=2240, 456.70625pt x 594.22pt>
 File: Figures/logistic_results_plot_exp1.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp1.png>
-Package pdftex.def Info: Figures/logistic_results_plot_exp1.png  used on input line 1294.
+Package pdftex.def Info: Figures/logistic_results_plot_exp1.png  used on input line 1324.
 (pdftex.def)             Requested size: 433.86847pt x 564.5058pt.
 [50] [51 <./Figures/logistic_results_plot_exp1.png>] [52]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1770,22 +1879,22 @@ Package pdftex.def Info: Figures/logistic_results_plot_exp1.png  used on input l
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1351--1351
 []|[][] 
  []
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1318--1318
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1353--1353
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1355--1355
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1322--1322
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1357--1357
 []|[][] 
  []
 
@@ -1793,93 +1902,1464 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1322--1322
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1350.
+LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1390.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1350.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1390.
 [54
 
 
 ]
-<Figures/midpoint_180_plot.pdf, id=1197, 1370.11874pt x 1264.725pt>
+<Figures/midpoint_180_plot.pdf, id=2296, 1370.11874pt x 1264.725pt>
 File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_180_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1362.
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1405.
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
-[55 <./Figures/midpoint_180_plot.pdf>]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1372.
+[55]
+<Figures/density_plots_equal_gamma_exp1.pdf, id=2307, 1416.29124pt x 3386.6525pt>
+File: Figures/density_plots_equal_gamma_exp1.pdf Graphic file (type pdf)
+<use Figures/density_plots_equal_gamma_exp1.pdf>
+Package pdftex.def Info: Figures/density_plots_equal_gamma_exp1.pdf  used on input line 1418.
+(pdftex.def)             Requested size: 226.61122pt x 541.87547pt.
+[56 <./Figures/midpoint_180_plot.pdf>] [57 <./Figures/density_plots_equal_gamma_exp1.pdf>]
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1424.
 (/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1372.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1424.
 
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 1372--1382
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 1424--1434
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-scrip-tion of the set of bias/precision
  []
 
-[56]
-<Figures/density_plots_equal_gamma_exp1.pdf, id=1230, 1416.29124pt x 3386.6525pt>
-File: Figures/density_plots_equal_gamma_exp1.pdf Graphic file (type pdf)
-<use Figures/density_plots_equal_gamma_exp1.pdf>
-Package pdftex.def Info: Figures/density_plots_equal_gamma_exp1.pdf  used on input line 1382.
-(pdftex.def)             Requested size: 226.61122pt x 541.87547pt.
-[57] [58 <./Figures/density_plots_equal_gamma_exp1.pdf>] [59]
-<Figures/exp1_plot_days_equal spacing.pdf, id=1263, 2713.13625pt x 2740.2375pt>
+<Figures/exp1_plot_days_equal spacing.pdf, id=2336, 2713.13625pt x 2740.2375pt>
 File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_days_equal spacing.pdf>
-Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on input line 1422.
+Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on input line 1434.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[58] [59 <./Figures/exp1_plot_days_equal spacing.pdf>] [60] [61] [62] [63]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Warning: Reference `tab:param-exp-1' on page 60 undefined on input line 1422.
 
-[60 <./Figures/exp1_plot_days_equal spacing.pdf>] [61] [62]
-
-LaTeX Warning: Reference `tab:summary-table-time-inc-exp1' on page 63 undefined on input line 1474.
-
-
-LaTeX Warning: Reference `fig:exp1_plot_time_inc' on page 63 undefined on input line 1474.
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1539--1539
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:summary-table-time-inc-exp1' on page 63 undefined on input line 1474.
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1541--1541
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:summary-table-time-inc-exp1' on page 63 undefined on input line 1474.
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1543--1543
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:errorbar-time-inc-nc' on page 63 undefined on input line 1479.
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1545--1545
+[]|[][] 
+ []
+
+[64
 
 
-LaTeX Warning: Reference `tab:summary-table-time-inc-exp1' on page 63 undefined on input line 1479.
+] [65
 
-[63]
-<Figures/midpoint_80_plot.pdf, id=1313, 1370.11874pt x 1264.725pt>
+
+]
+<Figures/midpoint_80_plot.pdf, id=2432, 1370.11874pt x 1264.725pt>
 File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_80_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1489.
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1584.
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
+[66 <./Figures/midpoint_80_plot.pdf>] [67]
+<Figures/exp1_plot_days_time-interval increasing.pdf, id=2462, 2713.13625pt x 2740.2375pt>
+File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  used on input line 1626.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[68 <./Figures/exp1_plot_days_time-interval increasing.pdf>] [69]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1664--1666
+[]\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
+ []
 
-LaTeX Warning: Reference `tab:errorbar-time-inc-nc' on page 64 undefined on input line 1489.
+[70] [71]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[64 <./Figures/midpoint_80_plot.pdf>]
 
-LaTeX Warning: Reference `fig:exp1_plot_time_inc' on page 65 undefined on input line 1497.
-
-
-LaTeX Warning: Reference `fig:exp1_plot_time_inc' on page 65 undefined on input line 1499.
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1697--1697
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `fig:exp1_plot_time_inc' on page 65 undefined on input line 1501.
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1699--1699
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `fig:exp1_plot_time_inc' on page 65 undefined on input line 1503.
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1701--1701
+[]|[][] 
+ []
 
 
-LaTeX Warning: Reference `tab:summary-table-time-inc-exp1' on page 65 undefined on input line 1505.
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1703--1703
+[]|[][] 
+ []
 
-[65] (./thesis.aux)
+[72
+
+
+]
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1731--1746
+[] [] [] [] [] [] [] [] [] [] 
+ []
+
+[73
+
+
+]
+File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
+<use Figures/midpoint_80_plot.pdf>
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1766.
+(pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
+[74]
+<Figures/exp1_plot_days_time-interval decreasing.pdf, id=2552, 2713.13625pt x 2740.2375pt>
+File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  used on input line 1787.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[75] [76 <./Figures/exp1_plot_days_time-interval decreasing.pdf>] [77]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1834--1836
+[]\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
+ []
+
+[78] [79]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (7.00366pt too wide) in paragraph at lines 1867--1867
+[]|[][] 
+ []
+
+
+Overfull \hbox (7.00366pt too wide) in paragraph at lines 1869--1869
+[]|[][] 
+ []
+
+
+Overfull \hbox (7.55371pt too wide) in paragraph at lines 1871--1871
+[]|[][] 
+ []
+
+
+Overfull \hbox (7.55371pt too wide) in paragraph at lines 1873--1873
+[]|[][] 
+ []
+
+[80
+
+
+] [81
+
+
+]
+Overfull \hbox (6.01045pt too wide) in paragraph at lines 1899--1900
+[]\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/m/n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]D): five, seven,
+ []
+
+
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1906--1921
+[] [] [] [] [] [] [] [] [] [] 
+ []
+
+File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
+<use Figures/midpoint_180_plot.pdf>
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1932.
+(pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
+[82]
+Overfull \hbox (0.16234pt too wide) in paragraph at lines 1942--1944
+[]\OT1/lmr/m/n/12 fixed-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/m/n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]B): five and seven,
+ []
+
+[83]
+<Figures/exp1_plot_days_middle-and-extreme spacing.pdf, id=2662, 2713.13625pt x 2740.2375pt>
+File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf  used on input line 1958.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[84 <./Figures/exp1_plot_days_middle-and-extreme spacing.pdf>] [85]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1998--2000
+[]\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
+ []
+
+[86] [87]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (5.94765pt too wide) in paragraph at lines 2043--2044
+[]|[][] 
+ []
+
+[88
+
+
+] [89
+
+
+]
+<Figures/midpoint_plot.pdf, id=2736, 2726.185pt x 2779.38374pt>
+File: Figures/midpoint_plot.pdf Graphic file (type pdf)
+<use Figures/midpoint_plot.pdf>
+Package pdftex.def Info: Figures/midpoint_plot.pdf  used on input line 2074.
+(pdftex.def)             Requested size: 436.19852pt x 444.7105pt.
+[90 <./Figures/midpoint_plot.pdf>]
+<Figures/deriv_plot.pdf, id=2758, 1793.70125pt x 3339.47626pt>
+File: Figures/deriv_plot.pdf Graphic file (type pdf)
+<use Figures/deriv_plot.pdf>
+Package pdftex.def Info: Figures/deriv_plot.pdf  used on input line 2089.
+(pdftex.def)             Requested size: 286.99806pt x 534.32713pt.
+[91] [92 <./Figures/deriv_plot.pdf>] [93]
+Overfull \hbox (5.37029pt too wide) in alignment at lines 2098--2112
+[] [] [] [] [] 
+ []
+
+[94] [95] [96] [97]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2150--2150
+ []|$\U/eur/m/n/10.5 ^^L[]$| 
+ []
+
+
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2150--2151
+ []|$\U/eur/m/n/10.5 ^^M[]$| 
+ []
+
+[98
+
+
+] [99
+
+
+] [100] [101] [102] [103] [104]
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 2282--2292
+\OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated pa-ram-e-ters. Each bias/precision
+ []
+
+<Figures/logistic_results_plot_exp2.png, id=2901, 561.09625pt x 749.80125pt>
+File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
+<use Figures/logistic_results_plot_exp2.png>
+Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input line 2292.
+(pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
+[105] [106 <./Figures/logistic_results_plot_exp2.png>] [107]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2325.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 2333.
+[108
+
+
+]
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 2346--2347
+[]\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-scrip-tion of the set of bias/precision
+ []
+
+<Figures/exp2_plot_days_equal spacing.pdf, id=2941, 2726.185pt x 2739.23375pt>
+File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_equal spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on input line 2363.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[109
+
+
+] [110 <./Figures/exp2_plot_days_equal spacing.pdf>] [111] [112] [113] [114]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[115
+
+
+]
+<Figures/exp2_plot_days_time-interval increasing.pdf, id=3027, 2726.185pt x 2739.23375pt>
+File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  used on input line 2502.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[116
+
+
+ <./Figures/exp2_plot_days_time-interval increasing.pdf>]
+Underfull \hbox (badness 1881) in paragraph at lines 2522--2522
+\OT1/phv/m/n/10.5 sam-ple size (30, 50, 100, 200, 500, 1000), NM x S =
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 2522--2522
+\OT1/phv/m/n/10.5 in-ter-ac-tion be-tween num-ber of mea-sure-ments and sam-ple
+ []
+
+[117] [118] [119] [120]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[121
+
+
+]
+<Figures/exp2_plot_days_time-interval decreasing.pdf, id=3103, 2726.185pt x 2739.23375pt>
+File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  used on input line 2629.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[122
+
+
+ <./Figures/exp2_plot_days_time-interval decreasing.pdf>]
+Underfull \hbox (badness 1881) in paragraph at lines 2649--2649
+\OT1/phv/m/n/10.5 sam-ple size (30, 50, 100, 200, 500, 1000), NM x S =
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 2649--2649
+\OT1/phv/m/n/10.5 in-ter-ac-tion be-tween num-ber of mea-sure-ments and sam-ple
+ []
+
+[123] [124]
+Overfull \hbox (9.4963pt too wide) in paragraph at lines 2691--2693
+\OT1/lmr/m/n/12 el-e-va-tion pa-ram-e-ter [$\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ]) re-sulted from us-ing the fol-low-ing mea-sure-ment num-ber/sample
+ []
+
+[125] [126]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2739.
+[127
+
+
+]
+<Figures/exp2_plot_days_middle-and-extreme spacing.pdf, id=3186, 2726.185pt x 2739.23375pt>
+File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf  used on input line 2790.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[128
+
+
+] [129 <./Figures/exp2_plot_days_middle-and-extreme spacing.pdf>]
+Underfull \hbox (badness 1881) in paragraph at lines 2810--2810
+\OT1/phv/m/n/10.5 sam-ple size (30, 50, 100, 200, 500, 1000), NM x S =
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 2810--2810
+\OT1/phv/m/n/10.5 in-ter-ac-tion be-tween num-ber of mea-sure-ments and sam-ple
+ []
+
+[130]
+Overfull \hbox (6.20961pt too wide) in paragraph at lines 2826--2827
+[]\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/m/n/12 ^^M[]$\OT1/lmr/m/n/12 ): five mea-sure-ments across
+ []
+
+[131] [132]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.27834pt, 456.9512pt, 70.27834pt)
+* v-part:(T,H,B)=(70.27834pt, 704.49017pt, 70.27834pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=456.9512pt
+* \textheight=704.49017pt
+* \oddsidemargin=-1.99165pt
+* \evensidemargin=-1.99165pt
+* \topmargin=-37.61447pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2855--2855
+ []|$\U/eur/m/n/10.5 ^^L[]$| 
+ []
+
+
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2855--2856
+ []|$\U/eur/m/n/10.5 ^^M[]$| 
+ []
+
+
+Overfull \hbox (3.24399pt too wide) in alignment at lines 2850--2883
+[] [] [] [] [] [] [] [] 
+ []
+
+[133
+
+
+] [134
+
+
+] [135] [136] [137] [138]
+Overfull \vbox (2.13158pt too high) has occurred while \output is active []
+
+[139] [140]
+<Figures/cdf_plot.pdf, id=3339, 2148.025pt x 1036.87375pt>
+File: Figures/cdf_plot.pdf Graphic file (type pdf)
+<use Figures/cdf_plot.pdf>
+Package pdftex.def Info: Figures/cdf_plot.pdf  used on input line 2988.
+(pdftex.def)             Requested size: 429.5974pt x 207.37108pt.
+[141 <./Figures/cdf_plot.pdf>]
+Overfull \vbox (4.51468pt too high) has occurred while \output is active []
+
+[142]
+pdfTeX warning (ext4): destination with the same identifier (name{pres-precision}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3027 ...agraph{Precision}\label{pres-precision}}
+                                                   [143]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3037.
+
+
+LaTeX Warning: Reference `eq:eq:cdf-fast' on page 144 undefined on input line 3044.
+
+[144] [145]
+<Figures/cdf_pdf_plots.pdf, id=3409, 1140.26pt x 912.40875pt>
+File: Figures/cdf_pdf_plots.pdf Graphic file (type pdf)
+<use Figures/cdf_pdf_plots.pdf>
+Package pdftex.def Info: Figures/cdf_pdf_plots.pdf  used on input line 3092.
+(pdftex.def)             Requested size: 433.3033pt x 346.71893pt.
+[146 <./Figures/cdf_pdf_plots.pdf>] [147] [148]
+File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
+<use Figures/logistic_results_plot_exp2.png>
+Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input line 3145.
+(pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
+[149] [150] [151]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[152
+
+
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3196.
+
+
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 3198--3208
+[]\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-scrip-tion of the set of bias/precision
+ []
+
+<Figures/exp3_plot_days_time structured.pdf, id=3495, 2726.185pt x 2739.23375pt>
+File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time structured.pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on input line 3208.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[153
+
+
+] [154 <./Figures/exp3_plot_days_time structured.pdf>] [155] [156] [157] [158]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[159
+
+
+]
+<Figures/exp3_plot_days_time unstructured (fast response).pdf, id=3585, 2726.185pt x 2739.23375pt>
+File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time unstructured (fast response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast response).pdf  used on input line 3362.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[160
+
+
+] [161 <./Figures/exp3_plot_days_time unstructured (fast response).pdf>] [162] [163] [164] [165]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[166
+
+
+]
+<Figures/exp3_plot_days_time unstructured (slow response).pdf, id=3664, 2726.185pt x 2739.23375pt>
+File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow response).pdf  used on input line 3480.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[167
+
+
+ <./Figures/exp3_plot_days_time unstructured (slow response).pdf>] [168] [169] [170] [171]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 3563--3563
+ []|$\U/eur/m/n/10.5 ^^L[]$| 
+ []
+
+
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 3563--3564
+ []|$\U/eur/m/n/10.5 ^^M[]$| 
+ []
+
+[172
+
+
+] [173
+
+
+]
+<Figures/lgc_path_diagram.png, id=3750, 734.745pt x 419.5675pt>
+File: Figures/lgc_path_diagram.png Graphic file (type png)
+<use Figures/lgc_path_diagram.png>
+Package pdftex.def Info: Figures/lgc_path_diagram.png  used on input line 3607.
+(pdftex.def)             Requested size: 477.57858pt x 272.71564pt.
+
+Overfull \hbox (24.61032pt too wide) in paragraph at lines 3607--3607
+[][] 
+ []
+
+[174] [175 <./Figures/lgc_path_diagram.png>] [176]
+<Figures/time_structure_plots.pdf, id=3774, 2716.1475pt x 2934.965pt>
+File: Figures/time_structure_plots.pdf Graphic file (type pdf)
+<use Figures/time_structure_plots.pdf>
+Package pdftex.def Info: Figures/time_structure_plots.pdf  used on input line 3620.
+(pdftex.def)             Requested size: 448.145pt x 484.24834pt.
+[177 <./Figures/time_structure_plots.pdf>] [178]
+<Figures/def_model.png, id=3809, 729.72626pt x 424.58624pt>
+File: Figures/def_model.png Graphic file (type png)
+<use Figures/def_model.png>
+Package pdftex.def Info: Figures/def_model.png  used on input line 3636.
+(pdftex.def)             Requested size: 474.31645pt x 275.97778pt.
+
+Overfull \hbox (21.34819pt too wide) in paragraph at lines 3636--3636
+[][] 
+ []
+
+[179 <./Figures/def_model.png>]
+Overfull \hbox (10.75684pt too wide) in paragraph at lines 3637--3638
+[]\OT1/lmr/m/n/12 To show that def-i-ni-tion vari-ables can elim-i-nate the er-ror in-curred by time-unstructured
+ []
+
+<Figures/exp3_defplot_days_time unstructured (slow response).pdf, id=3828, 2726.185pt x 2739.23375pt>
+File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow response).pdf  used on input line 3649.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[180] [181 <./Figures/exp3_defplot_days_time unstructured (slow response).pdf>]
+Overfull \hbox (0.77768pt too wide) in paragraph at lines 3673--3675
+[]\OT1/lmr/m/n/12 Bias in the es-ti-ma-tion of the fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ;
+ []
+
+[182] [183] [184] [185]
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3700--3705
+[] [] [] 
+ []
+
+
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3705--3710
+[] [] [] 
+ []
+
+
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3710--3712
+[] [] [] 
+ []
+
+
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3712--3714
+[] [] [] 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3715.
+(/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3714--3720
+[] [] [] 
+ []
+
+[186]
+
+LaTeX Warning: Citation 'metha2000' on page 187 undefined on input line 3723.
+
+[187] [188] [189] [190] [191] [192] [193] [194] [195]
+Overfull \hbox (2.3425pt too wide) in paragraph at lines 3769--3770
+\OT1/lmr/m/n/12 Tech-no-log-i-cal ad-vances such as smart-phones and wear-able sen-sors have al-lowed re-searchers
+ []
+
+[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234] [235]
+Overfull \vbox (2.13158pt too high) has occurred while \output is active []
+
+[236] [237] [238]
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 3873.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 3873.
+See the caption package documentation for explanation.
+
+Package hyperref Info: bookmark level for unknown chunk defaults to 0 on input line 3873.
+[239]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3876.
+(/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmtt on input line 3879.
+LaTeX Font Info:    No file OMLlmtt.fd. on input line 3879.
+
+LaTeX Font Warning: Font shape `OML/lmtt/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 3879.
+
+
+Underfull \vbox (badness 10000) detected at line 3969
+ []
+
+
+Overfull \vbox (8.2965pt too high) detected at line 3969
+ []
+
+[240] [241] [242]
+<Figures/equal_spacing_schedule.png, id=5114, 695.59875pt x 389.455pt>
+File: Figures/equal_spacing_schedule.png Graphic file (type png)
+<use Figures/equal_spacing_schedule.png>
+Package pdftex.def Info: Figures/equal_spacing_schedule.png  used on input line 4010.
+(pdftex.def)             Requested size: 626.0331pt x 350.50626pt.
+[243
+
+ <./Figures/equal_spacing_schedule.png>] [244
+
+] [245]
+<Figures/time_inc_schedule.png, id=5143, 804.00375pt x 510.90875pt>
+File: Figures/time_inc_schedule.png Graphic file (type png)
+<use Figures/time_inc_schedule.png>
+Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4069.
+(pdftex.def)             Requested size: 522.59625pt x 332.08675pt.
+[246
+
+ <./Figures/time_inc_schedule.png>] [247
+
+]
+<Figures/time_dec_schedule.png, id=5162, 811.03pt x 525.965pt>
+File: Figures/time_dec_schedule.png Graphic file (type png)
+<use Figures/time_dec_schedule.png>
+Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4106.
+(pdftex.def)             Requested size: 527.16325pt x 341.87318pt.
+[248
+
+ <./Figures/time_dec_schedule.png>] [249
+
+] [250]
+<Figures/mid_ext_schedule.png, id=5189, 843.15pt x 530.98375pt>
+File: Figures/mid_ext_schedule.png Graphic file (type png)
+<use Figures/mid_ext_schedule.png>
+Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4166.
+(pdftex.def)             Requested size: 548.041pt x 345.13533pt.
+[251
+
+ <./Figures/mid_ext_schedule.png>] [252] [253
+
+] [254] [255] [256] [257]
+
+LaTeX Warning: Reference `exm:taylor-estimates' on page 258 undefined on input line 4261.
+
+[258] [259]
+
+LaTeX Warning: Reference `exm:taylor-estimates' on page 260 undefined on input line 4299.
+
+<Figures/taylor_vs_nonlin.pdf, id=5278, 650.43pt x 433.62pt>
+File: Figures/taylor_vs_nonlin.pdf Graphic file (type pdf)
+<use Figures/taylor_vs_nonlin.pdf>
+Package pdftex.def Info: Figures/taylor_vs_nonlin.pdf  used on input line 4315.
+(pdftex.def)             Requested size: 455.2979pt x 303.53192pt.
+
+Overfull \hbox (2.32964pt too wide) in paragraph at lines 4315--4315
+[][] 
+ []
+
+[260] [261 <./Figures/taylor_vs_nonlin.pdf>] [262]
+
+LaTeX Warning: Reference `exm:taylor-estimates' on page 263 undefined on input line 4360.
+
+[263] [264]
+
+LaTeX Warning: Reference `eq:person-dev' on page 265 undefined on input line 4401.
+
+[265] [266] [267] [268] [269] [270]
+Underfull \hbox (badness 1048) in paragraph at lines 4533--4534
+\OT1/lmr/m/n/12 the \OT1/lmtt/m/n/12 run[]exp[]simulations() \OT1/lmr/m/n/12 and \OT1/lmtt/m/n/12 create[]logistic[]model[]ns() \OT1/lmr/m/n/12 func-tions from the
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 4535.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for OMS+lmtt on input line 4549.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 4549.
+
+LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbackslash' on input line 4549.
+
+
+Underfull \vbox (badness 10000) detected at line 4636
+ []
+
+
+Overfull \vbox (4.67525pt too high) detected at line 4636
+ []
+
+[271]
+Underfull \vbox (badness 10000) detected at line 4636
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4636
+ []
+
+[272]
+File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_equal spacing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on input line 4651.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[273]
+<Figures/exp1_plot_likert_equal spacing.pdf, id=5431, 2793.43625pt x 3393.67876pt>
+File: Figures/exp1_plot_likert_equal spacing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_likert_equal spacing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_likert_equal spacing.pdf  used on input line 4662.
+(pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
+[274] [275 <./Figures/exp1_plot_likert_equal spacing.pdf>]
+File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  used on input line 4674.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[276]
+<Figures/exp1_plot_likert_time-interval increasing.pdf, id=5465, 2793.43625pt x 3393.67876pt>
+File: Figures/exp1_plot_likert_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_likert_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_likert_time-interval increasing.pdf  used on input line 4685.
+(pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
+[277] [278 <./Figures/exp1_plot_likert_time-interval increasing.pdf>]
+File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  used on input line 4697.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[279]
+<Figures/exp1_plot_likert_time-interval decreasing.pdf, id=5496, 2793.43625pt x 3393.67876pt>
+File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_likert_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf  used on input line 4708.
+(pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
+[280] [281 <./Figures/exp1_plot_likert_time-interval decreasing.pdf>]
+File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf  used on input line 4720.
+(pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
+[282]
+<Figures/exp1_plot_likert_middle-and-extreme spacing.pdf, id=5528, 2793.43625pt x 3393.67876pt>
+File: Figures/exp1_plot_likert_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_likert_middle-and-extreme spacing.pdf  used on input line 4731.
+(pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
+[283] [284 <./Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>]
+File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_equal spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on input line 4744.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[285]
+<Figures/exp2_plot_likert_equal spacing.pdf, id=5560, 2793.43625pt x 3392.675pt>
+File: Figures/exp2_plot_likert_equal spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_likert_equal spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_likert_equal spacing.pdf  used on input line 4755.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[286] [287 <./Figures/exp2_plot_likert_equal spacing.pdf>]
+File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  used on input line 4767.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[288]
+<Figures/exp2_plot_likert_time-interval increasing.pdf, id=5594, 2793.43625pt x 3392.675pt>
+File: Figures/exp2_plot_likert_time-interval increasing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_likert_time-interval increasing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_likert_time-interval increasing.pdf  used on input line 4778.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[289] [290 <./Figures/exp2_plot_likert_time-interval increasing.pdf>]
+File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  used on input line 4790.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[291]
+File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type pdf)
+<use Figures/exp1_plot_likert_time-interval decreasing.pdf>
+Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf  used on input line 4801.
+(pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
+[292] [293]
+File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf  used on input line 4813.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[294]
+<Figures/exp2_plot_likert_middle-and-extreme spacing.pdf, id=5646, 2793.43625pt x 3392.675pt>
+File: Figures/exp2_plot_likert_middle-and-extreme spacing.pdf Graphic file (type pdf)
+<use Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>
+Package pdftex.def Info: Figures/exp2_plot_likert_middle-and-extreme spacing.pdf  used on input line 4824.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[295] [296 <./Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>]
+File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time structured.pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on input line 4837.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[297]
+<Figures/exp3_plot_likert_time structured.pdf, id=5679, 2793.43625pt x 3392.675pt>
+File: Figures/exp3_plot_likert_time structured.pdf Graphic file (type pdf)
+<use Figures/exp3_plot_likert_time structured.pdf>
+Package pdftex.def Info: Figures/exp3_plot_likert_time structured.pdf  used on input line 4848.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[298] [299 <./Figures/exp3_plot_likert_time structured.pdf>]
+File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time unstructured (fast response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast response).pdf  used on input line 4860.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[300]
+<Figures/exp3_plot_likert_time unstructured (fast response).pdf, id=5713, 2793.43625pt x 3392.675pt>
+File: Figures/exp3_plot_likert_time unstructured (fast response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_likert_time unstructured (fast response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (fast response).pdf  used on input line 4871.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[301] [302 <./Figures/exp3_plot_likert_time unstructured (fast response).pdf>]
+File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_days_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow response).pdf  used on input line 4883.
+(pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
+[303]
+<Figures/exp3_plot_likert_time unstructured (slow response).pdf, id=5745, 2793.43625pt x 3392.675pt>
+File: Figures/exp3_plot_likert_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_plot_likert_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (slow response).pdf  used on input line 4894.
+(pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
+[304] [305 <./Figures/exp3_plot_likert_time unstructured (slow response).pdf>]
+File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow response).pdf  used on input line 4906.
+(pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
+[306]
+<Figures/exp3_defplot_likert_time unstructured (slow response).pdf, id=5779, 2793.43625pt x 3392.675pt>
+File: Figures/exp3_defplot_likert_time unstructured (slow response).pdf Graphic file (type pdf)
+<use Figures/exp3_defplot_likert_time unstructured (slow response).pdf>
+Package pdftex.def Info: Figures/exp3_defplot_likert_time unstructured (slow response).pdf  used on input line 4917.
+(pdftex.def)             Requested size: 460.8971pt x 559.76723pt.
+
+Overfull \hbox (7.92883pt too wide) in paragraph at lines 4917--4917
+[][] 
+ []
+
+[307] [308 <./Figures/exp3_defplot_likert_time unstructured (slow response).pdf>] [309] [310] [311] [312]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[313
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5179 \end{longtable}
+                       [314] [315]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (2.60944pt too wide) in alignment at lines 5192--5231
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[316
+
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5277 \end{longtable}
+                       [317]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5323 \end{longtable}
+                       [318]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5369 \end{longtable}
+                       [319]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5417 \end{longtable}
+                       [320] [321]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-35.623pt
+* \headheight=0.0pt
+* \headsep=35.62282pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (30.85938pt too wide) in alignment at lines 5429--5469
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[322
+
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5516 \end{longtable}
+                       [323]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5563 \end{longtable}
+                       [324]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5610 \end{longtable}
+                       [325]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5658 \end{longtable}
+                       [326] [327]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 5669.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) detected at line 5764
+ []
+
+[328
+
+
+]
+Underfull \vbox (badness 10000) detected at line 5764
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 5764
+ []
+
+[329] [330] (./thesis.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -1887,342 +3367,39 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 74CD9A05EA23975206015B79D26D513F;12771.
+(rerunfilecheck)             Checksum: 7C570EAF70E22B3459E33657CE6923F4;51862.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27702 strings out of 477989
- 503686 string characters out of 5837808
- 1879346 words of memory out of 5000000
- 47030 multiletter control sequences out of 15000+600000
- 708326 words of font info for 250 fonts, out of 8000000 for 9000
+ 30599 strings out of 477989
+ 579650 string characters out of 5837807
+ 1969346 words of memory out of 5000000
+ 48983 multiletter control sequences out of 15000+600000
+ 761153 words of font info for 278 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 104i,16n,106p,2405b,5182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,17n,106p,2449b,5182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{definition-variables} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{time-inc-proc} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{sec:time-structuredness} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{analysis-visualizationux5cux257D} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{modelling-data-sets} has been referenced but does not exist, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{cite.0@brown1974} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@howell2009} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@yigit2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@okada2013} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{precision-mid-ext-exp1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@muthen1997} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@loehlin2017} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@preacher2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@borenstein2009} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@bosco2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@rstudio} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@halford2005} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mcneish2020} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mcneish2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@aydin2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@liu2022} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@newsom2020} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@orourke2021} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ye2016} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@coulombe2016b} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@wu2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fine2020} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@murphy2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@miller2017} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@liu2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@liu2021} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@gasimova2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@tiberio2008} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@stockdale2007} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@kenny2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@stanley2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@boneau1960} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@robert2010} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mehta2005} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mehta2000} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@day2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@cole2009} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@chen2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dormann2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dormann2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@collins2006} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@timmons2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fine2019} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@finch2017} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@coulombe2016} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ostroff2002} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@podsakoff2003} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@wang2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@enders2007} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mellenbergh1989} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@grimm2010a} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@nederhof1985} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@orne1962} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@newman2008} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dillman2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@bergman1993} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@xia2020} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fournier2017} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@murre2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@burchinal1991} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@cudeck2007} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@huh2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@bodenmann2010} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@larsen1990} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@steel1990} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@steel1984} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@riketta2008} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@hom1992} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@griffeth2000} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@cohen1993} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ram2013} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@wang2007} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@raudenbush2002} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@beal2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@hamaker2005} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@nixon2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fisher2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@curran2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@molenaar2009} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@molenaar2004} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@olaughlin2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@maxwell2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@cole2003} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@baron1986} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mitchell2013} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@maxwell2007} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@roe2014b} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mill2011} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@whetten1989} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@vantilborgh2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@sonnentag2012} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@shipp2015} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@roe2008} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ployhart2010} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@kunisch2017} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@george2000} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@aguinis2021} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fried2004} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@roe2012} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fisher2008} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dalal2014} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@lawrence2001} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mitchell2001} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@zaheer1999} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@navarro2015} has been referenced but does not exist, replaced by a fixed one
-
-{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on thesis.pdf (77 pages, 1080173 bytes).
+{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/sebastiansciarra/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on thesis.pdf (350 pages, 3026254 bytes).
 PDF statistics:
- 1551 PDF objects out of 1728 (max. 8388607)
- 1363 compressed objects within 14 object streams
- 343 named destinations out of 1000 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6351 PDF objects out of 7423 (max. 8388607)
+ 5708 compressed objects within 58 object streams
+ 1224 named destinations out of 1440 (max. 500000)
+ 2272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
