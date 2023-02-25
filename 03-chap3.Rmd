@@ -312,7 +312,7 @@ between the population value set for a parameter and the value estimated for the
 
 \noindent Bias was calculated for the fixed- and random-effect parameters of the baseline ($\uptheta_{fixed}$, $\uptheta_{random}$), maximal elevation ($\upalpha_{fixed}$, $\upalpha_{random}$), days-to-halfway elevation ($\upbeta_{fixed}$, $\upbeta_{random}$), and the halfway-triquarter delta parameters ($\upgamma_{fixed}$, $\upgamma_{random}$) and the error parameter ($\upepsilon$). 
 
-###### Precision{#pres-precision}
+###### Precision
 
 In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, *precision* was defined as the range of values covered by the middle 95% of values estimated for a logistic parameter. 
 
@@ -329,7 +329,7 @@ point followed an exponential pattern described by either a fast or slow
 response rate (for a review, see [time structuredness](#time-structuredness)). Importantly, data generated
 for each person at each time point had to be sampled according to a
 probability density function defined by either the fast or slow response
-rate cumulative distribution function (respectively, see Equations \ref{eq:eq:cdf-fast}--eq:cdf-slow}). In the current context, a
+rate cumulative distribution function (respectively, see Equations \ref{eq:cdf-fast}--{eq:cdf-slow}). In the current context, a
 *probability density function* describes the probability of sampling
 any given time delay value $x$ where the range of time delay values is
 0--36 ($\{x : 0 \le x \le  36 \}$). To obtain the probability density functions

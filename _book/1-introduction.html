@@ -1,3 +1,456 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models</title>
+  <meta name="description" content="Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models" />
+  <meta name="generator" content="bookdown 0.32.1 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models" />
+  
+  
+  
+
+<meta name="author" content="Sebastian L.V. Sciarra" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path=""><a href="#introduction"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path=""><a href="#the-need-to-conduct-longitudinal-research"><i class="fa fa-check"></i><b>1.1</b> The Need to Conduct Longitudinal Research</a></li>
+<li class="chapter" data-level="1.2" data-path=""><a href="#understanding-patterns-of-change-that-emerge-over-time"><i class="fa fa-check"></i><b>1.2</b> Understanding Patterns of Change That Emerge Over Time</a></li>
+<li class="chapter" data-level="1.3" data-path=""><a href="#challenges-involved-in-conducting-longitudinal-research"><i class="fa fa-check"></i><b>1.3</b> Challenges Involved in Conducting Longitudinal Research</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path=""><a href="#number-of-measurements"><i class="fa fa-check"></i><b>1.3.1</b> Number of Measurements</a></li>
+<li class="chapter" data-level="1.3.2" data-path=""><a href="#spacing-of-measurements"><i class="fa fa-check"></i><b>1.3.2</b> Spacing of Measurements</a></li>
+<li class="chapter" data-level="1.3.3" data-path=""><a href="#time-structuredness"><i class="fa fa-check"></i><b>1.3.3</b> Time Structuredness</a></li>
+<li class="chapter" data-level="1.3.4" data-path=""><a href="#summary"><i class="fa fa-check"></i><b>1.3.4</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path=""><a href="#using-simulations-to-assess-modelling-accuracy"><i class="fa fa-check"></i><b>1.4</b> Using Simulations To Assess Modelling Accuracy</a></li>
+<li class="chapter" data-level="1.5" data-path=""><a href="#systematic-review-of-simulation-literature"><i class="fa fa-check"></i><b>1.5</b> Systematic Review of Simulation Literature</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path=""><a href="#systematic-review-methodology"><i class="fa fa-check"></i><b>1.5.1</b> Systematic Review Methodology</a></li>
+<li class="chapter" data-level="1.5.2" data-path=""><a href="#systematic-review-results"><i class="fa fa-check"></i><b>1.5.2</b> Systematic Review Results</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models</h1>
+<p class="author"><em>Sebastian L.V. Sciarra</em></p>
+<p class="date"><em>February, 2023</em></p>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The topic of time has received considerable attention in organizational psychology over the past 20 years. Examples of well-received articles published around the beginning of the 21<sup>st</sup> century have discussed how investigating time is important for
+understanding patterns of change and boundary conditions of theory
+<span class="citation">(Zaheer, Albert, and Zaheer 1999)</span>, how longitudinal research is necessary for disentangling
+different types of causality <span class="citation">(T. R. Mitchell and James 2001)</span>, and explicated patterns
+of organizational change <span class="citation">(or institutionalization; Lawrence, Winn, and Jennings 2001)</span>.
+Since then, articles have emphasized the need to address time in
+specific areas such as performance <span class="citation">(C. D. Fisher 2008; Dalal, Bhave, and Fiset 2014)</span>, teams <span class="citation">(Roe, Gockel, and Meyer 2012)</span>, and goal setting <span class="citation">(Fried and Slowik 2004)</span> and, more generally, throughout organizational research <span class="citation">(George and Jones 2000; Roe 2008; Ployhart and Vandenberg 2010; Sonnentag 2012; Navarro, Roe, and Artiles 2015; Shipp and Cole 2015; Kunisch et al. 2017; Vantilborgh, Hofmans, and Judge 2018; Aguinis and Bakker 2021)</span>.</p>
+<p>The importance of time has also been recognized in organizational theory. In defining a theoretical contribution, <span class="citation">Whetten (1989)</span> discussed that time must be discussed in setting boundary conditions (i.e., under what circumstances does the theory apply) and in specifying relations between variables over time <span class="citation">(T. R. Mitchell and James 2001; George and Jones 2000)</span>. Even if a considerable number of organizational theories do not adhere to the definition of <span class="citation">Whetten (1989)</span>, theoretical models in organizational psychology consist of path diagrams that delineate the causal events of processes. Given that temporal precedence is a necessary condition for establishing causality <span class="citation">(Mill 2011)</span>, time has a role, whether implicitly or explicitly, in organizational theory.</p>
+<p>Despite the considerable attention given towards investigating processes over time and the ubiquity of time in organizational theory, the prevalence of longitudinal research has historically remained low. One study examined the prevalence of longitudinal research from 1970–2006 across five organizational psychology journals and found that 4% of articles used longitudinal designs <span class="citation">(Roe 2014, September 22–26)</span>. Another survey of two applied psychology journals in 2005 found that approximately 10% (10 of 105 studies) of studies used longitudinal designs <span class="citation">(Roe 2008)</span>. Similarly, two surveys of studies employing longitudinal designs with mediation analysis found that, across five journals, only about 10% (7 of 72 studies) did so in 2005 <span class="citation">(Maxwell and Cole 2007)</span> and approximately 16% (15 of 92 studies) did so in 2006 <span class="citation">(M. A. Mitchell and Maxwell 2013)</span>. Thus, the prevalence of longitudinal research has remained low.</p>
+<p>In the seven sections that follow, I will explain why longitudinal research is necessary and the factors that must be considered when conducting such research. In the first section, I will explain why conducting longitudinal research is essential for understanding the dynamics of psychological processes. In the second section, I will overview patterns of change that are likely to emerge over time. In the third section, I will overview design and analytical issues involved in conducting longitudinal studies. In the fourth section, I will explain how design and analytical issues encountered in conducting longitudinal research can be investigated. In the fifth section, I will provide a systematic review of the research that has investigated design and analytical issues involved in conducting longitudinal research. Finally, in the sixth and seventh sections, I will, respectively, discuss some methods for modelling nonlinear change and the frameworks in which they can be used. A summary of the three simulation experiments that I conducted in my dissertation will then be provided.</p>
+<div id="the-need-to-conduct-longitudinal-research" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> The Need to Conduct Longitudinal Research<a href="#the-need-to-conduct-longitudinal-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Longitudinal designs provide several advantages over cross-sectional designs that allow them to more accurately investigate change (e.g., temporal precedence, testing reverse causality). Unfortunately, even though longitudinal studies often produce results that differ from those of cross-sectional studies, researchers commonly discuss the results of cross-sectional studies as if they have been obtained with a longitudinal design. One example of the assumption of equivalence between cross-sectional and longitudinal findings comes from the large number of studies employing mediation analysis. Given that mediation is used to understand chains of causality in psychological processes <span class="citation">(Baron and Kenny 1986)</span>, it would thus make sense to pair mediation analysis with a longitudinal design because understanding causality, after all, requires temporal precedence. Unfortunately, the majority of studies that have used mediation analysis have done so using cross-sectional designs—with estimates of approximately 90% <span class="citation">(Maxwell and Cole 2007)</span> and 84% <span class="citation">(M. A. Mitchell and Maxwell 2013)</span>—and often discuss the results as if they are longitudinal. Investigations into whether mediation results remain equivalent across cross-sectional and longitudinal designs have repeatedly concluded that using mediation analysis on cross-sectional data can return different, and sometimes completely opposite, results from using it on longitudinal data <span class="citation">(Cole and Maxwell 2003; Maxwell and Cole 2007; Maxwell, Cole, and Mitchell 2011; M. A. Mitchell and Maxwell 2013; O’Laughlin, Martin, and Ferrer 2018)</span>. Therefore, mediation analyses based on cross-sectional analyses may be misleading.</p>
+<p>The non-equivalence of cross-sectional and longitudinal results that occurs with mediation analysis is, unfortunately, not due to a specific set of circumstances that only arise with mediation analysis, but a consequence of a broader systematic cause that affects the results of many analyses. The concept of ergodicity explains why cross-sectional and longitudinal analyses seldom yield similar results. To understand ergodicity, it is first important to realize that variance is central to many statistical analyses—correlation, regression, factor analysis, and mediation are some examples. Thus, if variance remains unchanged across cross-sectional and longitudinal data sets, then analyses of either data set would return the same results. Importantly, variance only remains equal across cross-sectional and longitudinal data sets if two conditions put forth by ergodic theory are satisfied <span class="citation">(homogeneity and stationarity; Molenaar 2004; Molenaar and Campbell 2009)</span>. If these two conditions are met, then a process is said to be ergodic. Unfortunately, the two conditions required for ergodicity are highly unlikely to be satisfied and so cross-sectional findings will frequently deviate from longitudinal findings (for a detailed discussion, see Appendix <span class="math inline">\(\ref{ergodicity}\)</span>).</p>
+<p>Given that cross-sectional and longitudinal analyses are, in general, unlikely to return equivalent findings, it is unsurprising that several investigations in organizational research—and psychology as a whole—have found these analyses to return different results. Beginning with an example from <span class="citation">Curran and Bauer (2011)</span>, heart attacks are less likely to occur in people who exercise regularly (longitudinal finding), but more likely to happen when exercising (cross-sectional finding). Correlational studies find differences in correlation magnitudes between cross-sectional and longitudinal data sets <span class="citation">(for a meta-analytic review, see Nixon et al. 2011; A. J. Fisher, Medaglia, and Jeronimus 2018)</span>. Moving on to perhaps the most commonly employed analysis in organizational research of mediation, several articles have highlighted that cross-sectional data can return different, and sometimes completely opposite, results than those obtained from longitudinal data <span class="citation">(Cole and Maxwell 2003; Maxwell and Cole 2007; Maxwell, Cole, and Mitchell 2011; O’Laughlin, Martin, and Ferrer 2018)</span>. Factor analysis is perhaps the most interesting example: The well-documented five-factor model of personality seldom arises when analyzing person-level data obtained by measuring personality on 90 consecutive days <span class="citation">(Hamaker, Dolan, and Molenaar 2005)</span>. Therefore, cross-sectional analyses are rarely equivalent to longitudinal analyses.</p>
+<p>With longitudinal analyses often producing results that differ from those of cross-sectional analyses, it is paramount that longitudinal designs be used to more accurately understand change. Fortunately, technological advancements have allowed researchers to more easily conduct longitudinal research in two ways. First, the use of the experience sampling method <span class="citation">(Beal 2015)</span> in conjunction with modern information transmission technologies—whether through phone applications or short message services—allows data to often be sampled over time with relative ease. Second, the development of longitudinal analyses (along with their integration in commonly used software) that enable person-level data to be modelled such as multilevel models <span class="citation">(Raudenbush and Bryk 2002)</span>, growth mixture models <span class="citation">(Mo Wang and Bodner 2007)</span>, and dynamic factor analysis <span class="citation">(Ram, Brose, and Molenaar 2013)</span> provide researchers with avenues to explore the temporal dynamics of psychological processes. With one recent survey estimating that 43.3% of mediation studies (26 of 60 studies) used a longitudinal design <span class="citation">(O’Laughlin, Martin, and Ferrer 2018)</span>, it appears that the prevalence of longitudinal research has increased from the 9.5% <span class="citation">(Roe 2008)</span> and 16.3% <span class="citation">(M. A. Mitchell and Maxwell 2013)</span> values estimated at the beginning of the 21<sup>st</sup> century. Although the frequency of longitudinal research appears to have increased over the past 20 years, several avenues exist where the quality of longitudinal research can be improved, and in my dissertation, I focus on investigating these avenues.</p>
+</div>
+<div id="understanding-patterns-of-change-that-emerge-over-time" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Understanding Patterns of Change That Emerge Over Time<a href="#understanding-patterns-of-change-that-emerge-over-time" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Change can occur in many ways over time. One pattern of change commonly assumed to occur over time is that of linear change. When change follows a linear pattern, the rate of change over time remains constant. Unfortunately, a linear pattern places demanding restrictions on the possible trajectories of change. If change were to follow a linear pattern, then any pauses in change (or plateaus) or changes in direction could not occur: Change would simply grow over time. Unfortunately, effect sizes have been shown to diminish over time after peaking <span class="citation">(for meta-analytic examples, see Cohen 1993; Griffeth, Hom, and Gaertner 2000; Hom et al. 1992; Riketta 2008; Steel and Ovalle 1984; Steel, Hendrix, and Balogh 1990)</span>. Moreover, many variables display cyclic patterns of change over time, with mood <span class="citation">(Larsen and Kasimatis 1990)</span>, daily stress <span class="citation">(Bodenmann et al. 2010)</span>, and daily drinking behaviour <span class="citation">(Huh, Kaysen, and Atkins 2015)</span> as some examples. Therefore, change over is unlikely to follow a linear pattern.</p>
+<p>A more realistic pattern of change to occur over time is a nonlinear pattern <span class="citation">(for a review, see Cudeck and Harring 2007)</span>. Nonlinear change allows the rate of change to be nonconstant; that is, change may occur more rapidly during certain periods of time, stop altogether, or reverse direction. When looking at patterns of change observed across psychology, several examples of nonlinear change have been found in the declining rate of speech errors throughout child development <span class="citation">(Burchinal and Appelbaum 1991)</span>, rates of forgetting <span class="citation">(Murre and Dros 2015)</span>, development of habits <span class="citation">(Fournier et al. 2017)</span>, and the formation of opinions <span class="citation">(Xia et al. 2020)</span>. Given that nonlinear change appears more likely than linear change, my dissertation will assume change over time to be nonlinear.</p>
+</div>
+<div id="challenges-involved-in-conducting-longitudinal-research" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Challenges Involved in Conducting Longitudinal Research<a href="#challenges-involved-in-conducting-longitudinal-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Conducting longitudinal research presents researchers with several challenges. Many challenges are those from cross-sectional research only amplified <span class="citation">(for a review, see Bergman and Magnusson 1990)</span>. For example, greater efforts have to be made to to prevent missing data which can increase over time <span class="citation">(Newman 2008; Dillman, Smyth, and Christian 2014)</span>. Likewise, the adverse effects of well-documented biases such as demand characteristics <span class="citation">(Orne 1962)</span> and social desirability <span class="citation">(Nederhof 1985)</span> have to be countered at each time point. Outside of challenges shared with cross-sectional research, conducting longitudinal research also presents new challenges. Analyses of longitudinal data have to consider complications such as how to model error structures <span class="citation">(Grimm and Widaman 2010)</span>, check for measurement non-invariance over time <span class="citation">(the extent to which a construct is measured with the same measurement model over time; Mellenbergh 1989)</span>, and how to center/process data to appropriately answer research questions <span class="citation">(Enders and Tofighi 2007; Wang and Maxwell 2015)</span>.</p>
+<p>Although researchers must contend with several issues in conducting longitudinal research, three issues are of particular interest in my dissertation. The first issue concerns how many measurements to use in a longitudinal design. The second issue concerns how to space the measurements. The third issue focuses on how much error is incurred if the time structuredness of the data is overlooked. The sections that follow will review each of these issues.</p>
+<div id="number-of-measurements" class="section level3 hasAnchor" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Number of Measurements<a href="#number-of-measurements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Researchers have to decide on the number of measurements to include in a longitudinal study. Although using more measurements increases the accuracy of results—as noted in the results of several studies <span class="citation">(e.g., Coulombe, Selig, and Delaney 2016; Timmons and Preacher 2015; Finch 2017; Fine, Suk, and Grimm 2019)</span>—taking additional measurements often comes at a cost that a researcher may be unable to absorb given a limited budget. One important point to mention is that a researcher designing a longitudinal study must take at least three measurements to allow a reliable estimate of change and, perhaps more importantly, to allow a nonlinear pattern of change to be modelled <span class="citation">(Ployhart and Vandenberg 2010)</span>. In my dissertation, I hope to determine whether an optimal number of measurements exists when modelling a nonlinear pattern of change.</p>
+</div>
+<div id="spacing-of-measurements" class="section level3 hasAnchor" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Spacing of Measurements<a href="#spacing-of-measurements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Additionally, a researcher must decide on the spacing of measurements in a longitudinal study. Although discussions of measurement spacing often recommend that researchers use theory and previous studies to determine measurement spacing <span class="citation">(T. R. Mitchell and James 2001; Cole and Maxwell 2003; Collins 2006; Dormann and Ven 2014; Dormann and Griffin 2015)</span>, organizational theories seldom delineate periods of time over which a processes unfold, and so the majority of longitudinal research uses intervals of convention and/or convenience to space measurements <span class="citation">(T. R. Mitchell and James 2001; Dormann and Ven 2014)</span>. Unfortunately, using measurement spacings that do not account for the temporal pattern of change of a psychological process can lead to inaccurate results <span class="citation">(e.g., Chen, Martin, and Merchant 2014)</span>. As an example, <span class="citation">Cole and Maxwell (2009)</span> show how correlation magnitudes are affected by the choice of measurement spacing intervals. In my dissertation, I hope to determine whether an optimal measurement spacing schedule exists when modelling a nonlinear pattern of change.</p>
+</div>
+<div id="time-structuredness" class="section level3 hasAnchor" number="1.3.3">
+<h3><span class="header-section-number">1.3.3</span> Time Structuredness<a href="#time-structuredness" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Last, and perhaps most pernicious, latent variable analyses of longitudinal data are likely to incur error from an assumption they make about data collection conditions. Latent variable analyses assume that, across all collection points, participants provide their data at the same time. Unfortunately, such a high level of regularity in the response patterns of participants is unlikely: Participants are more likely to provide their data over some period of time after a data collection window has opened. As an example, consider a study that collects data from participants at the beginning of each month. If participants respond with perfect regularity, then they would all provide their data at the exact same time (e.g., noon on the second day of each month). If the participants respond with imperfect regularity, then they would provide their at different times after the beginning of each month. The regularity of response patterns observed across participants in a longitudinal study determines the time structuredness of the data and the sections that follow will provide overview of time structuredness.</p>
+<div id="time-structured-data" class="section level4 hasAnchor" number="1.3.3.1">
+<h4><span class="header-section-number">1.3.3.1</span> Time-Structured Data<a href="#time-structured-data" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Many analyses assume that data are <em>time structured</em>: Participants provide data at the same time at each collection point. By assuming time-structured data, an analysis can incur error because it will map time intervals of inappropriate lengths onto the time intervals that occurred between participant’s responses. As an example of the consequences of incorrectly assuming data to be time structured, consider a study that assessed the effects of an intervention on the development of leadership by collecting leadership ratings at four time points each separated by four weeks <span class="citation">(Day and Sin 2011)</span>. The employed analysis assumed time-structured data; that is, each each participant provided ratings on the same day—more specifically, the exact same moment—each time these ratings were collected. Unfortunately, it is unlikely that the data collected from participants were time structured: At any given collection point, some participants may have provided leadership ratings at the beginning of the week, while others may only provide ratings two weeks after the survey opened. Importantly, ratings provided two weeks after the survey opened were likely influenced by changes in leadership that occurred over the two weeks. If an analysis incorrectly assumes time-structured data, then it assumes each participant has the same response pattern and, therefore, will incorrectly attribute the amount of time that elapses between most participants’ responses. For instance, if a participant only provides a leadership rating two weeks after having received a survey (and six weeks after providing their previous rating), then using an analysis that assumes time-structured data would incorrectly assume that each collection point of this participant is separated by four weeks (the interval used in the experiment) and would, consequently, model the observed change as if it had occurred over four weeks. Therefore, incorrectly assuming data to be time structured leads an analysis to overlook the unique response rates of participants across the collection points and, as a consequence, incur error <span class="citation">(Mehta and West 2000; Mehta and Neale 2005; Coulombe, Selig, and Delaney 2016)</span>.</p>
+</div>
+<div id="time-unstructured-data" class="section level4 hasAnchor" number="1.3.3.2">
+<h4><span class="header-section-number">1.3.3.2</span> Time-Unstructured Data<a href="#time-unstructured-data" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Conversely, other analyses assume that data are <em>time unstructured</em>: Participants provide data at different times at each collection point. Given the unlikelihood of one response pattern describing the response rates of all participants in a given study, the data obtained in a study are unlikely to be time structured. Instead, and because participants are likely to exhibit unique response patterns in their response rates, data are likely to be time unstructured. One way to conceptualize the distinction between time-structured and time-unstructured data is on a continuum. On one end of the continuum, participants all provide data with identical response patterns, thus giving time-structured data. When participants exhibit unique response patterns, the resulting data are time unstructured, with the extent of time-unstructuredness depending on the average uniqueness of all response patterns. For example, if data are collected at the beginning of each month and participants only have one day to provide data at each time point, then the resulting data will have a low amount of time structuredness because response patterns can only differ from each other over the course of one day. Alternatively, if data are collected at the beginning of each month and participants have 30 days to provide data at each time point, then the resulting data will have a high amount of time structuredness because response patterns can differ from each other over the course of 30 days. Therefore, the continuum of time struturedness has time-structured data on one end and time-unstructured data with long response windows on another end. In my dissertation, I hope to determine how much error is incurred when time-unstructured data of varying degrees are assumed to be time structured.</p>
+</div>
+</div>
+<div id="summary" class="section level3 hasAnchor" number="1.3.4">
+<h3><span class="header-section-number">1.3.4</span> Summary<a href="#summary" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In summary, researchers must contend with several issues when conducting longitudinal research. In addition to contending with issues encountered in conducting cross-sectional research, researchers must contend with new issues that arise from conducting longitudinal research. Three issues of particular importance in my dissertation are the number of measurements, the spacing of measurements, and incorrectly assuming time-unstructured data to be time structured. These issues will be serve as a basis for a systematic review of the simulation literature.</p>
+</div>
+</div>
+<div id="using-simulations-to-assess-modelling-accuracy" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Using Simulations To Assess Modelling Accuracy<a href="#using-simulations-to-assess-modelling-accuracy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the next section, I will present the results of a systematic review of the literature that has investigated the issues of measurement number, measurement spacing, and time structuredness. Before presenting the results of the systematic review, I will provide an overview of the Monte Carlo method used to investigate the issues involved in conducting longitudinal research.</p>
+<p>To understand how the effects of longitudinal issues on modelling accuracy can be investigated, the inferential method commonly employed in psychological research will first be reviewed with an emphasis on its shortcomings (see Figure <span class="math inline">\(\ref{fig:MonteCarlo-comparison}\)</span>). Consider an example where a researcher wants to understand how sampling error affects the accuracy with which a sample mean (<span class="math inline">\(\bar{x}\)</span>) estimates a population mean (<span class="math inline">\(\upmu\)</span>). Using the inferential method, the researcher samples data and then estimates the population mean (<span class="math inline">\(\upmu\)</span>) by computing the mean of the sampled data (<span class="math inline">\(\bar{x}_1\)</span>). Because collected samples are almost always contaminated by a variety of methodological and/or statistical deficiencies (such as sampling error, measurement error, assumption violations, etc.), the estimation of the population parameter is likely to be imperfect. Unfortunately, to estimate the effect of sampling error on the accuracy of the population mean estimate (<span class="math inline">\(\bar{x}_1\)</span>), the researcher would need to know the value of the population mean; without knowing the value of the population mean, it is impossible to know how much error was incurred in estimating the population mean and, as as a result, impossible to know the extent to which sampling error contributed to this error. Therefore, a study following the inferential approach can only provide estimates of population parameters.</p>
+<p>The Monte Carlo method has a different goal. Whereas the inferential method focuses on estimating parameters from sample data, the Monte Carlo method is used to understand the factors that influence the accuracy of the inferential approach. Figure <span class="math inline">\(\ref{fig:MonteCarlo-comparison}\)</span> shows that the Monte Carlo method works in the opposite direction of the inferential approach: Instead of collecting a sample, the Monte Carlo method begins by assigning a value to at least one parameter to define a population. Many sample data sets are then generated from the defined population (<span class="math inline">\(s_1, s_2, ..., s_n\)</span>) and the data from each sample are then modelled by computing a sample mean (<span class="math inline">\(\bar{x}_1, \bar{x}_2, ..., \bar{x}_n\)</span>). Importantly, manipulations can be applied to the sampling and/or modelling of the data. In the current example,the population estimates of each statistical model are averaged (<span class="math inline">\(\bar{\bar{x}}\)</span>) and compared to the pre-determined parameter value (<span class="math inline">\(\upmu\)</span>). The difference between the average of the estimates and the known population value constitutes bias in parameter estimation (i.e., parameter bias). In the current example, the manipulation causes a systematic underestimation, on average, of the population parameter. By randomly generating data, the Monte Carlo method can estimate how a variety of methodological and statistical factors affect the accuracy of a model <span class="citation">(for a review, see Robert and Casella 2010)</span>.</p>
+<p>Monte Carlo simulations have been used to evaluate the effects of a variety of methodological and statistical deficiencies for several decades. Beginning with an early use of the Monte Carlo method, <span class="citation">Boneau (1960)</span> used it to evaluate the effects of assumption violations on the fidelity of <em>t</em>-value distributions. In more recent years, implementations of the the Monte Carlo method have shown that realistic values of sample size
+and measurement accuracy produce considerable variability in estimated correlation values <span class="citation">(Stanley and Spence 2014)</span>. Monte Carlo simulations have also provided valuable insights into more complicated statistical analyses. In investigating more complex statistical analyses, simulations have shown that mediation analyses are biased to produce results of complete mediation because the statistical power to detect direct effects falls well below the statistical power to detect indirect effects <span class="citation">(Kenny and Judd 2014)</span>. Given the ability of the Monte Carlo method to evaluate statistical methods, the experiments in my dissertation used it to evaluate the effects of measurement number, measurement spacing, and time structuredness on modelling accuracy.</p>
+</div>
+<div id="systematic-review-of-simulation-literature" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Systematic Review of Simulation Literature<a href="#systematic-review-of-simulation-literature" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To understand the extent to which issues involved in conducting longitudinal research had been investigated, I conducted a systematic review of the simulation literature.</p>
+<p>The sections that follow will first present the method I followed in systematically reviewing the literature and then summarize the findings of the review.</p>
+<div id="systematic-review-methodology" class="section level3 hasAnchor" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Systematic Review Methodology<a href="#systematic-review-methodology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I identified the following keywords through citation searching and independent reading: “growth curve”, “time-structured analysis”, “time structure”, “temporal design”, “individual measurement occasions”, “measurement intervals”, “methods of timing”, “longitudinal data analysis”, “individually-varying time points”, “measurement timing”, “latent difference score models”, “parameter bias”, and “measurement spacing”. I entered these keywords entered into the PsycINFO database (on July 23, 2021) along with the word “simulation” in any field and considered any returned paper a viable ppaper (see Figure <span class="math inline">\(\ref{fig:prismaDiagram}\)</span> for a PRISMA diagram illustrating the filtering of the reports). The search returned 165 reports, which I screened by reading the abstracts. Initial screening led to the removal of 60 reports because they did not contain any simulation experiments. Of the remaining 105 papers, I removed 2 more papers because they could not be accessed <span class="citation">(Stockdale 2007; Tiberio 2008)</span>. Of the remaining 103 identified simulation studies, I deemed a paper as relevant if it investigated the effects of any design and/or analysis factor related to conducting longitudinal research (i.e., number of measurements, spacing of measurements, and/or time structuredness) and did so using the Monte Carlo simulation method. Of the remaining 103 studies, I removed 89 studies because they did not meet the inclusion criteria, leaving fourteen studies to be included in the review. I also found an additional 3 studies through citation searching, giving a total of 17 studies.</p>
+<p>The findings of my systematic review are summarized in Tables <span class="math inline">\(\ref{tab:systematicReviewCount}\)</span>–<a href="#tab:systematicReview"><strong>??</strong></a>. Tables <span class="math inline">\(\ref{tab:systematicReviewCount}\)</span>–<a href="#tab:systematicReview"><strong>??</strong></a> differ in one way: Table <span class="math inline">\(\ref{tab:systematicReviewCount}\)</span> indicates how many studies investigated each effect, whereas Table <a href="#tab:systematicReview"><strong>??</strong></a> provides the reference of each study and detailed information about each study’s method. Otherwise, all other details of Tables <span class="math inline">\(\ref{tab:systematicReviewCount}\)</span>–<a href="#tab:systematicReview"><strong>??</strong></a> are identical. The first column lists the longitudinal design factor (alongside with sample size) and the corresponding two- and three-way interactions. The second and third columns list whether each effect has been investigated with linear and nonlinear patterns of change, respectively. Shaded cells indicate effects that have not been investigated, with cells shaded in light grey indicating effects that have not been investigated with linear patterns of change and cells shaded in dark grey indicating effects that have not been investigated with nonlinear patterns of change.</p>
+</div>
+<div id="systematic-review-results" class="section level3 hasAnchor" number="1.5.2">
+<h3><span class="header-section-number">1.5.2</span> Systematic Review Results<a href="#systematic-review-results" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Although previous research appeared to sufficiently fill some cells of Table <span class="math inline">\(\ref{tab:systematicReviewCount}\)</span>, two patterns suggest that arguably the most important cells (or effects) have not been investigated. First, it appears that simulation research has invested more effort in investigating the effects of longitudinal design factors with linear patterns than with nonlinear patterns of change. In counting the number of effects that remain unaddressed with linear and nonlinear patterns of change, a total of five cells (or effects) have not been investigated, but a total of seven cells have not been investigated with nonlinear patterns of</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Aguinis, Herman, and Rene M Bakker. 2021. <span>“Time Is of the Essence: Improving the Conceptualization and Measurement of Time.”</span> <em>Human Resource Management Review</em> 31 (2): 100763. <a href="https://doi.org/10.1016/j.hrmr.2020.100763">https://doi.org/10.1016/j.hrmr.2020.100763</a>.
+</div>
+<div class="csl-entry">
+Baron, Reuben M., and David A. Kenny. 1986. <span>“The Moderator<span></span>mediator Variable Distinction in Social Psychological Research: Conceptual, Strategic, and Statistical Considerations.”</span> <em>Journal of Personality and Social Psychology</em> 51 (6): 1173–82. <a href="https://doi.org/10.1037/0022-3514.51.6.1173">https://doi.org/10.1037/0022-3514.51.6.1173</a>.
+</div>
+<div class="csl-entry">
+Beal, Daniel J. 2015. <span>“ESM 2.0: State of the Art and Future Potential of Experience Sampling Methods in Organizational Research.”</span> <em>Annual Review of Organizational Psychology and Organizational Behavior</em> 2 (1): 383–407. <a href="https://doi.org/10.1146/annurev-orgpsych-032414-111335">https://doi.org/10.1146/annurev-orgpsych-032414-111335</a>.
+</div>
+<div class="csl-entry">
+Bergman, Lars, and David Magnusson. 1990. <span>“General Issues about Data Quality in Longitudinal Research.”</span> In <em>Data Quality in Longitudinal Research</em>, edited by Lars Bergman and David Magnusson, 1–31. Cambridge University Press. <a href="https://bit.ly/3i1CGny">https://bit.ly/3i1CGny</a>.
+</div>
+<div class="csl-entry">
+Bodenmann, Guy, David C. Atkins, Marcel Schär, and Valérie Poffet. 2010. <span>“The Association Between Daily Stress and Sexual Activity.”</span> <em>Journal of Family Psychology</em> 24 (3): 271–79. <a href="https://doi.org/10.1037/a0019365">https://doi.org/10.1037/a0019365</a>.
+</div>
+<div class="csl-entry">
+Boneau, C. Alan. 1960. <span>“The Effects of Violations of Assumptions Underlying the <em>t</em> Test.”</span> <em>Psychological Bulletin</em> 57 (1): 49–64. <a href="https://doi.org/10.1037/h0041412">https://doi.org/10.1037/h0041412</a>.
+</div>
+<div class="csl-entry">
+Burchinal, Margaret, and Mark I. Appelbaum. 1991. <span>“Estimating Individual Developmental Functions: Methods and Their Assumptions.”</span> <em>Child Development</em> 62 (1): 23–42. <a href="https://doi.org/10.2307/1130702">https://doi.org/10.2307/1130702</a>.
+</div>
+<div class="csl-entry">
+Chen, Clara Xiaoling, Melissa Martin, and Kenneth A. Merchant. 2014. <span>“The Effect of Measurement Timing on the Information Content of Customer Satisfaction Measures.”</span> <em>Management Accounting Research</em> 25 (3): 187–205. <a href="https://doi.org/10.1016/j.mar.2013.12.003">https://doi.org/10.1016/j.mar.2013.12.003</a>.
+</div>
+<div class="csl-entry">
+Cohen, A. 1993. <span>“Organizational Commitment and Turnover: A Meta-Analysis.”</span> <em>Academy of Management Journal</em> 36 (5): 1140–57. <a href="https://doi.org/10.2307/256650">https://doi.org/10.2307/256650</a>.
+</div>
+<div class="csl-entry">
+Cole, David A., and Scott E. Maxwell. 2003. <span>“Testing Mediational Models with Longitudinal Data: Questions and Tips in the Use of Structural Equation Modeling.”</span> <em>Journal of Abnormal Psychology</em> 112 (4): 558–77. <a href="https://doi.org/10.1037/0021-843x.112.4.558">https://doi.org/10.1037/0021-843x.112.4.558</a>.
+</div>
+<div class="csl-entry">
+———. 2009. <span>“Statistical Methods for Risk-Outcome Research: Being Sensitive to Longitudinal Structure.”</span> <em>Annual Review of Clinical Psychology</em> 5 (1): 71–96. <a href="https://doi.org/10.1146/annurev-clinpsy-060508-130357">https://doi.org/10.1146/annurev-clinpsy-060508-130357</a>.
+</div>
+<div class="csl-entry">
+Collins, Linda M. 2006. <span>“Analysis of Longitudinal Data: The Integration of Theoretical Model, Temporal Design, and Statistical Model.”</span> <em>Annual Review of Psychology</em> 57 (1): 505–28. <a href="https://doi.org/10.1146/annurev.psych.57.102904.190146">https://doi.org/10.1146/annurev.psych.57.102904.190146</a>.
+</div>
+<div class="csl-entry">
+Coulombe, Patrick, James P Selig, and Harold D Delaney. 2016. <span>“Ignoring Individual Differences in Times of Assessment in Growth Curve Modeling.”</span> <em>International Journal of Behavioral Development</em> 40 (1): 76–86. <a href="https://doi.org/10.1177/0165025415577684">https://doi.org/10.1177/0165025415577684</a>.
+</div>
+<div class="csl-entry">
+Cudeck, Robert, and Jeffrey R. Harring. 2007. <span>“Analysis of Nonlinear Patterns of Change with Random Coefficient Models.”</span> <em>Annual Review of Psychology</em> 58 (1): 615–37. <a href="https://doi.org/10.1146/annurev.psych.58.110405.085520">https://doi.org/10.1146/annurev.psych.58.110405.085520</a>.
+</div>
+<div class="csl-entry">
+Curran, Patrick J., and Daniel J. Bauer. 2011. <span>“The Disaggregation of Within-Person and Between-Person Effects in Longitudinal Models of Change.”</span> <em>Annual Review of Psychology</em> 62 (1): 583–619. <a href="https://doi.org/10.1146/annurev.psych.093008.100356">https://doi.org/10.1146/annurev.psych.093008.100356</a>.
+</div>
+<div class="csl-entry">
+Dalal, Reeshad S., Devasheesh P. Bhave, and John Fiset. 2014. <span>“Within-Person Variability in Job Performance.”</span> <em>Journal of Management</em> 40 (5): 1396–436. <a href="https://doi.org/10.1177/0149206314532691">https://doi.org/10.1177/0149206314532691</a>.
+</div>
+<div class="csl-entry">
+Day, David V., and Hock-Peng Sin. 2011. <span>“Longitudinal Tests of an Integrative Model of Leader Development: Charting and Understanding Developmental Trajectories.”</span> <em>The Leadership Quarterly</em> 22 (3): 545–60. <a href="https://doi.org/10.1016/j.leaqua.2011.04.011">https://doi.org/10.1016/j.leaqua.2011.04.011</a>.
+</div>
+<div class="csl-entry">
+Dillman, Don A, Jolene D Smyth, and Leah Melani Christian. 2014. <em>Internet, Phone, Mail, and Mixed-Mode Surveys: The Tailored Design Method</em>. John Wiley &amp; Sons. <a href="https://bit.ly/3i20CHB">https://bit.ly/3i20CHB</a>.
+</div>
+<div class="csl-entry">
+Dormann, Christian, and Mark A. Griffin. 2015. <span>“Optimal Time Lags in Panel Studies.”</span> <em>Psychological Methods</em> 20 (4): 489–505. <a href="https://doi.org/10.1037/met0000041">https://doi.org/10.1037/met0000041</a>.
+</div>
+<div class="csl-entry">
+Dormann, Christian, and Bart van de Ven. 2014. <span>“Timing in Methods for Studying Psychosocial Factors at Work.”</span> In <em>Psychosocial Factors at Work in the Asia Pacific</em>, edited by Maureen F. Dollard, Akihito Shimazu, Rusli Bin Nordin, Paula Brough, and Michelle R. Tuckey, 89–116. Springer Dordrecht. <a href="https://doi.org/10.1007/978-94-017-8975-2_4">https://doi.org/10.1007/978-94-017-8975-2_4</a>.
+</div>
+<div class="csl-entry">
+Enders, Craig K., and Davood Tofighi. 2007. <span>“Centering Predictor Variables in Cross-Sectional Multilevel Models: A New Look at an Old Issue.”</span> <em>Psychological Methods</em> 12 (2): 121–38. <a href="https://doi.org/10.1037/1082-989x.12.2.121">https://doi.org/10.1037/1082-989x.12.2.121</a>.
+</div>
+<div class="csl-entry">
+Finch, W. Holmes. 2017. <span>“Investigation of Parameter Estimation Accuracy for Growth Curve Modeling with Categorical Indicators.”</span> <em>Methodology</em> 13 (3): 98–112. <a href="https://doi.org/10.1027/1614-2241/a000134">https://doi.org/10.1027/1614-2241/a000134</a>.
+</div>
+<div class="csl-entry">
+Fine, Kimberly L., Hye Won Suk, and Kevin J. Grimm. 2019. <span>“An Examination of a Functional Mixed-Effects Modeling Approach to the Analysis of Longitudinal Data.”</span> <em>Multivariate Behavioral Research</em> 54 (4): 475–91. <a href="https://doi.org/10.1080/00273171.2018.1520626">https://doi.org/10.1080/00273171.2018.1520626</a>.
+</div>
+<div class="csl-entry">
+Fisher, Aaron J., John D. Medaglia, and Bertus F. Jeronimus. 2018. <span>“Lack of Group-to-Individual Generalizability Is a Threat to Human Subjects Research.”</span> <em>Proceedings of the National Academy of Sciences</em> 115 (27). <a href="https://doi.org/10.1073/pnas.1711978115">https://doi.org/10.1073/pnas.1711978115</a>.
+</div>
+<div class="csl-entry">
+Fisher, Cynthia D. 2008. <span>“What If We Took Within-Person Variability Seriously?”</span> <em>Industrial and Organizational Psychology</em> 1 (2): 185–89. <a href="https://doi.org/10.1111/j.1754-9434.2008.00036.x">https://doi.org/10.1111/j.1754-9434.2008.00036.x</a>.
+</div>
+<div class="csl-entry">
+Fournier, Marion, Fabienne d’Arripe-Longueville, Carole Rovere, Christopher S. Easthope, Lars Schwabe, Jonathan El Methni, and Rémi Radel. 2017. <span>“Effects of Circadian Cortisol on the Development of a Health Habit.”</span> <em>Health Psychology</em> 36 (11): 1059–64. <a href="https://doi.org/10.1037/hea0000510">https://doi.org/10.1037/hea0000510</a>.
+</div>
+<div class="csl-entry">
+Fried, Yitzhak, and Linda Haynes Slowik. 2004. <span>“Enriching Goal-Setting Theory with Time: An Integrated Approach.”</span> <em>Academy of Management Review</em> 29 (3): 404–22. <a href="https://doi.org/10.5465/amr.2004.13670973">https://doi.org/10.5465/amr.2004.13670973</a>.
+</div>
+<div class="csl-entry">
+George, Jennifer M., and Gareth R. Jones. 2000. <span>“The Role of Time in Theory and Theory Building.”</span> <em>Journal of Management</em> 26 (4): 657–84. <a href="https://doi.org/10.1177/014920630002600404">https://doi.org/10.1177/014920630002600404</a>.
+</div>
+<div class="csl-entry">
+Griffeth, Rodger W., Peter W. Hom, and Stefan Gaertner. 2000. <span>“A Meta-Analysis of Antecedents and Correlates of Employee Turnover: Update, Moderator Tests, and Research Implications for the Next Millennium.”</span> <em>Journal of Management</em> 26 (3): 463–88. <a href="https://doi.org/10.1177/014920630002600305">https://doi.org/10.1177/014920630002600305</a>.
+</div>
+<div class="csl-entry">
+Grimm, Kevin, and Keith Widaman. 2010. <span>“Residual Structures in Latent Growth Curve Modeling.”</span> <em>Structural Equation Modeling: A Multidisciplinary Journal</em> 17 (3): 424–42. <a href="https://doi.org/10.1080/10705511.2010.489006">https://doi.org/10.1080/10705511.2010.489006</a>.
+</div>
+<div class="csl-entry">
+Hamaker, Ellen L., Conor V. Dolan, and Peter C. M. Molenaar. 2005. <span>“Statistical Modeling of the Individual: Rationale and Application of Multivariate Stationary Time Series Analysis.”</span> <em>Multivariate Behavioral Research</em> 40 (2): 207–33. <a href="https://doi.org/10.1207/s15327906mbr4002_3">https://doi.org/10.1207/s15327906mbr4002_3</a>.
+</div>
+<div class="csl-entry">
+Hom, Peter W., Fanny Caranikas-Walker, Gregory E. Prussia, and Rodger W. Griffeth. 1992. <span>“A Meta-Analytical Structural Equations Analysis of a Model of Employee Turnover.”</span> <em>Journal of Applied Psychology</em> 77 (6): 890–909. <a href="https://doi.org/10.1037/0021-9010.77.6.890">https://doi.org/10.1037/0021-9010.77.6.890</a>.
+</div>
+<div class="csl-entry">
+Huh, David, Debra L. Kaysen, and David C. Atkins. 2015. <span>“Modeling Cyclical Patterns in Daily College Drinking Data with Many Zeroes.”</span> <em>Multivariate Behavioral Research</em> 50 (2): 184–96. <a href="https://doi.org/10.1080/00273171.2014.977433">https://doi.org/10.1080/00273171.2014.977433</a>.
+</div>
+<div class="csl-entry">
+Kenny, David A., and Charles M. Judd. 2014. <span>“Power Anomalies in Testing Mediation.”</span> <em>Psychological Science</em> 25 (2): 334–39. <a href="https://doi.org/10.1177/0956797613502676">https://doi.org/10.1177/0956797613502676</a>.
+</div>
+<div class="csl-entry">
+Kunisch, Sven, Jean M. Bartunek, Johanna Mueller, and Quy N. Huy. 2017. <span>“Time in Strategic Change Research.”</span> <em>Academy of Management Annals</em> 11 (2): 1005–64. <a href="https://doi.org/10.5465/annals.2015.0133">https://doi.org/10.5465/annals.2015.0133</a>.
+</div>
+<div class="csl-entry">
+Larsen, Randy J., and Margaret Kasimatis. 1990. <span>“Individual Differences in Entrainment of Mood to the Weekly Calendar.”</span> <em>Journal of Personality and Social Psychology</em> 58 (1): 164–71. <a href="https://doi.org/10.1037/0022-3514.58.1.164">https://doi.org/10.1037/0022-3514.58.1.164</a>.
+</div>
+<div class="csl-entry">
+Lawrence, Thomas B., Monika I. Winn, and P. Devereaux Jennings. 2001. <span>“The Temporal Dynamics of Institutionalization.”</span> <em>Academy of Management Review</em> 26 (4): 624–44. <a href="https://doi.org/10.5465/amr.2001.5393901">https://doi.org/10.5465/amr.2001.5393901</a>.
+</div>
+<div class="csl-entry">
+Maxwell, Scott E., and David A. Cole. 2007. <span>“Bias in Cross-Sectional Analyses of Longitudinal Mediation.”</span> <em>Psychological Methods</em> 12 (1): 23–44. <a href="https://doi.org/10.1037/1082-989x.12.1.23">https://doi.org/10.1037/1082-989x.12.1.23</a>.
+</div>
+<div class="csl-entry">
+Maxwell, Scott E., David A. Cole, and Melissa A. Mitchell. 2011. <span>“Bias in Cross-Sectional Analyses of Longitudinal Mediation: Partial and Complete Mediation Under an Autoregressive Model.”</span> <em>Multivariate Behavioral Research</em> 46 (5): 816–41. <a href="https://doi.org/10.1080/00273171.2011.606716">https://doi.org/10.1080/00273171.2011.606716</a>.
+</div>
+<div class="csl-entry">
+Mehta, Paras D., and Michael C. Neale. 2005. <span>“People Are Variables Too: Multilevel Structural Equations Modeling.”</span> <em>Psychological Methods</em> 10 (3): 259–84. <a href="https://doi.org/10.1037/1082-989x.10.3.259">https://doi.org/10.1037/1082-989x.10.3.259</a>.
+</div>
+<div class="csl-entry">
+Mehta, Paras D., and Stephen G. West. 2000. <span>“Putting the Individual Back into Individual Growth Curves.”</span> <em>Psychological Methods</em> 5 (1): 23–43. <a href="https://doi.org/10.1037/1082-989x.5.1.23">https://doi.org/10.1037/1082-989x.5.1.23</a>.
+</div>
+<div class="csl-entry">
+Mellenbergh, Gideon J. 1989. <span>“Item Bias and Item Response Theory.”</span> <em>International Journal of Educational Research</em> 13 (2): 127–43. <a href="https://doi.org/10.1016/0883-0355(89)90002-5">https://doi.org/10.1016/0883-0355(89)90002-5</a>.
+</div>
+<div class="csl-entry">
+Mill, J. S. 2011. <span>“Of the Law of Universal Causation.”</span> In <em>A System of Logic, Tatiocinative and Inductive: Being a Connected View of the Principles of Evidence, and the Methods of Scientific Investigation</em>, 1:392–424. Cambridge University Press. (Original work published in 1843). <a href="https://doi.org/10.1017/cbo9781139149839.021">https://doi.org/10.1017/cbo9781139149839.021</a>.
+</div>
+<div class="csl-entry">
+Mitchell, Melissa A., and Scott E. Maxwell. 2013. <span>“A Comparison of the Cross-Sectional and Sequential Designs When Assessing Longitudinal Mediation.”</span> <em>Multivariate Behavioral Research</em> 48 (3): 301–39. <a href="https://doi.org/10.1080/00273171.2013.784696">https://doi.org/10.1080/00273171.2013.784696</a>.
+</div>
+<div class="csl-entry">
+Mitchell, T R., and Lawrence R. James. 2001. <span>“Building Better Theory: Time and the Specification of When Things Happen.”</span> <em>Academy of Management Review</em> 26 (4): 530–47. <a href="https://doi.org/10.5465/amr.2001.5393889">https://doi.org/10.5465/amr.2001.5393889</a>.
+</div>
+<div class="csl-entry">
+Mo Wang, and Todd E. Bodner. 2007. <span>“Growth Mixture Modeling.”</span> <em>Organizational Research Methods</em> 10 (4): 635–56. <a href="https://doi.org/10.1177/1094428106289397">https://doi.org/10.1177/1094428106289397</a>.
+</div>
+<div class="csl-entry">
+Molenaar, Peter C. M. 2004. <span>“A Manifesto on Psychology as Idiographic Science: Bringing the Person Back into Scientific Psychology, This Time Forever.”</span> <em>Measurement: Interdisciplinary Research &amp; Perspective</em> 2 (4): 201–18. <a href="https://doi.org/10.1207/s15366359mea0204_1">https://doi.org/10.1207/s15366359mea0204_1</a>.
+</div>
+<div class="csl-entry">
+Molenaar, Peter C. M., and Cynthia G. Campbell. 2009. <span>“The New Person-Specific Paradigm in Psychology.”</span> <em>Current Directions in Psychological Science</em> 18 (2): 112–17. <a href="https://doi.org/10.1111/j.1467-8721.2009.01619.x">https://doi.org/10.1111/j.1467-8721.2009.01619.x</a>.
+</div>
+<div class="csl-entry">
+Murre, Jaap M. J., and Joeri Dros. 2015. <span>“Replication and Analysis of <span>Ebbinghaus<span>’</span></span> Forgetting Curve.”</span> <em>PLOS ONE</em> 10 (7): e0120644. <a href="https://doi.org/10.1371/journal.pone.0120644">https://doi.org/10.1371/journal.pone.0120644</a>.
+</div>
+<div class="csl-entry">
+Navarro, José, Robert A. Roe, and María I. Artiles. 2015. <span>“Taking Time Seriously: Changing Practices and Perspectives in Work/Organizational Psychology.”</span> <em>Journal of Work and Organizational Psychology</em> 31 (3): 135–45. <a href="https://doi.org/10.1016/j.rpto.2015.07.002">https://doi.org/10.1016/j.rpto.2015.07.002</a>.
+</div>
+<div class="csl-entry">
+Nederhof, Anton J. 1985. <span>“Methods of Coping with Social Desirability Bias: A Review.”</span> <em>European Journal of Social Psychology</em> 15 (3): 263–80. <a href="https://doi.org/10.1002/ejsp.2420150303">https://doi.org/10.1002/ejsp.2420150303</a>.
+</div>
+<div class="csl-entry">
+Newman, Daniel A. 2008. <span>“Missing Data Techniques and Low Response Rates: The Role of Systematic Nonresponse Parameters.”</span> In <em>Statistical and Methodological Myths and Urban Legends: Doctrine, Verity and Fable in the Organizational and Social Sciences</em>, edited by Charles E. Lance and Robert J Vandenberg, 7–36. Routledge. <a href="https://doi.org/10.4324/9780203867266">https://doi.org/10.4324/9780203867266</a>.
+</div>
+<div class="csl-entry">
+Nixon, Ashley E., Joseph J. Mazzola, Jeremy Bauer, Jeremy R. Krueger, and Paul E. Spector. 2011. <span>“Can Work Make You Sick? A Meta-Analysis of the Relationships Between Job Stressors and Physical Symptoms.”</span> <em>Work &amp; Stress</em> 25 (1): 1–22. <a href="https://doi.org/10.1080/02678373.2011.569175">https://doi.org/10.1080/02678373.2011.569175</a>.
+</div>
+<div class="csl-entry">
+O’Laughlin, Kristine D., Monica J. Martin, and Emilio Ferrer. 2018. <span>“Cross-Sectional Analysis of Longitudinal Mediation Processes.”</span> <em>Multivariate Behavioral Research</em> 53 (3): 375–402. <a href="https://doi.org/10.1080/00273171.2018.1454822">https://doi.org/10.1080/00273171.2018.1454822</a>.
+</div>
+<div class="csl-entry">
+Orne, Martin T. 1962. <span>“On the Social Psychology of the Psychological Experiment: With Particular Reference to Demand Characteristics and Their Implications.”</span> <em>American Psychologist</em> 17 (11): 776–83. <a href="https://doi.org/10.1037/h0043424">https://doi.org/10.1037/h0043424</a>.
+</div>
+<div class="csl-entry">
+Ployhart, Robert E., and Robert J. Vandenberg. 2010. <span>“Longitudinal Research: The Theory, Design, and Analysis of Change.”</span> <em>Journal of Management</em> 36 (1): 94–120. <a href="https://doi.org/10.1177/0149206309352110">https://doi.org/10.1177/0149206309352110</a>.
+</div>
+<div class="csl-entry">
+Ram, Nilam, Annette Brose, and Peter C. M. Molenaar. 2013. <span>“Dynamic Factor Analysis: Modeling Person-Specific Process.”</span> In <em>The <span>Oxford</span> Handbook of Quantitative Methods in Psychology</em>, edited by Todd D. Little, 2:441–57. Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780199934898.013.0021">https://doi.org/10.1093/oxfordhb/9780199934898.013.0021</a>.
+</div>
+<div class="csl-entry">
+Raudenbush, Stephen W, and Anthony S Bryk. 2002. <em>Hierarchical Linear Models: Applications and Data Analysis Methods</em>. 2nd ed. Vol. 1. SAGE Publications. <a href="https://bit.ly/3FZbOww">https://bit.ly/3FZbOww</a>.
+</div>
+<div class="csl-entry">
+Riketta, Michael. 2008. <span>“The Causal Relation Between Job Attitudes and Performance: A Meta-Analysis of Panel Studies.”</span> <em>Journal of Applied Psychology</em> 93 (2): 472–81. <a href="https://doi.org/10.1037/0021-9010.93.2.472">https://doi.org/10.1037/0021-9010.93.2.472</a>.
+</div>
+<div class="csl-entry">
+Robert, Christian, and George Casella. 2010. <em>Introducing Monte Carlo Methods with r</em>. Springer New York. <a href="https://doi.org/10.1007/978-1-4419-1576-4">https://doi.org/10.1007/978-1-4419-1576-4</a>.
+</div>
+<div class="csl-entry">
+Roe, Robert A. 2014, September 22–26. <span>“The Representation of Time in Psychological Research on Air Pilots and Air Traffic Controllers. <span>In A. Droog (Chair), <em>Aviation Psychology: Facilitating Change(s)</em> [Symposium]</span>.”</span> In <em><em>Proceedings of the 31st EAAP Conference, Valetta, Malta</em></em>.
+</div>
+<div class="csl-entry">
+———. 2008. <span>“Time in Applied Psychology.”</span> <em>European Psychologist</em> 13 (1): 37–52. <a href="https://doi.org/10.1027/1016-9040.13.1.37">https://doi.org/10.1027/1016-9040.13.1.37</a>.
+</div>
+<div class="csl-entry">
+Roe, Robert A., Christine Gockel, and Bertolt Meyer. 2012. <span>“Time and Change in Teams: Where We Are and Where We Are Moving.”</span> <em>European Journal of Work and Organizational Psychology</em> 21 (5): 629–56. <a href="https://doi.org/10.1080/1359432x.2012.729821">https://doi.org/10.1080/1359432x.2012.729821</a>.
+</div>
+<div class="csl-entry">
+Shipp, Abbie J., and Michael S. Cole. 2015. <span>“Time in Individual-Level Organizational Studies: What Is It, How Is It Used, and Why Isn<span>’</span>t It Exploited More Often?”</span> <em>Annual Review of Organizational Psychology and Organizational Behavior</em> 2 (1): 237–60. <a href="https://doi.org/10.1146/annurev-orgpsych-032414-111245">https://doi.org/10.1146/annurev-orgpsych-032414-111245</a>.
+</div>
+<div class="csl-entry">
+Sonnentag, Sabine. 2012. <span>“Time in Organizational Research: Catching up on a Long Neglected Topic in Order to Improve Theory.”</span> <em>Organizational Psychology Review</em> 2 (4): 361–68. <a href="https://doi.org/10.1177/2041386612442079">https://doi.org/10.1177/2041386612442079</a>.
+</div>
+<div class="csl-entry">
+Stanley, David J., and Jeffrey R. Spence. 2014. <span>“Expectations for Eeplications.”</span> <em>Perspectives on Psychological Science</em> 9 (3): 305–18. <a href="https://doi.org/10.1177/1745691614528518">https://doi.org/10.1177/1745691614528518</a>.
+</div>
+<div class="csl-entry">
+Steel, Robert P., William H. Hendrix, and Steven P. Balogh. 1990. <span>“Confounding Effects of the Turnover Base Rate on Relations Between Time Lag and Turnover Study Outcomes: An Extension of Meta-Analysis Findings and Conclusions.”</span> <em>Journal of Organizational Behavior</em> 11 (3): 237–42. <a href="https://doi.org/10.1002/job.4030110306">https://doi.org/10.1002/job.4030110306</a>.
+</div>
+<div class="csl-entry">
+Steel, Robert P., and Nestor K. Ovalle. 1984. <span>“A Review and Meta-Analysis of Research on the Relationship Between Behavioral Intentions and Employee Turnover.”</span> <em>Journal of Applied Psychology</em> 69 (4): 673–86. <a href="https://doi.org/10.1037/0021-9010.69.4.673">https://doi.org/10.1037/0021-9010.69.4.673</a>.
+</div>
+<div class="csl-entry">
+Stockdale, Gary D. 2007. <span>“Factors Affecting Goodness of Fit of the Quasi-Simplex, Linear Growth Curve, and Latent Difference Score Models to Oppositive Data Structures: A Simulation Study.”</span> Doctoral dissertation, {University of California}, <span>ProQuest Dissertations and Theses Global.</span> <a href="https://bit.ly/3CBSzIH">https://bit.ly/3CBSzIH</a>.
+</div>
+<div class="csl-entry">
+Tiberio, Stacey S. 2008. <span>“The Effects of Misspecified Measurement Intervals in Multivariate Latent Differential Equation Models.”</span> Doctoral dissertation, {University of Notre Dame}, <span>ProQuest Dissertations and Theses Global.</span> <a href="https://bit.ly/3Z3EjSe">https://bit.ly/3Z3EjSe</a>.
+</div>
+<div class="csl-entry">
+Timmons, A. C., and K. J. Preacher. 2015. <span>“The Importance of Temporal Design: How Do Measurement Intervals Affect the Accuracy and Efficiency of Parameter Estimates in Longitudinal Research?”</span> <em>Multivariate Behavioral Research</em> 50 (1): 41–55. <a href="https://doi.org/10.1080/00273171.2014.961056">https://doi.org/10.1080/00273171.2014.961056</a>.
+</div>
+<div class="csl-entry">
+Vantilborgh, Tim, Joeri Hofmans, and Timothy A. Judge. 2018. <span>“The Time Has Come to Study Dynamics at Work.”</span> <em>Journal of Organizational Behavior</em> 39 (9): 1045–49. <a href="https://doi.org/10.1002/job.2327">https://doi.org/10.1002/job.2327</a>.
+</div>
+<div class="csl-entry">
+Wang, Lijuan (Peggy), and Scott E. Maxwell. 2015. <span>“On Disaggregating Between-Person and Within-Person Effects with Longitudinal Data Using Multilevel Models.”</span> <em>Psychological Methods</em> 20 (1): 63–83. <a href="https://doi.org/10.1037/met0000030">https://doi.org/10.1037/met0000030</a>.
+</div>
+<div class="csl-entry">
+Whetten, David A. 1989. <span>“What Constitutes a Theoretical Contribution?”</span> <em>Academy of Management Review</em> 14 (4): 490–95. <a href="https://doi.org/10.5465/amr.1989.4308371">https://doi.org/10.5465/amr.1989.4308371</a>.
+</div>
+<div class="csl-entry">
+Xia, Weiguo, Mengbin Ye, Ji Liu, Ming Cao, and Xi-Ming Sun. 2020. <span>“Analysis of a Nonlinear Opinion Dynamics Model with Biased Assimilation.”</span> <em>Automatica</em> 120 (October): 109113. <a href="https://doi.org/10.1016/j.automatica.2020.109113">https://doi.org/10.1016/j.automatica.2020.109113</a>.
+</div>
+<div class="csl-entry">
+Zaheer, Srilata, Stuart Albert, and Akbar Zaheer. 1999. <span>“Time Scales and Organizational Theory.”</span> <em>Academy of Management Review</em> 24 (4): 725–41. <a href="https://doi.org/10.5465/amr.1999.2553250">https://doi.org/10.5465/amr.1999.2553250</a>.
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--
+The bib chunk below must go last in this document according to how R Markdown renders.  More info is at http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+-->
+
+
+\newpage
+\renewcommand\bibname{References}
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+\printbibliography
+
+
 
 ```{r package_loading_app, include=F}
 #load packages
@@ -149,6 +602,7 @@ saveRDS(object = param_summary_exp_3_def, file = 'data/uf_param_summary_exp_3_de
 ```
 
 
+\newpage 
 
 \newpage 
 
@@ -793,16 +1247,16 @@ $$
 for a given parameter and a subscript $p$ indicates a parameter value
 computed for a person. 
 
-With a matrix of logistic function loadings ($\mathbf{\Uplambda}$) and the vector of person-specific deviations ($\mathbf{\upiota_p}$), person-specific deviations can be computed for each basis column of $\mathbf{\Uplambda}$. Specifically, the person-specific basis column deviations can be computed by post-multiplying the matrix of loadings ($\mathbf{\Uplambda}$) by the vector of person-specific deviations ($\mathbf{\upiota_p}$), as shown below in Equation \ref{eq:person-weights}: 
+With a matrix of logistic function loadings ($\mathbf{\Uplambda}$) and the vector of person-specific deviations ($\mathbf{\upiota_p}$), person-specific weights can be computed for each parameter. Specifically, person-specific weights can be computed by post-multiplying the matrix of loadings ($\mathbf{\Uplambda}$) by the vector of person-specific deviations ($\mathbf{\upiota_p}$), as shown below in Equation \ref{eq:person-weights}: 
 
 ```{=tex}
 \begin{align}
- \text{Basis column deviations_p} = \mathbf{\Uplambda\upiota_p}.
+ \text{Person-specific weights} = \mathbf{\Uplambda\upiota_p}.
  (\#eq:person-weights)
 \end{align}
 ```
 
-\noindent Because $\mathbf{\Uplambda\upiota_p}$ only provides the extent to which each person's curve deviates fromthe average curve ($\mathbf{L(\Uptheta, t)}$), it cannot alone be used to compute person-specfic curves. To compute person-specific curves ($\mathbf{y_p}$), the average logistic curve must be added to Equation \ref{eq:person-weights}, as shown below in Equation \ref{eq:slcm-nonsem}:
+\noindent Importantly, to compute person-specific curves ($\mathbf{y_p}$), the average logistic curve must be added to Equation \ref{eq:person-weights}, as shown below in Equation \ref{eq:slcm-nonsem}:
 
 ```{=tex}
 \begin{align}
@@ -2310,3 +2764,80 @@ model_results <- mxTryHard(def_growth_curve_model)
 
 
 
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": [["thesis.pdf", "PDF"], ["thesis.epub", "EPUB"], ["thesis.docx", "Word"]],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

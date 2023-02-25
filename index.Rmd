@@ -18,14 +18,12 @@ header-includes:
 params:
   'Install needed packages for {thesisdown}': True
   
+#University of Guelph formatting is only supported pdf output 
 output:
   thesisdown::thesis_pdf: 
     pandoc_args: ["--biblatex"]
     includes:
      after_body: ['80-references.Rmd', '81-appendix.Rmd']
-#  thesisdown::thesis_gitbook: default         
-#  thesisdown::thesis_word: default
-#  thesisdown::thesis_epub: default
 
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
@@ -39,8 +37,6 @@ acknowledgements: |
  [To  be completed after defence]
 dedication: |
   [To  be completed after defence]
-#  
-#   You can have a dedication here if you wish. You can have a dedication here if you wish.You can have a #dedication here if you wish.You can have a dedication here if you wish.You can have a dedication here if you #wish.You ca
 preface: |
   This is an example of a thesis setup to use the åreed thesis document class 
   (for LaTeX) and the R bookdown package, in general.
@@ -67,6 +63,8 @@ linkcolor: blue #color of all hyperlinks; set to black for print
 print: false #creates print version of thesis with blank pages in preamble
 print_refs: false #prints references (useful when drafting); use in conjunction with knit_exit() to stop rendering at any point 
 ---
+
+
 
 <!--
 Above is the YAML (YAML Ain't Markup Language) header that includes a lot of 
@@ -200,7 +198,8 @@ saveRDS(object = param_summary_exp_3, file = 'data/uf_param_summary_exp_3.RData'
 
 
 
-# Introduction
+# Introduction 
+
 
 \begin{quote}
     ``Neither the behavior of human beings nor the activities of organizations can be defined without reference to time, and temporal aspects are critical for understanding them" \parencite[][p. 136]{navarro2015}.

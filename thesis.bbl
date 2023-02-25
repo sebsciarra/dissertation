@@ -1,0 +1,2855 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{adolf2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f72491d0513ddf7ffcd390355836da8}{%
+           family={Adolf},
+           familyi={A\bibinitperiod},
+           given={Janne\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880a3f41ee6c5bd05a50395c89485cdb}{%
+           family={Fried},
+           familyi={F\bibinitperiod},
+           given={Eiko\bibnamedelima I.},
+           giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{fullhash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{bibnamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authorbibnamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authornamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authorfullhash}{0f5af411a2f074a8836eee5098e283e4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{14}
+      \field{title}{Ergodicity is sufficient but not necessary for group-to-individual generalizability}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{6540\bibrangedash 6541}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.1818675116
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1818675116
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1818675116
+      \endverb
+    \endentry
+    \entry{birkhoff1931}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4c0ea374f31f95d419f731f01ce8013}{%
+           family={Birkhoff},
+           familyi={B\bibinitperiod},
+           given={George\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{fullhash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{bibnamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authorbibnamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authornamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authorfullhash}{e4c0ea374f31f95d419f731f01ce8013}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Proof of the ergodic theorem}
+      \field{volume}{17}
+      \field{year}{1931}
+      \field{dateera}{ce}
+      \field{pages}{656\bibrangedash 660}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.17.2.656
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.17.2.656
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.17.2.656
+      \endverb
+    \endentry
+    \entry{blozis2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a065044169d5e50f1a8aa78b90c6d18}{%
+           family={Blozis},
+           familyi={B\bibinitperiod},
+           given={Shelley\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{fullhash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{bibnamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authorbibnamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authornamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authorfullhash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Structured latent curve models for the study of change in multivariate repeated measures}
+      \field{volume}{9}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{334\bibrangedash 353}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1037/1082-989x.9.3.334
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/1082-989X.9.3.334
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/1082-989X.9.3.334
+      \endverb
+    \endentry
+    \entry{boker2020}{book}{}
+      \name{author}{18}{}{%
+        {{un=0,uniquepart=base,hash=139121b9346021d58300eba22bc2b9fc}{%
+           family={Boker},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261a6031ed3367419c6dee66c5a213e0}{%
+           family={Neale},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b91c30db732eae0e42d33729f5a46da1}{%
+           family={Maes},
+           familyi={M\bibinitperiod},
+           given={Hermine\bibnamedelima H},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994ead3e1588933873aec550767960ee}{%
+           family={Wilde},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=428f18da0a7c16bfa1e7700aaaa1f196}{%
+           family={Spiegel},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30fded45883355b7ee80bab6716320ce}{%
+           family={Brick},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=253fd14cef24c1c16efc10762371a0c2}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Ryne},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1a6287b5e29994ce4516c90df9dc7e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07dd1ffac67d12356f1f34e5e54be7ef}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Paras},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7c64594b325752e673e4c65a0f5c94}{%
+           family={Oertzen},
+           familyi={O\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=840f29d057efd756d7c5a744dd6ff5a0}{%
+           family={Gore},
+           familyi={G\bibinitperiod},
+           given={Ross\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30eefeb08c65e2181e0a271d11cef2eb}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20f8bd2830b190b19a90782fb271882d}{%
+           family={Hackett},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a3bf317d765d0687dfee2bea70c7b48}{%
+           family={Karch},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1a0d7e0c1052182fb3146dfabb3c48f}{%
+           family={Brandmaier},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e1787f472d9f93715da9cb1f31cde17}{%
+           family={Pritikin},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ccdea00ce3f25c1fde1f665ffdf89c9}{%
+           family={Zahery},
+           familyi={Z\bibinitperiod},
+           given={Mahsa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=869ecb68300882b9d0f8593b1160048d}{%
+           family={Kirkpatrick},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc6360074e4ba0420622421785bf077c}
+      \strng{fullhash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{bibnamehash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{authorbibnamehash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{authornamehash}{bc6360074e4ba0420622421785bf077c}
+      \strng{authorfullhash}{afcb5cff3614f67299d291917da0fedf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{OpenMx user guide release 2.18.1}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{browne1993}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9bace3379a87e19858150c82d36c55b}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=73071b2b9e97f208db60b84c1e0ccedb}{%
+           family={Cuadras},
+           familyi={C\bibinitperiod},
+           given={C\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=39dda987a0591861e5610b18c4d52299}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{fullhash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{bibnamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authorbibnamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authornamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authorfullhash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{editorbibnamehash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \strng{editornamehash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \strng{editorfullhash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Multivariate analysis: Future directions 2}
+      \field{edition}{1}
+      \field{title}{Structured latent curve models}
+      \field{year}{1993}
+      \field{pages}{171\bibrangedash 197}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/B978-0-444-81531-6.50016-7
+      \endverb
+    \endentry
+    \entry{browne1991}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b9bace3379a87e19858150c82d36c55b}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea772dd679dbb00a551be312ce4786d6}{%
+           family={Toit},
+           familyi={T\bibinitperiod},
+           given={S\bibnamedelima H\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={du},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7c4f9508ff24924df9fc27bfa56779cb}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f2f512f41c4b5a6d5dad5dbac6025e96}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{fullhash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{bibnamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authorbibnamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authornamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authorfullhash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{editorbibnamehash}{45bb26ab20995415682f24a503b8fab8}
+      \strng{editornamehash}{45bb26ab20995415682f24a503b8fab8}
+      \strng{editorfullhash}{45bb26ab20995415682f24a503b8fab8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Best methods for the analysis of change: Recent advances, unanswered questions, future directions}
+      \field{title}{Models for learning data}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{47\bibrangedash 68}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1037/10099-004
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/10099-004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/10099-004
+      \endverb
+    \endentry
+    \entry{choe2005}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f8418e9738eb3a910f561f19a5d2702f}{%
+           family={Choe},
+           familyi={C\bibinitperiod},
+           given={Choe\bibnamedelima Ho},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{fullhash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{bibnamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authorbibnamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authornamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authorfullhash}{f8418e9738eb3a910f561f19a5d2702f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computational ergodic theory}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1007/b138894
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/b138894
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/b138894
+      \endverb
+    \endentry
+    \entry{curran2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fd47a49d7d6ea0302183a00c41201dff}{%
+           family={Curran},
+           familyi={C\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1512a22d91fa32008ed17a8ba4463f7a}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{fullhash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{bibnamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authorbibnamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authornamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authorfullhash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The disaggregation of within-person and between-person effects in longitudinal models of change}
+      \field{volume}{62}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{583\bibrangedash 619}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1146/annurev.psych.093008.100356
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1146/annurev.psych.093008.100356
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1146/annurev.psych.093008.100356
+      \endverb
+    \endentry
+    \entry{day2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c72df9478c8d3aa0bc5868a5258db129}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f57209c83e8b5f275ec609bcdb4381e}{%
+           family={Sin},
+           familyi={S\bibinitperiod},
+           given={Hock-Peng},
+           giveni={H\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{fullhash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{bibnamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authorbibnamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authornamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authorfullhash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Leadership Quarterly}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Longitudinal tests of an integrative model of leader development: Charting and understanding developmental trajectories}
+      \field{volume}{22}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{545\bibrangedash 560}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.leaqua.2011.04.011
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.leaqua.2011.04.011
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.leaqua.2011.04.011
+      \endverb
+    \endentry
+    \entry{fisher2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dae018c1ba2128b0404870789bec5e43}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37c1d0af7a9bbc09488dbbbd18d55b76}{%
+           family={Medaglia},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6eaa64643c0000b7be895bb565e80b}{%
+           family={Jeronimus},
+           familyi={J\bibinitperiod},
+           given={Bertus\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b3d549ad16880e5a931f8c76a8813b9}
+      \strng{fullhash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{bibnamehash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{authorbibnamehash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{authornamehash}{3b3d549ad16880e5a931f8c76a8813b9}
+      \strng{authorfullhash}{1735d27d53e87356a7519e67fd96bda4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{27}
+      \field{title}{Lack of group-to-individual generalizability is a threat to human subjects research}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1073/pnas.1711978115
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1711978115
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1711978115
+      \endverb
+    \endentry
+    \entry{hamaker2012}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf3ebddfd095dbb39dac14e644fbb58c}{%
+           family={Hamaker},
+           familyi={H\bibinitperiod},
+           given={Ellen\bibnamedelima L},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2d00339c1b1b6eb0d10e3122cb7e25e5}{%
+           family={Mehl},
+           familyi={M\bibinitperiod},
+           given={Matthias\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=72473d44643193694274d1fe500e15ce}{%
+           family={Conner},
+           familyi={C\bibinitperiod},
+           given={Tamlin\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Guilford Press}%
+      }
+      \strng{namehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{fullhash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{bibnamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authorbibnamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authornamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authorfullhash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{editorbibnamehash}{436213d4a0e7c042b6e3984b5cb34588}
+      \strng{editornamehash}{436213d4a0e7c042b6e3984b5cb34588}
+      \strng{editorfullhash}{436213d4a0e7c042b6e3984b5cb34588}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of studying research methods for daily life}
+      \field{title}{Why researchers should think ``within-person": A paradigmatic rationale}
+      \field{year}{2012}
+      \field{pages}{43\bibrangedash 61}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://bit.ly/3jxfq14
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/3jxfq14
+      \endverb
+    \endentry
+    \entry{igic2017}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e98c73fce76bc663286c1af46aabf75f}{%
+           family={Igic},
+           familyi={I\bibinitperiod},
+           given={Ivana},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3bdadd829f0944b8f195c84431de25}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Anita\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=186c757dc9a2ee8ab2265596e90e3d83}{%
+           family={Elfering},
+           familyi={E\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db7b59aa28a2de216589f54c83dc2748}{%
+           family={Tschan},
+           familyi={T\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d3dea015cb995ba0858fd63ec570957}{%
+           family={{Kälin}},
+           familyi={K\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94060fe92f393fa2033d3c073939c043}{%
+           family={Semmer},
+           familyi={S\bibinitperiod},
+           given={Norbert\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{383c406ceca58978dd1e1faac815fe52}
+      \strng{fullhash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{bibnamehash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{authorbibnamehash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{authornamehash}{383c406ceca58978dd1e1faac815fe52}
+      \strng{authorfullhash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Psychology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Ten-year trajectories of stressors and resources at work: Cumulative and chronic effects on health and well-being.}
+      \field{volume}{102}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{1317\bibrangedash 1343}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1037/apl0000225
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/apl0000225
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/apl0000225
+      \endverb
+    \endentry
+    \entry{kraft1994}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b8969ea21b1ab928b992d82a573d33e}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{fullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{bibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorbibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authornamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorfullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Mathematical Software}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Algorithm 733: TOMP{–}Fortran modules for optimal control calculations}
+      \field{volume}{20}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{262\bibrangedash 281}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1145/192115.192124
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/192115.192124
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/192115.192124
+      \endverb
+    \endentry
+    \entry{magee2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8b7d0b25904b877682682fd14e2e41e4}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=456d6daa8414b28bbfec1b3ba96300b2}{%
+           family={Caputi},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=511a51ccf00b12ca389fdceecf571721}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeong\bibnamedelima Kyu},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dcd93d9344496b96884c658f6e63fe1c}
+      \strng{fullhash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{bibnamehash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{authorbibnamehash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{authornamehash}{dcd93d9344496b96884c658f6e63fe1c}
+      \strng{authorfullhash}{f33ef1005af74de12728f6c4ccb0489b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Occupational Health Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Distinct longitudinal patterns of absenteeism and their antecedents in full-time Australian employees.}
+      \field{volume}{21}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{24\bibrangedash 36}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/a0039138
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/a0039138
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/a0039138
+      \endverb
+    \endentry
+    \entry{medaglia2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=37c1d0af7a9bbc09488dbbbd18d55b76}{%
+           family={Medaglia},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6eaa64643c0000b7be895bb565e80b}{%
+           family={Jeronimus},
+           familyi={J\bibinitperiod},
+           given={Bertus\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dae018c1ba2128b0404870789bec5e43}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c6d6b1950c107712f0025296e4d59f6}
+      \strng{fullhash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{bibnamehash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{authorbibnamehash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{authornamehash}{9c6d6b1950c107712f0025296e4d59f6}
+      \strng{authorfullhash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{14}
+      \field{title}{Reply to Adolf and Fried: Conditional equivalence and imperatives for person-level science}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{6542\bibrangedash 6543}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.1820221116
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1820221116
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1820221116
+      \endverb
+    \endentry
+    \entry{meredith1990}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d7f64966c87722577b705c50276c236}{%
+           family={Meredith},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6de918502028bae996fc3f3a1042d3a}{%
+           family={Tisak},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{fullhash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{bibnamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authorbibnamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authornamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authorfullhash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Latent curve analysis}
+      \field{volume}{55}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{107\bibrangedash 122}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/bf02294746
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF02294746
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02294746
+      \endverb
+    \endentry
+    \entry{miraglia2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9b0c1dfcb871e90b9c0fff8c8b07cf8f}{%
+           family={Miraglia},
+           familyi={M\bibinitperiod},
+           given={Mariella},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa4d1200445ec04d79e766d22cb266fb}{%
+           family={Alessandri},
+           familyi={A\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b326c9cf06e18e459b50794494d1f007}{%
+           family={Borgogni},
+           familyi={B\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20b98258c4f48abf936dba609a89c385}
+      \strng{fullhash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{bibnamehash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{authorbibnamehash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{authornamehash}{20b98258c4f48abf936dba609a89c385}
+      \strng{authorfullhash}{3779903ddd07e0c222eb57e077ed552f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Career Development International}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Trajectory classes of job performance}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{424\bibrangedash 442}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1108/cdi-03-2015-0032
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1108/CDI-03-2015-0032
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1108/CDI-03-2015-0032
+      \endverb
+    \endentry
+    \entry{molenaar2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6bba10d193d08839f512610377394be4}
+      \strng{fullhash}{6bba10d193d08839f512610377394be4}
+      \strng{bibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorbibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authornamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorfullhash}{6bba10d193d08839f512610377394be4}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Measurement: Interdisciplinary Research {\&} Perspective}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{A manifesto on psychology as idiographic science: Bringing the person back into scientific psychology, this time forever}
+      \field{volume}{2}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{201\bibrangedash 218}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1207/s15366359mea0204_1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1207/s15366359mea0204_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1207/s15366359mea0204_1
+      \endverb
+    \endentry
+    \entry{molenaar2008}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{6bba10d193d08839f512610377394be4}
+      \strng{fullhash}{6bba10d193d08839f512610377394be4}
+      \strng{bibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorbibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authornamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorfullhash}{6bba10d193d08839f512610377394be4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consequences of the ergodic theorems for classical test theory, factor analysis, and the analysis of developmental processes}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{90\bibrangedash 104}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.4135/9781412976589.n5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4135/9781412976589.n5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4135/9781412976589.n5
+      \endverb
+    \endentry
+    \entry{molenaar2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima C.M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=72d9e949c388a97c3fb2ea3aab94e0e9}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Cynthia\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{fullhash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{bibnamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authorbibnamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authornamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authorfullhash}{df8a95a640de06adf05a9e870b3181ec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Directions in Psychological Science}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{The new person-specific paradigm in psychology}
+      \field{volume}{18}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{112\bibrangedash 117}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/j.1467-8721.2009.01619.x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1111/j.1467-8721.2009.01619.x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1111/j.1467-8721.2009.01619.x
+      \endverb
+    \endentry
+    \entry{petersen1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=750e96b59e4025d6b958e86377fc3c94}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{fullhash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{bibnamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authorbibnamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authornamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authorfullhash}{750e96b59e4025d6b958e86377fc3c94}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{5}
+      \field{title}{Ergodic theory}
+      \field{year}{1983}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/cbo9780511608728
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1017/CBO9780511608728
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1017/CBO9780511608728
+      \endverb
+    \endentry
+    \entry{preacher2008}{book}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=7a3a3adbdd1118e41b411ddcde30be1f}{%
+           family={Preacher},
+           familyi={P\bibinitperiod},
+           given={Kristopher},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b86c6e2d0aad227863972bd2136d9df0}{%
+           family={Wichman},
+           familyi={W\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb7a20134f6e8abefde1fbbd85632317}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d826ab12e23f4615d0f9246337c358b3}{%
+           family={Briggs},
+           familyi={B\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{127255f6b88aa630b0035581816c66de}
+      \strng{fullhash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{bibnamehash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{authorbibnamehash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{authornamehash}{127255f6b88aa630b0035581816c66de}
+      \strng{authorfullhash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latent growth curve modeling}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4135/9781412984737
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4135/9781412984737
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4135/9781412984737
+      \endverb
+    \endentry
+    \entry{preacher2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=4797d532d0fd49202d0b66508610b0ff}{%
+           family={Preacher},
+           familyi={P\bibinitperiod},
+           given={Kristopher\bibnamedelima J},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=81e7485b2a44f35f3715b22b94df851c}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{fullhash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{bibnamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authorbibnamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authornamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authorfullhash}{6bb989b8c09c4087cc67c742eccc330f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Meaningful aspects of change as novel random coefficients: A general method for reparameterizing longitudinal models}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{84\bibrangedash 101}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/met0000028
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/met0000028
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/met0000028
+      \endverb
+    \endentry
+    \entry{shapiro1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=79b4f8b2eec1f0cce98adc8a524fc774}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e08ebdfc7ca2904ab3b91debce95795}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{fullhash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{bibnamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authorbibnamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authornamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authorfullhash}{5f94da689faf67225f8e6f5c0ece190d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{400}
+      \field{title}{Analysis of covariance structures under elliptical distributions}
+      \field{volume}{82}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{pages}{1092\bibrangedash 1097}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/01621459.1987.10478544
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/01621459.1987.10478544
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/01621459.1987.10478544
+      \endverb
+    \endentry
+    \entry{spector2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c2e90ee46a567003a8273044afe1594}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{fullhash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{bibnamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authorbibnamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authornamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authorfullhash}{3c2e90ee46a567003a8273044afe1594}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{journaltitle}{Journal of Business and Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Do not cross me: Optimizing the use of cross-sectional designs}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{125\bibrangedash 137}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10869-018-09613-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10869-018-09613-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10869-018-09613-8
+      \endverb
+    \endentry
+    \entry{voelkle2014}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=614f045f1d8a1c475613d619d6e20262}{%
+           family={Voelkle},
+           familyi={V\bibinitperiod},
+           given={Manuel\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dc2cf324f95003937d6f793b453aa8a}{%
+           family={Brose},
+           familyi={B\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e72066ab844b7ba53e078528d308f09}{%
+           family={Schmiedek},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dd1dcc34fe50175ab15dcedf2db02e5}{%
+           family={Lindenberger},
+           familyi={L\bibinitperiod},
+           given={Ulman},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5e375a41f2efca46a8624740cd8738a}
+      \strng{fullhash}{b649044ddf9ee88f7562010888760098}
+      \strng{bibnamehash}{b649044ddf9ee88f7562010888760098}
+      \strng{authorbibnamehash}{b649044ddf9ee88f7562010888760098}
+      \strng{authornamehash}{c5e375a41f2efca46a8624740cd8738a}
+      \strng{authorfullhash}{b649044ddf9ee88f7562010888760098}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Toward a unified framework for the study of between-person and within-person structures: Building a bridge between two research paradigms}
+      \field{volume}{49}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{193\bibrangedash 213}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/00273171.2014.889593
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/00273171.2014.889593
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/00273171.2014.889593
+      \endverb
+    \endentry
+    \entry{wang2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9556978b76b7d938de998e5a1430086f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={{Lijuan (Peggy)}},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e233e683a70cacac467f036976e74a35}{%
+           family={Maxwell},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{fullhash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{bibnamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authorbibnamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authornamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authorfullhash}{73c83d4e78019c4678aabfea5256d630}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{On disaggregating between-person and within-person effects with longitudinal data using multilevel models.}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{63\bibrangedash 83}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/met0000030
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/met0000030
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/met0000030
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{adolf2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f72491d0513ddf7ffcd390355836da8}{%
+           family={Adolf},
+           familyi={A\bibinitperiod},
+           given={Janne\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880a3f41ee6c5bd05a50395c89485cdb}{%
+           family={Fried},
+           familyi={F\bibinitperiod},
+           given={Eiko\bibnamedelima I.},
+           giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{fullhash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{bibnamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authorbibnamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authornamehash}{0f5af411a2f074a8836eee5098e283e4}
+      \strng{authorfullhash}{0f5af411a2f074a8836eee5098e283e4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{14}
+      \field{title}{Ergodicity is sufficient but not necessary for group-to-individual generalizability}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{6540\bibrangedash 6541}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.1818675116
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1818675116
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1818675116
+      \endverb
+    \endentry
+    \entry{birkhoff1931}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4c0ea374f31f95d419f731f01ce8013}{%
+           family={Birkhoff},
+           familyi={B\bibinitperiod},
+           given={George\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{fullhash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{bibnamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authorbibnamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authornamehash}{e4c0ea374f31f95d419f731f01ce8013}
+      \strng{authorfullhash}{e4c0ea374f31f95d419f731f01ce8013}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Proof of the ergodic theorem}
+      \field{volume}{17}
+      \field{year}{1931}
+      \field{dateera}{ce}
+      \field{pages}{656\bibrangedash 660}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.17.2.656
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.17.2.656
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.17.2.656
+      \endverb
+    \endentry
+    \entry{blozis2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a065044169d5e50f1a8aa78b90c6d18}{%
+           family={Blozis},
+           familyi={B\bibinitperiod},
+           given={Shelley\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{fullhash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{bibnamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authorbibnamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authornamehash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \strng{authorfullhash}{2a065044169d5e50f1a8aa78b90c6d18}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Structured latent curve models for the study of change in multivariate repeated measures}
+      \field{volume}{9}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{334\bibrangedash 353}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1037/1082-989x.9.3.334
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/1082-989X.9.3.334
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/1082-989X.9.3.334
+      \endverb
+    \endentry
+    \entry{boker2020}{book}{}
+      \name{author}{18}{}{%
+        {{un=0,uniquepart=base,hash=139121b9346021d58300eba22bc2b9fc}{%
+           family={Boker},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261a6031ed3367419c6dee66c5a213e0}{%
+           family={Neale},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b91c30db732eae0e42d33729f5a46da1}{%
+           family={Maes},
+           familyi={M\bibinitperiod},
+           given={Hermine\bibnamedelima H},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994ead3e1588933873aec550767960ee}{%
+           family={Wilde},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=428f18da0a7c16bfa1e7700aaaa1f196}{%
+           family={Spiegel},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30fded45883355b7ee80bab6716320ce}{%
+           family={Brick},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=253fd14cef24c1c16efc10762371a0c2}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Ryne},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1a6287b5e29994ce4516c90df9dc7e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07dd1ffac67d12356f1f34e5e54be7ef}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Paras},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7c64594b325752e673e4c65a0f5c94}{%
+           family={Oertzen},
+           familyi={O\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=840f29d057efd756d7c5a744dd6ff5a0}{%
+           family={Gore},
+           familyi={G\bibinitperiod},
+           given={Ross\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30eefeb08c65e2181e0a271d11cef2eb}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20f8bd2830b190b19a90782fb271882d}{%
+           family={Hackett},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a3bf317d765d0687dfee2bea70c7b48}{%
+           family={Karch},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1a0d7e0c1052182fb3146dfabb3c48f}{%
+           family={Brandmaier},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e1787f472d9f93715da9cb1f31cde17}{%
+           family={Pritikin},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ccdea00ce3f25c1fde1f665ffdf89c9}{%
+           family={Zahery},
+           familyi={Z\bibinitperiod},
+           given={Mahsa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=869ecb68300882b9d0f8593b1160048d}{%
+           family={Kirkpatrick},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc6360074e4ba0420622421785bf077c}
+      \strng{fullhash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{bibnamehash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{authorbibnamehash}{afcb5cff3614f67299d291917da0fedf}
+      \strng{authornamehash}{bc6360074e4ba0420622421785bf077c}
+      \strng{authorfullhash}{afcb5cff3614f67299d291917da0fedf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{OpenMx user guide release 2.18.1}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{browne1993}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9bace3379a87e19858150c82d36c55b}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=73071b2b9e97f208db60b84c1e0ccedb}{%
+           family={Cuadras},
+           familyi={C\bibinitperiod},
+           given={C\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=39dda987a0591861e5610b18c4d52299}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{fullhash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{bibnamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authorbibnamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authornamehash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{authorfullhash}{b9bace3379a87e19858150c82d36c55b}
+      \strng{editorbibnamehash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \strng{editornamehash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \strng{editorfullhash}{48f7e6cca85ef11d08fd6f1ea30bc5fa}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Multivariate analysis: Future directions 2}
+      \field{edition}{1}
+      \field{title}{Structured latent curve models}
+      \field{year}{1993}
+      \field{pages}{171\bibrangedash 197}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/B978-0-444-81531-6.50016-7
+      \endverb
+    \endentry
+    \entry{browne1991}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b9bace3379a87e19858150c82d36c55b}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea772dd679dbb00a551be312ce4786d6}{%
+           family={Toit},
+           familyi={T\bibinitperiod},
+           given={S\bibnamedelima H\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={du},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7c4f9508ff24924df9fc27bfa56779cb}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f2f512f41c4b5a6d5dad5dbac6025e96}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{fullhash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{bibnamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authorbibnamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authornamehash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{authorfullhash}{a7fd7a3ed1b9f2fa82c6dd080f08ea5f}
+      \strng{editorbibnamehash}{45bb26ab20995415682f24a503b8fab8}
+      \strng{editornamehash}{45bb26ab20995415682f24a503b8fab8}
+      \strng{editorfullhash}{45bb26ab20995415682f24a503b8fab8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Best methods for the analysis of change: Recent advances, unanswered questions, future directions}
+      \field{title}{Models for learning data}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{47\bibrangedash 68}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1037/10099-004
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/10099-004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/10099-004
+      \endverb
+    \endentry
+    \entry{choe2005}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f8418e9738eb3a910f561f19a5d2702f}{%
+           family={Choe},
+           familyi={C\bibinitperiod},
+           given={Choe\bibnamedelima Ho},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{fullhash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{bibnamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authorbibnamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authornamehash}{f8418e9738eb3a910f561f19a5d2702f}
+      \strng{authorfullhash}{f8418e9738eb3a910f561f19a5d2702f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computational ergodic theory}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1007/b138894
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/b138894
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/b138894
+      \endverb
+    \endentry
+    \entry{curran2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fd47a49d7d6ea0302183a00c41201dff}{%
+           family={Curran},
+           familyi={C\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1512a22d91fa32008ed17a8ba4463f7a}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{fullhash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{bibnamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authorbibnamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authornamehash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \strng{authorfullhash}{261d3e39d6910b00cd8dd24b39ed9636}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The disaggregation of within-person and between-person effects in longitudinal models of change}
+      \field{volume}{62}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{583\bibrangedash 619}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1146/annurev.psych.093008.100356
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1146/annurev.psych.093008.100356
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1146/annurev.psych.093008.100356
+      \endverb
+    \endentry
+    \entry{day2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c72df9478c8d3aa0bc5868a5258db129}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f57209c83e8b5f275ec609bcdb4381e}{%
+           family={Sin},
+           familyi={S\bibinitperiod},
+           given={Hock-Peng},
+           giveni={H\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{fullhash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{bibnamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authorbibnamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authornamehash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \strng{authorfullhash}{8a14a1656b5bf9d5e05e525fdd9519e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Leadership Quarterly}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Longitudinal tests of an integrative model of leader development: Charting and understanding developmental trajectories}
+      \field{volume}{22}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{545\bibrangedash 560}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.leaqua.2011.04.011
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.leaqua.2011.04.011
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.leaqua.2011.04.011
+      \endverb
+    \endentry
+    \entry{fisher2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dae018c1ba2128b0404870789bec5e43}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37c1d0af7a9bbc09488dbbbd18d55b76}{%
+           family={Medaglia},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6eaa64643c0000b7be895bb565e80b}{%
+           family={Jeronimus},
+           familyi={J\bibinitperiod},
+           given={Bertus\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b3d549ad16880e5a931f8c76a8813b9}
+      \strng{fullhash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{bibnamehash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{authorbibnamehash}{1735d27d53e87356a7519e67fd96bda4}
+      \strng{authornamehash}{3b3d549ad16880e5a931f8c76a8813b9}
+      \strng{authorfullhash}{1735d27d53e87356a7519e67fd96bda4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{27}
+      \field{title}{Lack of group-to-individual generalizability is a threat to human subjects research}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1073/pnas.1711978115
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1711978115
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1711978115
+      \endverb
+    \endentry
+    \entry{hamaker2012}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf3ebddfd095dbb39dac14e644fbb58c}{%
+           family={Hamaker},
+           familyi={H\bibinitperiod},
+           given={Ellen\bibnamedelima L},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2d00339c1b1b6eb0d10e3122cb7e25e5}{%
+           family={Mehl},
+           familyi={M\bibinitperiod},
+           given={Matthias\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=72473d44643193694274d1fe500e15ce}{%
+           family={Conner},
+           familyi={C\bibinitperiod},
+           given={Tamlin\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Guilford Press}%
+      }
+      \strng{namehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{fullhash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{bibnamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authorbibnamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authornamehash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{authorfullhash}{bf3ebddfd095dbb39dac14e644fbb58c}
+      \strng{editorbibnamehash}{436213d4a0e7c042b6e3984b5cb34588}
+      \strng{editornamehash}{436213d4a0e7c042b6e3984b5cb34588}
+      \strng{editorfullhash}{436213d4a0e7c042b6e3984b5cb34588}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of studying research methods for daily life}
+      \field{title}{Why researchers should think ``within-person": A paradigmatic rationale}
+      \field{year}{2012}
+      \field{pages}{43\bibrangedash 61}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://bit.ly/3jxfq14
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/3jxfq14
+      \endverb
+    \endentry
+    \entry{igic2017}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e98c73fce76bc663286c1af46aabf75f}{%
+           family={Igic},
+           familyi={I\bibinitperiod},
+           given={Ivana},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3bdadd829f0944b8f195c84431de25}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Anita\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=186c757dc9a2ee8ab2265596e90e3d83}{%
+           family={Elfering},
+           familyi={E\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db7b59aa28a2de216589f54c83dc2748}{%
+           family={Tschan},
+           familyi={T\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d3dea015cb995ba0858fd63ec570957}{%
+           family={{Kälin}},
+           familyi={K\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94060fe92f393fa2033d3c073939c043}{%
+           family={Semmer},
+           familyi={S\bibinitperiod},
+           given={Norbert\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{383c406ceca58978dd1e1faac815fe52}
+      \strng{fullhash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{bibnamehash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{authorbibnamehash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \strng{authornamehash}{383c406ceca58978dd1e1faac815fe52}
+      \strng{authorfullhash}{d4343edfc616786aae1b17dd3cd6eceb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Psychology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Ten-year trajectories of stressors and resources at work: Cumulative and chronic effects on health and well-being.}
+      \field{volume}{102}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{1317\bibrangedash 1343}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1037/apl0000225
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/apl0000225
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/apl0000225
+      \endverb
+    \endentry
+    \entry{kraft1994}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b8969ea21b1ab928b992d82a573d33e}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{fullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{bibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorbibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authornamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorfullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Mathematical Software}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Algorithm 733: TOMP{–}Fortran modules for optimal control calculations}
+      \field{volume}{20}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{262\bibrangedash 281}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1145/192115.192124
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/192115.192124
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/192115.192124
+      \endverb
+    \endentry
+    \entry{magee2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8b7d0b25904b877682682fd14e2e41e4}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=456d6daa8414b28bbfec1b3ba96300b2}{%
+           family={Caputi},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=511a51ccf00b12ca389fdceecf571721}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeong\bibnamedelima Kyu},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dcd93d9344496b96884c658f6e63fe1c}
+      \strng{fullhash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{bibnamehash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{authorbibnamehash}{f33ef1005af74de12728f6c4ccb0489b}
+      \strng{authornamehash}{dcd93d9344496b96884c658f6e63fe1c}
+      \strng{authorfullhash}{f33ef1005af74de12728f6c4ccb0489b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Occupational Health Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Distinct longitudinal patterns of absenteeism and their antecedents in full-time Australian employees.}
+      \field{volume}{21}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{24\bibrangedash 36}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/a0039138
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/a0039138
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/a0039138
+      \endverb
+    \endentry
+    \entry{medaglia2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=37c1d0af7a9bbc09488dbbbd18d55b76}{%
+           family={Medaglia},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6eaa64643c0000b7be895bb565e80b}{%
+           family={Jeronimus},
+           familyi={J\bibinitperiod},
+           given={Bertus\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dae018c1ba2128b0404870789bec5e43}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c6d6b1950c107712f0025296e4d59f6}
+      \strng{fullhash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{bibnamehash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{authorbibnamehash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \strng{authornamehash}{9c6d6b1950c107712f0025296e4d59f6}
+      \strng{authorfullhash}{d08bfe2555c7da85cf92ab6b24322a80}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{14}
+      \field{title}{Reply to Adolf and Fried: Conditional equivalence and imperatives for person-level science}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{6542\bibrangedash 6543}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.1820221116
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1073/pnas.1820221116
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1073/pnas.1820221116
+      \endverb
+    \endentry
+    \entry{meredith1990}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d7f64966c87722577b705c50276c236}{%
+           family={Meredith},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6de918502028bae996fc3f3a1042d3a}{%
+           family={Tisak},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{fullhash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{bibnamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authorbibnamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authornamehash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \strng{authorfullhash}{ac267d5a61804ccef6bac06a3ae738e4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Latent curve analysis}
+      \field{volume}{55}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{107\bibrangedash 122}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/bf02294746
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF02294746
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02294746
+      \endverb
+    \endentry
+    \entry{miraglia2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9b0c1dfcb871e90b9c0fff8c8b07cf8f}{%
+           family={Miraglia},
+           familyi={M\bibinitperiod},
+           given={Mariella},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa4d1200445ec04d79e766d22cb266fb}{%
+           family={Alessandri},
+           familyi={A\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b326c9cf06e18e459b50794494d1f007}{%
+           family={Borgogni},
+           familyi={B\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20b98258c4f48abf936dba609a89c385}
+      \strng{fullhash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{bibnamehash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{authorbibnamehash}{3779903ddd07e0c222eb57e077ed552f}
+      \strng{authornamehash}{20b98258c4f48abf936dba609a89c385}
+      \strng{authorfullhash}{3779903ddd07e0c222eb57e077ed552f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Career Development International}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Trajectory classes of job performance}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{424\bibrangedash 442}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1108/cdi-03-2015-0032
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1108/CDI-03-2015-0032
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1108/CDI-03-2015-0032
+      \endverb
+    \endentry
+    \entry{molenaar2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6bba10d193d08839f512610377394be4}
+      \strng{fullhash}{6bba10d193d08839f512610377394be4}
+      \strng{bibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorbibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authornamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorfullhash}{6bba10d193d08839f512610377394be4}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Measurement: Interdisciplinary Research {\&} Perspective}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{A manifesto on psychology as idiographic science: Bringing the person back into scientific psychology, this time forever}
+      \field{volume}{2}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{201\bibrangedash 218}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1207/s15366359mea0204_1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1207/s15366359mea0204_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1207/s15366359mea0204_1
+      \endverb
+    \endentry
+    \entry{molenaar2008}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{6bba10d193d08839f512610377394be4}
+      \strng{fullhash}{6bba10d193d08839f512610377394be4}
+      \strng{bibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorbibnamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authornamehash}{6bba10d193d08839f512610377394be4}
+      \strng{authorfullhash}{6bba10d193d08839f512610377394be4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consequences of the ergodic theorems for classical test theory, factor analysis, and the analysis of developmental processes}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{90\bibrangedash 104}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.4135/9781412976589.n5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4135/9781412976589.n5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4135/9781412976589.n5
+      \endverb
+    \endentry
+    \entry{molenaar2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=6bba10d193d08839f512610377394be4}{%
+           family={Molenaar},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima C.M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=72d9e949c388a97c3fb2ea3aab94e0e9}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Cynthia\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{fullhash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{bibnamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authorbibnamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authornamehash}{df8a95a640de06adf05a9e870b3181ec}
+      \strng{authorfullhash}{df8a95a640de06adf05a9e870b3181ec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Directions in Psychological Science}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{The new person-specific paradigm in psychology}
+      \field{volume}{18}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{112\bibrangedash 117}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/j.1467-8721.2009.01619.x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1111/j.1467-8721.2009.01619.x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1111/j.1467-8721.2009.01619.x
+      \endverb
+    \endentry
+    \entry{petersen1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=750e96b59e4025d6b958e86377fc3c94}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{fullhash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{bibnamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authorbibnamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authornamehash}{750e96b59e4025d6b958e86377fc3c94}
+      \strng{authorfullhash}{750e96b59e4025d6b958e86377fc3c94}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{5}
+      \field{title}{Ergodic theory}
+      \field{year}{1983}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/cbo9780511608728
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1017/CBO9780511608728
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1017/CBO9780511608728
+      \endverb
+    \endentry
+    \entry{preacher2008}{book}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=7a3a3adbdd1118e41b411ddcde30be1f}{%
+           family={Preacher},
+           familyi={P\bibinitperiod},
+           given={Kristopher},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b86c6e2d0aad227863972bd2136d9df0}{%
+           family={Wichman},
+           familyi={W\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb7a20134f6e8abefde1fbbd85632317}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d826ab12e23f4615d0f9246337c358b3}{%
+           family={Briggs},
+           familyi={B\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{127255f6b88aa630b0035581816c66de}
+      \strng{fullhash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{bibnamehash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{authorbibnamehash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \strng{authornamehash}{127255f6b88aa630b0035581816c66de}
+      \strng{authorfullhash}{b6903dc3f8f6aa37fae3274ffd148368}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latent growth curve modeling}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4135/9781412984737
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4135/9781412984737
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4135/9781412984737
+      \endverb
+    \endentry
+    \entry{preacher2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=4797d532d0fd49202d0b66508610b0ff}{%
+           family={Preacher},
+           familyi={P\bibinitperiod},
+           given={Kristopher\bibnamedelima J},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=81e7485b2a44f35f3715b22b94df851c}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{fullhash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{bibnamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authorbibnamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authornamehash}{6bb989b8c09c4087cc67c742eccc330f}
+      \strng{authorfullhash}{6bb989b8c09c4087cc67c742eccc330f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Meaningful aspects of change as novel random coefficients: A general method for reparameterizing longitudinal models}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{84\bibrangedash 101}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/met0000028
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/met0000028
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/met0000028
+      \endverb
+    \endentry
+    \entry{shapiro1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=79b4f8b2eec1f0cce98adc8a524fc774}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e08ebdfc7ca2904ab3b91debce95795}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{fullhash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{bibnamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authorbibnamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authornamehash}{5f94da689faf67225f8e6f5c0ece190d}
+      \strng{authorfullhash}{5f94da689faf67225f8e6f5c0ece190d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{400}
+      \field{title}{Analysis of covariance structures under elliptical distributions}
+      \field{volume}{82}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{pages}{1092\bibrangedash 1097}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/01621459.1987.10478544
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/01621459.1987.10478544
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/01621459.1987.10478544
+      \endverb
+    \endentry
+    \entry{spector2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c2e90ee46a567003a8273044afe1594}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{fullhash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{bibnamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authorbibnamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authornamehash}{3c2e90ee46a567003a8273044afe1594}
+      \strng{authorfullhash}{3c2e90ee46a567003a8273044afe1594}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{journaltitle}{Journal of Business and Psychology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Do not cross me: Optimizing the use of cross-sectional designs}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{125\bibrangedash 137}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10869-018-09613-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10869-018-09613-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10869-018-09613-8
+      \endverb
+    \endentry
+    \entry{voelkle2014}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=614f045f1d8a1c475613d619d6e20262}{%
+           family={Voelkle},
+           familyi={V\bibinitperiod},
+           given={Manuel\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dc2cf324f95003937d6f793b453aa8a}{%
+           family={Brose},
+           familyi={B\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e72066ab844b7ba53e078528d308f09}{%
+           family={Schmiedek},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dd1dcc34fe50175ab15dcedf2db02e5}{%
+           family={Lindenberger},
+           familyi={L\bibinitperiod},
+           given={Ulman},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5e375a41f2efca46a8624740cd8738a}
+      \strng{fullhash}{b649044ddf9ee88f7562010888760098}
+      \strng{bibnamehash}{b649044ddf9ee88f7562010888760098}
+      \strng{authorbibnamehash}{b649044ddf9ee88f7562010888760098}
+      \strng{authornamehash}{c5e375a41f2efca46a8624740cd8738a}
+      \strng{authorfullhash}{b649044ddf9ee88f7562010888760098}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Toward a unified framework for the study of between-person and within-person structures: Building a bridge between two research paradigms}
+      \field{volume}{49}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{193\bibrangedash 213}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/00273171.2014.889593
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/00273171.2014.889593
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/00273171.2014.889593
+      \endverb
+    \endentry
+    \entry{wang2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9556978b76b7d938de998e5a1430086f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={{Lijuan (Peggy)}},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e233e683a70cacac467f036976e74a35}{%
+           family={Maxwell},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{fullhash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{bibnamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authorbibnamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authornamehash}{73c83d4e78019c4678aabfea5256d630}
+      \strng{authorfullhash}{73c83d4e78019c4678aabfea5256d630}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Methods}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{On disaggregating between-person and within-person effects with longitudinal data using multilevel models.}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{63\bibrangedash 83}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/met0000030
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/met0000030
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/met0000030
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
