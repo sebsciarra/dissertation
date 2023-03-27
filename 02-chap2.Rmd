@@ -120,7 +120,7 @@ For the spacing of measurements, I used the same measurement days as in Experime
 
 ##### Number of Measurements
 
-For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see [number of measurements](#number-measurements)} for more discussion)). 
+For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see [number of measurements](#number-measurements)} for more discussion). 
 
 ##### Sample Size {#sample-size}
 

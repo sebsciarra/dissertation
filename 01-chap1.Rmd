@@ -331,11 +331,11 @@ complete_plot <- ggplot(data = logistic_data, aes(x = day, y = curve_score)) +
 ggsave(plot = complete_plot, filename = 'Figures/complete_logistic_exp_plot.pdf', width = 9, height = 6)
 ```
 
-The logistic growth function (Equation \ref{eq:logFunction-generation}) was used because it is a common pattern of organizational change [or institutionalization; @lawrence2001]. Institutionalization curves follow an s-shaped pattern (i.e., logistic growth), and so their rates of change can be represented by the days-to-halfway elevation and triquarter-halfway delta parameters ($\upbeta$, $\upgamma$, respectively), and the success of the change can be defined by the magnitude of the difference between baseline and maximal elevation parameters ($\upalpha$ - $\uptheta$, respectively).
+The logistic growth function (Equation \ref{eq:logFunction-generation}) was used because it is a common pattern of organizational change [or institutionalization\; @lawrence2001]. Institutionalization curves follow an s-shaped pattern (i.e., logistic growth), and so their rates of change can be represented by the days-to-halfway elevation and triquarter-halfway delta parameters ($\upbeta$, $\upgamma$, respectively), and the success of the change can be defined by the magnitude of the difference between baseline and maximal elevation parameters ($\upalpha$ - $\uptheta$, respectively).
 
 #### Population Values Used for Function Parameters
 
-Table \@ref(tab:parameterValues) lists the parameter values that were used for the population parameters. Given that the decisions for setting the values for the baseline, maximal elevation, and residual variance parameters were informed by past research, the discussion that follows highlights how these decisions were made. The difference between the baseline and maximal elevation parameters ($\uptheta$ and $\upalpha$, respectively) corresponded to the effect size most commonly observed in organizational research [i.e., the 50^th^ percentile effect size value; @bosco2015]. Because the meta-analysis of @bosco2015 computed effect sizes as correlations, the 50^th^ percentile effect size value of $r = .16$ was computed to a standardized effect size using the following conversion function shown in Equation \ref{eq:conversion-effect} [@borenstein2009, Chapter 7]:
+Table \@ref(tab:parameterValues) lists the parameter values that were used for the population parameters. Given that the decisions for setting the values for the baseline, maximal elevation, and residual variance parameters were informed by past research, the discussion that follows highlights how these decisions were made. The difference between the baseline and maximal elevation parameters ($\uptheta$ and $\upalpha$, respectively) corresponded to the effect size most commonly observed in organizational research [i.e., the 50^th^ percentile effect size value\; @bosco2015]. Because the meta-analysis of @bosco2015 computed effect sizes as correlations, the 50^th^ percentile effect size value of $r = .16$ was computed to a standardized effect size using the following conversion function shown in Equation \ref{eq:conversion-effect} [@borenstein2009, Chapter 7]:
 
 ```{=tex}
 \begin{align}
@@ -1880,7 +1880,6 @@ gamma <- 20
 #log function
 log_function <- expression(theta + (alpha - theta)/(1 + exp((beta_180 - t)/gamma)))
 
-
 log_function_80 <- theta + (alpha - theta)/((1 + exp((beta_80 - t)/gamma)))
 log_function_180 <- theta + (alpha - theta)/((1 + exp((beta_180 - t)/gamma)))
 log_function_280 <- theta + (alpha - theta)/((1 + exp((beta_280 - t)/gamma)))
@@ -1948,7 +1947,6 @@ measurement_days_long <- measurement_days_wide %>%
 measurement_days_long <- left_join(x = measurement_days_long, y = log_func_long, by = c('midpoint', 'day_number' = 't'))
 
 
-
 #combine vectors into a list 
 errorbar_lengths_list <- list('equal' =  sprintf("%.2f", round(param_midpoint_equal[[3]], digits = 3)),  
                               'time_inc' = sprintf("%.2f", round(param_midpoint_time_inc[[2]], digits = 3)), 
@@ -2008,23 +2006,23 @@ midpoint_plot <- ggplot(data = log_func_long, mapping = aes(x = t, y = curve_val
 
                             scale_overrides = list(
                             nonlinSimsAnalysis:::scale_override(1,
-                              scale_x_continuous(name = 'Measurement Number', 
+                              scale_x_continuous(name = 'Day', 
                                 breaks = c(0, 80, 180, 280, 360),
                                 limits = c(-60, 360))), 
                           
                              nonlinSimsAnalysis:::scale_override(which = 2,
-                              scale_x_continuous(name = 'Measurement Number', 
+                              scale_x_continuous(name = 'Day', 
                                 breaks = c(0, 80, 180, 280, 360),
                                 limits = c(-60, 360))), 
                             
                             nonlinSimsAnalysis:::scale_override(which = 3,
-                              scale_x_continuous(name = 'Measurement Number', 
+                              scale_x_continuous(name = 'Day', 
                                 breaks = c(0, 80, 180, 280, 360),
                                 limits = c(-60, 360))), 
                             
                               
                             nonlinSimsAnalysis:::scale_override(which = 4,
-                              scale_x_continuous(name = 'Measurement Number', 
+                              scale_x_continuous(name = 'Day', 
                                 breaks = c(0, 80, 180, 280, 360),
                                 limits = c(-60, 360))))) +
   
@@ -2069,6 +2067,17 @@ set_panel_size(p = midpoint_plot, height = unit(x = 28, units = 'cm'),
 ```
 
 ```{r individual_midpoint_plots, echo=F, eval=F} 
+#filter for midpoint = 80 
+midpoint_80_data <- log_func_long %>%
+  filter(midpoint == 'atop(bold(B:beta[fixed]==80~With~`Time-Interval`~ phantom(randomtextfor)), bold(Increasing~Spacing)~phantom(text~forleftaligniextrattt))')
+
+measurement_days_long_80 <- measurement_days_long %>%
+    filter(midpoint == 'atop(bold(A:beta[fixed]==180~With~Equal~Spacing), phantom(randomtextforalignment))')
+
+equation_data_80 <- equation_data %>%
+  filter(midpoint == 'atop(bold(B:beta[fixed]==80~With~`Time-Interval`~ phantom(randomtextfor)), bold(Increasing~Spacing)~phantom(text~forleftaligniextrattt))')
+
+
 #filter for midpoint = 180 
 midpoint_180_data <- log_func_long %>%
   filter(midpoint == 'atop(bold(A:beta[fixed]==180~With~Equal~Spacing), phantom(randomtextforalignment))')
@@ -2102,7 +2111,7 @@ midpoint_280_plot <- ggplot(data = midpoint_280_data, mapping = aes(x = t, y = c
   
   geom_text(data = equation_data_280, inherit.aes = F, mapping = aes(x = x, y = y, label = label), parse = T, size = 15) +
  
-  scale_x_continuous(name = 'Measurement Number', 
+  scale_x_continuous(name = 'Day', 
     breaks = c(0, 80, 180, 280, 360),
     limits = c(-60, 360)) +
   theme_classic(base_family = 'Helvetica') +
@@ -2139,17 +2148,10 @@ midpoint_280_plot <- ggplot(data = midpoint_280_data, mapping = aes(x = t, y = c
 
 set_panel_size(p = midpoint_280_plot, height = unit(x = 28, units = 'cm'),
                  width = unit(x = 40, units = 'cm'),
-                 file =  'Figures/midpoint_280_plot.pdf')
+                 file =  'Figures/midpoint_80_plot.pdf')
 
 
 #ggsave(filename = "Figures/midpoint_180_plot.pdf", plot = midpoint_180_plot, width = 10, height = 7, units = "cm")
-
-
-
-  
-
-
-
 ```
 
 ```{=tex}
