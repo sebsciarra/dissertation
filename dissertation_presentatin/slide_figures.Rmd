@@ -1,0 +1,748 @@
+---
+bibliography: bib/references.bib
+---
+
+```{r setup}
+library(easypackages)
+packages <- c('nonlinSims','tidyverse', 'nonlinSims')
+libraries(packages)
+```
+
+```{r presentation_slides}
+
+
+theta <- 3
+alpha <- 3.32
+beta <- 180
+gamma <- 20
+time <- 0:360
+
+#curve scores
+logistic_curve <- theta + (alpha - theta)/(1 + exp((beta-time)/gamma))
+
+logistic_data <- data.frame('score' = logistic_curve, 
+                            'day' = time)
+
+#day scores
+equal_spacing_5 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 30, measurement_spacing = 'equal')$measurement_days)
+equal_spacing_7 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 7, smallest_int_length = 30, measurement_spacing = 'equal')$measurement_days)
+equal_spacing_9 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 9, smallest_int_length = 30, measurement_spacing = 'equal')$measurement_days)
+equal_spacing_11 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 11, smallest_int_length = 30, measurement_spacing = 'equal')$measurement_days)
+
+
+#provide curve score for each point 
+equal_spacing_5$score <- logistic_data$score[logistic_data$day %in% equal_spacing_5$day]
+equal_spacing_7$score <- logistic_data$score[logistic_data$day %in% equal_spacing_7$day]
+equal_spacing_9$score <- logistic_data$score[logistic_data$day %in% equal_spacing_9$day]
+equal_spacing_11$score <- logistic_data$score[logistic_data$day %in% equal_spacing_11$day]
+
+#spacing schedules
+equal_spacing_5 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 30, measurement_spacing = 'equal')$measurement_days)
+time_inc_5 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 30, measurement_spacing = 'time_inc')$measurement_days)
+time_dec_5 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 30, measurement_spacing = 'time_dec')$measurement_days)
+mid_ext_5 <- data.frame('day' = compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 30, measurement_spacing = 'mid_ext')$measurement_days)
+
+time_inc_5$score <- logistic_data$score[logistic_data$day %in% time_inc_5$day]
+time_dec_5$score <- logistic_data$score[logistic_data$day %in% time_dec_5$day]
+mid_ext_5$score <- logistic_data$score[logistic_data$day %in% mid_ext_5$day]
+
+
+
+
+mid_ext_5 <- ggplot(data = logistic_data, mapping = aes(x = day, y = score)) + 
+  geom_line(linewidth = 1) + 
+  geom_point(data = mid_ext_5, size = 5) + 
+  scale_x_continuous(name = 'Day', breaks = seq(from = 0, to = 360, by = 60)) + 
+  scale_y_continuous(name = 'Score', breaks = NULL) + 
+  theme_classic(base_family = 'Helvetica') + 
+  theme(axis.text = element_text(color = 'black', size = 16), 
+        axis.title = element_text(size = 20))
+
+ggsave(filename = 'Figures/mid_ext_5.png', plot = mid_ext_5, width = 8, height = 6)
+
+
+
+```
+
+```{r logistic-interpretation-plot, eval=F, include=F}
+#setup variables for logistic curve 
+time <- seq(from = 1, to = 360, by = 1)
+theta <- baseline <- 3.00
+alpha <- maximal_elevation <- 3.32
+beta <- 180
+gamma <- 20
+measurement_day <- seq(from = 1, to = 360, by =1)
+
+curve_values <- theta + (alpha - theta)/(1 + exp((beta - measurement_day)/gamma))
+
+logistic_data <- data.frame(
+                                       
+                       'day' = rep(measurement_day, times = 4), 
+                       'curve_value' = rep(curve_values, times = 4))
+
+
+average_curve <- ggplot(data = logistic_data, aes(x = day, y = curve_value)) + 
+  geom_line(size = 1) + 
+  scale_y_continuous(breaks = c(3.00, 3.16, 3.23, 3.32),  limits = c(2.98, 3.32), expand = c(0, 0.005)) + 
+  scale_x_continuous(breaks = seq(from = 0, to = 360, by = 60), limits = c(0, 450)) + 
+  labs(x = 'Time (e.g., Day)', y = 'Curve Value (e.g., Job Performance)') + 
+  theme_classic(base_family = 'Helvetica') + 
+  theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+
+ggsave(filename = 'pop_curve.png', plot = average_curve, width = 8, height = 6)
+
+```
+
+```{r theta-plot}
+#df for points 
+point_df <- data.frame('day' = c(0), 
+                       'curve_value' = c(3.000042))
+
+#point_df <- data.frame('day' = c(0, beta, beta + gamma, 360), 
+#                       'curve_value' = c(3.000042, 3.16, 3.233939, 3.319961))
+
+#h_line data
+hline_df <- data.frame(
+                       'y' = c(3.000042),
+                       'y_end' = c(3.000042),
+                       'x' = c(0),
+                       'x_end' = c(360))
+
+
+#v_line data
+vline_df <- data.frame('x' = c(beta, beta+gamma), 
+                       'x_end' = c(beta, beta+gamma), 
+                       'y' = c(3.16, 3.233939), 
+                       'y_end' = c(2.98, 2.98))
+#arrow data
+arrow_data <- data.frame(
+                         'ymin' = c(3.0),
+                         'ymax' = c(3.0),
+                         'xmin' = c(400),
+                         'xmax' = c(370))
+
+
+#equation data 
+equation_data <- data.frame(label = 'y == theta + frac(alpha - theta, 1 + e^(frac(beta-time, gamma)))',
+                            'x' = 80, 
+                            'y' = 3.285) 
+#text data
+text_data <- data.frame('label' = c('Baseline \n(y-axis)'), 
+                        'x' = c(430),
+                        'y' = c(3.03))
+
+#text dat
+param_data <- data.frame(
+                        'label' = c('theta == `3.00`'),
+                        'x' = c(430),
+                        'y' = c(3.000042))
+font_size <- 5
+title_font <- 60
+axis_text_size <- 14
+axis_title_size <- 20
+
+theta_plot <- ggplot(data = logistic_data, aes(x = day, y = curve_value)) + 
+  geom_line(size = 1) + 
+  geom_point(data = point_df, size = 3) + 
+  scale_y_continuous(name = 'Curve Value (e.g., Job Performance)', breaks = c(3, 3.16, 3.23, 3.32), limits = c(2.98, 3.32), expand = c(0, 0.005))  + 
+  scale_x_continuous(name = 'Time (e.g., Day)', breaks = seq(from = 0, to = 360, by = 60), limits = c(0, 450)) + 
+  #text
+  geom_text(data = text_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), size = font_size,  fontface = 'bold') + 
+  geom_text(data = param_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), parse = T, size = font_size,  fontface = 'bold') + 
+  #arrows
+  geom_segment(data = arrow_data, inherit.aes = F, mapping = aes(x = xmin, xend = xmax, y = ymin, yend = ymax), 
+               arrow = arrow(length = unit(0.3, 'cm')), size = 1)  + 
+  
+    #vertical lines 
+  geom_segment(data = hline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype = 2, size = 1) + 
+    theme_classic(base_family = 'Helvetica') + 
+    theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+  
+ggsave(filename = 'theta_plot.png', plot = theta_plot, width = 8, height = 6)
+
+```
+
+```{r alpha-theta}
+#df for points 
+point_df <- data.frame('day' = c(0, 360), 
+                       'curve_value' = c(3.000042, 3.319961))
+
+#point_df <- data.frame('day' = c(0, beta, beta + gamma, 360), 
+#                       'curve_value' = c(3.000042, 3.16, 3.233939, 3.319961))
+
+#h_line data
+hline_df <- data.frame(
+                       'y' = c(3.000042, 3.319961), 
+                       'y_end' = c(3.000042, 3.319961), 
+                       'x' = c(0, 0), 
+                       'x_end' = c(360, 360))
+
+
+#v_line data
+vline_df <- data.frame('x' = c(beta, beta+gamma), 
+                       'x_end' = c(beta, beta+gamma), 
+                       'y' = c(3.16, 3.233939), 
+                       'y_end' = c(2.98, 2.98))
+#arrow data
+arrow_data <- data.frame(
+                         'ymin' = c(3.0, 3.32),
+                         'ymax' = c(3.0, 3.32),
+                         'xmin' = c(400, 400),
+                         'xmax' = c(370, 370))
+
+
+#equation data 
+equation_data <- data.frame(label = 'y == theta + frac(alpha - theta, 1 + e^(frac(beta-time, gamma)))',
+                            'x' = 80, 
+                            'y' = 3.285) 
+#text data
+text_data <- data.frame('label' = c('Baseline \n(y-axis)',  'Maximal\nelevation\n(y-axis)'), 
+                        'x' = c(430, 437), 
+                        'y' = c(3.03, 3.30))
+
+#text dat
+param_data <- data.frame(
+                        'label' = c('theta == `3.00`',  'alpha == `3.32`'), 
+                        'x' = c(430, 437), 
+                        'y' = c(3.000042, 3.26))
+font_size <- 5
+title_font <- 60
+axis_text_size <- 14
+axis_title_size <- 20
+
+alpha_theta_plot <- ggplot(data = logistic_data, aes(x = day, y = curve_value)) + 
+  geom_line(size = 1) + 
+  geom_point(data = point_df, size = 3) + 
+  scale_y_continuous(name = 'Curve Value (e.g., Job Performance)', breaks = c(3, 3.16, 3.23, 3.32), limits = c(2.98, 3.32), expand = c(0, 0.005))  + 
+  scale_x_continuous(name = 'Time (e.g., Day)', breaks = seq(from = 0, to = 360, by = 60), limits = c(0, 450)) + 
+  #text
+  geom_text(data = text_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), size = font_size,  fontface = 'bold') + 
+  geom_text(data = param_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), parse = T, size = font_size,  fontface = 'bold') + 
+  #arrows
+  geom_segment(data = arrow_data, inherit.aes = F, mapping = aes(x = xmin, xend = xmax, y = ymin, yend = ymax), 
+               arrow = arrow(length = unit(0.3, 'cm')), size = 1)  + 
+  
+    #vertical lines 
+  geom_segment(data = hline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype = 2, size = 1) + 
+    theme_classic(base_family = 'Helvetica') + 
+    theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+  
+ggsave(filename = 'alpha_theta_plot.png', plot = alpha_theta_plot, width = 8, height = 6)
+
+
+```
+
+```{r alpha-theta-beta}
+
+#df for points 
+point_df <- data.frame('day' = c(0, 360, beta), 
+                       'curve_value' = c(3.000042, 3.319961, 3.16))
+
+#point_df <- data.frame('day' = c(0, beta, beta + gamma, 360), 
+#                       'curve_value' = c(3.000042, 3.16, 3.233939, 3.319961))
+
+#h_line data
+hline_df <- data.frame(
+                       'y' = c(3.000042, 3.319961), 
+                       'y_end' = c(3.000042, 3.319961), 
+                       'x' = c(0, 0), 
+                       'x_end' = c(360, 360))
+
+
+#v_line data
+vline_df <- data.frame('x' = c(beta),
+                       'x_end' = c(beta), 
+                       'y' = c(3.16), 
+                       'y_end' = c(2.98))
+#arrow data
+arrow_data <- data.frame(
+                         'ymin' = c(3.0, 3.32, 3.16),
+                         'ymax' = c(3.0, 3.32 ,3.16),
+                         'xmin' = c(400, 400, 135),
+                         'xmax' = c(370, 370, 170))
+
+#equation data 
+equation_data <- data.frame(label = 'y == theta + frac(alpha - theta, 1 + e^(frac(beta-time, gamma)))',
+                            'x' = 80, 
+                            'y' = 3.285) 
+#text data
+text_data <- data.frame('label' = c('Baseline \n(y-axis)',  'Maximal\nelevation\n(y-axis)', 
+                                    'Days to halfway \nelevation (x-axis)'),
+                        'x' = c(430, 437, 70),
+                        'y' = c(3.03, 3.30, 3.15))
+
+
+
+#text dat
+param_data <- data.frame(
+                        'label' = c('theta == `3.00`',  'alpha == `3.32`',  'beta == `180.00`'),
+                        'x' = c(430, 437, 70),
+                        'y' = c(3.000042, 3.26, 3.115))
+
+
+
+
+font_size <- 5
+title_font <- 60
+axis_text_size <- 14
+axis_title_size <- 20
+
+alpha_theta_beta_plot <- ggplot(data = logistic_data, aes(x = day, y = curve_value)) + 
+  geom_line(size = 1) + 
+  geom_point(data = point_df, size = 3) + 
+  scale_y_continuous(name = 'Curve Value (e.g., Job Performance)', breaks = c(3, 3.16, 3.23, 3.32), limits = c(2.98, 3.32), expand = c(0, 0.005))  + 
+  scale_x_continuous(name = 'Time (e.g., Day)', breaks = c(seq(from = 0, to = 360, by = 60), 200), limits = c(0, 450)) + 
+  #text
+  geom_text(data = text_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), size = font_size,  fontface = 'bold') + 
+  geom_text(data = param_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), parse = T, size = font_size,  fontface = 'bold') + 
+  #arrows
+  geom_segment(data = arrow_data, inherit.aes = F, mapping = aes(x = xmin, xend = xmax, y = ymin, yend = ymax), 
+               arrow = arrow(length = unit(0.3, 'cm')), size = 1)  + 
+  
+    #vertical lines 
+  geom_segment(data = hline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype = 2, size = 1) + 
+    geom_segment(data = vline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype = 3, size = 1) + 
+
+    theme_classic(base_family = 'Helvetica') + 
+    theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+  
+ggsave(filename = 'alpha_theta_beta_plot.png', plot = alpha_theta_beta_plot, width = 8, height = 6)
+```
+
+```{r full-plot}
+
+#df for points 
+point_df <- data.frame('day' = c(0, 360, beta, beta+gamma), 
+                       'curve_value' = c(3.000042, 3.319961, 3.16, 3.233939))
+
+#h_line data
+hline_df <- data.frame(
+                       'y' = c(3.000042, 3.319961), 
+                       'y_end' = c(3.000042, 3.319961), 
+                       'x' = c(0, 0), 
+                       'x_end' = c(360, 360))
+
+
+#v_line data
+vline_df <- data.frame(
+                       'x' = c(beta, beta+gamma), 
+                       'x_end' = c(beta, beta+gamma), 
+                       'y' = c(3.16, 3.233939), 
+                       'y_end' = c(2.98, 2.98))
+#arrow data
+arrow_data <- data.frame(
+                         'ymin' = c(3.0, 3.32, 3.16,3.233939),
+                         'ymax' = c(3.0, 3.32 ,3.16,3.233939),
+                         'xmin' = c(400, 400, 135, 240),
+                         'xmax' = c(370, 370, 170, 210))
+
+
+#equation data 
+equation_data <- data.frame(label = 'y == theta + frac(alpha - theta, 1 + e^(frac(beta-time, gamma)))',
+                            'x' = 80, 
+                            'y' = 3.285) 
+#text data
+text_data <- data.frame('label' = c('Baseline \n(y-axis)',  'Maximal\nelevation\n(y-axis)', 
+                                    'Days to halfway \nelevation (x-axis)', 'Triquarter-halfway \ndelta (x-axis)'), 
+                        'x' = c(430, 437, 70, 310), 
+                        'y' = c(3.03, 3.30, 3.15, 3.225))
+
+
+
+#text dat
+param_data <- data.frame(
+                        'label' = c('theta == `3.00`',  'alpha == `3.32`',  'beta == `180.00`','gamma == `20.00`'), 
+                        'x' = c(430, 437, 70, 300), 
+                        'y' = c(3.000042, 3.26, 3.115, 3.195))
+
+
+
+
+font_size <- 5
+title_font <- 60
+axis_text_size <- 14
+axis_title_size <- 20
+
+full_plot <- ggplot(data = logistic_data, aes(x = day, y = curve_value)) + 
+  geom_line(size = 1) + 
+  geom_point(data = point_df, size = 3) + 
+  scale_y_continuous(name = 'Curve Value (e.g., Job Performance)', breaks = c(3, 3.16, 3.23, 3.32), limits = c(2.98, 3.32), expand = c(0, 0.005))  + 
+  scale_x_continuous(name = 'Time (e.g., Day)', breaks = c(seq(from = 0, to = 360, by = 60), 200), limits = c(0, 450)) + 
+  #text
+  geom_text(data = text_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), size = font_size,  fontface = 'bold') + 
+  geom_text(data = param_data, inherit.aes = F, mapping = aes(x = x, y = y, label = label), parse = T, size = font_size,  fontface = 'bold') + 
+  #arrows
+  geom_segment(data = arrow_data, inherit.aes = F, mapping = aes(x = xmin, xend = xmax, y = ymin, yend = ymax), 
+               arrow = arrow(length = unit(0.3, 'cm')), size = 1)  + 
+  
+    #vertical lines 
+  geom_segment(data = hline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype =2, size = 1) + 
+    geom_segment(data = vline_df, mapping = aes(x = x, y = y, xend = x_end, yend = y_end), linetype = 3, size = 1) + 
+
+    theme_classic(base_family = 'Helvetica') + 
+    theme(
+        #axis details
+        axis.text.y = element_text(size = 14, color = 'black'),
+        axis.text.x =  element_text(size = c(14, 14, 14, 10, 14, 14, 14, 10), color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+  
+ggsave(filename = 'full_plot.png', plot = full_plot, width = 8, height = 6)
+```
+
+```{r plot-variability}
+
+time_period <- 360
+
+#Population values for parameters 
+#fixed effects
+sd_scale <- 1
+common_effect_size <- 0.32
+theta_fixed <- 3
+alpha_fixed <- theta_fixed + common_effect_size
+beta_fixed <- 180
+gamma_fixed <- 20
+
+#random effects 
+sd_theta <- 0.05
+sd_alpha <- 0.05
+sd_beta <- 10
+sd_gamma <- 4
+sd_error <- 0.05
+
+num_time_points <- 360
+
+#List containing population parameter values
+pop_params <- generate_four_param_pop_curve(
+  theta_fixed =  theta_fixed, alpha_fixed = alpha_fixed, 
+   beta_fixed = beta_fixed, gamma_fixed = gamma_fixed, 
+   sd_theta = sd_theta, sd_alpha = sd_alpha, 
+   sd_beta = sd_beta, sd_gamma = sd_gamma, sd_error = sd_error)
+
+cov_matrix <- generate_four_param_cov_matrix(num_time_points = num_time_points, pop_param_list = pop_params)
+
+
+ind_param_values <- generate_ind_param_values(pop_param_list = pop_params, response_group_size = 225, num_time_points = num_time_points, cov_matrix = cov_matrix)
+
+days <- compute_measurement_schedule(time_period = 360, num_measurements = num_time_points, smallest_int_length = 1,measurement_spacing = 'equal')
+
+people_scores <- nonlinSims::generate_people_scores(num_measurements = num_time_points, param_table = ind_param_values, measurement_days =  days$measurement_days, time_period = 360)
+
+first <- 1
+last <- 5
+
+p1 <- ggplot(data = people_scores, aes(x = measurement_day, y = true_score, group =ID)) + 
+    geom_line(size = 0.5, color = 'gray') + 
+  geom_line(inherit = F, data = logistic_data, aes(x = day, y = curve_value), size = 1)+
+  scale_y_continuous(breaks = seq(from = 2.8, to = 3.5, by = 0.1), limits = c(2.8, 3.5)) + 
+  scale_x_continuous(breaks = seq(from = 0, to = 360, by = 60)) + 
+  labs(x = 'Time (e.g., Day)', y = 'Curve Value (e.g., Job Performance)') + 
+  theme_classic(base_family = 'Helvetica') + 
+  theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+
+ggsave(filename = 'p1.png', plot = p1, width = 8, height = 6)
+
+```
+
+```{r nature-of-change}
+
+time_period <- 360
+
+#Population values for parameters 
+#fixed effects
+sd_scale <- 1
+common_effect_size <- 0.32
+theta_fixed <- 3
+alpha_fixed <- theta_fixed + common_effect_size
+beta_fixed <- 280
+gamma_fixed <- 20
+
+curve_values <- theta + (alpha - theta)/(1 + exp((beta_fixed - measurement_day)/gamma))
+
+logistic_data <- data.frame(
+                                       
+                       'day' = rep(measurement_day, times = 4), 
+                       'curve_value' = rep(curve_values, times = 4))
+
+
+#List containing population parameter values
+pop_params <- generate_four_param_pop_curve(
+  theta_fixed =  theta_fixed, alpha_fixed = alpha_fixed, 
+   beta_fixed = beta_fixed, gamma_fixed = gamma_fixed, 
+   sd_theta = sd_theta, sd_alpha = sd_alpha, 
+   sd_beta = sd_beta, sd_gamma = sd_gamma, sd_error = sd_error)
+
+cov_matrix <- generate_four_param_cov_matrix(num_time_points = num_time_points, pop_param_list = pop_params)
+
+
+ind_param_values <- generate_ind_param_values(pop_param_list = pop_params, response_group_size = 225, num_time_points = num_time_points, cov_matrix = cov_matrix)
+
+days <- compute_measurement_schedule(time_period = 360, num_measurements = num_time_points, smallest_int_length = 1,measurement_spacing = 'equal')
+
+people_scores <- nonlinSims::generate_people_scores(num_measurements = num_time_points, param_table = ind_param_values, measurement_days =  days$measurement_days, time_period = 360)
+
+
+
+p1 <-   ggplot(data = logistic_data, aes(x = day, y = curve_value), size = 1)+
+    geom_line(size = 1, color = 'black') + 
+  scale_y_continuous(breaks = c(3.00, 3.16, 3.23, 3.32), limits = c(3, 3.32)) + 
+  scale_x_continuous(breaks = seq(from = 0, to = 360, by = 60)) + 
+    labs(x = 'Time (e.g., Day)', y = 'Curve Value (e.g., Job Performance)') + 
+
+  theme_classic(base_family = 'Helvetica') + 
+  theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+
+ggsave(filename = 'p1.png', plot = p1, width = 8, height = 6)
+```
+
+```{r number-measurements}
+
+time_period <- 360
+
+#Population values for parameters 
+#fixed effects
+sd_scale <- 1
+common_effect_size <- 0.32
+theta_fixed <- 3
+alpha_fixed <- theta_fixed + common_effect_size
+beta_fixed <- 180
+gamma_fixed <- 20
+
+curve_values <- theta + (alpha - theta)/(1 + exp((beta_fixed - measurement_day)/gamma))
+
+logistic_data <- data.frame(
+                                       
+                       'day' = rep(measurement_day, times = 4), 
+                       'curve_value' = rep(curve_values, times = 4))
+
+
+#List containing population parameter values
+pop_params <- generate_four_param_pop_curve(
+  theta_fixed =  theta_fixed, alpha_fixed = alpha_fixed, 
+   beta_fixed = beta_fixed, gamma_fixed = gamma_fixed, 
+   sd_theta = sd_theta, sd_alpha = sd_alpha, 
+   sd_beta = sd_beta, sd_gamma = sd_gamma, sd_error = sd_error)
+
+cov_matrix <- generate_four_param_cov_matrix(num_time_points = num_time_points, pop_param_list = pop_params)
+
+
+ind_param_values <- generate_ind_param_values(pop_param_list = pop_params, response_group_size = 225, num_time_points = num_time_points, cov_matrix = cov_matrix)
+
+days <- compute_measurement_schedule(time_period = 360, num_measurements = num_time_points, smallest_int_length = 1,measurement_spacing = 'equal')
+
+people_scores <- nonlinSims::generate_people_scores(num_measurements = num_time_points, param_table = ind_param_values, measurement_days =  days$measurement_days, time_period = 360)
+
+
+point_days <- compute_measurement_schedule(time_period = 360, num_measurements = 5, smallest_int_length = 36,measurement_spacing = 'mid_ext')
+
+measurement_days <- data.frame('day' = point_days$measurement_days, 
+                                'curve_value' = logistic_data$curve_value[c(1, point_days$measurement_days)])
+
+
+number_measurements <-   ggplot(data = logistic_data, aes(x = day, y = curve_value))+
+    geom_line(size = 1, color = 'black') + 
+  geom_point(inherit.aes = F, data = measurement_days, mapping = aes(x = day, y = curve_value), size = 5) + 
+  scale_y_continuous(breaks = c(3.00, 3.16, 3.23, 3.32), limits = c(3, 3.32)) + 
+  scale_x_continuous(breaks = seq(from = 0, to = 360, by = 60)) + 
+    labs(x = 'Time (e.g., Day)', y = 'Curve Value (e.g., Job Performance)') + 
+
+  theme_classic(base_family = 'Helvetica') + 
+  theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+
+ggsave(filename = 'p1.png', plot = number_measurements, width = 8, height = 6)
+```
+
+```{r time-structured-plot}
+#Create  data set
+
+time_period <- 360
+
+#Population values for parameters 
+#fixed effects
+sd_scale <- 1
+common_effect_size <- 0.32
+theta_fixed <- 3
+alpha_fixed <- theta_fixed + common_effect_size
+beta_fixed <- 180
+gamma_fixed <- 20
+
+#random effects 
+sd_theta <- 0.05
+sd_alpha <- 0.05
+sd_beta <- 10
+sd_gamma <- 4
+sd_error <- 0
+
+num_time_points <- 360
+
+#List containing population parameter values
+pop_params <- generate_four_param_pop_curve(
+  theta_fixed =  theta_fixed, alpha_fixed = alpha_fixed, 
+   beta_fixed = beta_fixed, gamma_fixed = gamma_fixed, 
+   sd_theta = sd_theta, sd_alpha = sd_alpha, 
+   sd_beta = sd_beta, sd_gamma = sd_gamma, sd_error = sd_error)
+
+cov_matrix <- generate_four_param_cov_matrix(num_time_points = num_time_points, pop_param_list = pop_params)
+
+set.seed(27)
+#line_data
+delay_ls <- nonlinSims:::generate_time_delays(satiation_point = 20,
+                                      satiation_value = .40, 
+                                      response_window_length = 1, 
+                                      num_respondents = 225, 
+                                      num_measurements = num_time_points)
+ 
+delay_dt_line <- generate_delay_table(delay_ls = delay_ls)
+
+ind_param_values <- generate_ind_param_values(pop_param_list = pop_params, response_group_size = 225, num_time_points = num_time_points, cov_matrix = cov_matrix)
+
+days <- compute_measurement_schedule(time_period = 360, num_measurements = num_time_points, smallest_int_length = 1,measurement_spacing = 'equal')
+
+
+people_scores <- nonlinSims::generate_people_scores(num_measurements = num_time_points, param_table = ind_param_values, measurement_days =  days$measurement_days, time_period = 360, delay_values = delay_dt_line)
+
+
+measurement_days <- compute_measurement_schedule(time_period = 360, num_measurements = 11, smallest_int_length = 36,measurement_spacing = 'equal')
+
+point_data <- people_scores %>%
+  group_by(ID) %>%
+  slice(c(1, measurement_days$measurement_days))
+
+point_days <- compute_measurement_schedule(time_period = 360, num_measurements =11, smallest_int_length = 36,measurement_spacing = 'equal')
+
+
+#rectangle data 
+width <- 3
+rectangle_data <- data.frame(
+  'xmin' = point_days$measurement_days - width,
+  'xmax' = point_days$measurement_days + width, 
+  'ymin' = rep(2.90, times = length(point_days$measurement_days)), 
+  'ymax' = rep(3.50,  length(point_days$measurement_days))) 
+
+
+#text_data <- data.frame('text' = c('0', '1', '2', '3', '4'), 
+#                        x = c( point_days$measurement_days), 
+#                        y = 3.52)
+
+
+ind_param_values_1 <- ind_param_values[2, ]
+ind_param_values_1$beta_random <- -21
+ind_param_values_1$gamma_random <- 0
+
+person_1_scores <- nonlinSims::generate_people_scores(num_measurements = num_time_points, param_table = ind_param_values_1, measurement_days =  days$measurement_days, time_period = 360, delay_values = NA)
+
+first <- 2
+last <- 2
+
+ind_plot <- ggplot(data = data.frame(point_data %>% filter(ID %in% first:last)), mapping = aes(x = measurement_day, y = true_score, group = ID)) + 
+  geom_point(size = 4) + 
+  geom_rect(inherit.aes = F, data = rectangle_data[1:11, ], mapping = aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), 
+            fill = 'grey50', color = NA, alpha = 0.2) + 
+ geom_line(inherit.aes = F, data = person_1_scores,
+           aes(x = measurement_day, y = true_score, group = ID), 
+           size = 0.5) +
+    #geom_text(inherit.aes = F, data = text_data, mapping = aes(x = x, y = y, label = text, family = 'Helvetica', fontface = 'bold'), size = 5) + 
+    scale_x_continuous(name = 'Time (e.g., Day)',breaks = seq(from = 0, to = 360, by = 36), limit = c(-3, 400))+ 
+  scale_y_continuous(name = 'Curve Value (e.g., Job Performance)', breaks = seq(from = 0, to = 3.5, by = 0.1)) + 
+  theme_classic(base_family = 'Helvetica') +
+  theme(
+        #axis details
+        axis.text = element_text(size = 14, color = 'black'),
+        axis.title = element_text(size = 20, color = 'black'))
+
+
+ggsave(filename = 'individual_plot.png', plot = ind_plot, width = 8, height = 6)
+```
+
+@navarro2015
+
+@yang2021
+
+@li2017
+
+@mayer1995
+
+@christian2011
+
+@yang2021
+
+@chen2011
+
+@burchinal1991
+
+@fournier2017
+
+@lawrence2001
+
+@browne1993
+
+@browne1991
+
+@muthen1997
+
+@mehta2000
+
+@mehta2005
+
+@coulombe2016
+
+@nanchen2018
+
+@whitley1987
+
+@moran2002
+
+@lakens2017
+
+@lakens2018
+
+@mcknight2007
+
+@newman2003
+
+@mellenbergh1989
+
+@vandeschoot2015
+
+@bliese2002
+
+@bliese2020
+
+@pickup2014
+
+@vandernest2020
+
+@sanders2008
+
+@rynes2002a
+
+@kpmg2015
+
+@edwards2010
+
+@sackett1990
+
+@vancouver2020
+
+
+

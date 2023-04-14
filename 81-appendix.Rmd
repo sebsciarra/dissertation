@@ -54,6 +54,9 @@ knit_hooks$set(source = function(x, options) {
 #import raw data files (needed for computing variances)
 exp_1_raw <- nonlinSimsAnalysis:::convert_raw_var_to_sd(raw_data = read_csv('data/exp_1_data.csv')) %>%
   mutate_at(.vars = c("number_measurements", "measurement_spacing", "midpoint"), factor)
+exp_1_ext_raw <- nonlinSimsAnalysis:::convert_raw_var_to_sd(raw_data = read_csv('data/exp_1_data_extended.csv')) %>%
+  mutate_at(.vars = c("number_measurements", "measurement_spacing", "midpoint"), factor)
+
 
 exp_2_raw <-nonlinSimsAnalysis:::convert_raw_var_to_sd(raw_data = read_csv('data/exp_2_data.csv')) %>%
   mutate_at(.vars = c("number_measurements", "measurement_spacing", "sample_size"), factor)
@@ -67,12 +70,16 @@ exp_3_def_raw <-nonlinSimsAnalysis:::convert_raw_var_to_sd(raw_data = read_csv('
 
 #unfiltered data 
 param_summary_exp_1 <- readRDS(file = 'data/uf_param_summary_exp_1.RData')
+param_summary_exp_1_ext <- readRDS(file = 'data/uf_param_summary_exp_1_ext.RData')
+
 param_summary_exp_2 <- readRDS(file = 'data/uf_param_summary_exp_2.RData')
 param_summary_exp_3 <- readRDS(file = 'data/uf_param_summary_exp_3.RData')
 param_summary_exp_3_def <- readRDS(file = 'data/uf_param_summary_exp_3_def.RData')
 
 #create analytical versions of summary data + converts vars to sds
 exp_1_analytical <- generate_likert_days_data_sets(summary_data = param_summary_exp_1, exp_num = '1')
+exp_1_ext_analytical <- generate_likert_days_data_sets(summary_data = param_summary_exp_1_ext, exp_num = '1')
+
 exp_2_analytical <- generate_likert_days_data_sets(summary_data = param_summary_exp_2, exp_num = '2')
 exp_3_analytical <- generate_likert_days_data_sets(summary_data = param_summary_exp_3, exp_num = '3')
 exp_3_def_analytical <- generate_likert_days_data_sets(summary_data = param_summary_exp_3_def, exp_num = '3')
@@ -80,6 +87,9 @@ exp_3_def_analytical$days$time_structuredness <-  factor(x = 'slow_response',lab
 exp_3_def_analytical$likert$time_structuredness <-  factor(x = 'slow_response',labels = 'Time unstructured (slow response)')
 
 combined_analytical_exp_1 <- rbind(exp_1_analytical$likert, exp_1_analytical$days)
+combined_analytical_exp_1_ext <- rbind(exp_1_ext_analytical$likert, exp_1_ext_analytical$days)
+
+
 combined_analytical_exp_2 <- rbind(exp_2_analytical$likert, exp_2_analytical$days)
 combined_analytical_exp_3 <- rbind(exp_3_analytical$likert, exp_3_analytical$days)
 combined_analytical_exp_3_def <- rbind(exp_3_def_analytical$likert, exp_3_def_analytical$days)
@@ -2196,8 +2206,56 @@ Time Structuredness & Number of Measurements & 30 & 50 & 100 & 200 & 500 & 1000\
 \end{ThreePartTable}
 \end{landscape}
 \restoregeometry
+```
+\begin{landscape}
+\app{Partial Omega-Squared Values for all Independent Variables in Each Simulation Experiment}
+\label{omega-three-way}
+```{r complete-omega-table-exp-1, echo=F}
+print_bias_var_omega_table(exp_data = exp_1_raw, target_col = NA, target_value = 'equal', 
+ind_vars = c('number_measurements', 'midpoint', 'measurement_spacing'), 
+ind_var_acronyms = c('NM', 'NC', 'MS', 'NM x NC','NM x MS', 'NC x MS', 'NM x NC x MS'), 
+caption = 'Partial $\\upomega^2$ Values for all Manipulated Variables in Experiment 1',
+footnote = '\\\\textit{Note. }NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, NC = nature of change (population value set for $\\\\upbeta_{fixed}$ $\\\\in$ \\\\{80, 180, 280\\\\}), MS = measurement spacing (equal, time interval increasing, time interval decreasing), NM x NC = interaction between number of measurements and nature of change, NM x MS = interaction between number of measurements and measurement spacing, NC x MS = interaction between nature of change and measurement spacing, NM x NC x MS = interaction between number of measurements, nature of change, and measurement spacing. $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+           $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
+           $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
+           $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.', 
+parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp1_plot_equal}A, \\ref{fig:exp1_plot_time_inc}A, \\ref{fig:exp1_plot_time_dec}A, \\ref{fig:exp1_plot_time_mid_ext}A)',
+                     '$\\upbeta_{random}$ (Figure \\ref{fig:exp1_plot_equal}B, \\ref{fig:exp1_plot_time_inc}B, \\ref{fig:exp1_plot_time_dec}B, \\ref{fig:exp1_plot_time_mid_ext}B)',
+                     '$\\upgamma_{fixed}$ (Figure \\ref{fig:exp1_plot_equal}C, \\ref{fig:exp1_plot_time_inc}C, \\ref{fig:exp1_plot_time_dec}C, \\ref{fig:exp1_plot_time_mid_ext}C)',
+                     '$\\upgamma_{random}$(Figure \\ref{fig:exp1_plot_equal}D, \\ref{fig:exp1_plot_time_inc}D, \\ref{fig:exp1_plot_time_dec}D, \\ref{fig:exp1_plot_time_mid_ext}D)'))
+```
+
+```{r complete-omega-table-exp-2, echo=F}
+print_bias_var_omega_table(exp_data = exp_2_raw, target_col = NA, target_value = 'equal', 
+ind_vars = c('number_measurements', 'sample_size', 'measurement_spacing'), 
+ind_var_acronyms = c('NM', 'S', 'MS', 'NM x S', 'NM x MS', 'S x MS', 'NM x S x MS'), 
+caption = 'Partial $\\upomega^2$ Values for Independent Variables in Experiment 2',
+footnote = '\\\\textit{Note. }NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, MS = measurement spacing (equal, time interval increasing, time interval decreasing), S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, NM x NC = interaction between number of measurements and nature of change, NM x MS = interaction between number of measurements and measurement spacing, NC x MS = interaction between nature of change and measurement spacing, NM x NC x MS = interaction between number of measurements, nature of change, and measurement spacing. $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+           $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
+           $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
+           $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.', 
+
+parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp2_plot_equal}A, \\ref{fig:exp2_plot_time_inc}A, \\ref{fig:exp2_plot_time_dec}A, \\ref{fig:exp2_plot_mid_ext}A)',
+                     '$\\upbeta_{random}$ (Figure \\ref{fig:exp2_plot_equal}B, \\ref{fig:exp2_plot_time_inc}B, \\ref{fig:exp2_plot_time_dec}B, \\ref{fig:exp2_plot_mid_ext}B)',
+                     '$\\upgamma_{fixed}$ (Figure \\ref{fig:exp2_plot_equal}C, \\ref{fig:exp2_plot_time_inc}C, \\ref{fig:exp2_plot_time_dec}C, \\ref{fig:exp2_plot_mid_ext}C)',
+                     '$\\upgamma_{random}$(Figure \\ref{fig:exp2_plot_equal}D, \\ref{fig:exp2_plot_time_inc}D, \\ref{fig:exp2_plot_time_dec}D, \\ref{fig:exp2_plot_mid_ext}D)'))
 
 ```
+
+\newpage
+```{r complete-omega-table-exp-3, echo=F}
+print_bias_var_omega_table(exp_data = exp_3_raw, target_col = NA, target_value = 'fast_response', 
+ind_vars = c('number_measurements', 'sample_size', 'time_structuredness'), 
+ind_var_acronyms = c('NM', 'S', 'TS', 'NM x S', 'NM x TS', 'S x TS', 'NM x S x TS'),
+caption = 'Partial $\\upomega^2$ Values for Manipulated Variables in  Experiment 3',
+footnote = '\\\\textit{Note. }NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\},  S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, TS = time structuredness (time structured, fast response, slow response), NM x S = interaction between number of measurements and sample size, NM x TS = interaction between number of measurements and time structuredness, S x TS = interaction between sample size and time structuredness, NM x S x TS = interaction between number of measurements, sample size, and time structuredness.', 
+parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp3_plot_days_time_struc}A,  \\ref{fig:exp3_plot_days_fast}A,  \\ref{fig:exp3_plot_days_slow}A)',
+                   '$\\upbeta_{random}$ (Figure \\ref{fig:exp3_plot_days_time_struc}A,  \\ref{fig:exp3_plot_days_fast}A,  \\ref{fig:exp3_plot_days_slow}A)',
+                     '$\\upgamma_{fixed}$(Figure \\ref{fig:exp3_plot_days_time_struc}B,  \\ref{fig:exp3_plot_days_fast}B,  \\ref{fig:exp3_plot_days_slow}B)', 
+                     '$\\upgamma_{random}$ (Figure \\ref{fig:exp3_plot_days_time_struc}C,  \\ref{fig:exp3_plot_days_fast}C,  \\ref{fig:exp3_plot_days_slow}C)'))
+```
+
+\end{landscape}
 
 \app{OpenMx Code for Structured Latent Growth Curve Model With Definition Variables}
 \label{def-model-code}
@@ -2299,11 +2357,6 @@ model_results <- mxTryHard(def_growth_curve_model)
 
 
 ```
-
-
-
-
-
 
 
 

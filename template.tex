@@ -398,12 +398,14 @@ $endif$
 \renewcommand{\cftappafterpnum}{\vskip6pt}
 
 %updates appendix counter, modifies chapter title such so that it is Appendix _letter_: #1
+
 \newcommand{\app}[1]{%
   \refstepcounter{app}\pdfbookmark[-1]{\cftapppresnum\theapp\cftappaftersnum#1}{#1\theapp}%
   \chapter*{\fontsize{16}{16}\selectfont\bfseries\cftapppresnum\theapp\cftappaftersnum #1} %formats entry in document
   \addcontentsline{loa}{app}{{\cftapppresnum\theapp\cftappaftersnum}#1}%
   \par
 }
+
 
 % figure and table counting in appendix
 \usepackage{chngcntr}

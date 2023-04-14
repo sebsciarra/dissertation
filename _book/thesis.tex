@@ -95,7 +95,7 @@ english]{guelphthesis}
 \title{Is Timing Everything? The Effects of Measurement Timing on the Performance of Nonlinear Longitudinal Models}
 \author{Sebastian L.V. Sciarra}
 \year{2023}
-\date{March, 2023}
+\date{April, 2023}
 \advisor{David Stanley}
 \institution{University of Guelph}
 \degree{Doctorate of Philosophy}
@@ -200,7 +200,6 @@ english]{guelphthesis}
   %change line spacing if specified in YAML header
   \setMainMatterLinespacing
 
-      \linenumbers
   
   \pagestyle{mainmatter} % add this to center page numbers
 
@@ -378,12 +377,14 @@ english]{guelphthesis}
 \renewcommand{\cftappafterpnum}{\vskip6pt}
 
 %updates appendix counter, modifies chapter title such so that it is Appendix _letter_: #1
+
 \newcommand{\app}[1]{%
   \refstepcounter{app}\pdfbookmark[-1]{\cftapppresnum\theapp\cftappaftersnum#1}{#1\theapp}%
   \chapter*{\fontsize{16}{16}\selectfont\bfseries\cftapppresnum\theapp\cftappaftersnum #1} %formats entry in document
   \addcontentsline{loa}{app}{{\cftapppresnum\theapp\cftappaftersnum}#1}%
   \par
 }
+
 
 % figure and table counting in appendix
 \usepackage{chngcntr}
@@ -644,7 +645,7 @@ breaklinks=true, backref=page
 
 \cleardoublepage
 \thispagestyle{empty} %removes page number only for abstract page
-  \begin{abstract}{2}{Despite the value that longitudinal research offers for understanding psychological processes, studies in organizational research rarely use longitudinal designs. One reason for the paucity of longitudinal designs may be the challenges they present for researchers. Three challenges of particular importance are that researchers have to determine 1) how many measurements to take, 2) how to space measurements, and 3) how to design studies when participants provide data with different response schedules (time unstructuredness). In systematically reviewing the simulation literature, I found that few studies comprehensively investigated the effects of measurement number, measurement spacing, and time structuredness (in addition to sample size) on model performance. As a consequence, researchers have little guidance when trying to conduct longitudinal research. To address these gaps in the literature, I conducted a series of simulation experiments. I found poor model performance across all measurement number/sample size pairings. That is, bias and precision were never concurrently optimized under any combination of manipulated variables. Bias was often low, however, with moderate measurement numbers and sample sizes. Although precision was frequently low, the greatest improvements in precision resulted from using either seven measurements with \(N \ge 200\) or nine measurements with \(N \le 100\). With time-unstructured data, model performance systematically decreased across all measurement number/sample size pairings when the model incorrectly assumed an identical response pattern across all participants (i.e., time-structured data). Fortunately, when models were equipped to handle heterogeneous response patterns using definition variables, the poor model performance observed across all measurement number/sample size pairings no longer appeared. Altogether, the results of the current simulation experiments provide guidelines for researchers interested in modelling nonlinear change.}  %[linespacing][abstract][
+  \begin{abstract}{2}{Despite the value that longitudinal research offers for understanding psychological processes, studies in organizational research rarely use longitudinal designs. One reason for the paucity of longitudinal designs may be the challenges they present for researchers. Three challenges of particular importance are that researchers have to determine 1) how many measurements to take, 2) how to space measurements, and 3) how to design studies when participants provide data with different response schedules (time unstructuredness). In systematically reviewing the simulation literature, I found that few studies comprehensively investigated the effects of measurement number, measurement spacing, and time structuredness (in addition to sample size) on model performance. As a consequence, researchers have little guidance when trying to conduct longitudinal research. To address these gaps in the literature, I conducted a series of simulation experiments. I found poor model performance across all measurement number/sample size pairings. That is, bias and precision were never concurrently optimized under any combination of manipulated variables. Bias was often low, however, with moderate measurement numbers and sample sizes. Although precision was frequently poor, the greatest improvements in precision resulted from using either seven measurements with \(N \ge 200\) or nine measurements with \(N \le 100\). With time-unstructured data, model performance systematically decreased across all measurement number/sample size pairings when the model incorrectly assumed an identical response pattern across all participants (i.e., time-structured data). Fortunately, when models were equipped to handle heterogeneous response patterns using definition variables, the poor model performance observed across all measurement number/sample size pairings no longer appeared. Altogether, the results of the current simulation experiments provide guidelines for researchers interested in modelling nonlinear change.}  %[linespacing][abstract][
 
   \end{abstract}
 
@@ -729,14 +730,14 @@ With longitudinal analyses often producing results that differ from those of cro
 \hypertarget{understanding-patterns-of-change-that-emerge-over-time}{%
 \section{Understanding Patterns of Change That Emerge Over Time}\label{understanding-patterns-of-change-that-emerge-over-time}}
 
-Change can occur in many ways over time. One pattern of change commonly assumed to occur over time is that of linear change. When change follows a linear pattern, the rate of change over time remains constant. Unfortunately, a linear pattern places demanding restrictions on the possible trajectories of change. If change were to follow a linear pattern, then any pauses in change (or plateaus) or changes in direction could not occur: Change would simply grow over time. Unfortunately, effect sizes have been shown to diminish over time after peaking \autocites[for meta-analytic examples, see][]{cohen1993,griffeth2000,hom1992,riketta2008,steel1984,steel1990}. Moreover, many variables display cyclic patterns of change over time, with mood \autocite{larsen1990}, daily stress \autocite{bodenmann2010}, and daily drinking behaviour \autocite{huh2015} as some examples. Therefore, change over is unlikely to follow a linear pattern.
+Change can occur in many ways over time. One pattern of change commonly assumed to occur over time is that of linear change. When change follows a linear pattern, the rate of change over time remains constant. Unfortunately, a linear pattern places demanding restrictions on the possible trajectories of change. If change were to follow a linear pattern, then any pauses in change (or plateaus) or changes in direction could not occur: Change would simply grow over time. Unfortunately, effect sizes have been shown to diminish over time after peaking \autocites[for meta-analytic examples, see][]{cohen1993,griffeth2000,hom1992,riketta2008,steel1984,steel1990}. Moreover, many variables display cyclic patterns of change over time, with mood \autocite{larsen1990}, daily stress \autocite{bodenmann2010}, and daily drinking behaviour \autocite{huh2015} as some examples. Therefore, change over time is unlikely to follow a linear pattern.
 
 A more realistic pattern of change to occur over time is a nonlinear pattern \autocite[for a review, see][]{cudeck2007}. Nonlinear change allows the rate of change to be nonconstant; that is, change may occur more rapidly during certain periods of time, stop altogether, or reverse direction. When looking at patterns of change observed across psychology, several examples of nonlinear change have been found in the declining rate of speech errors throughout child development \autocite{burchinal1991}, rates of forgetting \autocite{murre2015}, development of habits \autocite{fournier2017}, and the formation of opinions \autocite{xia2020}. Given that nonlinear change appears more likely than linear change, my dissertation will assume change over time to be nonlinear.
 
 \hypertarget{challenges-involved-in-conducting-longitudinal-research}{%
 \section{Challenges Involved in Conducting Longitudinal Research}\label{challenges-involved-in-conducting-longitudinal-research}}
 
-Conducting longitudinal research presents researchers with several challenges. Many challenges are those from cross-sectional research only amplified \autocite[for a review, see][]{bergman1993}.\footnote{It should be noted that conducting a longitudinal study does alleviate some issues encountered in conducting cross-sectional research. For example, taking measurements over multiple time points likely reduces common method variance \parencites{podsakoff2003}[for an example, see ][]{ostroff2002}.} For example, greater efforts have to be made to to prevent missing data which can increase over time \autocite{newman2008,dillman2014}. Likewise, the adverse effects of well-documented biases such as demand characteristics \autocite{orne1962} and social desirability \autocite{nederhof1985} have to be countered at each time point. Outside of challenges shared with cross-sectional research, conducting longitudinal research also presents new challenges. Analyses of longitudinal data have to consider complications such as how to model error structures \autocite{grimm2010a}, check for measurement non-invariance over time \autocite[the extent to which a construct is measured with the same measurement model over time;][]{mellenbergh1989}, and how to center/process data to appropriately answer research questions \autocite{enders2007,wang2015}.
+Conducting longitudinal research presents researchers with several challenges. Many challenges are those from cross-sectional research only amplified \autocite[for a review, see][]{bergman1993}.\footnote{It should be noted that conducting a longitudinal study does alleviate some issues encountered in conducting cross-sectional research. For example, taking measurements over multiple time points likely reduces common method variance \parencites{podsakoff2003}[for an example, see ][]{ostroff2002}.} For example, greater efforts have to be made to prevent missing data which can increase over time \autocite{newman2008,dillman2014}. Likewise, the adverse effects of well-documented biases such as demand characteristics \autocite{orne1962} and social desirability \autocite{nederhof1985} have to be countered at each time point. Outside of challenges shared with cross-sectional research, conducting longitudinal research also presents new challenges. Analyses of longitudinal data have to consider complications such as how to model error structures \autocite{grimm2010a}, check for measurement non-invariance over time \autocite[the extent to which a construct is measured with the same measurement model over time;][]{mellenbergh1989}, and how to center/process data to appropriately answer research questions \autocite{enders2007,wang2015}.
 
 Although researchers must contend with several issues in conducting longitudinal research, three issues are of particular interest in my dissertation. The first issue concerns how many measurements to use in a longitudinal design. The second issue concerns how to space the measurements. The third issue focuses on how much error is incurred if the time structuredness of the data is overlooked. The sections that follow will review each of these issues.
 
@@ -748,12 +749,12 @@ Researchers have to decide on the number of measurements to include in a longitu
 \hypertarget{spacing-of-measurements}{%
 \subsection{Spacing of Measurements}\label{spacing-of-measurements}}
 
-Additionally, a researcher must decide on the spacing of measurements in a longitudinal study. Although discussions of measurement spacing often recommend that researchers use theory and previous studies to determine measurement spacing \autocite{mitchell2001,cole2003,collins2006,dormann2014,dormann2015}, organizational theories seldom delineate periods of time over which a processes unfold, and so the majority of longitudinal research uses intervals of convention and/or convenience to space measurements \autocite{mitchell2001,dormann2014}. Unfortunately, using measurement spacings that do not account for the temporal pattern of change of a psychological process can lead to inaccurate results \autocite[e.g.,][]{chen2014}. As an example, \textcite{cole2009} show how correlation magnitudes are affected by the choice of measurement spacing intervals. In my dissertation, I hope to determine whether an optimal measurement spacing schedule exists when modelling a nonlinear pattern of change.
+Additionally, a researcher must decide on the spacing of measurements in a longitudinal study. Although discussions of measurement spacing often recommend that researchers use theory and previous studies to determine measurement spacing \autocite{mitchell2001,cole2003,collins2006,dormann2014,dormann2015}, organizational theories seldom delineate periods of time over which processes unfold, and so the majority of longitudinal research uses intervals of convention and/or convenience to space measurements \autocite{mitchell2001,dormann2014}. Unfortunately, using measurement spacings that do not account for the temporal pattern of change of a psychological process can lead to inaccurate results \autocite[e.g.,][]{chen2014}. As an example, \textcite{cole2009} show how correlation magnitudes are affected by the choice of measurement spacing intervals. In my dissertation, I hope to determine whether an optimal measurement spacing schedule exists when modelling a nonlinear pattern of change.
 
 \hypertarget{time-structuredness}{%
 \subsection{Time Structuredness}\label{time-structuredness}}
 
-Last, and perhaps most pernicious, latent variable analyses of longitudinal data are likely to incur error from an assumption they make about data collection conditions. Latent variable analyses assume that, across all collection points, participants provide their data at the same time. Unfortunately, such a high level of regularity in the response patterns of participants is unlikely: Participants are more likely to provide their data over some period of time after a data collection window has opened. As an example, consider a study that collects data from participants at the beginning of each month. If participants respond with perfect regularity, then they would all provide their data at the exact same time (e.g., noon on the second day of each month). If the participants respond with imperfect regularity, then they would provide their at different times after the beginning of each month. The regularity of response patterns observed across participants in a longitudinal study determines the time structuredness of the data and the sections that follow will provide overview of time structuredness.
+Last, and perhaps most pernicious, latent variable analyses of longitudinal data are likely to incur error from an assumption they make about data collection conditions. Latent variable analyses assume that, across all collection points, participants provide their data at the same time. Unfortunately, such a high level of regularity in the response patterns of participants is unlikely: Participants are more likely to provide their data over some period of time after a data collection window has opened. As an example, consider a study that collects data from participants at the beginning of each month. If participants respond with perfect regularity, then they would all provide their data at the exact same time (e.g., noon on the second day of each month). If the participants respond with imperfect regularity, then they would provide their data at different times after the beginning of each month. The regularity of response patterns observed across participants in a longitudinal study determines the time structuredness of the data and the sections that follow will provide an overview of time structuredness.
 
 \hypertarget{time-structured-data}{%
 \subsubsection{Time-Structured Data}\label{time-structured-data}}
@@ -770,17 +771,17 @@ Conversely, other analyses assume that data are \emph{time unstructured}: Partic
 
 In summary, researchers must contend with several issues when conducting longitudinal research. In addition to contending with issues encountered in conducting cross-sectional research, researchers must contend with new issues that arise from conducting longitudinal research. Three issues of particular importance in my dissertation are the number of measurements, the spacing of measurements, and incorrectly assuming time-unstructured data to be time structured. These issues will be serve as a basis for a systematic review of the simulation literature.
 
-\hypertarget{using-simulations-to-assess-modelling-accuracy}{%
-\section{Using Simulations To Assess Modelling Accuracy}\label{using-simulations-to-assess-modelling-accuracy}}
+\hypertarget{using-simulations-to-assess-model-performance}{%
+\section{Using Simulations To Assess Model Performance}\label{using-simulations-to-assess-model-performance}}
 
 In the next section, I will present the results of a systematic review of the literature that has investigated the issues of measurement number, measurement spacing, and time structuredness. Before presenting the results of the systematic review, I will provide an overview of the Monte Carlo method used to investigate the issues involved in conducting longitudinal research.
 
-To understand how the effects of longitudinal issues on modelling accuracy can be investigated, the inferential method commonly employed in psychological research will first be reviewed with an emphasis on its shortcomings (see Figure \ref{fig:MonteCarlo-comparison}). Consider an example where a researcher wants to understand how sampling error affects the accuracy with which a sample mean (\(\bar{x}\)) estimates a population mean (\(\upmu\)). Using the inferential method, the researcher samples data and then estimates the population mean (\(\upmu\)) by computing the mean of the sampled data (\(\bar{x}_1\)). Because collected samples are almost always contaminated by a variety of methodological and/or statistical deficiencies (such as sampling error, measurement error, assumption violations, etc.), the estimation of the population parameter is likely to be imperfect. Unfortunately, to estimate the effect of sampling error on the accuracy of the population mean estimate (\(\bar{x}_1\)), the researcher would need to know the value of the population mean; without knowing the value of the population mean, it is impossible to know how much error was incurred in estimating the population mean and, as as a result, impossible to know the extent to which sampling error contributed to this error. Therefore, a study following the inferential approach can only provide estimates of population parameters.
+To understand how the effects of longitudinal issues on model performance can be investigated, the inferential method commonly employed in psychological research will first be reviewed with an emphasis on its shortcomings (see Figure \ref{fig:MonteCarlo-comparison}). Consider an example where a researcher wants to understand how sampling error affects the accuracy with which a sample mean (\(\bar{x}\)) estimates a population mean (\(\upmu\)). Using the inferential method, the researcher samples data and then estimates the population mean (\(\upmu\)) by computing the mean of the sampled data (\(\bar{x}_1\)). Because collected samples are almost always contaminated by a variety of methodological and/or statistical deficiencies (such as sampling error, measurement error, assumption violations, etc.), the estimation of the population parameter is likely to be imperfect. Unfortunately, to estimate the effect of sampling error on the accuracy of the population mean estimate (\(\bar{x}_1\)), the researcher would need to know the value of the population mean; without knowing the value of the population mean, it is impossible to know how much error was incurred in estimating the population mean and, as as a result, impossible to know the extent to which sampling error contributed to this error. Therefore, a study following the inferential approach can only provide estimates of population parameters.
 
-The Monte Carlo method has a different goal. Whereas the inferential method focuses on estimating parameters from sample data, the Monte Carlo method is used to understand the factors that influence the accuracy of the inferential approach. Figure \ref{fig:MonteCarlo-comparison} shows that the Monte Carlo method works in the opposite direction of the inferential approach: Instead of collecting a sample, the Monte Carlo method begins by assigning a value to at least one parameter to define a population. Many sample data sets are then generated from the defined population (\(s_1, s_2, ..., s_n\)) and the data from each sample are then modelled by computing a sample mean (\(\bar{x}_1, \bar{x}_2, ..., \bar{x}_n\)). Importantly, manipulations can be applied to the sampling and/or modelling of the data. In the current example,the population estimates of each statistical model are averaged (\(\bar{\bar{x}}\)) and compared to the pre-determined parameter value (\(\upmu\)). The difference between the average of the estimates and the known population value constitutes bias in parameter estimation (i.e., parameter bias). In the current example, the manipulation causes a systematic underestimation, on average, of the population parameter. By randomly generating data, the Monte Carlo method can estimate how a variety of methodological and statistical factors affect the accuracy of a model \autocite[for a review, see][]{robert2010}.
+The Monte Carlo method has a different goal. Whereas the inferential method focuses on estimating parameters from sample data, the Monte Carlo method is used to understand the factors that influence the accuracy of the inferential approach. Figure \ref{fig:MonteCarlo-comparison} shows that the Monte Carlo method works in the opposite direction of the inferential approach: Instead of collecting a sample, the Monte Carlo method begins by assigning a value to at least one parameter to define a population. Many sample data sets are then generated from the defined population (\(s_1, s_2, ..., s_n\)) and the data from each sample are then modelled by computing a sample mean (\(\bar{x}_1, \bar{x}_2, ..., \bar{x}_n\)). Importantly, manipulations can be applied to the sampling and/or modelling of the data. In the current example,the population estimates of each statistical model are averaged (\(\bar{\bar{x}}\)) and compared to the pre-determined parameter value (\(\upmu\)). The difference between the average of the estimates and the known population value constitutes bias in parameter estimation (i.e., parameter bias). In the current example, the manipulation causes a systematic underestimation, on average, of the population parameter. By randomly generating data, the Monte Carlo method can estimate how a variety of methodological and statistical factors affect model performance \autocite[for a review, see][]{robert2010}.
 
 Monte Carlo simulations have been used to evaluate the effects of a variety of methodological and statistical deficiencies for several decades. Beginning with an early use of the Monte Carlo method, \textcite{boneau1960} used it to evaluate the effects of assumption violations on the fidelity of \emph{t}-value distributions. In more recent years, implementations of the the Monte Carlo method have shown that realistic values of sample size
-and measurement accuracy produce considerable variability in estimated correlation values \autocite{stanley2014}. Monte Carlo simulations have also provided valuable insights into more complicated statistical analyses. In investigating more complex statistical analyses, simulations have shown that mediation analyses are biased to produce results of complete mediation because the statistical power to detect direct effects falls well below the statistical power to detect indirect effects \autocite{kenny2014}. Given the ability of the Monte Carlo method to evaluate statistical methods, the experiments in my dissertation used it to evaluate the effects of measurement number, measurement spacing, and time structuredness on modelling accuracy.\footnote{My simulation experiments also investigated the effects of sample size and nature of change on modelling accuracy.}
+and measurement accuracy produce considerable variability in estimated correlation values \autocite{stanley2014}. Monte Carlo simulations have also provided valuable insights into more complicated statistical analyses. In investigating more complex statistical analyses, simulations have shown that mediation analyses are biased to produce results of complete mediation because the statistical power to detect direct effects falls well below the statistical power to detect indirect effects \autocite{kenny2014}. Given the ability of the Monte Carlo method to evaluate statistical methods, the experiments in my dissertation used it to evaluate the effects of measurement number, measurement spacing, and time structuredness on model performance.\footnote{My simulation experiments also investigated the effects of sample size and nature of change on model performance.}
 
 \hypertarget{systematic-review-of-simulation-literature}{%
 \section{Systematic Review of Simulation Literature}\label{systematic-review-of-simulation-literature}}
@@ -944,7 +945,7 @@ SM x TS x S & \cellcolor[HTML]{E4E2E2}{\textbf{Cell 11}} & \cellcolor[HTML]{C7C4
 
 \noindent change. Given that change over time is more likely to follow a nonlinear than a linear pattern \autocite[for a review, see][]{cudeck2007}, it could be argued that most simulation research has investigated the effect of longitudinal design factors under unrealistic conditions.
 
-Second, all the cells corresponding to the three-way interactions with nonlinear patterns of change have not been investigated (Cells 7, 9, 10, and 12 in Table \ref{tab:systematicReviewCount}), meaning that almost no study has conducted a comprehensive investigation into measurement timing. Given that longitudinal research is needed to understand the temporal dynamics of psychological processes---as suggested by ergodic theory \autocite{molenaar2004}---it is necessary to understand how longitudinal design and analysis factors interact with each other (and with sample size) in affecting the modelling accuracy of temporal dynamics. Given that no simulation study identified in my systematic review conducted a comprehensive investigation into the effects of longitudinal design and analysis factors on modelling nonlinear change, I designed simulation studies to address these gaps.
+Second, all the cells corresponding to the three-way interactions with nonlinear patterns of change have not been investigated (Cells 7, 9, 10, and 12 in Table \ref{tab:systematicReviewCount}), meaning that almost no study has conducted a comprehensive investigation into measurement timing. Given that longitudinal research is needed to understand the temporal dynamics of psychological processes---as suggested by ergodic theory \autocite{molenaar2004}---it is necessary to understand how longitudinal design and analysis factors interact with each other (and with sample size) in affecting the performance of longitudinal models. Given that no simulation study identified in my systematic review conducted a comprehensive investigation into the effects of longitudinal design and analysis factors on modelling nonlinear change, I designed simulation studies to address these gaps.
 
 \hypertarget{modelling-change}{%
 \section{Methods of Modelling Nonlinear Patterns of Change Over Time}\label{modelling-change}}
@@ -1004,12 +1005,12 @@ In addition to using the logistic function to model nonlinear change, another mo
 \hypertarget{next-steps}{%
 \subsection{Next Steps}\label{next-steps}}
 
-Given that longitudinal research is needed to understand the temporal dynamics of psychological processes, it is necessary to understand how longitudinal design and analysis factors interact with each other (and with sample size) in affecting the accuracy with which nonlinear patterns of change are modelled. With no study to my knowledge having conducted a comprehensive investigation into how longitudinal design and analysis factors affect the modelling of nonlinear change patterns, my simulation experiments are designed to address these gaps in the literature. Specifically, my simulation experiments investigate how measurement number, measurement spacing, and time structuredness affect the accuracy with which a nonlinear change pattern is modelled (see Cells 1, 5, 9, and 10 of Table \ref{tab:systematicReviewCount}/Table \ref{tab:systematicReview}).
+Given that longitudinal research is needed to understand the temporal dynamics of psychological processes, it is necessary to understand how longitudinal design and analysis factors interact with each other (and with sample size) in affecting the performance of nonlinear longitudinal models. With no study to my knowledge having conducted a comprehensive investigation into how longitudinal design and analysis factors affect the modelling of nonlinear change patterns, my simulation experiments are designed to address these gaps in the literature. Specifically, my simulation experiments investigate how measurement number, measurement spacing, and time structuredness affect the performance of a longitudinal model of nonlinear change (see Cells 1, 5, 9, and 10 of Table \ref{tab:systematicReviewCount}/Table \ref{tab:systematicReview}).
 
 \hypertarget{overview-of-simulation-experiments}{%
 \section{Overview of Simulation Experiments}\label{overview-of-simulation-experiments}}
 
-To investigate the effects of longitudinal design and analysis factors on modelling accuracy, I conducted three Monte Carlo experiments. Before summarizing the simulation experiments, one point needs to be mentioned regarding the maximum number of independent variables used in each experiment. No simulation experiment manipulated more than three variables because of the difficulty associated with interpreting interactions between four or more variables. Even among academics, the ability to correctly interpret interactions sharply declines when the number of independent variables increases from three to four \autocite{halford2005}. Therefore, none of my simulation experiments manipulated more than three variables so that results could be readily interpreted.
+To investigate the effects of longitudinal design and analysis factors on model performance, I conducted three Monte Carlo experiments. Before summarizing the simulation experiments, one point needs to be mentioned regarding the maximum number of independent variables used in each experiment. No simulation experiment manipulated more than three variables because of the difficulty associated with interpreting interactions between four or more variables. Even among academics, the ability to correctly interpret interactions sharply declines when the number of independent variables increases from three to four \autocite{halford2005}. Therefore, none of my simulation experiments manipulated more than three variables so that results could be readily interpreted.
 
 To summarize the three simulation experiments, the independent variables of each simulation experiment are listed below:
 \begin{itemize}
@@ -1230,7 +1231,7 @@ Bias was calculated to evaluate the accuracy with which each logistic function p
 \hypertarget{pres-precision}{%
 \subparagraph{Precision}\label{pres-precision}}
 
-In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies aoften ssume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic parameter.
+In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies often assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic function parameter.
 
 \hypertarget{analysis-visualization}{%
 \subsection{Analysis of Data Modelling Output and Accompanying Visualizations}\label{analysis-visualization}}
@@ -1250,7 +1251,7 @@ In accordance with several simulation studies, an estimate with a bias value wit
 \hypertarget{precision-analysis}{%
 \subsubsection{Analysis and Visualization of Precision}\label{precision-analysis}}
 
-As discussed previously, precision was defined as the range of values covered by the middle 95\% of estimated values for a given parameter (see \protect\hyperlink{precision-mid-ext-exp1}{precision}). The cutoff value used to estimate precision directly followed from the cutoff value used for bias. Given that bias values within a \(\pm10\%\) of a parameter's population value were deemed acceptable, an acceptable value for precision should not allow any bias value above the \(\pm10\%\) cutoff. That is, the range covered by the middle 95\% of estimated values should not contain a bias value outside the \(\pm10\%\) cutoff. If the range of values covered by the middle 95\% of estimate values is conceptualized as an error bar centered on the population value, then an acceptable value for precision implies that neither the lower nor upper whiskers have a length greater than 10\% of the parameter's population value. In summary, I deemed precision acceptable if no estimate within the range of values covered by the middle 95\% of estimated values had a bias value greater than 10\% of the population value, which also means that neither the lower nor upper whiskers of the error bar have a length greater than 10\% of the population value.
+As discussed previously, precision was defined as the range of values covered by the middle 95\% of estimated values for a given parameter (see \protect\hyperlink{precision-mid-ext-exp1}{precision}). The cutoff value used to estimate precision directly followed from the cutoff value used for bias. Given that bias values within \(\pm10\%\) of a parameter's population value were deemed acceptable, an acceptable value for precision should not allow any bias value above the \(\pm10\%\) cutoff. That is, the range covered by the middle 95\% of estimated values should not contain a bias value outside the \(\pm10\%\) cutoff. If the range of values covered by the middle 95\% of estimate values is conceptualized as an error bar centered on the population value, then an acceptable value for precision implies that neither the lower nor upper whiskers have a length greater than 10\% of the parameter's population value. In summary, I deemed precision acceptable if no estimate within the range of values covered by the middle 95\% of estimated values had a bias value greater than 10\% of the population value, which also means that neither the lower nor upper whiskers of the error bar have a length greater than 10\% of the population value.
 
 Like bias, I also depicted precision in bias/precision plots using error bars. Each error bar in the bias/precision plot of Figure \ref{fig:param-estimation-ex} indicates the range of values covered by the middle 95\% of estimated values in the given cell for the fixed-effect triquarter-halfway delta parameter (\(\upgamma_{fixed}\)). Importantly, if estimation is not precise, then at least one of the lower and/or upper whisker lengths exceeds 10\% of the parameter's population value. When estimation is not precise, the error bar is light blue. When estimation is precise (i.e., neither of the lower or upper whisker lengths exceed 10\% of the parameter's population value), the corresponding error bar is black. In the current example, all error bars are light blue and so precision is low in all cells.
 \begin{apaFigure}
@@ -1265,27 +1266,38 @@ Like bias, I also depicted precision in bias/precision plots using error bars. E
 \hypertarget{effect-size-computation-for-precision}{%
 \paragraph{Effect Size Computation for Precision}\label{effect-size-computation-for-precision}}
 
-One last statistic I calculated was an effect size value to estimate the variance in parameter estimates accounted for by each effect. Among the several effect size metrics---at a broad level, effect size metrics can represent standardized differences or variance-accounted-for measures that are corrected or uncorrected for sampling error---the corrected variance-accounted-for effect size metric of partial \(\upomega^2\) was chosen because of three desirable properties. First, partial \(\upomega^2\) provides a less biased estimate of effect size than other variance-accounted-for measures \autocite{okada2013}. Second, partial \(\upomega^2\) is more robust to assumption violations of normality and homogeneity of variance \autocite{yigit2018}. Given that parameter estimates were often non-normally distributed across cells, effect size values computed with partial \(\upomega^2\) should be relatively less biased than other variance-accounted-for effect size metrics (e.g., \(\eta^2\)). Third, partial \(\upomega^2\) provides an effect size estimate that is not diluted by the inclusion of unaccountable variance in the denominator. To compute partial \(\upomega^2\) value for each experimental effect, Equation \ref{eq:partial-omega} shown below was used:
+One last statistic I calculated was an effect size value to estimate the variance in parameter estimates accounted for by each effect. Among the several effect size metrics---at a broad level, effect size metrics can represent standardized differences or variance-accounted-for measures that are corrected or uncorrected for sampling error---the corrected variance-accounted-for effect size metric of partial \(\upomega^2\) was chosen because of three desirable properties. First, partial \(\upomega^2\) provides a less biased estimate of effect size than other variance-accounted-for measures \autocite{okada2013}. Second, partial \(\upomega^2\) is more robust to assumption violations of normality and homogeneity of variance \autocite{yigit2018}. Given that parameter estimates were often non-normally distributed within cells, effect size values computed with partial \(\upomega^2\) should be relatively less biased than other variance-accounted-for effect size metrics (e.g., \(\eta^2\)). Third, partial \(\upomega^2\) provides an effect size estimate that is not diluted by the inclusion of unaccountable variance in the denominator. To compute partial \(\upomega^2\) value for each experimental effect, Equation \ref{eq:partial-omega} shown below was used:
 \begin{align}
-\text{partial} \upomega^2 = \frac{\sigma^2_{effect}}{\sigma^2_{effect} + MSE} 
+\text{partial } \upomega^2 = \frac{\sigma^2_{effect}}{\sigma^2_{effect} + MSE} 
 \label{eq:partial-omega}
 \end{align}
-\noindent where \(\sigma^2_{effect}\) represents the variance accounted by an effect and \(MSE\) is the mean squared error. Importantly, \(\sigma^2_{effect}\) values were corrected values obtained by using the following formula in Equation \ref{eq:var-effect} for a two-way factorial design with fixed variables \autocite{howell2009}:
+\noindent where \(\sigma^2_{effect}\) represents the variance accounted for by an effect and \(MSE\) is the mean squared error. Importantly, \(\sigma^2_{effect}\) values were corrected for sampling error as shown below in Equation \ref{eq:var-effect} for a two-way factorial design with fixed variables \autocite[Chapter 13]{howell2009}:
 \begin{align}
- \sigma^2_{effect} = \frac{(a - 1)(MS_{effect} - MS_{error})}{nab},
+ \sigma^2_{effect} = \frac{(df_{effect} - 1)(MS_{effect} - MS_{error})}{nab},
 \label{eq:var-effect}
 \end{align}
-\noindent where \(a\) is the number of levels in the effect, \(b\) is the number of levels in the second effect, and \(n\) is the cell size. The variance accounted by the interaction was computed using the following formula in Equation \ref{eq:var-interac}:
+\noindent where \(df_{effect}\) is the degrees of freedom for the effect, \(a\) is the number of levels of the first independent variable, \(b\) is the number of levels in the second independent variable, and \(n\) is the cell size. The variance accounted for by the interaction was computed using the following formula in Equation \ref{eq:var-interac}:
 \begin{align}
  \sigma^2_{A x B} = \frac{(a - 1)(b-1)(MS_{AxB} - MS_{error})}{nab}. 
 \label{eq:var-interac}
 \end{align}
-To compute partial \(\upomega^2\) values for effects, a Brown-Forsythe test was computed and the appropriate sum-of-squares terms were used to compute partial \(\upomega^2\) values. A Brown-Forsythe test was used to protect against the biasing effects of skewed distributions \autocite{brown1974}, which were observed in the parameter estimate distributions in the current simulation experiments. To compute the Brown-Forsythe test, median absolute deviations in each cell were computed by calculating the absolute difference between each \(i\) estimate and the median estimated value in the given experimental cell as shown in Equation \ref{eq:brown-forsythe} below:
+\noindent For computing partial \(\upomega^2\) for a three-way factorial design with fixed variables, I used the following equations for the main effects (Equation \ref{eq:main-effect-three}), two-way interactions (Equation \ref{eq:two-way-three}), and three-way interactions (Equation \ref{eq:three-way-three}):
+\begin{align}
+ \sigma^2_{effect} = \frac{(df_{effect} - 1)(MS_{effect} - MS_{error})}{nabc},
+\label{eq:main-effect-three} \\ 
+ \sigma^2_{A x B} = \frac{(a - 1)(b-1)(MS_{AxB} - MS_{error})}{nabc}, \text{ and } 
+\label{eq:two-way-three} \\
+ \sigma^2_{A x B x C} = \frac{(a - 1)(b-1)(c-1)(MS_{AxB} - MS_{error})}{nabc}, 
+\label{eq:three-way-three}
+\end{align}
+\noindent where \(c\) represents the number of levels for the third independent variable. The three-way design partial \(\upomega^2\) values are provided in Appendix \ref{omega-three-way}.
+
+To compute partial \(\upomega^2\) values for effects, a Brown--Forsythe test was computed and the appropriate sum-of-squares terms were used to compute partial \(\upomega^2\) values. A Brown-Forsythe test was used to protect against the biasing effects of skewed distributions \autocite{brown1974}, which were observed in the parameter estimate distributions in the current simulation experiments. To compute the Brown-Forsythe test, median absolute deviations in each cell were computed by calculating the absolute difference between each \(i\) estimate and the median estimated value in the given experimental cell as shown in Equation \ref{eq:brown-forsythe} below:
 \begin{align}
 \text{Median absolute deviation}_i = \lvert \text{Parameter estimate}_i - \text{Median parameter estimate}_{cell} \rvert.
 \label{eq:brown-forsythe}
 \end{align}
-\noindent An ANOVA was then computed on the median absolute deviation values (using the independent variables of the experiment and the associated interactions as predictors), with the terms in Equation \ref{eq:partial-omega} extracted from the ANOVA output to compute partial \(\upomega^2\) values.
+\noindent An ANOVA was then computed on the median absolute deviation values (using the independent variables of the experiment and the associated interactions as predictors), with the terms in Equation \ref{eq:partial-omega} extracted from the ANOVA output to compute the partial \(\upomega^2\) values.
 
 \hypertarget{results-and-discussion}{%
 \section{Results and Discussion}\label{results-and-discussion}}
@@ -1377,9 +1389,9 @@ Parameter & Lower & Upper & Total & Lower & Upper & Total & Lower & Upper & Tota
 \insertTableNotes
 \end{longtable}
 \end{ThreePartTable}
-\noindent parameter, they were largely redundant and so were not reported for equal spacing. Although model performance was determined by bias and precision, results for bias were not reported because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated number of measurements. The column shaded in gray indicates the nature of change where precision was highest (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 180 across all day-unit parameters under equal spacing with one exception (see the `Highest Model Performance' in Table \ref{tab:summary-table-equal-spacing-exp1}). Importantly, with a nature-of-change value of 180, measurements were taken closer to periods of change under equal spacing than with other nature-of-change values (see Figure \ref{fig:equal-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with equal spacing.
+\noindent parameter, they were largely redundant and so were not reported for equal spacing. Although model performance was determined by bias and precision, results for bias were not reported because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated number of measurements. The column shaded in gray indicates the nature of change where precision was best (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 180 across all day-unit parameters under equal spacing with one exception (see the `Highest Model Performance' in Table \ref{tab:summary-table-equal-spacing-exp1}). Importantly, with a nature-of-change value of 180, measurements were taken closer to periods of change under equal spacing than with other nature-of-change values (see Figure \ref{fig:equal-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with equal spacing.
 
-To understand why precision for the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\)) was lower with a nature-of-change value of 180, I looked at the distribution of estimated values. Figure \ref{fig:density_gamma_equal} shows the distribution of values (i.e., density plots) estimated for the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\)) for each nature-of-change level with five measurements. Importantly, the error bars in the bias/precision plot of Figure \ref{fig:exp1_plot_equal}D with five measurements are created from the density plots shown in Figure \ref{fig:density_gamma_equal}. Panel A shows the density plot with a nature-of-change value of 80 (\(\upbeta_{fixed}\) = 80). Panel B shows the density plot with a with a nature-of-change value of 180 (\(\upbeta_{fixed}\) = 180). Panel C shows the density plot with a with a nature-of-change value of 280 (\(\upbeta_{fixed}\) = 280). Regions shaded in gray represent the middle 95\% of estimated
+To understand why precision for the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\)) was worse with a nature-of-change value of 180, I looked at the distribution of estimated values. Figure \ref{fig:density_gamma_equal} shows the distribution of values (i.e., density plots) estimated for the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\)) for each nature-of-change level with five measurements. Importantly, the error bars in the bias/precision plot of Figure \ref{fig:exp1_plot_equal}D with five measurements are created from the density plots shown in Figure \ref{fig:density_gamma_equal}. Panel A shows the density plot with a nature-of-change value of 80 (\(\upbeta_{fixed}\) = 80). Panel B shows the density plot with a with a nature-of-change value of 180 (\(\upbeta_{fixed}\) = 180). Panel C shows the density plot with a with a nature-of-change value of 280 (\(\upbeta_{fixed}\) = 280). Regions shaded in gray represent the middle 95\% of estimated
 \begin{apaFigure}
 [portrait]
 [samepage]
@@ -1390,7 +1402,7 @@ To understand why precision for the random-effect triquarter-halfway elevation p
 {Figures/midpoint_180_plot}
 {Model performance was highest when measurements were taken closer to periods of greater change, which resulted with a nature-of-change value of 180 with equal spacing. Text prints error bar lengths that resulted when model performance was highest (see Table \ref{tab:errorbar-equal-nc}).}
 \end{apaFigure}
-\noindent values and the width of the shaded regions is indicated by the length of the horizontal error bars. As originally confirmed by Table \ref{tab:errorbar-equal-nc}, Figure \ref{fig:density_gamma_equal}B shows that precision was indeed lowest (i.e., longer error bars) with a nature of change of 180. In looking across the density plots in Figure \ref{fig:density_gamma_equal}, precision was lowest (i.e., longest error bars) for the random-effect triquarter-halfway parameter (\(\upgamma_{random}\)) with a nature-of-change value of 180 because of the existence of high-value outliers.
+\noindent values and the width of the shaded regions is indicated by the length of the horizontal error bars. As originally confirmed by Table \ref{tab:errorbar-equal-nc}, Figure \ref{fig:density_gamma_equal}B shows that precision was indeed worst (i.e., longer error bars) with a nature of change of 180. In looking across the density plots in Figure \ref{fig:density_gamma_equal}, precision was worst (i.e., longest error bars) for the random-effect triquarter-halfway parameter (\(\upgamma_{random}\)) with a nature-of-change value of 180 because of the existence of high-value outliers.
 
 In summary, under equal spacing, model performance for all the day-unit parameters was greatest when the nature-of-change value set by the fixed-effect days-to-halfway
 \begin{apaFigure}
@@ -1421,8 +1433,8 @@ Before presenting the results for bias, I provide a description of the set of bi
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and population value set for $\upbeta_{fixed}$. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
-           $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and nature of change,
+$\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
 \end{TableNotes}
@@ -1433,10 +1445,10 @@ Before presenting the results for bias, I provide a description of the set of bi
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & NC & NM x NC\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_equal}A) & 0.02 & 0.00 & 0.01\\
-$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_equal}B) & 0.29 & 0.02 & 0.02\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_equal}C) & 0.36 & 0.01 & 0.03\\
-$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_equal}D) & 0.21 & 0.03 & 0.04\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_equal}A) & 0.05 & 0.01 & 0.03\\
+$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_equal}B) & 0.45 & 0.04 & 0.05\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_equal}C) & 0.53 & 0.01 & 0.06\\
+$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_equal}D) & 0.35 & 0.05 & 0.08\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -1537,7 +1549,7 @@ Parameter & Highest Model Performance & Unbiased & Precise & Qualitative Descrip
 \end{landscape}
 \restoregeometry
 
-\noindent Note that error bar lengths were obtained by computing the average length across all manipulated number of measurements. The column shaded in gray indicates the nature of change where precision was highest (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 80 across all day-unit parameters under time-interval increasing spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-time-inc-exp1}). Importantly, with a nature-of-change value of 80, measurements were taken closer to periods of change under time-interval increasing spacing than with other nature-of-change values (see Figure \ref{fig:time-inc-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with time-interval increasing spacing.
+\noindent Note that error bar lengths were obtained by computing the average length across all manipulated number of measurements. The column shaded in gray indicates the nature of change where precision was best (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 80 across all day-unit parameters under time-interval increasing spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-time-inc-exp1}). Importantly, with a nature-of-change value of 80, measurements were taken closer to periods of change under time-interval increasing spacing than with other nature-of-change values (see Figure \ref{fig:time-inc-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with time-interval increasing spacing.
 \begin{ThreePartTable}
 \begin{TableNotes}
 \item \textit{Note. }`Total' indicates the total error bar length, which is a sum of the lower (`Lower') and upper (`Upper') whisker lengths. Parameter names and population values are as follows: $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter = {80, 180, 280}; $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter = 20; $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter = 10; $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter = 4. Note that error bar lengths were calculated by computing the average error bar length value across all number-of-measurement (NM) values (NM $\in$ \{5, 7, 9, 11\}). Columns shaded in gray indicate the nature-of-change value that results in the shortest error bar and whisker lengths.
@@ -1613,7 +1625,7 @@ In summary, with time-interval increasing spacing, estimation across all manipul
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and population value set for $\upbeta_{fixed}$. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and nature of change,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
@@ -1625,10 +1637,10 @@ In summary, with time-interval increasing spacing, estimation across all manipul
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & NC & NM x NC\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_inc}A) & 0.43 & 0.30 & 0.50\\
-$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_inc}B) & 0.12 & 0.04 & 0.05\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_inc}C) & 0.26 & 0.21 & 0.22\\
-$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_inc}D) & 0.12 & 0.05 & 0.04\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_inc}A) & 0.60 & 0.46 & 0.67\\
+$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_inc}B) & 0.22 & 0.08 & 0.09\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_inc}C) & 0.42 & 0.35 & 0.36\\
+$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_inc}D) & 0.22 & 0.10 & 0.08\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -1698,7 +1710,7 @@ Parameter & Highest Model Performance & Unbiased & Precise & Qualitative Descrip
 \hypertarget{nature-change-time-dec-exp1}{%
 \subsubsection{Nature of Change That Leads to Highest Model Performance}\label{nature-change-time-dec-exp1}}
 
-For time-interval decreasing spacing, Table \ref{tab:errorbar-time-dec-nc} lists the error bar lengths for each day-unit parameter and nature-of-change value. The `Total' column indicates the total error bar length, which is a sum of the the lower (`Lower') and upper (`Upper') whisker lengths. Given that the lower and upper whisker lengths were largely equivalent for each parameter, they were largely redundant and so were not reported for the remainder of the results for time-interval decreasing spacing. Although model performance was determined by bias and precision, results for bias were not computed because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated measurement number values. The column shaded in gray indicates the nature of change where precision was highest (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 280 across all day-unit parameters under time-interval decreasing spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-time-dec-exp1}). Importantly, with a nature-of-change value of 280, measurements were taken closer to periods of change under time-interval decreasing spacing than with other nature-of-change values (see Figure \ref{fig:time-dec-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with time-interval decreasing spacing.
+For time-interval decreasing spacing, Table \ref{tab:errorbar-time-dec-nc} lists the error bar lengths for each day-unit parameter and nature-of-change value. The `Total' column indicates the total error bar length, which is a sum of the the lower (`Lower') and upper (`Upper') whisker lengths. Given that the lower and upper whisker lengths were largely equivalent for each parameter, they were largely redundant and so were not reported for the remainder of the results for time-interval decreasing spacing. Although model performance was determined by bias and precision, results for bias were not computed because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated measurement number values. The column shaded in gray indicates the nature of change where precision was best (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 280 across all day-unit parameters under time-interval decreasing spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-time-dec-exp1}). Importantly, with a nature-of-change value of 280, measurements were taken closer to periods of change under time-interval decreasing spacing than with other nature-of-change values (see Figure \ref{fig:time-dec-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with time-interval decreasing spacing.
 
 \hypertarget{bias-time-dec-exp1}{%
 \subsubsection{Bias}\label{bias-time-dec-exp1}}
@@ -1774,7 +1786,7 @@ With respect to precision for time-interval decreasing spacing, estimates were i
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and population value set for $\upbeta_{fixed}$. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and nature of change,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
@@ -1786,10 +1798,10 @@ With respect to precision for time-interval decreasing spacing, estimates were i
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & NC & NM x NC\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_dec}A) & 0.20 & 0.10 & 0.22\\
-$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_dec}B) & 0.13 & 0.04 & 0.05\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_dec}C) & 0.27 & 0.19 & 0.21\\
-$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_dec}D) & 0.11 & 0.03 & 0.03\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_dec}A) & 0.33 & 0.18 & 0.35\\
+$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_dec}B) & 0.23 & 0.08 & 0.10\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_dec}C) & 0.43 & 0.32 & 0.35\\
+$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_dec}D) & 0.19 & 0.06 & 0.06\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -1868,7 +1880,7 @@ Parameter & Highest Model Performance & Unbiased & Precise & Qualitative Descrip
 \hypertarget{nature-change-mid-ext-exp1}{%
 \subsubsection{Nature of Change That Leads to Highest Model Performance}\label{nature-change-mid-ext-exp1}}
 
-For middle-and-extreme spacing, Table \ref{tab:errorbar-mid-ext-nc} lists the error bar lengths for each day-unit parameter and nature-of-change value. The `Total' column indicates the total error bar length, which is a sum of the the lower (`Lower') and upper (`Upper') whisker lengths. Given that the lower and upper whisker lengths were largely equivalent for each parameter, they were largely redundant and so were not reported for the remainder of the results for middle-and-extreme spacing. Although model performance was determined by bias and precision, results for bias were not reported because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated number-of-measurement values. The column shaded in gray indicates the nature of change where precision was highest (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 180 across all day-unit parameters under middle-and-extreme spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-mid-ext-exp1}). Importantly, with a nature-of-change value of 180, measurements were taken closer to periods of change under middle-and-extreme spacing than with other nature-of-change values (see Figure \ref{fig:equal-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with middle-and-extreme spacing.
+For middle-and-extreme spacing, Table \ref{tab:errorbar-mid-ext-nc} lists the error bar lengths for each day-unit parameter and nature-of-change value. The `Total' column indicates the total error bar length, which is a sum of the the lower (`Lower') and upper (`Upper') whisker lengths. Given that the lower and upper whisker lengths were largely equivalent for each parameter, they were largely redundant and so were not reported for the remainder of the results for middle-and-extreme spacing. Although model performance was determined by bias and precision, results for bias were not reported because the differences in bias across the nature-of-change values were negligible. Note that error bar lengths were obtained by computing the average length across all manipulated number-of-measurement values. The column shaded in gray indicates the nature of change where precision was best (i.e., shortest error bar lengths), which occurred with a nature-of-change value of 180 across all day-unit parameters under middle-and-extreme spacing (see the `Highest Model Performance' in Table \ref{tab:summary-table-mid-ext-exp1}). Importantly, with a nature-of-change value of 180, measurements were taken closer to periods of change under middle-and-extreme spacing than with other nature-of-change values (see Figure \ref{fig:equal-spacing-nc}). Therefore, it appears that placing measurements closer to periods of change increased model performance with middle-and-extreme spacing.
 
 \hypertarget{bias-mid-ext-exp1}{%
 \subsubsection{Bias}\label{bias-mid-ext-exp1}}
@@ -1945,7 +1957,7 @@ With respect to precision for middle-and-extreme spacing, estimates were impreci
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and population value set for $\upbeta_{fixed}$. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), NM x NC = interaction between number of measurements and nature of change,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
@@ -1957,10 +1969,10 @@ With respect to precision for middle-and-extreme spacing, estimates were impreci
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & NC & NM x NC\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_mid_ext}A) & 0.32 & 0.09 & 0.19\\
-$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_mid_ext}B) & 0.12 & 0.09 & 0.06\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_mid_ext}C) & 0.49 & 0.20 & 0.32\\
-$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_mid_ext}D) & 0.07 & 0.05 & 0.03\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_time_mid_ext}A) & 0.48 & 0.17 & 0.31\\
+$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_time_mid_ext}B) & 0.21 & 0.17 & 0.11\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_time_mid_ext}C) & 0.65 & 0.34 & 0.49\\
+$\upgamma_{random}$ (Figure \ref{fig:exp1_plot_time_mid_ext}D) & 0.13 & 0.10 & 0.06\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2153,7 +2165,7 @@ Spacing Schedule & Unbiased & Precise & Qualitative Description & $\upbeta_{fixe
 \end{landscape}
 \restoregeometry
 
-An important point to mention is that the error bar lengths for each day-unit parameter across each spacing schedule are comparable. That is, each spacing schedule obtains similar model performance when using the number of measurements listed in the `Qualitative Description' column. Because model performance is similar across the spacing schedules, then the schedule that requires the fewest number of measurements to obtain the greatest improvements in bias and precision can be said to model change most accurately when the nature of change is unknown. With equal spacing using fewer measurements than all the other manipulated spacing schedules to obtain similar model performance---using seven measurements instead of the nine measurements use by all other spacing schedules---equal spacing is the most effective schedule to use when the nature of change is unknown.
+An important point to mention is that the error bar lengths for each day-unit parameter across each spacing schedule are comparable. That is, each spacing schedule obtains similar model performance when using the number of measurements listed in the `Qualitative Description' column. Because model performance is similar across the spacing schedules, then the schedule that requires the fewest number of measurements to obtain the greatest improvements in bias and precision can be said to model change most accurately when the nature of change is unknown. With equal spacing using fewer measurements than all the other manipulated spacing schedules and obtaining similar model performance---using seven measurements instead of the nine measurements used by all other spacing schedules---equal spacing is the most effective schedule to use when the nature of change is unknown.
 
 The finding that equal spacing results in the highest model performance when the nature of change is unknown is not unexpected. Given the previous finding that model performance increases by sampling data closer to periods of change, then, if the nature of change is unknown, change may occur at any point in time, and so it is prudent to space measurements equally over time so maximize the probability of sample measurements during a period of change.
 
@@ -2180,7 +2192,7 @@ Data generation was computed the same way as in Experiment 1 (see \protect\hyper
 \hypertarget{data-modelling-exp2}{%
 \subsection{Modelling of Each Generated Data Set}\label{data-modelling-exp2}}
 
-Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see \protect\hyperlink{data-modelling}{data modelling} and explicated in Appendix \ref{structured-lgc}.
+Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see \protect\hyperlink{data-modelling}{data modelling} and explanation in Appendix \ref{structured-lgc}).
 
 \hypertarget{variables-used-in-simulation-experiment-1}{%
 \subsection{Variables Used in Simulation Experiment}\label{variables-used-in-simulation-experiment-1}}
@@ -2196,7 +2208,7 @@ For the spacing of measurements, I used the same measurement days as in Experime
 \hypertarget{number-of-measurements-1}{%
 \paragraph{Number of Measurements}\label{number-of-measurements-1}}
 
-For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see \protect\hyperlink{number-measurements}{number of measurements}\} for more discussion).
+For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see \protect\hyperlink{number-measurements}{number of measurements} for more discussion).
 
 \hypertarget{sample-size}{%
 \paragraph{Sample Size}\label{sample-size}}
@@ -2249,7 +2261,7 @@ between the population value set for a parameter and the value estimated for the
 \hypertarget{precision}{%
 \subparagraph{Precision}\label{precision}}
 
-In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies aoften ssume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic parameter.
+In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies often assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic function parameter.
 
 \hypertarget{analysis-of-data-modelling-output-and-accompanying-visualizations}{%
 \subsection{Analysis of Data Modelling Output and Accompanying Visualizations}\label{analysis-of-data-modelling-output-and-accompanying-visualizations}}
@@ -2350,7 +2362,8 @@ With respect to bias for equal spacing, estimates were biased (i.e., above the a
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note .}NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note .}NM = number of measurements $\in$ \{5, 7, 9, 11\}, S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size,
+$\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
@@ -2362,10 +2375,10 @@ With respect to bias for equal spacing, estimates were biased (i.e., above the a
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_equal}A) & 0.00 & 0.03 & 0.00\\
-$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_equal}B) & 0.15 & 0.28 & 0.03\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_equal}C) & 0.31 & 0.15 & 0.09\\
-$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_equal}D) & 0.18 & 0.03 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_equal}A) & 0.00 & 0.05 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_equal}B) & 0.21 & 0.38 & 0.05\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_equal}C) & 0.42 & 0.23 & 0.13\\
+$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_equal}D) & 0.26 & 0.05 & 0.01\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2489,7 +2502,8 @@ Parameter & Unbiased & Precise & Qualitative Description & Error Bar Length\\
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note .}NM = number of measurements $\in$ \{5, 7, 9, 11\}, S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size,
+$\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \phantom{ indicate conditions where}
@@ -2501,10 +2515,10 @@ Parameter & Unbiased & Precise & Qualitative Description & Error Bar Length\\
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_time_inc}A) & 0.23 & 0.15 & 0.09\\
-$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_time_inc}B) & 0.15 & 0.16 & 0.02\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_time_inc}C) & 0.17 & 0.16 & 0.07\\
-$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_time_inc}D) & 0.07 & 0.12 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_time_inc}A) & 0.32 & 0.22 & 0.14\\
+$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_time_inc}B) & 0.23 & 0.23 & 0.03\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_time_inc}C) & 0.25 & 0.24 & 0.10\\
+$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_time_inc}D) & 0.10 & 0.18 & 0.02\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2616,7 +2630,7 @@ Parameter & Unbiased & Precise & Qualitative Description & Error Bar Length\\
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note .}NM = number of measurements $\in$ \{5, 7, 9, 11\}, S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \phantom{ indicate conditions where}
@@ -2628,10 +2642,10 @@ Parameter & Unbiased & Precise & Qualitative Description & Error Bar Length\\
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_time_dec}A) & 0.05 & 0.03 & 0.01\\
-$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_time_dec}B) & 0.14 & 0.12 & 0.01\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_time_dec}C) & 0.07 & 0.04 & 0.01\\
-$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_time_dec}D) & 0.05 & 0.09 & 0.00\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_time_dec}A) & 0.08 & 0.04 & 0.02\\
+$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_time_dec}B) & 0.21 & 0.18 & 0.02\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_time_dec}C) & 0.10 & 0.06 & 0.02\\
+$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_time_dec}D) & 0.08 & 0.13 & 0.00\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2777,7 +2791,7 @@ In summary, with middle-and-extreme spacing, precise estimation for the fixed-ef
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item \textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+\item \textit{Note .}NM = number of measurements $\in$ \{5, 7, 9, 11\}, S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size, $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \phantom{ indicate conditions where}
@@ -2789,10 +2803,10 @@ In summary, with middle-and-extreme spacing, precise estimation for the fixed-ef
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_mid_ext}A) & 0.05 & 0.03 & 0.01\\
-$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_mid_ext}B) & 0.14 & 0.12 & 0.01\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_mid_ext}C) & 0.07 & 0.04 & 0.01\\
-$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_mid_ext}D) & 0.05 & 0.09 & 0.00\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_mid_ext}A) & 0.08 & 0.04 & 0.02\\
+$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_mid_ext}B) & 0.21 & 0.18 & 0.02\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_mid_ext}C) & 0.10 & 0.06 & 0.02\\
+$\upgamma_{random}$ (Figure \ref{fig:exp2_plot_mid_ext}D) & 0.08 & 0.13 & 0.00\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2862,9 +2876,9 @@ Spacing Schedule & Unbiased & Precise & Qualitative Description & $\upbeta_{fixe
 \cmidrule{1-8}
 \thead[lt]{Middle and extreme \\ 
                                                    (see Figure \ref{fig:exp2_plot_mid_ext} and 
-                                                   Table \ref{tab:summary-table-mid-ext-exp2})} & \thead[lt]{\textbf{NM $\boldsymbol{\ge}$ 5 with
-                                           \textit{N} $\boldsymbol{\ge}$ 200} or \\
-                                           \textbf{NM  $\boldsymbol{\in}$ \{5, 7\} with \textit{N} = 100}} & No cells & Largest improvements in bias and precision with NM = 5 & 14.96 & 9.92 & 15.94 & 10.13\\
+                                                   Table \ref{tab:summary-table-mid-ext-exp2})} & \thead[lt]{NM $\boldsymbol{\ge}$ 5 with
+                                           \textit{N} $\boldsymbol{\ge}$ 200 or \\
+                                           NM  $\boldsymbol{\in}$ \{5, 7\} with \textit{N} = 100} & No cells & Largest improvements in bias and precision with NM = 5 & 14.96 & 9.92 & 15.94 & 10.13\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -2880,7 +2894,7 @@ Spacing Schedule & Unbiased & Precise & Qualitative Description & $\upbeta_{fixe
 \item
   middle-and-extreme: five measurements with any manipulated sample size.
 \end{itemize}
-\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with \emph{N} \(\ge\) 200 or nine measurements with \emph{N} \(\le\) 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, given that only five measurements are needed with middle-and-extreme spacing to obtain model performance levels that the other spacing schedules obtained with at least seven measurements, middle-and-extreme spacing results in the highest model performance. Importantly, given that middle-and-extreme spacing results in the highest model performance in Experiment 1 with a midway halfway point (see section discussing \protect\hyperlink{meas-placing}{measurement spacing}), the result here that middle-and-extreme spacing leads to the highest model performance is an expected outcome because the nature-of-change was fixed to 180 (see \protect\hyperlink{constants-exp2}{constants}).
+\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with \emph{N} \(\ge\) 200 or nine measurements with \emph{N} \(\le\) 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, although only five measurements are needed with middle-and-extreme spacing to obtain model performance that the other spacing schedules obtain with seven (at least) measurements, this result is largely a result of the nature of change that was used. In Experiment 2, the nature-of-change value that was used was 180. As noted from the results of Experiment 1, middle-and-extreme spacing resulted in the highest model performance with a nature-of-change value of 80 (see section discussing \protect\hyperlink{meas-placing}{measurement spacing}). Thus, the result here that middle-and-extreme spacing results in the highest model performance is an expected given that the nature-of-change value used in Experiment 2 was fixed to 180 (see \protect\hyperlink{constants-exp2}{constants}).
 
 The results of Experiment 2 are the first (to my knowledge) to provide measurement number and sample size guidelines for researchers interested in using nonlinear functions to model nonlinear change. Although previous simulation studies have investigated how to accurately model nonlinear change, three characteristics limit these results. First, some studies investigated the issue with fixed-effects models \autocite[e.g.,][]{finch2017}. Given that researchers often model effects as random, findings with fixed-effects effects models are limited in their application. Second, some studies used linear functions to model nonlinear change \autocites[e.g.,][]{fine2019,liu2022}. Given that the parameters of linear functions become uninterpretable when modelling nonlinear change (with the intercept parameter being an exception), these models are less useful to practitioners. Third, some studies implemented unrealistic model fitting procedures by dropping a random-effect parameter from the model each time convergence failed \autocite{finch2017}. By dropping random-effect parameters when model convergence failed, estimation accuracy could not meaningfully evaluated for parameters because values could have been obtained with reduced or simplified models.
 
@@ -2889,7 +2903,7 @@ In summary, the results of Experiment 2 provide measurement number/sample size g
 \hypertarget{summary-of-experiment-2}{%
 \section{Summary of Experiment 2}\label{summary-of-experiment-2}}
 
-I designed Experiment 2 to investigate the measurement number and sample size combinations needed to obtain high model performance (i.e., unbiased and precise parameter estimation) under different spacing schedules. Although no measurement number/sample size pairing result in high model performance under any spacing schedule, the greatest improvements in model performance result from using modest measurement number/sample size pairings. Specifically, the greatest improvements in model performance can be obtained using either seven measurements with \emph{N} \(\ge\) 200 or nine measurements with \emph{N} \(\le\) 100.
+I designed Experiment 2 to investigate the measurement number and sample size combinations needed to obtain high model performance (i.e., unbiased and precise parameter estimation) under different spacing schedules. Although no measurement number/sample size pairing results in high model performance under any spacing schedule, the greatest improvements in model performance result from using modest measurement number/sample size pairings. Specifically, the greatest improvements in model performance can be obtained using either seven measurements with \emph{N} \(\ge\) 200 or nine measurements with \emph{N} \(\le\) 100.
 
 \hypertarget{Exp3}{%
 \chapter{Experiment 3}\label{Exp3}}
@@ -3013,7 +3027,7 @@ between the population value set for a parameter and the value estimated for the
 \hypertarget{precision-1}{%
 \subparagraph{Precision}\label{precision-1}}
 
-In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic parameter.
+In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, \emph{precision} was defined as the range of values covered by the middle 95\% of values estimated for a logistic function parameter.
 
 \hypertarget{overview-of-data-generation-1}{%
 \subsection{Overview of Data Generation}\label{overview-of-data-generation-1}}
@@ -3100,7 +3114,7 @@ generated by sampling values according to the probability density function defin
 \hypertarget{data-modelling-exp3}{%
 \subsection{Modelling of Each Generated Data Set}\label{data-modelling-exp3}}
 
-Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see \protect\hyperlink{data-modelling}{data modelling} and explicated in Appendix \ref{structured-lgc}.
+Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see \protect\hyperlink{data-modelling}{data modelling} and explanation in Appendix \ref{structured-lgc}).
 
 \hypertarget{analysis-of-data-modelling-output-and-accompanying-visualizations-1}{%
 \subsection{Analysis of Data Modelling Output and Accompanying Visualizations}\label{analysis-of-data-modelling-output-and-accompanying-visualizations-1}}
@@ -3119,13 +3133,13 @@ For each level of time structuredness, I first provide a concise summary of the 
 
 To conduct Experiment 3, the three variables of number of measurements (4 levels), sample size (6 levels), and time structuredness (3 levels) were manipulated, which yielded a total of 72 cells. Importantly, within each cell, bias and precision values were also computed for each of the nine parameters estimated by the structured latent growth curve model (for a review, see \protect\hyperlink{modelling-data-sets}{modelling of each generated data set}). Thus, because the analysis of Experiment 3 computed values for many dependent variables, interpreting the results can become overwhelming. Therefore, I will provide a framework to help the reader efficiently navigate the results section.
 
-Because I will present the results of Experiment 3 by each level of time structuredness, the framework I will describe in Figure \ref{fig:results-plot-primer} shows a template for the bias/precision plots that I will present for each level of time structuredness. The results presented for each time structuredness level contain a bias/precision plot for each of the nine estimated parameters. Each bias/precision plot shows the bias and precision for the estimation of one parameter across all measurement number and nature-of change levels. Within each bias/precision plot, dots indicate the average estimated value (which indicates bias) and error bars represent the middle 95\% range of estimated values (which indicates precision). Bias/precision plots with black border show the results for day-unit parameters and plots with gray borders show the results for Likert-unit parameters. Importantly, only the results for the day-unit parameters will be presented (i.e., fixed- and random-effect days-to-halfway elevation and halfway-triquarter delta parameters {[}\(\upbeta_{fixed}\), \(\upbeta_{random}\), \(\upgamma_{fixed}\), \(\upgamma_{random}\),
+Because I will present the results of Experiment 3 by each level of time structuredness, the framework I will describe in Figure \ref{fig:results-plot-primer-exp-3} shows a template for the bias/precision plots that I will present for each level of time structuredness. The results presented for each time structuredness level contain a bias/precision plot for each of the nine estimated parameters. Each bias/precision plot shows the bias and precision for the estimation of one parameter across all measurement number and nature-of change levels. Within each bias/precision plot, dots indicate the average estimated value (which indicates bias) and error bars represent the middle 95\% range of estimated values (which indicates precision). Bias/precision plots with black border show the results for day-unit parameters and plots with gray borders show the results for Likert-unit parameters. Importantly, only the results for the day-unit parameters will be presented (i.e., fixed- and random-effect days-to-halfway elevation and halfway-triquarter delta parameters {[}\(\upbeta_{fixed}\), \(\upbeta_{random}\), \(\upgamma_{fixed}\), \(\upgamma_{random}\),
 \begin{apaFigure}
 [portrait]
 [samepage]
 [-0.2cm]
 {Set of Bias/Precision Plots Constructed for Each Spacing Schedule in Experiment 2}
-{results-plot-primer-exp2}
+{results-plot-primer-exp-3}
 {.77}
 {Figures/logistic_results_plot_exp2}
 {A bias/precision plot is constructed for each parameter of the logistic function (see Equation \ref{eq:logFunction-generation}). Bias/precision plots with black borders show the results for day-unit parameters and plots with gray border show the results for Likert-unit parameters. For each parameter, bias and precision are shown across each combination of measurement number and time structuredness.}
@@ -3195,7 +3209,7 @@ Before presenting the results for bias, I provide a description of the set of bi
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 100), NM x S = interaction between number of measurements and sample size.
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\},  S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size.
 \end{TableNotes}
 \begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccc}
 \caption{\label{tab:omega-exp3-time-struc}Partial $\upomega^2$ Values for Manipulated Variables With Time-Structured Data in Experiment 3}\\
@@ -3204,10 +3218,10 @@ Before presenting the results for bias, I provide a description of the set of bi
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_time_struc}A) & 0.00 & 0.02 & 0.00\\
-$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}B) & 0.14 & 0.27 & 0.03\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_time_struc}C) & 0.25 & 0.12 & 0.07\\
-$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}D) & 0.18 & 0.03 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_time_struc}A) & 0.00 & 0.04 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}B) & 0.21 & 0.38 & 0.05\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_time_struc}C) & 0.35 & 0.18 & 0.11\\
+$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}D) & 0.26 & 0.05 & 0.01\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -3349,7 +3363,7 @@ With respect to precision for time-unstructured data characterized by a fast res
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 100), NM x S = interaction between number of measurements and sample size.
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\},  S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size.
 \end{TableNotes}
 \begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccc}
 \caption{\label{tab:omega-exp3-fast}Partial $\upomega^2$ Values for Manipulated Variables With Time-Unstructured Data Characterized by a Fast Response Rate in Experiment 3}\\
@@ -3358,10 +3372,10 @@ With respect to precision for time-unstructured data characterized by a fast res
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_fast}A) & 0.00 & 0.02 & 0.00\\
-$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_fast}B) & 0.15 & 0.27 & 0.03\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_fast}C) & 0.29 & 0.14 & 0.08\\
-$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_fast}D) & 0.17 & 0.04 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_fast}A) & 0.00 & 0.03 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_fast}B) & 0.22 & 0.37 & 0.04\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_fast}C) & 0.40 & 0.21 & 0.12\\
+$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_fast}D) & 0.25 & 0.06 & 0.01\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -3467,7 +3481,7 @@ Parameter & Unbiased & Precise & Qualitative Summary & Error Bar Length\\
 \end{apaFigure}
 \begin{ThreePartTable}
 \begin{TableNotes}
-\item NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 100), NM x S = interaction between number of measurements and sample size.
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\},  S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x S = interaction between number of measurements and sample size.
 \end{TableNotes}
 \begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccc}
 \caption{\label{tab:omega-exp3-slow}Partial $\upomega^2$ Values for Manipulated Variables With Time-Unstructured Data Characterized by a Slow Response Rate in Experiment 3}\\
@@ -3476,10 +3490,10 @@ Parameter & Unbiased & Precise & Qualitative Summary & Error Bar Length\\
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_slow}A) & 0.00 & 0.02 & 0.00\\
-$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_slow}B) & 0.15 & 0.27 & 0.03\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_slow}C) & 0.29 & 0.14 & 0.08\\
-$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_slow}D) & 0.17 & 0.04 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_slow}A) & 0.00 & 0.03 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_slow}B) & 0.22 & 0.37 & 0.04\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_slow}C) & 0.40 & 0.21 & 0.12\\
+$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_slow}D) & 0.25 & 0.06 & 0.01\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -3645,10 +3659,10 @@ Figure \ref{fig:exp3_plot_days_def} shows the bias/precision plots that result f
 \cmidrule(l{3pt}r{3pt}){2-4}
 Parameter & NM & S & NM x S\\
 \midrule
-$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_def}A) & 0.00 & 0.02 & 0.00\\
-$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_def}B) & 0.14 & 0.27 & 0.03\\
-$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_def}C) & 0.25 & 0.12 & 0.07\\
-$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_def}D) & 0.18 & 0.03 & 0.01\\
+$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_def}A) & 0.00 & 0.04 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_def}B) & 0.21 & 0.38 & 0.05\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp3_plot_days_def}C) & 0.35 & 0.18 & 0.11\\
+$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_def}D) & 0.26 & 0.05 & 0.01\\
 \bottomrule
 \insertTableNotes
 \end{longtable}
@@ -3663,14 +3677,14 @@ $\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_def}D) & 0.18 & 0.03 & 0.01\
 \item
   Bias in the estimation of the random-effect days-to-halfway elevation parameter (\(\upbeta_{random}\); Figure \ref{fig:exp3_plot_days_slow}C) almost entirely disappears when using definition variables (Figure \ref{fig:exp3_plot_days_def}C).
 \item
-  Bias in the estimation of the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\); Figure \ref{fig:exp3_plot_days_slow}D) returns to levels observed with time-structured data (see Figure \ref{fig:exp3_plot_days_time_struc}A) with definition variables. Precision also decreases (especially with five measurements) when using definition variables (Figure \ref{fig:exp3_plot_days_def}C).
+  Bias in the estimation of the random-effect triquarter-halfway elevation parameter (\(\upgamma_{random}\); Figure \ref{fig:exp3_plot_days_slow}D) returns to levels observed with time-structured data (see Figure \ref{fig:exp3_plot_days_time_struc}A) with definition variables. Precision also improves (especially with five measurements) when using definition variables (Figure \ref{fig:exp3_plot_days_def}C).
 \end{enumerate}
 \noindent Therefore, given the improvements in the estimation of each day-unit parameter that follow from using definition variables, latent variable models, by default, should use definition variables to improve model performance when data are time unstructured.
 
 \hypertarget{summary-of-experiment-3}{%
 \section{Summary of Experiment 3}\label{summary-of-experiment-3}}
 
-I designed Experiment 3 to investigate whether model performance decreased as time structuredness decreased. Across all manipulated levels of time structuredness, the greatest improvements in model performance result from using either seven measurements with \(N \ge 200\) and nine measurements with \(N \le 100\). Importantly, although the measurement number/sample size pairings that result in the greatest improvements in model performance do not change as time structuredness decreases, the absolute level of model performance itself decreases. In using the same measurement number/sample size pairing across all levels of time structuredness, precision slightly increases and, more importantly, bias decreases such that it is constant; that is, the decrease in bias cannot be avoided by using increasing measurement number and/or sample size. Given that data are unlikely to be time structured, then the decrease in model performance seems inevitable. Fortunately, the decrease in model performance that results from time-unstructured data can be avoided by using definition variables in latent growth curve models, which I show to be the case by in an additional set of simulations. Therefore, the greatest improvements in model performance result from using either seven measurements with \(N \ge 200\) or nine measurements with \(N \le 100\) and, definition variables should be used to prevent model performance from decreasing as time structuredness decreases.
+I designed Experiment 3 to investigate whether model performance decreased as time structuredness decreased. Across all manipulated levels of time structuredness, the greatest improvements in model performance result from using either seven measurements with \(N \ge 200\) and nine measurements with \(N \le 100\). Importantly, although the measurement number/sample size pairings that result in the greatest improvements in model performance do not change as time structuredness decreases, the absolute level of model performance itself decreases. In using the same measurement number/sample size pairing across all levels of time structuredness, precision slightly improves and, more importantly, bias decreases such that it is constant; that is, the decrease in bias cannot be avoided by using increasing measurement number and/or sample size. Given that data are unlikely to be time structured, then the decrease in model performance seems inevitable. Fortunately, the decrease in model performance that results from time-unstructured data can be avoided by using definition variables in latent growth curve models, which I show to be the case by in an additional set of simulations. Therefore, the greatest improvements in model performance result from using either seven measurements with \(N \ge 200\) or nine measurements with \(N \le 100\) and, definition variables should be used to prevent model performance from decreasing as time structuredness decreases.
 
 \hypertarget{general-discussion}{%
 \chapter{General Discussion}\label{general-discussion}}
@@ -3705,7 +3719,7 @@ Experiment 2 & \thead[lt]{Spacing of measurements \\ Number of measurements \\ S
 Experiment 3 & \thead[lt]{Number of Measurements \\ Sample size \\ Time structuredness} & \tabitem The greatest improvements in model performance across all time structuredness levels result from using either seven measurements with $N \ge$ 200 or nine measurements with $N \le$ 100 \newline
                                             \tabitem Use definition variables to prevent model performance from decreasing as time structuredness decreases\\*
 \end{longtable}
-In Experiment 3, I was interested in examining how time structuredness affected model performance. To answer this question, I manipulated measurement spacing, measurement number, and time structuredness. Although the measurement number/sample size pairings that result in the greatest improvements in model performance are the same as in Experiment 2, two results suggest that model performance decreases as time structuredness decreases. First, precision decreases as time structuredness decreases. That is, precision decreases as response patterns of participants become increasingly dissimilar. Second, and more concerning, bias decreases as time structuredness decreases regardless of the measurement number or sample size. That is, as response patterns of participants become increasingly dissimilar, bias increases across all measurement number/sample size pairings.
+In Experiment 3, I was interested in examining how time structuredness affected model performance. To answer this question, I manipulated measurement spacing, measurement number, and time structuredness. Although the measurement number/sample size pairings that result in the greatest improvements in model performance are the same as in Experiment 2, two results suggest that model performance decreases as time structuredness decreases. First, precision worsens as time structuredness decreases. That is, precision worsens as response patterns of participants become increasingly dissimilar. Second, and more concerning, bias increases as time structuredness decreases regardless of the measurement number or sample size. That is, as response patterns of participants become increasingly dissimilar, bias increases across all measurement number/sample size pairings.
 
 Importantly, the decrease in model performance that results as time structuredness decreases can be prevented by using a latent growth curve model with definition variables. By default. latent growth curve models assume an identical response pattern for all participants (i.e., time-structured data). Definition variables can be used in latent growth curve models to allow individual response patterns to be modelled \autocite{mehta2000,mehta2005}. In an additional set of simulations (see section on \protect\hyperlink{def-variables}{definition variables}), I generate time-unstructured data and analyze the data with a structured latent growth curve model that has definition variables. When definition variables are used, the decrease in model performance that results from a decrease in time structuredness disappears. Therefore, to obtain the largest improvements in model performance, either seven measurements with \emph{N} \(\ge\) 200 or nine measurements with \emph{N} \(\le\) 100 must be used and, importantly, the latent growth curve model must use definition variables.
 
@@ -3731,11 +3745,11 @@ Given the need for using cutoff values in simulation research, it was necessary 
 
 In simply defining cutoff values as a percentage of a population value, cutoff values can lead to problematic conclusions. As a simple example, consider a scenario where a beverage company wants to produce a caffeinated drink that can only increase heart rate and body temperature by a certain amount. Specifically, neither heart rate nor body temperature can increase by 10\% of their resting values. Given that, for males and females, any value below 70 and 80, respectively, constitutes a healthy resting heart rate \autocite{nanchen2018}, a 10\% increase would translate to an increase of 7 and 8 beats per minute, which is arguably less than the increase in heart rate caused from walking \autocite[e.g.,][]{whitley1987}. Thus, requiring that a caffeinated drink not increase resting heart rate by a value equal to or greater than 10\% appears to be a responsible stipulation. Unfortunately, setting a 10\%-cutoff rule for body temperature allows for far less desirable outcomes than a 10\% cutoff for heart rate. Using a typical body temperature of 37 \(^\circ\)C for resting body temperature, a 10\%-cutoff would allow for a change in body temperature of 3.7 \(^\circ\)C. Given that deviations of less than 3.7 \(^\circ\)C from resting body temperature can lead to physiological impairments and even death \autocite{moran2002}, restricting the caffeinated drink to not increase body temperature by 10\% of its resting value is unwise. Therefore, a percentage cutoff rule can fail to create useful cutoff values by overlooking the underlying nature of the variable in question.
 
-In the current simulation experiments, the percentage-cutoff rule may have led to overly pessimistic conclusions about model performance. As an example, consider the estimation of the random effect parameters. In each simulation experiment, no measurement number/sample size pairing resulted in high model performance (low bias, high precision) of any random-effect parameter\footnote{It should be mentioned that low bias was obtained from using moderate measurement number/sample size pairings.} Specifically, the random-effect day-unit parameters were never modelled precisely with any measurement number/sample size pairing. Although the lack of precise estimation for the random-effect day-unit parameters is concerning, the result may be a byproduct of having used conventional standards for precision. For a given parameter, the cutoff value used to deem estimation precise was proportional to the population value set for that parameter. Specifically, the cutoff values for precision (and bias) were set to 10\% of the parameter's population value \autocite{muthen1997}---as is suggested by the literature. In setting the cutoff value to a percentage of the parameter's population value, the margin of error becomes a function of the population value: Large population values have large margins of error and small population values have small margins of error. Given that the random-effect parameters had the smallest population values (e.g., 10.00, 4.00, and 0.05) and that even the largest measurement number/sample size pairing of 11 measurements with \emph{N} = 1000 did not model with high precision, it is conceivable that the associated 10\%-error margins (e.g., 1.00, 0.04, and 0.005) may have been too small.
+In the current simulation experiments, the percentage-cutoff rule may have led to overly pessimistic conclusions about model performance. As an example, consider the estimation of the random effect parameters. In each simulation experiment, no measurement number/sample size pairing resulted in high model performance (low bias, high precision) of any random-effect parameter.\footnote{It should be mentioned that low bias was obtained from using moderate measurement number/sample size pairings.} Specifically, the random-effect day-unit parameters were never modelled precisely with any measurement number/sample size pairing. Although the lack of precise estimation for the random-effect day-unit parameters is concerning, the result may be a byproduct of having used conventional standards for precision. For a given parameter, the cutoff value used to deem estimation precise was proportional to the population value set for that parameter. Specifically, the cutoff values for precision (and bias) were set to 10\% of the parameter's population value \autocite{muthen1997}---as is suggested by the literature. In setting the cutoff value to a percentage of the parameter's population value, the margin of error becomes a function of the population value: Large population values have large margins of error and small population values have small margins of error. Given that the random-effect parameters had the smallest population values (e.g., 10.00, 4.00, and 0.05) and that even the largest measurement number/sample size pairing of 11 measurements with \emph{N} = 1000 did not result in good precision, it is conceivable that the associated 10\%-error margins (e.g., 1.00, 0.04, and 0.005) may have been too small.
 
 Future research could consider using more useful cutoff values. One way to set useful cutoff values in simulation experiments is to contextualize cutoff values with respect to a real-world phenomenon. Using smallest effect sizes of interest offers one way to contextualize cutoff values \autocite{lakens2017,lakens2018}. Introduced to improve null-hypothesis significance testing, a smallest effect size of interest constitutes the smallest effect size above which a researcher considers an observed effect meaningful \autocite{lakens2017}. Instead of testing the typical zero-effect null hypothesis, a researcher can specify a smallest effect size of interest as the null hypothesis. Using a smallest effect size of interest (in tandem with equivalence testing), a researcher can more definitively conclude whether an effect is trivially small or not and, consequently, be less likely to incorrectly dismiss an effect as nonexistent. Thus, smallest effect sizes of interest allow researchers to make more meaningful conclusions. Although the current simulation experiments did not employ significance testing, the cutoff values used to determine whether estimation was biased and precise could be improved in future research by treating them as smallest cutoff values of interest. By replacing the current percentage-based cutoff values with smallest cutoff values of interest for each parameter, conclusions are likely to become more meaningful because cutoff values are contextualized with respect to real-world phenomena.
 
-One effective way to determine smallest cutoff values of interest in future research would be to use anchor-based methods \autocite{anvari2021}. As an example, I detail a two-step procedure for how an anchor-based method could be used to determine a cutoff value for a the Likert-unit parameter of the fixed-effect baseline parameter (\(\uptheta_{fixed}\)). First, a survey for some Likert-unit variable such as job satisfaction could be given at two time points to employees. Importantly, after completing the survey at the second time point, employees would also indicate how much job satisfaction changed by answering an anchor question (e.g., ``Job satisfaction increased/decreased by a little, increased/decreased a lot, or did not change.''). Second, a smallest cutoff value of interest would need to be computed. Given that the fixed-effect baseline parameter (\(\uptheta_{fixed}\)) represents the starting value, then employees that indicated no change in job satisfaction could be said to still be at baseline and their data could be used to compute a smallest effect size of interest for the baseline parameter(\(\uptheta_{fixed}\)). Specifically, the difference in job satisfaction between the two time points could be calculated for employees that indicated no change. Therefore, using the anchor-based method, the smallest cutoff value of interest for the fixed-effect baseline parameter (\(\uptheta_{fixed}\)) is the mean change in some Likert-unit variable---job satisfaction in the current example---from respondents that indicate no change.\footnote{If the mean observed change in job satisfaction from employees that indicate no change is a near-zero value, using this value as a smallest effect-size of interest for the fixed-effect baseline parameter ($\uptheta_{fixed}$) would likely be too conservative. In such situations, the smallest effect-size of interest for the fixed-effect baseline parameter ($\uptheta_{fixed}$) could be determined by computing the mean change in job satisfaction from employees that indicate a small change (i.e., 'little increase/decrease), as it could be said that these employees have slightly moved away from baseline.}
+One effective way to determine smallest cutoff values of interest in future research would be to use anchor-based methods \autocite{anvari2021}. As an example, I detail a two-step procedure for how an anchor-based method could be used to determine a cutoff value for a the Likert-unit parameter of the fixed-effect baseline parameter (\(\uptheta_{fixed}\)). First, a survey for some Likert-unit variable such as job satisfaction could be given at two time points to employees. Importantly, after completing the survey at the second time point, employees would also indicate how much job satisfaction changed by answering an anchor question (e.g., ``Job satisfaction increased/decreased by a little, increased/decreased a lot, or did not change.''). Second, a smallest cutoff value of interest would need to be computed. Given that the fixed-effect baseline parameter (\(\uptheta_{fixed}\)) represents the starting value, then employees that indicated no change in job satisfaction could be said to still be at baseline and their data could be used to compute a smallest effect size of interest for the baseline parameter(\(\uptheta_{fixed}\)). Specifically, the difference in job satisfaction between the two time points could be calculated for employees that indicated no change. Therefore, using the anchor-based method, the smallest cutoff value of interest for the fixed-effect baseline parameter (\(\uptheta_{fixed}\)) is the mean change in some Likert-unit variable---job satisfaction in the current example---from respondents that indicate no change.\footnote{If the mean observed change in job satisfaction from employees that indicate no change is a near-zero value, using this value as a smallest effect-size of interest for the fixed-effect baseline parameter ($\uptheta_{fixed}$) would likely be too conservative. In such situations, the smallest effect-size of interest for the fixed-effect baseline parameter ($\uptheta_{fixed}$) could be determined by computing the mean change in job satisfaction from employees that indicate a small change (i.e., "little increase/decrease"), as it could be said that these employees have slightly moved away from baseline.}
 
 \hypertarget{external-validity-of-simulation-experiments}{%
 \subsection{External Validity of Simulation Experiments}\label{external-validity-of-simulation-experiments}}
@@ -3772,7 +3786,7 @@ Although the current results suggest that seven measurements are needed to model
 \hypertarget{why-is-it-important-to-model-nonlinear-patterns-of-change}{%
 \subsection{Why is it Important to Model Nonlinear Patterns of Change?}\label{why-is-it-important-to-model-nonlinear-patterns-of-change}}
 
-For at least 30 years, research in organizational psychology has had a minimal effect on practitioners and their practices \autocites{daft1990}[for a review, see][]{lawler2022}. Few practitioners--specifically, an estimated 1\%---read journal articles \autocite{rynes2002a}, which is accompanied by a poor understanding by managers of fundamental principles in organizational psychology, which has been observed across multiple countries including the Netherlands \autocite{sanders2008}, the United States \autocite{rynes2002a}, Finland, South Korea, and Spain \autocite{tenhiälä2014}. Perhaps most unfortunate, a poor understanding of organizational psychology by managers is associated with large effects on financial and individual performance \autocite[for a review, see][]{rynes2002b}. Additionally, an estimated 55\% of practitioners are skeptical that evidence-based human resource practices can affect any positive change \autocite{kpmg2015}. With the gap between academics and practitioners being so patently wide, some academics have cast doubt on the possibility of academic-practitioner research collaborations \autocite{kieser2009}.
+For at least 30 years, research in organizational psychology has had a minimal effect on practitioners and their practices \autocites{daft1990}[for a review, see][]{lawler2022}. Few practitioners--specifically, an estimated 1\%---read journal articles \autocite{rynes2002a}, which is accompanied by a poor understanding by managers of fundamental principles in organizational psychology, which has been observed across multiple countries including the Netherlands \autocite{sanders2008}, the United States \autocite{rynes2002a}, Finland, South Korea, and Spain \autocite{tenhiälä2014}. Perhaps most unfortunate, a poor understanding of organizational psychology by managers is associated with large effects on financial and individual performance \autocite[for a review, see][]{rynes2002b}. Additionally, an estimated 55\% of practitioners are skeptical that evidence-based human resource practices can effect any positive change \autocite{kpmg2015}. With the gap between academics and practitioners being so patently wide, some academics have cast doubt on the possibility of academic-practitioner research collaborations \autocite{kieser2009}.
 
 One factor that may contribute to the academic-practitioner gap is that research seldom provides specific recommendations to practitioners. When considering the typical organizational theory, propositions often lack any degree of specificity: They often specify non-zero linear relations between variables \autocite{edwards2010}. Because it is difficult to develop specific recommendations from non-zero relations, it becomes unsurprising that reviews of the organizational literature estimate 3\% of human resource articles address problems faced by practitioners \autocite{sackett1990} and, in reviewing of 5780 articles from 1963--2007, concluded that research is often late to address practitioner issues \autocite{cascio2008}. Thus, with organizational theories often providing vague predictions, it becomes difficult to develop specific recommendations for practitioners.
 
@@ -5642,7 +5656,74 @@ Time Structuredness & Number of Measurements & 30 & 50 & 100 & 200 & 500 & 1000\
 \end{ThreePartTable}
 \end{landscape}
 \restoregeometry
-
+\begin{landscape}
+\app{Partial Omega-Squared Values for all Independent Variables in Each Simulation Experiment}
+\label{omega-three-way}
+\begin{ThreePartTable}
+\begin{TableNotes}
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, NC = nature of change (population value set for $\upbeta_{fixed}$ $\in$ \{80, 180, 280\}), MS = measurement spacing (equal, time interval increasing, time interval decreasing), NM x NC = interaction between number of measurements and nature of change, NM x MS = interaction between number of measurements and measurement spacing, NC x MS = interaction between nature of change and measurement spacing, NM x NC x MS = interaction between number of measurements, nature of change, and measurement spacing. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+           $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
+           $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
+           $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
+\end{TableNotes}
+\begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccccccc}
+\caption{\label{tab:complete-omega-table-exp-1}Partial $\upomega^2$ Values for all Manipulated Variables in Experiment 1}\\
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{7}{c}{Effect} \\
+\cmidrule(l{3pt}r{3pt}){2-8}
+Parameter & NM & NC & MS & NM x NC & NM x MS & NC x MS & NM x NC x MS\\
+\midrule
+$\upbeta_{fixed}$ (Figure \ref{fig:exp1_plot_equal}A, \ref{fig:exp1_plot_time_inc}A, \ref{fig:exp1_plot_time_dec}A, \ref{fig:exp1_plot_time_mid_ext}A) & 0.42 & 0.10 & 0.10 & 0.21 & 0.20 & 0.17 & 0.33\\
+$\upbeta_{random}$ (Figure \ref{fig:exp1_plot_equal}B, \ref{fig:exp1_plot_time_inc}B, \ref{fig:exp1_plot_time_dec}B, \ref{fig:exp1_plot_time_mid_ext}B) & 0.25 & 0.06 & 0.08 & 0.03 & 0.06 & 0.12 & 0.11\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp1_plot_equal}C, \ref{fig:exp1_plot_time_inc}C, \ref{fig:exp1_plot_time_dec}C, \ref{fig:exp1_plot_time_mid_ext}C) & 0.58 & 0.13 & 0.02 & 0.18 & 0.12 & 0.24 & 0.30\\
+$\upgamma_{random}$(Figure \ref{fig:exp1_plot_equal}D, \ref{fig:exp1_plot_time_inc}D, \ref{fig:exp1_plot_time_dec}D, \ref{fig:exp1_plot_time_mid_ext}D) & 0.24 & 0.00 & 0.03 & 0.01 & 0.14 & 0.09 & 0.09\\
+\bottomrule
+\insertTableNotes
+\end{longtable}
+\end{ThreePartTable}
+\begin{ThreePartTable}
+\begin{TableNotes}
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\}, MS = measurement spacing (equal, time interval increasing, time interval decreasing), S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, NM x NC = interaction between number of measurements and nature of change, NM x MS = interaction between number of measurements and measurement spacing, NC x MS = interaction between nature of change and measurement spacing, NM x NC x MS = interaction between number of measurements, nature of change, and measurement spacing. $\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+           $\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
+           $\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
+           $\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.
+\end{TableNotes}
+\begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccccccc}
+\caption{\label{tab:complete-omega-table-exp-2}Partial $\upomega^2$ Values for Independent Variables in Experiment 2}\\
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{7}{c}{Effect} \\
+\cmidrule(l{3pt}r{3pt}){2-8}
+Parameter & NM & S & MS & NM x S & NM x MS & S x MS & NM x S x MS\\
+\midrule
+$\upbeta_{fixed}$ (Figure \ref{fig:exp2_plot_equal}A, \ref{fig:exp2_plot_time_inc}A, \ref{fig:exp2_plot_time_dec}A, \ref{fig:exp2_plot_mid_ext}A) & 0.07 & 0.07 & 0.03 & 0.02 & 0.05 & 0.01 & 0.01\\
+$\upbeta_{random}$ (Figure \ref{fig:exp2_plot_equal}B, \ref{fig:exp2_plot_time_inc}B, \ref{fig:exp2_plot_time_dec}B, \ref{fig:exp2_plot_mid_ext}B) & 0.21 & 0.31 & 0.06 & 0.02 & 0.07 & 0.01 & 0.01\\
+$\upgamma_{fixed}$ (Figure \ref{fig:exp2_plot_equal}C, \ref{fig:exp2_plot_time_inc}C, \ref{fig:exp2_plot_time_dec}C, \ref{fig:exp2_plot_mid_ext}C) & 0.19 & 0.15 & 0.04 & 0.05 & 0.07 & 0.01 & 0.02\\
+$\upgamma_{random}$(Figure \ref{fig:exp2_plot_equal}D, \ref{fig:exp2_plot_time_inc}D, \ref{fig:exp2_plot_time_dec}D, \ref{fig:exp2_plot_mid_ext}D) & 0.14 & 0.11 & 0.11 & 0.00 & 0.18 & 0.00 & 0.01\\
+\bottomrule
+\insertTableNotes
+\end{longtable}
+\end{ThreePartTable}
+\newpage
+\begin{ThreePartTable}
+\begin{TableNotes}
+\item \textit{Note. }NM = number of measurements $\in$ \{5, 7, 9, 11\},  S = sample size $\in$ \{30, 50, 100, 200, 500, 1000\}, TS = time structuredness (time structured, fast response, slow response), NM x S = interaction between number of measurements and sample size, NM x TS = interaction between number of measurements and time structuredness, S x TS = interaction between sample size and time structuredness, NM x S x TS = interaction between number of measurements, sample size, and time structuredness.
+\end{TableNotes}
+\begin{longtable}[l]{>{\raggedright\arraybackslash}p{6cm}ccccccc}
+\caption{\label{tab:complete-omega-table-exp-3}Partial $\upomega^2$ Values for Manipulated Variables in  Experiment 3}\\
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{7}{c}{Effect} \\
+\cmidrule(l{3pt}r{3pt}){2-8}
+Parameter & NM & S & TS & NM x S & NM x TS & S x TS & NM x S x TS\\
+\midrule
+$\upbeta_{fixed}$ (Figure \ref{fig:exp3_plot_days_time_struc}A,  \ref{fig:exp3_plot_days_fast}A,  \ref{fig:exp3_plot_days_slow}A) & 0.01 & 0.06 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00\\
+$\upbeta_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}A,  \ref{fig:exp3_plot_days_fast}A,  \ref{fig:exp3_plot_days_slow}A) & 0.31 & 0.47 & 0.00 & 0.08 & 0.00 & 0.00 & 0.00\\
+$\upgamma_{fixed}$(Figure \ref{fig:exp3_plot_days_time_struc}B,  \ref{fig:exp3_plot_days_fast}B,  \ref{fig:exp3_plot_days_slow}B) & 0.48 & 0.28 & 0.00 & 0.17 & 0.00 & 0.00 & 0.00\\
+$\upgamma_{random}$ (Figure \ref{fig:exp3_plot_days_time_struc}C,  \ref{fig:exp3_plot_days_fast}C,  \ref{fig:exp3_plot_days_slow}C) & 0.33 & 0.10 & 0.01 & 0.02 & 0.01 & 0.00 & 0.00\\
+\bottomrule
+\insertTableNotes
+\end{longtable}
+\end{ThreePartTable}
+\end{landscape}
 \app{OpenMx Code for Structured Latent Growth Curve Model With Definition Variables}
 
 \label{def-model-code}
@@ -5743,62 +5824,6 @@ The code that I used to model logistic pattern of change using definition variab
 
 \CommentTok{\#Fit model using mxTryHard(). Increases probability of convergence by attempting model convergence by randomly shifting starting values. }
 \NormalTok{model\_results }\OtherTok{\textless{}{-}} \FunctionTok{mxTryHard}\NormalTok{(def\_growth\_curve\_model)}
-\end{Highlighting}
-\end{Shaded}
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{library}\NormalTok{(easypackages)}
-\NormalTok{packages }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}nonlinSims\textquotesingle{}}\NormalTok{,}\StringTok{\textquotesingle{}tidyverse\textquotesingle{}}\NormalTok{)}
-\FunctionTok{libraries}\NormalTok{(packages)}
-
-\NormalTok{theta }\OtherTok{\textless{}{-}} \DecValTok{3}
-\NormalTok{alpha }\OtherTok{\textless{}{-}} \FloatTok{3.32}
-\NormalTok{beta }\OtherTok{\textless{}{-}} \DecValTok{180}
-\NormalTok{gamma }\OtherTok{\textless{}{-}} \DecValTok{20}
-\NormalTok{time }\OtherTok{\textless{}{-}} \DecValTok{0}\SpecialCharTok{:}\DecValTok{360}
-
-\CommentTok{\#curve scores}
-\NormalTok{logistic\_curve }\OtherTok{\textless{}{-}}\NormalTok{ theta }\SpecialCharTok{+}\NormalTok{ (alpha }\SpecialCharTok{{-}}\NormalTok{ theta)}\SpecialCharTok{/}\NormalTok{(}\DecValTok{1} \SpecialCharTok{+} \FunctionTok{exp}\NormalTok{((beta}\SpecialCharTok{{-}}\NormalTok{time)}\SpecialCharTok{/}\NormalTok{gamma))}
-
-\NormalTok{logistic\_data }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}score\textquotesingle{}} \OtherTok{=}\NormalTok{ logistic\_curve, }
-                            \StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=}\NormalTok{ time)}
-
-\CommentTok{\#day scores}
-\NormalTok{equal\_spacing\_5 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{5}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}equal\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{equal\_spacing\_7 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{7}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}equal\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{equal\_spacing\_9 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{9}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}equal\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{equal\_spacing\_11 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{11}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}equal\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-
-
-\CommentTok{\#provide curve score for each point }
-\NormalTok{equal\_spacing\_5}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ equal\_spacing\_5}\SpecialCharTok{$}\NormalTok{day]}
-\NormalTok{equal\_spacing\_7}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ equal\_spacing\_7}\SpecialCharTok{$}\NormalTok{day]}
-\NormalTok{equal\_spacing\_9}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ equal\_spacing\_9}\SpecialCharTok{$}\NormalTok{day]}
-\NormalTok{equal\_spacing\_11}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ equal\_spacing\_11}\SpecialCharTok{$}\NormalTok{day]}
-
-\CommentTok{\#spacing schedules}
-\NormalTok{equal\_spacing\_5 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{5}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}equal\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{time\_inc\_5 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{5}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}time\_inc\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{time\_dec\_5 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{5}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}time\_dec\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-\NormalTok{mid\_ext\_5 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\StringTok{\textquotesingle{}day\textquotesingle{}} \OtherTok{=} \FunctionTok{compute\_measurement\_schedule}\NormalTok{(}\AttributeTok{time\_period =} \DecValTok{360}\NormalTok{, }\AttributeTok{num\_measurements =} \DecValTok{5}\NormalTok{, }\AttributeTok{smallest\_int\_length =} \DecValTok{30}\NormalTok{, }\AttributeTok{measurement\_spacing =} \StringTok{\textquotesingle{}mid\_ext\textquotesingle{}}\NormalTok{)}\SpecialCharTok{$}\NormalTok{measurement\_days)}
-
-\NormalTok{time\_inc\_5}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ time\_inc\_5}\SpecialCharTok{$}\NormalTok{day]}
-\NormalTok{time\_dec\_5}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ time\_dec\_5}\SpecialCharTok{$}\NormalTok{day]}
-\NormalTok{mid\_ext\_5}\SpecialCharTok{$}\NormalTok{score }\OtherTok{\textless{}{-}}\NormalTok{ logistic\_data}\SpecialCharTok{$}\NormalTok{score[logistic\_data}\SpecialCharTok{$}\NormalTok{day }\SpecialCharTok{\%in\%}\NormalTok{ mid\_ext\_5}\SpecialCharTok{$}\NormalTok{day]}
-
-
-
-
-\NormalTok{mid\_ext\_5 }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\AttributeTok{data =}\NormalTok{ logistic\_data, }\AttributeTok{mapping =} \FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ day, }\AttributeTok{y =}\NormalTok{ score)) }\SpecialCharTok{+} 
-  \FunctionTok{geom\_line}\NormalTok{(}\AttributeTok{linewidth =} \DecValTok{1}\NormalTok{) }\SpecialCharTok{+} 
-  \FunctionTok{geom\_point}\NormalTok{(}\AttributeTok{data =}\NormalTok{ mid\_ext\_5, }\AttributeTok{size =} \DecValTok{5}\NormalTok{) }\SpecialCharTok{+} 
-  \FunctionTok{scale\_x\_continuous}\NormalTok{(}\AttributeTok{name =} \StringTok{\textquotesingle{}Day\textquotesingle{}}\NormalTok{, }\AttributeTok{breaks =} \FunctionTok{seq}\NormalTok{(}\AttributeTok{from =} \DecValTok{0}\NormalTok{, }\AttributeTok{to =} \DecValTok{360}\NormalTok{, }\AttributeTok{by =} \DecValTok{60}\NormalTok{)) }\SpecialCharTok{+} 
-  \FunctionTok{scale\_y\_continuous}\NormalTok{(}\AttributeTok{name =} \StringTok{\textquotesingle{}Score\textquotesingle{}}\NormalTok{, }\AttributeTok{breaks =} \ConstantTok{NULL}\NormalTok{) }\SpecialCharTok{+} 
-  \FunctionTok{theme\_classic}\NormalTok{(}\AttributeTok{base\_family =} \StringTok{\textquotesingle{}Helvetica\textquotesingle{}}\NormalTok{) }\SpecialCharTok{+} 
-  \FunctionTok{theme}\NormalTok{(}\AttributeTok{axis.text =} \FunctionTok{element\_text}\NormalTok{(}\AttributeTok{color =} \StringTok{\textquotesingle{}black\textquotesingle{}}\NormalTok{, }\AttributeTok{size =} \DecValTok{16}\NormalTok{), }
-        \AttributeTok{axis.title =} \FunctionTok{element\_text}\NormalTok{(}\AttributeTok{size =} \DecValTok{20}\NormalTok{))}
-
-\FunctionTok{ggsave}\NormalTok{(}\AttributeTok{filename =} \StringTok{\textquotesingle{}Figures/mid\_ext\_5.png\textquotesingle{}}\NormalTok{, }\AttributeTok{plot =}\NormalTok{ mid\_ext\_5, }\AttributeTok{width =} \DecValTok{8}\NormalTok{, }\AttributeTok{height =} \DecValTok{6}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 

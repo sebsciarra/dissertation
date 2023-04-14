@@ -108,7 +108,7 @@ Data generation was computed the same way as in Experiment 1 (see [data generati
 
 ### Modelling of Each Generated Data Set {#data-modelling-exp2}
 
-Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see [data modelling](#data-modelling) and explicated in Appendix \ref{structured-lgc}. 
+Each generated data set was modelled using the structured latent growth curve model outlined in Experiment 1 (see [data modelling](#data-modelling) and explanation in Appendix \ref{structured-lgc}).
 
 ### Variables Used in Simulation Experiment 
 
@@ -120,7 +120,7 @@ For the spacing of measurements, I used the same measurement days as in Experime
 
 ##### Number of Measurements
 
-For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see [number of measurements](#number-measurements)} for more discussion). 
+For the number of measurements, I used the same values as in Experiment 1 of 5, 7, 9, and 11 measurements (see [number of measurements](#number-measurements) for more discussion). 
 
 ##### Sample Size {#sample-size}
 
@@ -175,7 +175,7 @@ between the population value set for a parameter and the value estimated for the
 
 ###### Precision
 
-In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies aoften ssume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, *precision* was defined as the range of values covered by the middle 95% of values estimated for a logistic parameter. 
+In addition to computing bias, precision was calculated to evaluate the variability with which each parameter was estimated. Importantly, metrics used to evaluate precision in previous studies often assume estimates are normally distributed (e.g., mean-squared error and empirical standard error). Because some parameters in my simulations had skewed distributions, using a metric that assumed a normal distribution would likely yield inaccurate results. Correspondingly, I used a distribution-independent definition of precision. In my simulations, *precision* was defined as the range of values covered by the middle 95% of values estimated for a logistic function parameter. 
 
 
 ### Analysis of Data Modelling Output and Accompanying Visualizations
@@ -531,7 +531,8 @@ print_bias_var_omega_table(exp_data = exp_2_raw, target_col = 'measurement_spaci
 ind_vars = c('number_measurements', 'sample_size'), 
 ind_var_acronyms = c('NM', 'S', 'NM x S'), 
 caption = 'Partial $\\upomega^2$ Values for Independent Variables With Equal Spacing in Experiment 2',
-footnote = '\\\\textit{Note .}NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+footnote = '\\\\textit{Note .}NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, NM x S = interaction between number of measurements and sample size,
+$\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter.', 
@@ -699,7 +700,8 @@ print_bias_var_omega_table(exp_data = exp_2_raw, target_col = 'measurement_spaci
 ind_vars = c('number_measurements', 'sample_size'), 
 ind_var_acronyms = c('NM', 'S', 'NM x S'), 
 caption = 'Partial $\\upomega^2$ Values for Independent Variables With Time-Interval Increasing Spacing in Experiment 2',
-footnote = '\\\\textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+footnote = '\\\\textit{Note .}NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, NM x S = interaction between number of measurements and sample size,
+$\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \\\\phantom{ indicate conditions where}', 
@@ -847,7 +849,7 @@ print_bias_var_omega_table(exp_data = exp_2_raw, target_col = 'measurement_spaci
 ind_vars = c('number_measurements', 'sample_size'), 
 ind_var_acronyms = c('NM', 'S', 'NM x S'), 
 caption = 'Partial $\\upomega^2$ Values for Independent Variables With Time-Interval Decreasing Spacing in Experiment 2',
-footnote = '\\\\textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+footnote = '\\\\textit{Note .}NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \\\\phantom{ indicate conditions where}', 
@@ -1012,7 +1014,7 @@ print_bias_var_omega_table(exp_data = exp_2_raw, target_col = 'measurement_spaci
 ind_vars = c('number_measurements', 'sample_size'), 
 ind_var_acronyms = c('NM', 'S', 'NM x S'), 
 caption = 'Partial $\\upomega^2$ Values for Independent Variables With Middle-and-Extreme Spacing in Experiment 2',
-footnote = '\\\\textit{Note. }NM = number of measurements (5, 7, 9, 11), S = sample size (30, 50, 100, 200, 500, 1000), NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
+footnote = '\\\\textit{Note .}NM = number of measurements $\\\\in$ \\\\{5, 7, 9, 11\\\\}, S = sample size $\\\\in$ \\\\{30, 50, 100, 200, 500, 1000\\\\}, NM x S = interaction between number of measurements and sample size, $\\\\upbeta_{fixed}$ = fixed-effect days-to-halfway elevation parameter,
            $\\\\upgamma_{fixed}$ = fixed-effect triquarter-halfway delta parameter, 
            $\\\\upbeta_{random}$ = random-effect days-to-halfway elevation parameter, and 
            $\\\\upgamma_{random}$ = random-effect triquarter-halfway delta parameter. \\\\phantom{ indicate conditions where}', 
@@ -1093,9 +1095,9 @@ summary_table <- data.frame('Spacing Schedule' = c('\\thead[lt]{Equal \\\\(see F
                                            
                                            '\\thead[lt]{NM = 11 with \\textit{N} $\\ge$ 1000}', 
                                            
-                                           '\\thead[lt]{\\textbf{NM $\\boldsymbol{\\ge}$ 5 with
-                                           \\textit{N} $\\boldsymbol{\\ge}$ 200} or \\\\
-                                           \\textbf{NM  $\\boldsymbol{\\in}$ \\{5, 7\\} with \\textit{N} = 100}}'), 
+                                           '\\thead[lt]{NM $\\boldsymbol{\\ge}$ 5 with
+                                           \\textit{N} $\\boldsymbol{\\ge}$ 200 or \\\\
+                                           NM  $\\boldsymbol{\\in}$ \\{5, 7\\} with \\textit{N} = 100}'), 
                             
                             'Precise' = c('No cells', 
                                             'No cells', 
@@ -1152,7 +1154,7 @@ linesep = c('\\cmidrule{1-8}', '\\cmidrule{1-8}', '\\cmidrule{1-8}'),
 * time-interval decreasing: five measurements with *N* $\ge$ 500, seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 200. 
 * middle-and-extreme: five measurements with any manipulated sample size. 
 
-\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, given that only five measurements are needed with middle-and-extreme spacing to obtain model performance levels that the other spacing schedules obtained with at least seven measurements, middle-and-extreme spacing results in the highest model performance. Importantly, given that middle-and-extreme spacing results in the highest model performance in Experiment 1 with a midway halfway point (see section discussing [measurement spacing](#meas-placing)), the result here that middle-and-extreme spacing leads to the highest model performance is an expected outcome because the nature-of-change was fixed to 180 (see [constants](#constants-exp2)). 
+\noindent Because each spacing schedule obtains comparable model performance as indicated by the similar error bar lengths, two statements can be made. First, using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100 with any spacing schedule except middle-and-extreme spacing results in similar model performance. Second, although only five measurements  are needed with middle-and-extreme spacing to obtain model performance that the other spacing schedules obtain with seven (at least) measurements, this result is largely a result of the nature of change that was used. In Experiment 2, the nature-of-change value that was used was 180. As noted from the results of Experiment 1, middle-and-extreme spacing resulted in the highest model performance with a nature-of-change value of 80 (see section discussing [measurement spacing](#meas-placing)). Thus, the result here that middle-and-extreme spacing results in the highest model performance is an expected given that the nature-of-change value used in Experiment 2 was fixed to 180 (see [constants](#constants-exp2)). 
 
 The results of Experiment 2 are the first (to my knowledge) to provide measurement number and sample size guidelines for researchers interested in using nonlinear functions to model nonlinear change. Although previous simulation studies have investigated how to accurately model nonlinear change, three characteristics limit these results. First, some studies investigated the issue with fixed-effects models [e.g., @finch2017]. Given that researchers often model effects as random, findings with fixed-effects effects models are limited in their application. Second, some studies used linear functions to model nonlinear change [e.g., @fine2019; @liu2022]. Given that the parameters of linear functions become uninterpretable when modelling nonlinear change (with the intercept parameter being an exception), these models are less useful to practitioners. Third, some studies implemented unrealistic model fitting procedures by dropping a random-effect parameter from the model each time convergence failed [@finch2017]. By dropping random-effect parameters when model convergence failed, estimation accuracy could not meaningfully evaluated for parameters because values could have been obtained with reduced or simplified models. 
 
@@ -1161,7 +1163,7 @@ In summary, the results of Experiment 2 provide measurement number/sample size g
 
 ## Summary of Experiment 2
 
-I designed Experiment 2 to investigate the measurement number and sample size combinations needed to obtain high model performance (i.e., unbiased and precise parameter estimation) under different spacing schedules. Although no measurement number/sample size pairing result in high model performance under any spacing schedule, the greatest improvements in model performance result from using modest measurement number/sample size pairings. Specifically, the greatest improvements in model performance can be obtained using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100.
+I designed Experiment 2 to investigate the measurement number and sample size combinations needed to obtain high model performance (i.e., unbiased and precise parameter estimation) under different spacing schedules. Although no measurement number/sample size pairing results in high model performance under any spacing schedule, the greatest improvements in model performance result from using modest measurement number/sample size pairings. Specifically, the greatest improvements in model performance can be obtained using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100.
 
 
 
