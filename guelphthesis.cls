@@ -35,6 +35,7 @@
 \usepackage{etoolbox}
 \usepackage{multicol} %needed for multicolumn layout in abstract papge
 \usepackage[multiple, hang,flushmargin]{footmisc}  %removes indentation in footnotes
+\usepackage{soul}
 
 \usepackage[labelfont = {bf, up}]{caption}
 \usepackage[flushleft]{threeparttable}

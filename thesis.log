@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  13 APR 2023 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  14 APR 2023 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -149,22 +149,33 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
 Package footmisc Info: Declaring symbol style lamport* on input line 743.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
 .
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks18
+\SOUL@lasttoken=\toks19
+\SOUL@cmds=\toks20
+\SOUL@buffer=\toks21
+\SOUL@token=\toks22
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen155
+\SOUL@uldp=\dimen156
+\SOUL@ulht=\dimen157
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks23
 )
-\caption@tempdima=\dimen155
-\captionmargin=\dimen156
-\caption@leftmargin=\dimen157
-\caption@rightmargin=\dimen158
-\caption@width=\dimen159
-\caption@indent=\dimen160
-\caption@parindent=\dimen161
-\caption@hangindent=\dimen162
+\caption@tempdima=\dimen158
+\captionmargin=\dimen159
+\caption@leftmargin=\dimen160
+\caption@rightmargin=\dimen161
+\caption@width=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count276
@@ -179,12 +190,12 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
+\LTleft=\skip63
+\LTright=\skip64
+\LTpre=\skip65
+\LTpost=\skip66
 \LTchunksize=\count278
-\LTcapwidth=\dimen163
+\LTcapwidth=\dimen166
 \LT@head=\box97
 \LT@firsthead=\box98
 \LT@foot=\box99
@@ -194,36 +205,36 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@rows=\count280
 \c@LT@tables=\count281
 \c@LT@chunks=\count282
-\LT@p@ftn=\toks19
+\LT@p@ftn=\toks24
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen164
+\col@sep=\dimen167
 \ar@mcellbox=\box102
-\extrarowheight=\dimen165
-\NC@list=\toks20
-\extratabsurround=\skip66
-\backup@length=\skip67
+\extrarowheight=\dimen168
+\NC@list=\toks25
+\extratabsurround=\skip67
+\backup@length=\skip68
 \ar@cellbox=\box103
 )
-\rotheadsize=\dimen166
+\rotheadsize=\dimen169
 \c@nlinenum=\count283
-\TeXr@lab=\toks21
+\TeXr@lab=\toks26
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip68
+\multirow@colwidth=\skip69
 \multirow@cntb=\count284
-\multirow@dima=\skip69
-\bigstrutjot=\dimen167
+\multirow@dima=\skip70
+\bigstrutjot=\dimen170
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen168
-\WF@size=\dimen169
+\wrapoverhang=\dimen171
+\WF@size=\dimen172
 \c@WF@wrappedlines=\count285
 \WF@box=\box104
-\WF@everypar=\toks22
+\WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
@@ -236,8 +247,8 @@ Package color Info: Driver file: pdftex.def on input line 149.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\everycr=\toks23
-\minrowclearance=\skip70
+\everycr=\toks28
+\minrowclearance=\skip71
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
@@ -260,8 +271,8 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box105
 \sift@deathcycles=\count286
-\@vwid@loff=\dimen170
-\@vwid@roff=\dimen171
+\@vwid@loff=\dimen173
+\@vwid@roff=\dimen174
 )
 \c@taburow=\count287
 \tabu@nbcols=\count288
@@ -269,57 +280,57 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@Xcol=\count290
 \tabu@alloc=\count291
 \tabu@nested=\count292
-\tabu@target=\dimen172
-\tabu@spreadtarget=\dimen173
-\tabu@naturalX=\dimen174
-\tabucolX=\dimen175
-\tabu@Xsum=\dimen176
-\extrarowdepth=\dimen177
-\abovetabulinesep=\dimen178
-\belowtabulinesep=\dimen179
-\tabustrutrule=\dimen180
-\tabu@thebody=\toks24
-\tabu@footnotes=\toks25
+\tabu@target=\dimen175
+\tabu@spreadtarget=\dimen176
+\tabu@naturalX=\dimen177
+\tabucolX=\dimen178
+\tabu@Xsum=\dimen179
+\extrarowdepth=\dimen180
+\abovetabulinesep=\dimen181
+\belowtabulinesep=\dimen182
+\tabustrutrule=\dimen183
+\tabu@thebody=\toks29
+\tabu@footnotes=\toks30
 \tabu@box=\box106
 \tabu@arstrutbox=\box107
 \tabu@hleads=\box108
 \tabu@vleads=\box109
-\tabu@cellskip=\skip71
+\tabu@cellskip=\skip72
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box110
 \UL@hyphenbox=\box111
-\UL@skip=\skip72
-\UL@hook=\toks26
-\UL@height=\dimen181
+\UL@skip=\skip73
+\UL@hook=\toks31
+\UL@height=\dimen184
 \UL@pe=\count293
-\UL@pixel=\dimen182
+\UL@pixel=\dimen185
 \ULC@box=\box112
 Package: ulem 2019/11/18
-\ULdepth=\dimen183
+\ULdepth=\dimen186
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
-\thm@preskip=\skip73
-\thm@postskip=\skip74
-\thm@headsep=\skip75
-\dth@everypar=\toks32
+\thm@style=\toks32
+\thm@bodyfont=\toks33
+\thm@headfont=\toks34
+\thm@notefont=\toks35
+\thm@headpunct=\toks36
+\thm@preskip=\skip74
+\thm@postskip=\skip75
+\thm@headsep=\skip76
+\dth@everypar=\toks37
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip76
+\@mathmargin=\skip77
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks33
-\ex@=\dimen184
+\@emptytoks=\toks38
+\ex@=\dimen187
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen185
+\pmbraise@=\dimen188
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
@@ -335,7 +346,7 @@ LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box113
 \strutbox@=\box114
-\big@size=\dimen186
+\big@size=\dimen189
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count299
@@ -343,21 +354,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip17
 \c@parentequation=\count301
 \dspbrk@lvl=\count302
-\tag@help=\toks34
+\tag@help=\toks39
 \row@=\count303
 \column@=\count304
 \maxfields@=\count305
-\andhelp@=\toks35
-\eqnshift@=\dimen187
-\alignsep@=\dimen188
-\tagshift@=\dimen189
-\tagwidth@=\dimen190
-\totwidth@=\dimen191
-\lineht@=\dimen192
-\@envbody=\toks36
-\multlinegap=\skip77
-\multlinetaggap=\skip78
-\mathdisplay@stack=\toks37
+\andhelp@=\toks40
+\eqnshift@=\dimen190
+\alignsep@=\dimen191
+\tagshift@=\dimen192
+\tagwidth@=\dimen193
+\totwidth@=\dimen194
+\lineht@=\dimen195
+\@envbody=\toks41
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks42
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
@@ -375,23 +386,23 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen193
-\lightrulewidth=\dimen194
-\cmidrulewidth=\dimen195
-\belowrulesep=\dimen196
-\belowbottomsep=\dimen197
-\aboverulesep=\dimen198
-\abovetopsep=\dimen199
-\cmidrulesep=\dimen256
-\cmidrulekern=\dimen257
-\defaultaddspace=\dimen258
+\heavyrulewidth=\dimen196
+\lightrulewidth=\dimen197
+\cmidrulewidth=\dimen198
+\belowrulesep=\dimen199
+\belowbottomsep=\dimen256
+\aboverulesep=\dimen257
+\abovetopsep=\dimen258
+\cmidrulesep=\dimen259
+\cmidrulekern=\dimen260
+\defaultaddspace=\dimen261
 \@cmidla=\count306
 \@cmidlb=\count307
-\@aboverulesep=\dimen259
-\@belowrulesep=\dimen260
+\@aboverulesep=\dimen262
+\@belowrulesep=\dimen263
 \@thisruleclass=\count308
 \@lastruleclass=\count309
-\@thisrulewidth=\dimen261
+\@thisrulewidth=\dimen264
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/xargs/xargs.sty
@@ -400,20 +411,20 @@ Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
 /texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks38
-\XKV@tempa@toks=\toks39
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
 \XKV@depth=\count310
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \xargs@max=\count311
-\xargs@toksa=\toks40
-\xargs@toksb=\toks41
+\xargs@toksa=\toks45
+\xargs@toksb=\toks46
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip79
-\enit@outerparindent=\dimen262
-\enit@toks=\toks42
+\labelindent=\skip80
+\enit@outerparindent=\dimen265
+\enit@toks=\toks47
 \enit@inbox=\box115
 \enit@count@id=\count312
 \enitdp@description=\count313
@@ -425,30 +436,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count314
 \Gm@cntv=\count315
 \c@Gm@tempcnt=\count316
-\Gm@bindingoffset=\dimen263
-\Gm@wd@mp=\dimen264
-\Gm@odd@mp=\dimen265
-\Gm@even@mp=\dimen266
-\Gm@layoutwidth=\dimen267
-\Gm@layoutheight=\dimen268
-\Gm@layouthoffset=\dimen269
-\Gm@layoutvoffset=\dimen270
-\Gm@dimlist=\toks43
+\Gm@bindingoffset=\dimen266
+\Gm@wd@mp=\dimen267
+\Gm@odd@mp=\dimen268
+\Gm@even@mp=\dimen269
+\Gm@layoutwidth=\dimen270
+\Gm@layoutheight=\dimen271
+\Gm@layouthoffset=\dimen272
+\Gm@layoutvoffset=\dimen273
+\Gm@dimlist=\toks48
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2020/09/26 v1.10
 Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
 Package textpos Info: choosing support for LaTeX3 on input line 61.
 \TP@textbox=\box116
 \TP@holdbox=\box117
-\TPHorizModule=\dimen271
-\TPVertModule=\dimen272
-\TP@margin=\dimen273
-\TP@absmargin=\dimen274
+\TPHorizModule=\dimen274
+\TPVertModule=\dimen275
+\TP@margin=\dimen276
+\TP@absmargin=\dimen277
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen275
-\TP@ox=\dimen276
-\TP@oy=\dimen277
-\TP@tbargs=\toks44
+\TPboxrulesize=\dimen278
+\TP@ox=\dimen279
+\TP@oy=\dimen280
+\TP@tbargs=\toks49
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/
 usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -475,103 +486,103 @@ tim
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count321
-\output=\toks45
+\output=\toks50
 \linenoprevgraf=\count322
-\linenumbersep=\dimen278
-\linenumberwidth=\dimen279
+\linenumbersep=\dimen281
+\linenumberwidth=\dimen282
 \c@linenumber=\count323
 \c@pagewiselinenumber=\count324
 \c@LN@truepage=\count325
 \c@internallinenumber=\count326
 \c@internallinenumbers=\count327
-\quotelinenumbersep=\dimen280
-\bframerule=\dimen281
-\bframesep=\dimen282
+\quotelinenumbersep=\dimen283
+\bframerule=\dimen284
+\bframesep=\dimen285
 \bframebox=\box120
 LaTeX Info: Redefining \\ on input line 3056.
 )
 \c@FV@TrueTabGroupLevel=\count328
 \c@FV@TrueTabCounter=\count329
 \FV@TabBox@Group=\box121
-\FV@TmpLength=\skip80
+\FV@TmpLength=\skip81
 \c@FV@HighlightLinesStart=\count330
 \c@FV@HighlightLinesStop=\count331
 \FV@LoopCount=\count332
 \FV@NCharsBox=\box122
-\FV@BreakIndent=\dimen283
+\FV@BreakIndent=\dimen286
 \FV@BreakIndentNChars=\count333
-\FV@BreakSymbolSepLeft=\dimen284
+\FV@BreakSymbolSepLeft=\dimen287
 \FV@BreakSymbolSepLeftNChars=\count334
-\FV@BreakSymbolSepRight=\dimen285
+\FV@BreakSymbolSepRight=\dimen288
 \FV@BreakSymbolSepRightNChars=\count335
-\FV@BreakSymbolIndentLeft=\dimen286
+\FV@BreakSymbolIndentLeft=\dimen289
 \FV@BreakSymbolIndentLeftNChars=\count336
-\FV@BreakSymbolIndentRight=\dimen287
+\FV@BreakSymbolIndentRight=\dimen290
 \FV@BreakSymbolIndentRightNChars=\count337
 \c@FancyVerbLineBreakLast=\count338
 \FV@LineBox=\box123
 \FV@LineIndentBox=\box124
-\FV@LineWidth=\dimen288
+\FV@LineWidth=\dimen291
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip81
-\fb@frw=\dimen289
-\fb@frh=\dimen290
-\FrameRule=\dimen291
-\FrameSep=\dimen292
+\OuterFrameSep=\skip82
+\fb@frw=\dimen292
+\fb@frh=\dimen293
+\FrameRule=\dimen294
+\FrameSep=\dimen295
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count339
-\float@exts=\toks46
+\float@exts=\toks51
 \float@box=\box125
-\@float@everytoks=\toks47
+\@float@everytoks=\toks52
 \@floatcapt=\box126
 )
-\@float@every@chunk=\toks48
+\@float@every@chunk=\toks53
 \c@chunk=\count340
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip82
-\cftbeforetoctitleskip=\skip83
-\cftaftertoctitleskip=\skip84
-\cftbeforepartskip=\skip85
-\cftpartnumwidth=\skip86
-\cftpartindent=\skip87
-\cftbeforechapskip=\skip88
-\cftchapindent=\skip89
-\cftchapnumwidth=\skip90
-\cftbeforesecskip=\skip91
-\cftsecindent=\skip92
-\cftsecnumwidth=\skip93
-\cftbeforesubsecskip=\skip94
-\cftsubsecindent=\skip95
-\cftsubsecnumwidth=\skip96
-\cftbeforesubsubsecskip=\skip97
-\cftsubsubsecindent=\skip98
-\cftsubsubsecnumwidth=\skip99
-\cftbeforeparaskip=\skip100
-\cftparaindent=\skip101
-\cftparanumwidth=\skip102
-\cftbeforesubparaskip=\skip103
-\cftsubparaindent=\skip104
-\cftsubparanumwidth=\skip105
-\cftbeforeloftitleskip=\skip106
-\cftafterloftitleskip=\skip107
-\cftbeforefigskip=\skip108
-\cftfigindent=\skip109
-\cftfignumwidth=\skip110
+\cftparskip=\skip83
+\cftbeforetoctitleskip=\skip84
+\cftaftertoctitleskip=\skip85
+\cftbeforepartskip=\skip86
+\cftpartnumwidth=\skip87
+\cftpartindent=\skip88
+\cftbeforechapskip=\skip89
+\cftchapindent=\skip90
+\cftchapnumwidth=\skip91
+\cftbeforesecskip=\skip92
+\cftsecindent=\skip93
+\cftsecnumwidth=\skip94
+\cftbeforesubsecskip=\skip95
+\cftsubsecindent=\skip96
+\cftsubsecnumwidth=\skip97
+\cftbeforesubsubsecskip=\skip98
+\cftsubsubsecindent=\skip99
+\cftsubsubsecnumwidth=\skip100
+\cftbeforeparaskip=\skip101
+\cftparaindent=\skip102
+\cftparanumwidth=\skip103
+\cftbeforesubparaskip=\skip104
+\cftsubparaindent=\skip105
+\cftsubparanumwidth=\skip106
+\cftbeforeloftitleskip=\skip107
+\cftafterloftitleskip=\skip108
+\cftbeforefigskip=\skip109
+\cftfigindent=\skip110
+\cftfignumwidth=\skip111
 \c@lofdepth=\count341
 \c@lotdepth=\count342
-\cftbeforelottitleskip=\skip111
-\cftafterlottitleskip=\skip112
-\cftbeforetabskip=\skip113
-\cfttabindent=\skip114
-\cfttabnumwidth=\skip115
+\cftbeforelottitleskip=\skip112
+\cftafterlottitleskip=\skip113
+\cftbeforetabskip=\skip114
+\cfttabindent=\skip115
+\cfttabnumwidth=\skip116
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen293
-\Gin@req@width=\dimen294
+\Gin@req@height=\dimen296
+\Gin@req@width=\dimen297
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup8
@@ -624,21 +635,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count343
 \calc@Bcount=\count344
-\calc@Adimen=\dimen295
-\calc@Bdimen=\dimen296
-\calc@Askip=\skip116
-\calc@Bskip=\skip117
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
+\calc@Askip=\skip117
+\calc@Bskip=\skip118
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count345
-\calc@Cskip=\skip118
+\calc@Cskip=\skip119
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count346
-\rotFPtop=\skip119
-\rotFPbot=\skip120
+\rotFPtop=\skip120
+\rotFPbot=\skip121
 \rot@float@box=\box127
-\rot@mess@toks=\toks49
+\rot@mess@toks=\toks54
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -659,48 +670,48 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )))
 \c@app=\count347
-\cftbeforeappskip=\skip121
-\cftappindent=\skip122
-\cftappnumwidth=\skip123
+\cftbeforeappskip=\skip122
+\cftappindent=\skip123
+\cftappnumwidth=\skip124
 \c@loadepth=\count348
-\cftbeforeloatitleskip=\skip124
-\cftafterloatitleskip=\skip125
+\cftbeforeloatitleskip=\skip125
+\cftafterloatitleskip=\skip126
 (/usr/local/texlive/2022/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 \c@secapp=\count349
-\cftbeforesecappskip=\skip126
-\cftsecappindent=\skip127
-\cftsecappnumwidth=\skip128
+\cftbeforesecappskip=\skip127
+\cftsecappindent=\skip128
+\cftsecappnumwidth=\skip129
 \c@subapp=\count350
-\cftbeforesubappskip=\skip129
-\cftsubappindent=\skip130
-\cftsubappnumwidth=\skip131
+\cftbeforesubappskip=\skip130
+\cftsubappindent=\skip131
+\cftsubappnumwidth=\skip132
 \c@subsubapp=\count351
-\cftbeforesubsubappskip=\skip132
-\cftsubsubappindent=\skip133
-\cftsubsubappnumwidth=\skip134
+\cftbeforesubsubappskip=\skip133
+\cftsubsubappindent=\skip134
+\cftsubsubappnumwidth=\skip135
 \c@paraapp=\count352
-\cftbeforeparaappskip=\skip135
-\cftparaappindent=\skip136
-\cftparaappnumwidth=\skip137
+\cftbeforeparaappskip=\skip136
+\cftparaappindent=\skip137
+\cftparaappnumwidth=\skip138
 \c@subparaapp=\count353
-\cftbeforesubparaappskip=\skip138
-\cftsubparaappindent=\skip139
-\cftsubparaappnumwidth=\skip140
+\cftbeforesubparaappskip=\skip139
+\cftsubparaappindent=\skip140
+\cftsubparaappnumwidth=\skip141
 \c@subsubparaapp=\count354
-\cftbeforesubsubparaappskip=\skip141
-\cftsubsubparaappindent=\skip142
-\cftsubsubparaappnumwidth=\skip143
+\cftbeforesubsubparaappskip=\skip142
+\cftsubsubparaappindent=\skip143
+\cftsubsubparaappnumwidth=\skip144
 \c@abb=\count355
-\cftbeforeabbskip=\skip144
-\cftabbindent=\skip145
-\cftabbnumwidth=\skip146
+\cftbeforeabbskip=\skip145
+\cftabbindent=\skip146
+\cftabbnumwidth=\skip147
 \c@loabdepth=\count356
-\cftbeforeloabtitleskip=\skip147
-\cftafterloabtitleskip=\skip148
+\cftbeforeloabtitleskip=\skip148
+\cftafterloabtitleskip=\skip149
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -723,7 +734,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen297
+\@linkdim=\dimen300
 \Hy@linkcounter=\count357
 \Hy@pagecounter=\count358
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -750,7 +761,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
 \c@Hy@tempcnt=\count360
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen298
+\XeTeXLinkMargin=\dimen301
 (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
@@ -758,8 +769,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count361
-\Field@Width=\dimen299
-\Fld@charsize=\dimen300
+\Field@Width=\dimen302
+\Fld@charsize=\dimen303
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -797,7 +808,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip149
+\Hy@SectionHShift=\skip150
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
@@ -848,14 +859,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@blx@sectionciteorder@0=\count407
 \blx@entrysetcounter=\count408
 \blx@biblioinstance=\count409
-\labelnumberwidth=\skip150
-\labelalphawidth=\skip151
-\biblabelsep=\skip152
-\bibitemsep=\skip153
-\bibnamesep=\skip154
-\bibinitsep=\skip155
-\bibparsep=\skip156
-\bibhang=\skip157
+\labelnumberwidth=\skip151
+\labelalphawidth=\skip152
+\biblabelsep=\skip153
+\bibitemsep=\skip154
+\bibnamesep=\skip155
+\bibinitsep=\skip156
+\bibparsep=\skip157
+\bibhang=\skip158
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language87
@@ -952,20 +963,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count488
 \c@pageref=\count489
 \c@savedpageref=\count490
-\shorthandwidth=\skip158
-\shortjournalwidth=\skip159
-\shortserieswidth=\skip160
-\shorttitlewidth=\skip161
-\shortauthorwidth=\skip162
-\shorteditorwidth=\skip163
-\locallabelnumberwidth=\skip164
-\locallabelalphawidth=\skip165
-\localshorthandwidth=\skip166
-\localshortjournalwidth=\skip167
-\localshortserieswidth=\skip168
-\localshorttitlewidth=\skip169
-\localshortauthorwidth=\skip170
-\localshorteditorwidth=\skip171
+\shorthandwidth=\skip159
+\shortjournalwidth=\skip160
+\shortserieswidth=\skip161
+\shorttitlewidth=\skip162
+\shortauthorwidth=\skip163
+\shorteditorwidth=\skip164
+\locallabelnumberwidth=\skip165
+\locallabelalphawidth=\skip166
+\localshorthandwidth=\skip167
+\localshortjournalwidth=\skip168
+\localshortserieswidth=\skip169
+\localshorttitlewidth=\skip170
+\localshortauthorwidth=\skip171
+\localshorteditorwidth=\skip172
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -1080,7 +1091,7 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip172
+\TPTL@width=\skip173
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1203,16 +1214,16 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count506
-\scratchdimen=\dimen301
+\scratchdimen=\dimen304
 \scratchbox=\box128
 \nofMPsegments=\count507
 \nofMParguments=\count508
-\everyMPshowfont=\toks50
+\everyMPshowfont=\toks55
 \MPscratchCnt=\count509
-\MPscratchDim=\dimen302
+\MPscratchDim=\dimen305
 \MPnumerator=\count510
 \makeMPintoPDFobject=\count511
-\everyMPtoPDFconversion=\toks51
+\everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1424,7 +1435,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 657.
+(hyperref)                removing `\titlecap' on input line 659.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1617,59 +1628,59 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [19]
 
 Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 696.
+(hyperref)                setting the option has no effect on input line 698.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 696.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 696.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 698.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 698.
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 696.
+(hyperref)                setting the option has no effect on input line 698.
 
 
 Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 696.
+(hyperref)                setting the option has no effect on input line 698.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 696.
+Package hyperref Info: Option `breaklinks' set `true' on input line 698.
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 696.
+(hyperref)                setting the option has no effect on input line 698.
 
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 696.
+(hyperref)                setting the option has no effect on input line 698.
 
 [1
 
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 715.
+(Font)              <10> on input line 717.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 715.
+(Font)              <7> on input line 717.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 715.
+(Font)              <5> on input line 717.
 [2] [3] [4] [5] [6]
-Overfull \hbox (1.65854pt too wide) in paragraph at lines 740--741
+Overfull \hbox (1.65854pt too wide) in paragraph at lines 742--743
 \OT1/lmr/m/n/12 chal-lenges are those from cross-sectional re-search only am-pl
 i-fied (for a re-view, see[][] Bergman
  []
 
 [7] [8] [9] [10] [11] [12] [13] [14]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
-99.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
+01.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 799.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 801.
 <Figures/Monte_Carlo_comparison.png, id=1765, 936.49875pt x 528.97626pt>
 File: Figures/Monte_Carlo_comparison.png Graphic file (type png)
 <use Figures/Monte_Carlo_comparison.png>
 Package pdftex.def Info: Figures/Monte_Carlo_comparison.png  used on input line
- 799.
+ 801.
 (pdftex.def)             Requested size: 655.54466pt x 370.28085pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 799.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 801.
 [15
 
  <./Figures/Monte_Carlo_comparison.png>] [16] [17
@@ -1678,7 +1689,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.5> not available
 <Figures/prisma_diagram.png, id=1828, 854.19125pt x 517.935pt>
 File: Figures/prisma_diagram.png Graphic file (type png)
 <use Figures/prisma_diagram.png>
-Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 823.
+Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 825.
 (pdftex.def)             Requested size: 597.92981pt x 362.55202pt.
 [19
 
@@ -1715,15 +1726,15 @@ Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 823.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 844.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 846.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.5> on input line 844.
+(Font)              <10.5> on input line 846.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.34996> on input line 844.
+(Font)              <7.34996> on input line 846.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.25> on input line 844.
+(Font)              <5.25> on input line 846.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 844.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 846.
 [20
 
 
@@ -1761,12 +1772,12 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 906
+LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 908
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.14494> on input line 906.
+(Font)              <5.14494> on input line 908.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.67497> on input line 906.
+(Font)              <3.67497> on input line 908.
 [21
 
 
@@ -1783,29 +1794,29 @@ Overfull \vbox (6.72644pt too high) has occurred while \output is active []
 File: Figures/polynomial_vs_nonlinear_plot.pdf Graphic file (type pdf)
 <use Figures/polynomial_vs_nonlinear_plot.pdf>
 Package pdftex.def Info: Figures/polynomial_vs_nonlinear_plot.pdf  used on inpu
-t line 975.
+t line 977.
 (pdftex.def)             Requested size: 450.95416pt x 225.47708pt.
 [24] [25 <./Figures/polynomial_vs_nonlinear_plot.pdf>]
 <Figures/parameter_explanation_plot.pdf, id=1988, 3257.16875pt x 2353.79375pt>
 File: Figures/parameter_explanation_plot.pdf Graphic file (type pdf)
 <use Figures/parameter_explanation_plot.pdf>
 Package pdftex.def Info: Figures/parameter_explanation_plot.pdf  used on input 
-line 997.
+line 999.
 (pdftex.def)             Requested size: 553.71136pt x 400.13965pt.
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 997.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 999.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.5> on input line 997.
+(Font)              <9.5> on input line 999.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.64996> on input line 997.
+(Font)              <6.64996> on input line 999.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.75> on input line 997.
+(Font)              <4.75> on input line 999.
 [26
 
  <./Figures/parameter_explanation_plot.pdf>] [27] [28
 
 ] [29] [30]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1043.
+1045.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [31] [32] [33] [34]
@@ -1851,21 +1862,21 @@ Overfull \vbox (1.66794pt too high) has occurred while \output is active []
 
 
 ] [41] [42] [43] [44]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 1265.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 1267.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 1265.
+(Font)              <11> on input line 1267.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 1265.
+(Font)              <7.69997> on input line 1267.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 1265.
+(Font)              <5.5> on input line 1267.
 <Figures/param_estimation_ex.png, id=2192, 314.17375pt x 374.39874pt>
 File: Figures/param_estimation_ex.png Graphic file (type png)
 <use Figures/param_estimation_ex.png>
 Package pdftex.def Info: Figures/param_estimation_ex.png  used on input line 12
-65.
+67.
 (pdftex.def)             Requested size: 282.75375pt x 336.95575pt.
 [45 <./Figures/param_estimation_ex.png>] [46] [47] [48]
-Overfull \hbox (3.5571pt too wide) in paragraph at lines 1314--1323
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 1316--1325
 \OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated
  pa-ram-e-ters. Each bias/precision
  []
@@ -1875,7 +1886,7 @@ Overfull \hbox (3.5571pt too wide) in paragraph at lines 1314--1323
 File: Figures/logistic_results_plot_exp1.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp1.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp1.png  used on input 
-line 1323.
+line 1325.
 (pdftex.def)             Requested size: 433.86847pt x 564.5058pt.
 [50] [51 <./Figures/logistic_results_plot_exp1.png>] [52]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1911,17 +1922,12 @@ line 1323.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1350--1350
-[]|[][] 
- []
-
-
 Overfull \hbox (1.44373pt too wide) in paragraph at lines 1352--1352
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1354--1354
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1354--1354
 []|[][] 
  []
 
@@ -1930,17 +1936,22 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1356--1356
 []|[][] 
  []
 
+
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1358--1358
+[]|[][] 
+ []
+
 [53
 
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1
-389.
+391.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1389.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1391.
 
 [54
 
@@ -1949,7 +1960,7 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.5> not available
 <Figures/midpoint_180_plot.pdf, id=2304, 1370.11874pt x 1264.725pt>
 File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_180_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1404
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1406
 .
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [55]
@@ -1958,20 +1969,20 @@ t>
 File: Figures/density_plots_equal_gamma_exp1.pdf Graphic file (type pdf)
 <use Figures/density_plots_equal_gamma_exp1.pdf>
 Package pdftex.def Info: Figures/density_plots_equal_gamma_exp1.pdf  used on in
-put line 1417.
+put line 1419.
 (pdftex.def)             Requested size: 226.61122pt x 541.87547pt.
 [56 <./Figures/midpoint_180_plot.pdf>] [57 <./Figures/density_plots_equal_gamma
 _exp1.pdf>]
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-423.
+425.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1423.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1425.
 
 
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 1423--1433
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 1425--1435
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
@@ -1981,7 +1992,7 @@ rip-tion of the set of bias/precision
 File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on inpu
-t line 1433.
+t line 1435.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [58] [59 <./Figures/exp1_plot_days_equal spacing.pdf>] [60] [61] [62] [63]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2017,22 +2028,22 @@ t line 1433.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1538--1538
-[]|[][] 
- []
-
-
 Overfull \hbox (1.44373pt too wide) in paragraph at lines 1540--1540
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1542--1542
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1542--1542
 []|[][] 
  []
 
 
 Overfull \hbox (1.99377pt too wide) in paragraph at lines 1544--1544
+[]|[][] 
+ []
+
+
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1546--1546
 []|[][] 
  []
 
@@ -2046,7 +2057,7 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1544--1544
 <Figures/midpoint_80_plot.pdf, id=2438, 1370.11874pt x 1264.725pt>
 File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_80_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1583.
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1585.
 
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [66 <./Figures/midpoint_80_plot.pdf>] [67]
@@ -2056,10 +2067,10 @@ File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  u
-sed on input line 1625.
+sed on input line 1627.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [68 <./Figures/exp1_plot_days_time-interval increasing.pdf>] [69]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1663--1665
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1665--1667
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
@@ -2098,17 +2109,12 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1696--1696
-[]|[][] 
- []
-
-
 Overfull \hbox (1.44373pt too wide) in paragraph at lines 1698--1698
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1700--1700
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1700--1700
 []|[][] 
  []
 
@@ -2117,11 +2123,16 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1702--1702
 []|[][] 
  []
 
+
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1704--1704
+[]|[][] 
+ []
+
 [72
 
 
 ]
-Overfull \hbox (11.99911pt too wide) in alignment at lines 1730--1745
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1732--1747
 [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -2131,7 +2142,7 @@ Overfull \hbox (11.99911pt too wide) in alignment at lines 1730--1745
 ]
 File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_80_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1765.
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1767.
 
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [74]
@@ -2141,10 +2152,10 @@ File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  u
-sed on input line 1786.
+sed on input line 1788.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [75] [76 <./Figures/exp1_plot_days_time-interval decreasing.pdf>] [77]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1833--1835
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1835--1837
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
@@ -2183,22 +2194,22 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (7.00366pt too wide) in paragraph at lines 1866--1866
-[]|[][] 
- []
-
-
 Overfull \hbox (7.00366pt too wide) in paragraph at lines 1868--1868
 []|[][] 
  []
 
 
-Overfull \hbox (7.55371pt too wide) in paragraph at lines 1870--1870
+Overfull \hbox (7.00366pt too wide) in paragraph at lines 1870--1870
 []|[][] 
  []
 
 
 Overfull \hbox (7.55371pt too wide) in paragraph at lines 1872--1872
+[]|[][] 
+ []
+
+
+Overfull \hbox (7.55371pt too wide) in paragraph at lines 1874--1874
 []|[][] 
  []
 
@@ -2209,23 +2220,23 @@ Overfull \hbox (7.55371pt too wide) in paragraph at lines 1872--1872
 
 
 ]
-Overfull \hbox (6.01045pt too wide) in paragraph at lines 1898--1899
+Overfull \hbox (6.01045pt too wide) in paragraph at lines 1900--1901
 []\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/
 m/n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]D): five, seven,
  []
 
 
-Overfull \hbox (11.99911pt too wide) in alignment at lines 1905--1920
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1907--1922
 [] [] [] [] [] [] [] [] [] [] 
  []
 
 File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_180_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1931
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1933
 .
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [82]
-Overfull \hbox (0.16234pt too wide) in paragraph at lines 1941--1943
+Overfull \hbox (0.16234pt too wide) in paragraph at lines 1943--1945
 []\OT1/lmr/m/n/12 fixed-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/m
 /n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]B): five and seven,
  []
@@ -2237,10 +2248,10 @@ File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type
 pdf)
 <use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf 
- used on input line 1957.
+ used on input line 1959.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [84 <./Figures/exp1_plot_days_middle-and-extreme spacing.pdf>] [85]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1997--1999
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1999--2001
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
@@ -2279,7 +2290,7 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (5.94765pt too wide) in paragraph at lines 2042--2043
+Overfull \hbox (5.94765pt too wide) in paragraph at lines 2044--2045
 []|[][] 
  []
 
@@ -2293,16 +2304,16 @@ Overfull \hbox (5.94765pt too wide) in paragraph at lines 2042--2043
 <Figures/midpoint_plot.pdf, id=2738, 2726.185pt x 2779.38374pt>
 File: Figures/midpoint_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_plot.pdf  used on input line 2073.
+Package pdftex.def Info: Figures/midpoint_plot.pdf  used on input line 2075.
 (pdftex.def)             Requested size: 436.19852pt x 444.7105pt.
 [90 <./Figures/midpoint_plot.pdf>]
 <Figures/deriv_plot.pdf, id=2761, 1793.70125pt x 3339.47626pt>
 File: Figures/deriv_plot.pdf Graphic file (type pdf)
 <use Figures/deriv_plot.pdf>
-Package pdftex.def Info: Figures/deriv_plot.pdf  used on input line 2088.
+Package pdftex.def Info: Figures/deriv_plot.pdf  used on input line 2090.
 (pdftex.def)             Requested size: 286.99806pt x 534.32713pt.
 [91] [92 <./Figures/deriv_plot.pdf>] [93]
-Overfull \hbox (5.37029pt too wide) in alignment at lines 2097--2111
+Overfull \hbox (5.37029pt too wide) in alignment at lines 2099--2113
 [] [] [] [] [] 
  []
 
@@ -2340,12 +2351,12 @@ Overfull \hbox (5.37029pt too wide) in alignment at lines 2097--2111
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 2149--2149
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2151--2151
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 2149--2150
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2151--2152
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
 
@@ -2356,7 +2367,7 @@ Overfull \hbox (8.27248pt too wide) in paragraph at lines 2149--2150
 
 
 ] [100] [101] [102] [103] [104]
-Overfull \hbox (3.5571pt too wide) in paragraph at lines 2281--2291
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 2283--2293
 \OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated
  pa-ram-e-ters. Each bias/precision
  []
@@ -2365,7 +2376,7 @@ Overfull \hbox (3.5571pt too wide) in paragraph at lines 2281--2291
 File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp2.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input 
-line 2291.
+line 2293.
 (pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
 [105] [106 <./Figures/logistic_results_plot_exp2.png>] [107]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2401,16 +2412,16 @@ line 2291.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2324.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2326.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 2332.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 2334.
 
 [108
 
 
 ]
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 2345--2346
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 2347--2348
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
@@ -2419,7 +2430,7 @@ rip-tion of the set of bias/precision
 File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on inpu
-t line 2362.
+t line 2364.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [109
 
@@ -2467,7 +2478,7 @@ File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  u
-sed on input line 2502.
+sed on input line 2504.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [116
 
@@ -2516,13 +2527,13 @@ File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  u
-sed on input line 2630.
+sed on input line 2632.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [122
 
 
  <./Figures/exp2_plot_days_time-interval decreasing.pdf>] [123] [124]
-Overfull \hbox (9.4963pt too wide) in paragraph at lines 2692--2694
+Overfull \hbox (9.4963pt too wide) in paragraph at lines 2694--2696
 \OT1/lmr/m/n/12 el-e-va-tion pa-ram-e-ter [$\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12
  ]) re-sulted from us-ing the fol-low-ing mea-sure-ment num-ber/sample
  []
@@ -2561,7 +2572,7 @@ Overfull \hbox (9.4963pt too wide) in paragraph at lines 2692--2694
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2740.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2742.
 
 [127
 
@@ -2573,13 +2584,13 @@ File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type
 pdf)
 <use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf 
- used on input line 2791.
+ used on input line 2793.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [128
 
 
 ] [129 <./Figures/exp2_plot_days_middle-and-extreme spacing.pdf>] [130]
-Overfull \hbox (6.20961pt too wide) in paragraph at lines 2827--2828
+Overfull \hbox (6.20961pt too wide) in paragraph at lines 2829--2830
 []\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/
 m/n/12 ^^M[]$\OT1/lmr/m/n/12 ): five mea-sure-ments across
  []
@@ -2618,20 +2629,20 @@ m/n/12 ^^M[]$\OT1/lmr/m/n/12 ): five mea-sure-ments across
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 2856--2856
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2858--2858
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 2856--2857
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2858--2859
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
 
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2881.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2883.
 
 
-Overfull \hbox (3.24399pt too wide) in alignment at lines 2851--2884
+Overfull \hbox (3.24399pt too wide) in alignment at lines 2853--2886
 [] [] [] [] [] [] [] [] 
  []
 
@@ -2648,7 +2659,7 @@ Overfull \vbox (2.13158pt too high) has occurred while \output is active []
 <Figures/cdf_plot.pdf, id=3335, 2148.025pt x 1036.87375pt>
 File: Figures/cdf_plot.pdf Graphic file (type pdf)
 <use Figures/cdf_plot.pdf>
-Package pdftex.def Info: Figures/cdf_plot.pdf  used on input line 2989.
+Package pdftex.def Info: Figures/cdf_plot.pdf  used on input line 2991.
 (pdftex.def)             Requested size: 429.5974pt x 207.37108pt.
 [141 <./Figures/cdf_plot.pdf>]
 Overfull \vbox (4.51468pt too high) has occurred while \output is active []
@@ -2656,19 +2667,19 @@ Overfull \vbox (4.51468pt too high) has occurred while \output is active []
 [142] [143]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3038.
+(hyperref)                than one, level fixed on input line 3040.
 
 [144] [145]
 <Figures/cdf_pdf_plots.pdf, id=3405, 1140.26pt x 912.40875pt>
 File: Figures/cdf_pdf_plots.pdf Graphic file (type pdf)
 <use Figures/cdf_pdf_plots.pdf>
-Package pdftex.def Info: Figures/cdf_pdf_plots.pdf  used on input line 3093.
+Package pdftex.def Info: Figures/cdf_pdf_plots.pdf  used on input line 3095.
 (pdftex.def)             Requested size: 433.3033pt x 346.71893pt.
 [146 <./Figures/cdf_pdf_plots.pdf>] [147] [148]
 File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp2.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input 
-line 3146.
+line 3148.
 (pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
 [149] [150] [151]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2709,10 +2720,10 @@ line 3146.
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3197.
+(hyperref)                than one, level fixed on input line 3199.
 
 
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 3199--3209
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 3201--3211
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
@@ -2722,7 +2733,7 @@ rip-tion of the set of bias/precision
 File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_days_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on in
-put line 3209.
+put line 3211.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [153
 
@@ -2770,7 +2781,7 @@ File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast respons
-e).pdf  used on input line 3363.
+e).pdf  used on input line 3365.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [160
 
@@ -2819,7 +2830,7 @@ File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow respons
-e).pdf  used on input line 3481.
+e).pdf  used on input line 3483.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [167
 
@@ -2859,12 +2870,12 @@ e).pdf  used on input line 3481.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 3564--3564
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 3566--3566
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 3564--3565
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 3566--3567
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
 
@@ -2878,11 +2889,11 @@ Overfull \hbox (8.27248pt too wide) in paragraph at lines 3564--3565
 <Figures/lgc_path_diagram.png, id=3741, 734.745pt x 419.5675pt>
 File: Figures/lgc_path_diagram.png Graphic file (type png)
 <use Figures/lgc_path_diagram.png>
-Package pdftex.def Info: Figures/lgc_path_diagram.png  used on input line 3608.
+Package pdftex.def Info: Figures/lgc_path_diagram.png  used on input line 3610.
 
 (pdftex.def)             Requested size: 477.57858pt x 272.71564pt.
 
-Overfull \hbox (24.61032pt too wide) in paragraph at lines 3608--3608
+Overfull \hbox (24.61032pt too wide) in paragraph at lines 3610--3610
 [][] 
  []
 
@@ -2891,21 +2902,21 @@ Overfull \hbox (24.61032pt too wide) in paragraph at lines 3608--3608
 File: Figures/time_structure_plots.pdf Graphic file (type pdf)
 <use Figures/time_structure_plots.pdf>
 Package pdftex.def Info: Figures/time_structure_plots.pdf  used on input line 3
-621.
+623.
 (pdftex.def)             Requested size: 448.145pt x 484.24834pt.
 [177 <./Figures/time_structure_plots.pdf>] [178]
 <Figures/def_model.png, id=3801, 729.72626pt x 424.58624pt>
 File: Figures/def_model.png Graphic file (type png)
 <use Figures/def_model.png>
-Package pdftex.def Info: Figures/def_model.png  used on input line 3637.
+Package pdftex.def Info: Figures/def_model.png  used on input line 3639.
 (pdftex.def)             Requested size: 474.31645pt x 275.97778pt.
 
-Overfull \hbox (21.34819pt too wide) in paragraph at lines 3637--3637
+Overfull \hbox (21.34819pt too wide) in paragraph at lines 3639--3639
 [][] 
  []
 
 [179 <./Figures/def_model.png>]
-Overfull \hbox (10.75684pt too wide) in paragraph at lines 3638--3639
+Overfull \hbox (10.75684pt too wide) in paragraph at lines 3640--3641
 []\OT1/lmr/m/n/12 To show that def-i-ni-tion vari-ables can elim-i-nate the er-
 ror in-curred by time-unstructured
  []
@@ -2916,27 +2927,22 @@ File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic f
 ile (type pdf)
 <use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow resp
-onse).pdf  used on input line 3650.
+onse).pdf  used on input line 3652.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [180] [181 <./Figures/exp3_defplot_days_time unstructured (slow response).pdf>]
 
-Overfull \hbox (0.77768pt too wide) in paragraph at lines 3674--3676
+Overfull \hbox (0.77768pt too wide) in paragraph at lines 3676--3678
 []\OT1/lmr/m/n/12 Bias in the es-ti-ma-tion of the fixed-effect days-to-halfway
  el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ;
  []
 
 [182] [183] [184] [185]
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3701--3706
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3703--3708
 [] [] [] 
  []
 
 
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3706--3711
-[] [] [] 
- []
-
-
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3711--3713
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3708--3713
 [] [] [] 
  []
 
@@ -2945,17 +2951,22 @@ Overfull \hbox (4.40257pt too wide) in alignment at lines 3713--3715
 [] [] [] 
  []
 
+
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3715--3717
+[] [] [] 
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-716.
+718.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3715--3721
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3717--3723
 [] [] [] 
  []
 
 [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
-Overfull \hbox (2.3425pt too wide) in paragraph at lines 3770--3771
+Overfull \hbox (2.3425pt too wide) in paragraph at lines 3772--3773
 \OT1/lmr/m/n/12 Tech-no-log-i-cal ad-vances such as smart-phones and wear-able 
 sen-sors have al-lowed re-searchers
  []
@@ -2969,42 +2980,42 @@ Overfull \vbox (2.13158pt too high) has occurred while \output is active []
 [236] [237] [238]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 3872.
+(caption)                outside box or environment on input line 3874.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 3872.
+(caption)                particular \caption on input line 3874.
 See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown chunk defaults to 0 on input 
-line 3872.
+line 3874.
 [239]
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3875.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3877.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-3875.
+3877.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmtt on input line 
-3878.
-LaTeX Font Info:    No file OMLlmtt.fd. on input line 3878.
+3880.
+LaTeX Font Info:    No file OMLlmtt.fd. on input line 3880.
 
 LaTeX Font Warning: Font shape `OML/lmtt/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 3878.
+(Font)              for symbol `textless' on input line 3880.
 
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3888.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3890.
 
 
-Underfull \vbox (badness 10000) detected at line 3968
+Underfull \vbox (badness 10000) detected at line 3970
  []
 
 
-Overfull \vbox (8.2965pt too high) detected at line 3968
+Overfull \vbox (8.2965pt too high) detected at line 3970
  []
 
 [240] [241] [242]
@@ -3012,7 +3023,7 @@ Overfull \vbox (8.2965pt too high) detected at line 3968
 File: Figures/equal_spacing_schedule.png Graphic file (type png)
 <use Figures/equal_spacing_schedule.png>
 Package pdftex.def Info: Figures/equal_spacing_schedule.png  used on input line
- 4009.
+ 4011.
 (pdftex.def)             Requested size: 626.0331pt x 350.50626pt.
 [243
 
@@ -3022,7 +3033,7 @@ Package pdftex.def Info: Figures/equal_spacing_schedule.png  used on input line
 <Figures/time_inc_schedule.png, id=5049, 804.00375pt x 510.90875pt>
 File: Figures/time_inc_schedule.png Graphic file (type png)
 <use Figures/time_inc_schedule.png>
-Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4068
+Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4070
 .
 (pdftex.def)             Requested size: 522.59625pt x 332.08675pt.
 [246
@@ -3033,7 +3044,7 @@ Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4068
 <Figures/time_dec_schedule.png, id=5069, 811.03pt x 525.965pt>
 File: Figures/time_dec_schedule.png Graphic file (type png)
 <use Figures/time_dec_schedule.png>
-Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4105
+Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4107
 .
 (pdftex.def)             Requested size: 527.16325pt x 341.87318pt.
 [248
@@ -3044,7 +3055,7 @@ Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4105
 <Figures/mid_ext_schedule.png, id=5096, 843.15pt x 530.98375pt>
 File: Figures/mid_ext_schedule.png Graphic file (type png)
 <use Figures/mid_ext_schedule.png>
-Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4165.
+Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4167.
 
 (pdftex.def)             Requested size: 548.041pt x 345.13533pt.
 [251
@@ -3055,17 +3066,17 @@ Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4165.
 <Figures/taylor_vs_nonlin.pdf, id=5189, 650.43pt x 433.62pt>
 File: Figures/taylor_vs_nonlin.pdf Graphic file (type pdf)
 <use Figures/taylor_vs_nonlin.pdf>
-Package pdftex.def Info: Figures/taylor_vs_nonlin.pdf  used on input line 4312.
+Package pdftex.def Info: Figures/taylor_vs_nonlin.pdf  used on input line 4314.
 
 (pdftex.def)             Requested size: 455.2979pt x 303.53192pt.
 
-Overfull \hbox (2.32964pt too wide) in paragraph at lines 4312--4312
+Overfull \hbox (2.32964pt too wide) in paragraph at lines 4314--4314
 [][] 
  []
 
 [260] [261 <./Figures/taylor_vs_nonlin.pdf>] [262] [263] [264] [265] [266] [267
 ] [268] [269]
-Underfull \hbox (badness 1048) in paragraph at lines 4530--4531
+Underfull \hbox (badness 1048) in paragraph at lines 4532--4533
 \OT1/lmr/m/n/12 the \OT1/lmtt/m/n/12 run[]exp[]simulations() \OT1/lmr/m/n/12 an
 d \OT1/lmtt/m/n/12 create[]logistic[]model[]ns() \OT1/lmr/m/n/12 func-tions fro
 m the
@@ -3074,43 +3085,43 @@ m the
 [270]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 4532.
+(caption)                particular \caption on input line 4534.
 See the caption package documentation for explanation.
 
 
 LaTeX Font Warning: Font shape `OML/lmtt/bx/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textgreater' on input line 4542.
+(Font)              for symbol `textgreater' on input line 4544.
 
 LaTeX Font Info:    Trying to load font information for OMS+lmtt on input line 
-4546.
-LaTeX Font Info:    No file OMSlmtt.fd. on input line 4546.
+4548.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 4548.
 
 LaTeX Font Warning: Font shape `OMS/lmtt/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 4546.
+(Font)              for symbol `textbackslash' on input line 4548.
 
 
-Underfull \vbox (badness 10000) detected at line 4633
+Underfull \vbox (badness 10000) detected at line 4635
  []
 
 
-Overfull \vbox (4.67525pt too high) detected at line 4633
+Overfull \vbox (4.67525pt too high) detected at line 4635
  []
 
 [271]
-Underfull \vbox (badness 10000) detected at line 4633
+Underfull \vbox (badness 10000) detected at line 4635
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4633
+Underfull \vbox (badness 10000) detected at line 4635
  []
 
 [272]
 File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on inpu
-t line 4648.
+t line 4650.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [273]
 <Figures/exp1_plot_likert_equal spacing.pdf, id=5342, 2793.43625pt x 3393.67876
@@ -3118,14 +3129,14 @@ pt>
 File: Figures/exp1_plot_likert_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_likert_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_equal spacing.pdf  used on in
-put line 4659.
+put line 4661.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
 [274] [275 <./Figures/exp1_plot_likert_equal spacing.pdf>]
 File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  u
-sed on input line 4671.
+sed on input line 4673.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [276]
 <Figures/exp1_plot_likert_time-interval increasing.pdf, id=5376, 2793.43625pt x
@@ -3134,14 +3145,14 @@ File: Figures/exp1_plot_likert_time-interval increasing.pdf Graphic file (type
 pdf)
 <use Figures/exp1_plot_likert_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval increasing.pdf 
- used on input line 4682.
+ used on input line 4684.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
 [277] [278 <./Figures/exp1_plot_likert_time-interval increasing.pdf>]
 File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  u
-sed on input line 4694.
+sed on input line 4696.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [279]
 <Figures/exp1_plot_likert_time-interval decreasing.pdf, id=5407, 2793.43625pt x
@@ -3150,14 +3161,14 @@ File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type
 pdf)
 <use Figures/exp1_plot_likert_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf 
- used on input line 4705.
+ used on input line 4707.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
 [280] [281 <./Figures/exp1_plot_likert_time-interval decreasing.pdf>]
 File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf 
- used on input line 4717.
+ used on input line 4719.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
 [282]
 <Figures/exp1_plot_likert_middle-and-extreme spacing.pdf, id=5440, 2793.43625pt
@@ -3166,13 +3177,13 @@ File: Figures/exp1_plot_likert_middle-and-extreme spacing.pdf Graphic file (typ
 e pdf)
 <use Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_middle-and-extreme spacing.pd
-f  used on input line 4728.
+f  used on input line 4730.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
 [283] [284 <./Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>]
 File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on inpu
-t line 4741.
+t line 4743.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [285]
 <Figures/exp2_plot_likert_equal spacing.pdf, id=5471, 2793.43625pt x 3392.675pt
@@ -3180,14 +3191,14 @@ t line 4741.
 File: Figures/exp2_plot_likert_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_likert_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_equal spacing.pdf  used on in
-put line 4752.
+put line 4754.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [286] [287 <./Figures/exp2_plot_likert_equal spacing.pdf>]
 File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  u
-sed on input line 4764.
+sed on input line 4766.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [288]
 <Figures/exp2_plot_likert_time-interval increasing.pdf, id=5505, 2793.43625pt x
@@ -3196,28 +3207,28 @@ File: Figures/exp2_plot_likert_time-interval increasing.pdf Graphic file (type
 pdf)
 <use Figures/exp2_plot_likert_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_time-interval increasing.pdf 
- used on input line 4775.
+ used on input line 4777.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [289] [290 <./Figures/exp2_plot_likert_time-interval increasing.pdf>]
 File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  u
-sed on input line 4787.
+sed on input line 4789.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [291]
 File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_likert_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf 
- used on input line 4798.
+ used on input line 4800.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
 [292] [293]
 File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf 
- used on input line 4810.
+ used on input line 4812.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [294]
 <Figures/exp2_plot_likert_middle-and-extreme spacing.pdf, id=5558, 2793.43625pt
@@ -3226,13 +3237,13 @@ File: Figures/exp2_plot_likert_middle-and-extreme spacing.pdf Graphic file (typ
 e pdf)
 <use Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_middle-and-extreme spacing.pd
-f  used on input line 4821.
+f  used on input line 4823.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [295] [296 <./Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>]
 File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_days_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on in
-put line 4834.
+put line 4836.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [297]
 <Figures/exp3_plot_likert_time structured.pdf, id=5590, 2793.43625pt x 3392.675
@@ -3240,14 +3251,14 @@ pt>
 File: Figures/exp3_plot_likert_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_likert_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time structured.pdf  used on 
-input line 4845.
+input line 4847.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [298] [299 <./Figures/exp3_plot_likert_time structured.pdf>]
 File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast respons
-e).pdf  used on input line 4857.
+e).pdf  used on input line 4859.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [300]
 <Figures/exp3_plot_likert_time unstructured (fast response).pdf, id=5624, 2793.
@@ -3256,14 +3267,14 @@ File: Figures/exp3_plot_likert_time unstructured (fast response).pdf Graphic fi
 le (type pdf)
 <use Figures/exp3_plot_likert_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (fast respo
-nse).pdf  used on input line 4868.
+nse).pdf  used on input line 4870.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [301] [302 <./Figures/exp3_plot_likert_time unstructured (fast response).pdf>]
 File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow respons
-e).pdf  used on input line 4880.
+e).pdf  used on input line 4882.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [303]
 <Figures/exp3_plot_likert_time unstructured (slow response).pdf, id=5656, 2793.
@@ -3272,14 +3283,14 @@ File: Figures/exp3_plot_likert_time unstructured (slow response).pdf Graphic fi
 le (type pdf)
 <use Figures/exp3_plot_likert_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (slow respo
-nse).pdf  used on input line 4891.
+nse).pdf  used on input line 4893.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
 [304] [305 <./Figures/exp3_plot_likert_time unstructured (slow response).pdf>]
 File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic f
 ile (type pdf)
 <use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow resp
-onse).pdf  used on input line 4903.
+onse).pdf  used on input line 4905.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [306]
 <Figures/exp3_defplot_likert_time unstructured (slow response).pdf, id=5690, 27
@@ -3288,10 +3299,10 @@ File: Figures/exp3_defplot_likert_time unstructured (slow response).pdf Graphic
  file (type pdf)
 <use Figures/exp3_defplot_likert_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_likert_time unstructured (slow re
-sponse).pdf  used on input line 4914.
+sponse).pdf  used on input line 4916.
 (pdftex.def)             Requested size: 460.8971pt x 559.76723pt.
 
-Overfull \hbox (7.92883pt too wide) in paragraph at lines 4914--4914
+Overfull \hbox (7.92883pt too wide) in paragraph at lines 4916--4916
 [][] 
  []
 
@@ -3337,7 +3348,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5176 \end{longtable}
+l.5178 \end{longtable}
                        [314] [315]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3372,7 +3383,7 @@ l.5176 \end{longtable}
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (2.60944pt too wide) in alignment at lines 5189--5228
+Overfull \hbox (2.60944pt too wide) in alignment at lines 5191--5230
 [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -3386,25 +3397,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5274 \end{longtable}
+l.5276 \end{longtable}
                        [317]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5320 \end{longtable}
+l.5322 \end{longtable}
                        [318]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5366 \end{longtable}
+l.5368 \end{longtable}
                        [319]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5414 \end{longtable}
+l.5416 \end{longtable}
                        [320] [321]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3439,7 +3450,7 @@ l.5414 \end{longtable}
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (30.85938pt too wide) in alignment at lines 5426--5466
+Overfull \hbox (30.85938pt too wide) in alignment at lines 5428--5468
 [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -3453,25 +3464,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5513 \end{longtable}
+l.5515 \end{longtable}
                        [323]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5560 \end{longtable}
+l.5562 \end{longtable}
                        [324]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5607 \end{longtable}
+l.5609 \end{longtable}
                        [325]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5655 \end{longtable}
+l.5657 \end{longtable}
                        [326] [327] [328
 
 
@@ -3479,21 +3490,21 @@ l.5655 \end{longtable}
 ] [329] [330]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5733.
+(caption)                particular \caption on input line 5735.
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 10000) detected at line 5828
+Underfull \vbox (badness 10000) detected at line 5830
  []
 
 [331
 
 ]
-Underfull \vbox (badness 10000) detected at line 5828
+Underfull \vbox (badness 10000) detected at line 5830
  []
 
 
-Underfull \vbox (badness 10000) detected at line 5828
+Underfull \vbox (badness 10000) detected at line 5830
  []
 
 [332] [333] (./thesis.aux)
@@ -3510,11 +3521,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31052 strings out of 478268
- 579265 string characters out of 5846348
- 1401304 words of memory out of 5000000
- 47252 multiletter control sequences out of 15000+600000
- 713079 words of font info for 274 fonts, out of 8000000 for 9000
+ 31239 strings out of 478268
+ 581856 string characters out of 5846348
+ 1404851 words of memory out of 5000000
+ 47434 multiletter control sequences out of 15000+600000
+ 713392 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,102p,2449b,5165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -3580,7 +3591,7 @@ ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/
 helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helveti
 c/uhvro8a.pfb>
-Output written on thesis.pdf (352 pages, 3010340 bytes).
+Output written on thesis.pdf (352 pages, 3011882 bytes).
 PDF statistics:
  6322 PDF objects out of 7423 (max. 8388607)
  5678 compressed objects within 57 object streams
