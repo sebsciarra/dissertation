@@ -504,6 +504,9 @@ density_equal_fixed_exp2 <- base_density_plot +
 With respect to bias for equal spacing, estimates were biased (i.e., above the acceptable 10% cutoff) for each day-unit parameter in the following cells:
 
 * fixed-effect days-to-halfway elevation parameter ($\upbeta_{fixed}$; Figure \ref{fig:exp2_plot_equal}A): no cells. 
+* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_equal}B): no cells.
+* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_equal}C): no cells. 
+
 
 ```{r plots-equal-exp2, include=F, eval=F}
 generate_day_likert_facet_plot(analytical_data = exp_2_analytical, 
@@ -542,8 +545,7 @@ parameter_labels = c('$\\upbeta_{fixed}$ (Figure \\ref{fig:exp2_plot_equal}A)',
                      '$\\upgamma_{random}$ (Figure \\ref{fig:exp2_plot_equal}D)'))
 ```
 
-* fixed-effect triquarter-halfway delta parameter ($\upgamma_{fixed}$; Figure \ref{fig:exp2_plot_equal}B): no cells.
-* random-effect days-to-halfway elevation parameter ($\upbeta_{random}$; Figure \ref{fig:exp2_plot_equal}C): no cells. 
+
 * random-effect triquarter-halfway elevation parameter ($\upgamma_{random}$; Figure \ref{fig:exp2_plot_equal}D): five measurements across all sample sizes, seven measurements with $N \le 500$, nine measurements with $N \le 100$, and 11 measurements with $N \le 50$. 
 
 In summary, with equal spacing, estimation of all the day-unit parameters across all manipulated nature-of-change values was unbiased using nine measurements with $N \ge 200$ or 11 measurements with $N = 100$, which is indicated by the emboldened text in the 'Unbiased' column of Table \ref{tab:summary-table-equal-spacing-exp2}. 
@@ -1164,7 +1166,6 @@ In summary, the results of Experiment 2 provide measurement number/sample size g
 ## Summary of Experiment 2
 
 I designed Experiment 2 to investigate the measurement number and sample size combinations needed to obtain high model performance (i.e., unbiased and precise parameter estimation) under different spacing schedules. Although no measurement number/sample size pairing results in high model performance under any spacing schedule, the greatest improvements in model performance result from using modest measurement number/sample size pairings. Specifically, the greatest improvements in model performance can be obtained using either seven measurements with *N* $\ge$ 200 or nine measurements with *N* $\le$ 100.
-
 
 
 

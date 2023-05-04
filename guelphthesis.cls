@@ -277,6 +277,10 @@
 \newenvironment{abstract}[2]{%
  %\cleardoublepage
  \phantomsection
+   \clearpage
+  \pagestyle{empty} % remove page numbering on all pages of the abstract
+  \thispagestyle{empty} % remove page numbering on the first page of the abstract
+
  \addcontentsline{toc}{chapter}{\titlecap{Abstract}}  %adds abstract to toc
   \begin{center}
 
@@ -311,7 +315,13 @@
     \vspace{0.5cm}
 
     #2  %prints abstract
+     \clearpage % add \clearpage to ensure that subsequent pages of the abstract also have no page numbering
+      \pagestyle{empty} % 
+}{%
+  \clearpage
+  % ... your existing code ...
 }
+
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS & DEDICATION
@@ -531,8 +541,52 @@
 }
 
 
-
 \newcommand{\tabitem}{\textbullet\hspace{0.2cm}}
+
+%page number location for landscape pages (see https://tex.stackexchange.com/questions/209685/landscape-mode-and-page-numbering/209692#209692) 
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{everypage}
+
+
+%define command for landscape page number
+\def\landscapePageNum{\fontsize{12pt}{12pt}\fontfamily{cmr}\selectfont\arabic{page}}
+%$if(ArialFont)$
+% \renewcommand\landscapePageNum{\fontsize{12pt}{12pt}\sffamily\arabic{page}}
+%$endif$
+
+
+\newlength{\hfoot}
+\newlength{\vfoot}
+\AddEverypageHook{\ifdim\textwidth=\linewidth\relax
+\else\setlength{\hfoot}{-\topmargin}%
+\addtolength{\hfoot}{-\headheight}%
+\addtolength{\hfoot}{-\headsep}%
+\addtolength{\hfoot}{-.5\linewidth}%
+\ifodd\value{page}\setlength{\vfoot}{\oddsidemargin}%
+\else\setlength{\vfoot}{\evensidemargin}\fi%
+\addtolength{\vfoot}{\textheight}%
+\addtolength{\vfoot}{\footskip}%
+\raisebox{\hfoot}[0pt][0pt]{\rlap{\hspace{\vfoot}\rotatebox[origin=cB]{90}{\landscapePageNum}}}\fi}%
+
+%redefine landscape to remove page numbering
+\let\oldlandscape\landscape
+\let\endoldlandscape\endlandscape
+\renewenvironment{landscape}{
+  \oldlandscape
+  \thispagestyle{empty}
+}{
+\thispagestyle{empty}
+  \endoldlandscape
+}
+\AfterEndEnvironment{landscape}{
+  \pagestyle{mainmatter}
+}
+
+
+
+
+
 
 
 

@@ -705,6 +705,9 @@ ggsave(filename = 'Figures/taylor_vs_nonlin.pdf', plot =taylor_vs_nonlin_plot, w
 
 ```
 
+\subsubapp{Taylor Series of the Logistic Function}
+
+Given that the Taylor series provides a linear version of a nonlinear function, the structured latent curve modelling approach uses Taylor series' to fit nonlinear functions into the linear nature of the structural equation modelling framework [@browne1991; @browne1993]. In the current simulations, the logistic function was used to generate data (see Equation \ref{eq:logistic}), and so a Taylor series approximation was constructed
 
 ```{=tex}
 \begin{apaFigure}
@@ -720,9 +723,7 @@ ggsave(filename = 'Figures/taylor_vs_nonlin.pdf', plot =taylor_vs_nonlin_plot, w
 ```
 
 
-\subsubapp{Taylor Series of the Logistic Function}
-
-Given that the Taylor series provides a linear version of a nonlinear function, the structured latent curve modelling approach uses Taylor series' to fit nonlinear functions into the linear nature of the structural equation modelling framework [@browne1991; @browne1993]. In the current simulations, the logistic function was used to generate data (see Equation \ref{eq:logistic}), and so a Taylor series approximation was constructed for the logistic function in the analysis. Note that, because the logistic function had four parameters ($\uptheta$, $\upalpha$, $\upbeta$, $\upgamma$), partial derivatives were computed with respect to each of the parameters. Using a derivative order set to one
+\noindent for the logistic function in the analysis. Note that, because the logistic function had four parameters ($\uptheta$, $\upalpha$, $\upbeta$, $\upgamma$), partial derivatives were computed with respect to each of the parameters. Using a derivative order set to one
 ($n = 1$), the following Taylor series was constructed for the logistic
 function (Equation \ref{eq:logistic-approx}):
 

@@ -1,0 +1,50 @@
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Depiction of Monte Carlo Method\relax }}{15}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces PRISMA Diagram Showing Study Filtering Strategy\relax }}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Response Patterns Predicted by Polynomial (Equation \ref {eq:polynomial}) and Logistic (Equation \ref {eq:logistic1}) Functions\relax }}{25}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Description Each Parameters Logistic Function (Equation \ref {eq:logistic1}) Functions\relax }}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Bias/Precision Plot for the Fixed-Effect Days-to-Halfway Elevation Parameter ($\upgamma _{fixed}$)\relax }}{45}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Set of Bias/Precision Plots Constructed for Each Spacing Schedule in Experiment 1\relax }}{51}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Model Performance Status Across Nature-of-Change Values With Equal Spacing\relax }}{55}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Density Plots of the Random-Effect Triquarter-Halfway Delta ($\upgamma _{random}$; Figure \ref {fig:exp1_plot_equal}D) With Equal Spacing in Experiment 1 (95\% Error Bars)\relax }}{56}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Equal Spacing in Experiment 1\relax }}{58}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Model Performance Status Across Nature-of-Change Values With Time-Interval Increasing Spacing\relax }}{66}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Interval Increasing Spacing in Experiment 1\relax }}{67}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Model Performance Status Across Nature-of-Change Values With Time-Interval Decreasing Spacing\relax }}{74}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Interval Decreasing Spacing in Experiment 1\relax }}{75}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Model Performance Status Across Nature-of-Change Values With Middle-and-Extreme Spacing\relax }}{82}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Middle-and-Extreme Spacing in Experiment 1\relax }}{83}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Nature-of-Change Curves for Each Spacing Schedule Have Highest Model Performance When Measurements are Taken Near Periods of Change\relax }}{89}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Rate of Change (First Derivative Curve) for Each Nature of Change Curve Manipulated in Experiment 1\relax }}{91}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Set of Bias/Precision Plots Constructed for Each Spacing Schedule in Experiment 2\relax }}{105}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Equal Spacing in Experiment 2\relax }}{109}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Interval Increasing Spacing in Experiment 2\relax }}{115}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Interval Decreasing Spacing in Experiment 2\relax }}{121}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Middle-and-Extreme Spacing in Experiment 2\relax }}{128}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cumulative Distribution Functions (CDF) With Fast and Slow Response Rates\relax }}{140}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cumulative Distribution Functions (CDF) and Probability Density Functions (PDF) for Fast and Slow Response Rates\relax }}{145}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Set of Bias/Precision Plots Constructed for Each Spacing Schedule in Experiment 2\relax }}{149}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Structured Data in Experiment 3\relax }}{153}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Unstructured Data Characterized by a Fast Response Rate in Experiment 3\relax }}{160}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters With Time-Unstructured Data Characterized by a Slow Response Rate in Experiment 3\relax }}{166}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Path Diagram for a Random-Intercept-Random-Slope Latent Growth Curve Model\relax }}{174}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Model Performance Decreases as Time Structuredness Decreases\relax }}{176}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Path Diagram for a Random-Intercept-Random-Slope Latent Growth Curve Model With Definition Variables\relax }}{178}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Bias/Precision Plots for Day-Unit Parameters When Using Definition Variables To Model Time-Unstructured Data Characterized by a Slow Response Rate\relax }}{180}{figure.caption.39}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Procedure for Computing Measurement Schedules With Equal Spacing\relax }}{242}{figure.caption.47}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Procedure for Computing Measurement Schedules With Time-Interval Increasing Spacing\relax }}{245}{figure.caption.49}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Procedure for Computing Measurement Schedules With Time-Interval Decreasing Spacing\relax }}{247}{figure.caption.51}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Procedure for Computing Measurement Schedules With Middle-and-Extreme Spacing\relax }}{250}{figure.caption.52}%
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Estimation Accuracy of Taylor Series Approximation of Nonlinear Function (cos(x))\relax }}{260}{figure.caption.59}%
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Equal Spacing in Experiment 1\relax }}{272}{figure.caption.66}%
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Interval Increasing Spacing in Experiment 1\relax }}{275}{figure.caption.69}%
+\contentsline {figure}{\numberline {F.3}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Interval Decreasing Spacing in Experiment 1\relax }}{278}{figure.caption.72}%
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Middle-and-Extreme Spacing in Experiment 1\relax }}{281}{figure.caption.75}%
+\contentsline {figure}{\numberline {F.5}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Equal Spacing in Experiment 2\relax }}{284}{figure.caption.79}%
+\contentsline {figure}{\numberline {F.6}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Interval Increasing Spacing in Experiment 2\relax }}{287}{figure.caption.82}%
+\contentsline {figure}{\numberline {F.7}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Interval Decreasing Spacing in Experiment 2\relax }}{290}{figure.caption.85}%
+\contentsline {figure}{\numberline {F.8}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Middle-and-Extreme Spacing in Experiment 2\relax }}{293}{figure.caption.88}%
+\contentsline {figure}{\numberline {F.9}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Structured Data in Experiment 3\relax }}{296}{figure.caption.92}%
+\contentsline {figure}{\numberline {F.10}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Unstructured Data Characterized by a Fast Response Rate in Experiment 3\relax }}{299}{figure.caption.95}%
+\contentsline {figure}{\numberline {F.11}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters With Time-Unstructured Data Characterized by a Slow Response Rate in Experiment 3\relax }}{302}{figure.caption.98}%
+\contentsline {figure}{\numberline {F.12}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters When Using Definition Variables To Model Time-Unstructured Data Characterized by a Slow Response Rate\relax }}{305}{figure.caption.101}%
+\contentsline {figure}{\numberline {F.12}{\ignorespaces Bias/Precision Plots for Day- and Likert-Unit Parameters When Using Definition Variables To Model Time-Unstructured Data Characterized by a Slow Response Rate (continued)\relax }}{306}{figure.caption.102}%

@@ -125,3 +125,5 @@ In modelling nonlinear change, researchers should prioritize the interpretabilit
 
 Investigating nonlinear patterns of change is a growing area of organizational research. By understanding nonlinear patterns of change, organizational research can develop a more nuanced understanding of temporal dynamics and provide practitioners with more specific recommendations. The simulation experiments conducted in my dissertation contribute to this goal by providing boundary conditions for model performance.  
 
+
+

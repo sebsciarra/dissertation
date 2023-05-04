@@ -1,42 +1,42 @@
-\contentsline {app}{{Appendix A: }Ergodicity and the Need to Conduct Longitudinal Research}{235}{section*.42}%
-\contentsline {app}{{Appendix B: }Code Used to Run Monte Carlo Simulations for all Experiments}{239}{section*.43}%
-\contentsline {app}{{Appendix C: }Procedure for Generating Measurement Schedules Measurement Schedules}{241}{section*.44}%
-\contentsline {secapp}{{C.1\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Equal Spacing}{242}{section*.45}%
-\contentsline {secapp}{{C.2\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Time-Interval Increasing Spacing}{242}{section*.46}%
-\contentsline {secapp}{{C.3\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Time-Interval Decreasing Spacing}{245}{section*.48}%
-\contentsline {secapp}{{C.4\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Middle-and-Extreme Spacing}{247}{section*.50}%
-\contentsline {app}{{Appendix D: }Using Nonlinear Function in the Structural Equation Modelling Framework}{253}{section*.53}%
-\contentsline {secapp}{{D.1\hspace {0.5cm}}Nonlinear Latent Growth Curve Model Used to Analyze Each Generated Data Set}{253}{section*.54}%
-\contentsline {subapp}{{D.1.1\hspace {0.5cm}}Brief Review of the Latent Growth Curve Model}{253}{section*.55}%
-\contentsline {subapp}{{D.1.2\hspace {0.5cm}}Fitting a Nonlinear Function in the Structural Equation Modelling Framework}{255}{section*.56}%
-\contentsline {subsubapp}{{D.1.2.1\hspace {0.5cm}}Taylor Series': Approximations of Linear Functions}{256}{section*.57}%
-\contentsline {subsubapp}{{D.1.2.2\hspace {0.5cm}}Taylor Series of the Logistic Function}{261}{section*.59}%
-\contentsline {subsubapp}{{D.1.2.3\hspace {0.5cm}}Fitting the Logistic Taylor Series Into the Structual Equation Modelling Framework}{264}{section*.60}%
-\contentsline {subsubapp}{{D.1.2.4\hspace {0.5cm}}Estimating Parameters in the Structured Latent Curve Modelling Approach}{269}{section*.61}%
-\contentsline {app}{{Appendix E: }OpenMx Code for Structured Latent Growth Curve Model Used in Simulation Experiments}{271}{section*.62}%
-\contentsline {app}{{Appendix F: }Complete Versions of Bias/Precision Plots (Day- and Likert-Unit Parameters)}{274}{section*.63}%
-\contentsline {secapp}{{F.1\hspace {0.5cm}}Experiment 1}{274}{section*.64}%
-\contentsline {subapp}{{F.1.1\hspace {0.5cm}}Equal Spacing}{274}{section*.65}%
-\contentsline {subapp}{{F.1.2\hspace {0.5cm}}Time-Interval Increasing Spacing}{277}{section*.68}%
-\contentsline {subapp}{{F.1.3\hspace {0.5cm}}Time-Interval Decreasing Spacing}{280}{section*.71}%
-\contentsline {subapp}{{F.1.4\hspace {0.5cm}}Middle-and-Extreme Spacing}{283}{section*.74}%
-\contentsline {secapp}{{F.2\hspace {0.5cm}}Experiment 2}{286}{section*.77}%
-\contentsline {subapp}{{F.2.5\hspace {0.5cm}}Equal Spacing}{286}{section*.78}%
-\contentsline {subapp}{{F.2.6\hspace {0.5cm}}Time-Interval Increasing Spacing}{289}{section*.81}%
-\contentsline {subapp}{{F.2.7\hspace {0.5cm}}Time-Interval Decreasing Spacing}{292}{section*.84}%
-\contentsline {subapp}{{F.2.8\hspace {0.5cm}}Middle-and-Extreme Spacing}{295}{section*.87}%
-\contentsline {secapp}{{F.3\hspace {0.5cm}}Experiment 3}{298}{section*.90}%
-\contentsline {subapp}{{F.3.9\hspace {0.5cm}}Time-Structured Data}{298}{section*.91}%
-\contentsline {subapp}{{F.3.10\hspace {0.5cm}}Time-Unstructured Data Characterized by a Fast Response Rate}{301}{section*.94}%
-\contentsline {subapp}{{F.3.11\hspace {0.5cm}}Time-Unstructured Data Characterized by a Slow Response Rate}{304}{section*.97}%
-\contentsline {subapp}{{F.3.12\hspace {0.5cm}}Time-Unstructured Data Characterized by a Slow Response Rate and Modelled with Definition Variables}{307}{section*.100}%
-\contentsline {app}{{Appendix G: }Convergence Success Rates}{309}{section*.103}%
-\contentsline {secapp}{{G.1\hspace {0.5cm}}Experiment 1}{309}{section*.104}%
-\contentsline {secapp}{{G.2\hspace {0.5cm}}Experiment 2}{310}{section*.105}%
-\contentsline {secapp}{{G.3\hspace {0.5cm}}Experiment 3}{311}{section*.106}%
-\contentsline {app}{{Appendix H: }Parameter Estimate Tables}{312}{section*.107}%
-\contentsline {secapp}{{H.1\hspace {0.5cm}}Experiment 1}{312}{section*.108}%
-\contentsline {secapp}{{H.2\hspace {0.5cm}}Experiment 2}{315}{section*.109}%
-\contentsline {secapp}{{H.3\hspace {0.5cm}}Experiment 3}{321}{section*.110}%
-\contentsline {app}{{Appendix I: }Partial Omega-Squared Values for all Independent Variables in Each Simulation Experiment}{328}{section*.111}%
-\contentsline {app}{{Appendix J: }OpenMx Code for Structured Latent Growth Curve Model With Definition Variables}{331}{section*.112}%
+\contentsline {app}{{Appendix A: }Ergodicity and the Need to Conduct Longitudinal Research}{234}{section*.42}%
+\contentsline {app}{{Appendix B: }Code Used to Run Monte Carlo Simulations for all Experiments}{238}{section*.43}%
+\contentsline {app}{{Appendix C: }Procedure for Generating Measurement Schedules Measurement Schedules}{240}{section*.44}%
+\contentsline {secapp}{{C.1\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Equal Spacing}{241}{section*.45}%
+\contentsline {secapp}{{C.2\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Time-Interval Increasing Spacing}{241}{section*.46}%
+\contentsline {secapp}{{C.3\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Time-Interval Decreasing Spacing}{244}{section*.48}%
+\contentsline {secapp}{{C.4\hspace {0.5cm}}Procedure for Constructing Measurement Schedules With Middle-and-Extreme Spacing}{246}{section*.50}%
+\contentsline {app}{{Appendix D: }Using Nonlinear Function in the Structural Equation Modelling Framework}{252}{section*.53}%
+\contentsline {secapp}{{D.1\hspace {0.5cm}}Nonlinear Latent Growth Curve Model Used to Analyze Each Generated Data Set}{252}{section*.54}%
+\contentsline {subapp}{{D.1.1\hspace {0.5cm}}Brief Review of the Latent Growth Curve Model}{252}{section*.55}%
+\contentsline {subapp}{{D.1.2\hspace {0.5cm}}Fitting a Nonlinear Function in the Structural Equation Modelling Framework}{254}{section*.56}%
+\contentsline {subsubapp}{{D.1.2.1\hspace {0.5cm}}Taylor Series': Approximations of Linear Functions}{255}{section*.57}%
+\contentsline {subsubapp}{{D.1.2.2\hspace {0.5cm}}Taylor Series of the Logistic Function}{259}{section*.58}%
+\contentsline {subsubapp}{{D.1.2.3\hspace {0.5cm}}Fitting the Logistic Taylor Series Into the Structual Equation Modelling Framework}{262}{section*.60}%
+\contentsline {subsubapp}{{D.1.2.4\hspace {0.5cm}}Estimating Parameters in the Structured Latent Curve Modelling Approach}{268}{section*.61}%
+\contentsline {app}{{Appendix E: }OpenMx Code for Structured Latent Growth Curve Model Used in Simulation Experiments}{269}{section*.62}%
+\contentsline {app}{{Appendix F: }Complete Versions of Bias/Precision Plots (Day- and Likert-Unit Parameters)}{272}{section*.63}%
+\contentsline {secapp}{{F.1\hspace {0.5cm}}Experiment 1}{272}{section*.64}%
+\contentsline {subapp}{{F.1.1\hspace {0.5cm}}Equal Spacing}{272}{section*.65}%
+\contentsline {subapp}{{F.1.2\hspace {0.5cm}}Time-Interval Increasing Spacing}{275}{section*.68}%
+\contentsline {subapp}{{F.1.3\hspace {0.5cm}}Time-Interval Decreasing Spacing}{278}{section*.71}%
+\contentsline {subapp}{{F.1.4\hspace {0.5cm}}Middle-and-Extreme Spacing}{281}{section*.74}%
+\contentsline {secapp}{{F.2\hspace {0.5cm}}Experiment 2}{284}{section*.77}%
+\contentsline {subapp}{{F.2.5\hspace {0.5cm}}Equal Spacing}{284}{section*.78}%
+\contentsline {subapp}{{F.2.6\hspace {0.5cm}}Time-Interval Increasing Spacing}{287}{section*.81}%
+\contentsline {subapp}{{F.2.7\hspace {0.5cm}}Time-Interval Decreasing Spacing}{290}{section*.84}%
+\contentsline {subapp}{{F.2.8\hspace {0.5cm}}Middle-and-Extreme Spacing}{293}{section*.87}%
+\contentsline {secapp}{{F.3\hspace {0.5cm}}Experiment 3}{296}{section*.90}%
+\contentsline {subapp}{{F.3.9\hspace {0.5cm}}Time-Structured Data}{296}{section*.91}%
+\contentsline {subapp}{{F.3.10\hspace {0.5cm}}Time-Unstructured Data Characterized by a Fast Response Rate}{299}{section*.94}%
+\contentsline {subapp}{{F.3.11\hspace {0.5cm}}Time-Unstructured Data Characterized by a Slow Response Rate}{302}{section*.97}%
+\contentsline {subapp}{{F.3.12\hspace {0.5cm}}Time-Unstructured Data Characterized by a Slow Response Rate and Modelled with Definition Variables}{305}{section*.100}%
+\contentsline {app}{{Appendix G: }Convergence Success Rates}{307}{section*.103}%
+\contentsline {secapp}{{G.1\hspace {0.5cm}}Experiment 1}{307}{section*.104}%
+\contentsline {secapp}{{G.2\hspace {0.5cm}}Experiment 2}{308}{section*.105}%
+\contentsline {secapp}{{G.3\hspace {0.5cm}}Experiment 3}{309}{section*.106}%
+\contentsline {app}{{Appendix H: }Parameter Estimate Tables}{310}{section*.107}%
+\contentsline {secapp}{{H.1\hspace {0.5cm}}Experiment 1}{310}{section*.108}%
+\contentsline {secapp}{{H.2\hspace {0.5cm}}Experiment 2}{313}{section*.109}%
+\contentsline {secapp}{{H.3\hspace {0.5cm}}Experiment 3}{319}{section*.110}%
+\contentsline {app}{{Appendix I: }Partial Omega-Squared Values for all Independent Variables in Each Simulation Experiment}{326}{section*.111}%
+\contentsline {app}{{Appendix J: }OpenMx Code for Structured Latent Growth Curve Model With Definition Variables}{329}{section*.112}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  14 APR 2023 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  3 MAY 2023 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,49 +540,69 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@chunk=\toks53
 \c@chunk=\count340
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip83
-\cftbeforetoctitleskip=\skip84
-\cftaftertoctitleskip=\skip85
-\cftbeforepartskip=\skip86
-\cftpartnumwidth=\skip87
-\cftpartindent=\skip88
-\cftbeforechapskip=\skip89
-\cftchapindent=\skip90
-\cftchapnumwidth=\skip91
-\cftbeforesecskip=\skip92
-\cftsecindent=\skip93
-\cftsecnumwidth=\skip94
-\cftbeforesubsecskip=\skip95
-\cftsubsecindent=\skip96
-\cftsubsecnumwidth=\skip97
-\cftbeforesubsubsecskip=\skip98
-\cftsubsubsecindent=\skip99
-\cftsubsubsecnumwidth=\skip100
-\cftbeforeparaskip=\skip101
-\cftparaindent=\skip102
-\cftparanumwidth=\skip103
-\cftbeforesubparaskip=\skip104
-\cftsubparaindent=\skip105
-\cftsubparanumwidth=\skip106
-\cftbeforeloftitleskip=\skip107
-\cftafterloftitleskip=\skip108
-\cftbeforefigskip=\skip109
-\cftfigindent=\skip110
-\cftfignumwidth=\skip111
-\c@lofdepth=\count341
-\c@lotdepth=\count342
-\cftbeforelottitleskip=\skip112
-\cftafterlottitleskip=\skip113
-\cftbeforetabskip=\skip114
-\cfttabindent=\skip115
-\cfttabnumwidth=\skip116
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen296
 \Gin@req@width=\dimen297
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+)
+\hfoot=\skip83
+\vfoot=\skip84
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip85
+\cftbeforetoctitleskip=\skip86
+\cftaftertoctitleskip=\skip87
+\cftbeforepartskip=\skip88
+\cftpartnumwidth=\skip89
+\cftpartindent=\skip90
+\cftbeforechapskip=\skip91
+\cftchapindent=\skip92
+\cftchapnumwidth=\skip93
+\cftbeforesecskip=\skip94
+\cftsecindent=\skip95
+\cftsecnumwidth=\skip96
+\cftbeforesubsecskip=\skip97
+\cftsubsecindent=\skip98
+\cftsubsecnumwidth=\skip99
+\cftbeforesubsubsecskip=\skip100
+\cftsubsubsecindent=\skip101
+\cftsubsubsecnumwidth=\skip102
+\cftbeforeparaskip=\skip103
+\cftparaindent=\skip104
+\cftparanumwidth=\skip105
+\cftbeforesubparaskip=\skip106
+\cftsubparaindent=\skip107
+\cftsubparanumwidth=\skip108
+\cftbeforeloftitleskip=\skip109
+\cftafterloftitleskip=\skip110
+\cftbeforefigskip=\skip111
+\cftfigindent=\skip112
+\cftfignumwidth=\skip113
+\c@lofdepth=\count341
+\c@lotdepth=\count342
+\cftbeforelottitleskip=\skip114
+\cftafterlottitleskip=\skip115
+\cftbeforetabskip=\skip116
+\cfttabindent=\skip117
+\cfttabnumwidth=\skip118
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup8
@@ -637,17 +657,17 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count344
 \calc@Adimen=\dimen298
 \calc@Bdimen=\dimen299
-\calc@Askip=\skip117
-\calc@Bskip=\skip118
+\calc@Askip=\skip119
+\calc@Bskip=\skip120
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count345
-\calc@Cskip=\skip119
+\calc@Cskip=\skip121
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count346
-\rotFPtop=\skip120
-\rotFPbot=\skip121
+\rotFPtop=\skip122
+\rotFPbot=\skip123
 \rot@float@box=\box127
 \rot@mess@toks=\toks54
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocbibind/tocbibind.sty
@@ -670,48 +690,48 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )))
 \c@app=\count347
-\cftbeforeappskip=\skip122
-\cftappindent=\skip123
-\cftappnumwidth=\skip124
+\cftbeforeappskip=\skip124
+\cftappindent=\skip125
+\cftappnumwidth=\skip126
 \c@loadepth=\count348
-\cftbeforeloatitleskip=\skip125
-\cftafterloatitleskip=\skip126
+\cftbeforeloatitleskip=\skip127
+\cftafterloatitleskip=\skip128
 (/usr/local/texlive/2022/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 \c@secapp=\count349
-\cftbeforesecappskip=\skip127
-\cftsecappindent=\skip128
-\cftsecappnumwidth=\skip129
+\cftbeforesecappskip=\skip129
+\cftsecappindent=\skip130
+\cftsecappnumwidth=\skip131
 \c@subapp=\count350
-\cftbeforesubappskip=\skip130
-\cftsubappindent=\skip131
-\cftsubappnumwidth=\skip132
+\cftbeforesubappskip=\skip132
+\cftsubappindent=\skip133
+\cftsubappnumwidth=\skip134
 \c@subsubapp=\count351
-\cftbeforesubsubappskip=\skip133
-\cftsubsubappindent=\skip134
-\cftsubsubappnumwidth=\skip135
+\cftbeforesubsubappskip=\skip135
+\cftsubsubappindent=\skip136
+\cftsubsubappnumwidth=\skip137
 \c@paraapp=\count352
-\cftbeforeparaappskip=\skip136
-\cftparaappindent=\skip137
-\cftparaappnumwidth=\skip138
+\cftbeforeparaappskip=\skip138
+\cftparaappindent=\skip139
+\cftparaappnumwidth=\skip140
 \c@subparaapp=\count353
-\cftbeforesubparaappskip=\skip139
-\cftsubparaappindent=\skip140
-\cftsubparaappnumwidth=\skip141
+\cftbeforesubparaappskip=\skip141
+\cftsubparaappindent=\skip142
+\cftsubparaappnumwidth=\skip143
 \c@subsubparaapp=\count354
-\cftbeforesubsubparaappskip=\skip142
-\cftsubsubparaappindent=\skip143
-\cftsubsubparaappnumwidth=\skip144
+\cftbeforesubsubparaappskip=\skip144
+\cftsubsubparaappindent=\skip145
+\cftsubsubparaappnumwidth=\skip146
 \c@abb=\count355
-\cftbeforeabbskip=\skip145
-\cftabbindent=\skip146
-\cftabbnumwidth=\skip147
+\cftbeforeabbskip=\skip147
+\cftabbindent=\skip148
+\cftabbnumwidth=\skip149
 \c@loabdepth=\count356
-\cftbeforeloabtitleskip=\skip148
-\cftafterloabtitleskip=\skip149
+\cftbeforeloabtitleskip=\skip150
+\cftafterloabtitleskip=\skip151
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -808,7 +828,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip150
+\Hy@SectionHShift=\skip152
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
@@ -859,14 +879,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@blx@sectionciteorder@0=\count407
 \blx@entrysetcounter=\count408
 \blx@biblioinstance=\count409
-\labelnumberwidth=\skip151
-\labelalphawidth=\skip152
-\biblabelsep=\skip153
-\bibitemsep=\skip154
-\bibnamesep=\skip155
-\bibinitsep=\skip156
-\bibparsep=\skip157
-\bibhang=\skip158
+\labelnumberwidth=\skip153
+\labelalphawidth=\skip154
+\biblabelsep=\skip155
+\bibitemsep=\skip156
+\bibnamesep=\skip157
+\bibinitsep=\skip158
+\bibparsep=\skip159
+\bibhang=\skip160
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language87
@@ -963,20 +983,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count488
 \c@pageref=\count489
 \c@savedpageref=\count490
-\shorthandwidth=\skip159
-\shortjournalwidth=\skip160
-\shortserieswidth=\skip161
-\shorttitlewidth=\skip162
-\shortauthorwidth=\skip163
-\shorteditorwidth=\skip164
-\locallabelnumberwidth=\skip165
-\locallabelalphawidth=\skip166
-\localshorthandwidth=\skip167
-\localshortjournalwidth=\skip168
-\localshortserieswidth=\skip169
-\localshorttitlewidth=\skip170
-\localshortauthorwidth=\skip171
-\localshorteditorwidth=\skip172
+\shorthandwidth=\skip161
+\shortjournalwidth=\skip162
+\shortserieswidth=\skip163
+\shorttitlewidth=\skip164
+\shortauthorwidth=\skip165
+\shorteditorwidth=\skip166
+\locallabelnumberwidth=\skip167
+\locallabelalphawidth=\skip168
+\localshorthandwidth=\skip169
+\localshortjournalwidth=\skip170
+\localshortserieswidth=\skip171
+\localshorttitlewidth=\skip172
+\localshortauthorwidth=\skip173
+\localshorteditorwidth=\skip174
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -1064,21 +1084,21 @@ Package biblatex Info: ... and expl3
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 589.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 592.
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 589.
+(hyperref)                setting the option has no effect on input line 592.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hypernat/hypernat.sty
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 608.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 608.
-Package hyperref Info: Option `colorlinks' set `true' on input line 608.
-Package hyperref Info: Option `breaklinks' set `true' on input line 608.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 611.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 611.
+Package hyperref Info: Option `colorlinks' set `true' on input line 611.
+Package hyperref Info: Option `breaklinks' set `true' on input line 611.
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 608.
+(hyperref)                setting the option has no effect on input line 611.
 
 \c@theorem=\count502
 \c@example=\count503
@@ -1091,7 +1111,7 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip173
+\TPTL@width=\skip175
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1112,7 +1132,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 \@quotelevel=\count504
 \@quotereset=\count505
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-39.
+43.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./thesis.aux
@@ -1121,9 +1141,6 @@ LaTeX Warning: Label `tab:systematicReview' multiply defined.
 
 
 LaTeX Warning: Label `tab:measurementDays' multiply defined.
-
-
-LaTeX Warning: Label `fig:equal-spacing-nc' multiply defined.
 
 
 LaTeX Warning: Label `eq:convergence' multiply defined.
@@ -1182,24 +1199,24 @@ LaTeX Warning: Label `fig:exp3_plot_days_def_app' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 639.
-LaTeX Font Info:    ... okay on input line 639.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 643.
+LaTeX Font Info:    ... okay on input line 643.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1266,7 +1283,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 639.
+Package hyperref Info: Link coloring ON on input line 643.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1278,9 +1295,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count512
 )
-LaTeX Info: Redefining \ref on input line 639.
-LaTeX Info: Redefining \pageref on input line 639.
-LaTeX Info: Redefining \nameref on input line 639.
+LaTeX Info: Redefining \ref on input line 643.
+LaTeX Info: Redefining \pageref on input line 643.
+LaTeX Info: Redefining \nameref on input line 643.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1322,8 +1339,8 @@ Package biblatex Warning: Biber reported the following issues
  'date' for entry 'mcneish2018'.
 
 )
-Package biblatex Info: Reference section=0 on input line 639.
-Package biblatex Info: Reference segment=0 on input line 639.
+Package biblatex Info: Reference section=0 on input line 643.
+Package biblatex Info: Reference segment=0 on input line 643.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1357,7 +1374,7 @@ Package biblatex Info: Reference segment=0 on input line 639.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
-43.
+47.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1368,59 +1385,51 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 648.
+(hyperref)                removing `\titlecap' on input line 652.
 
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-48.
+52.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-648.
+652.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-648.
+652.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 648.
+(Font)              <12> on input line 652.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 648.
+(Font)              <8> on input line 652.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 648.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 64
-8.
+(Font)              <6> on input line 652.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 65
+2.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 648
+LaTeX Font Info:    Trying to load font information for U+msa on input line 652
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 648
+LaTeX Font Info:    Trying to load font information for U+msb on input line 652
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
 
-]
 
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[3]
+] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 654.
+(hyperref)                removing `\titlecap' on input line 657.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1432,10 +1441,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [4
 
+
+
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 659.
+(hyperref)                removing `\titlecap' on input line 662.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1628,72 +1639,120 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [19]
 
 Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 698.
+(hyperref)                setting the option has no effect on input line 701.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 698.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 698.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 701.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 701.
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 698.
+(hyperref)                setting the option has no effect on input line 701.
 
 
 Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 698.
+(hyperref)                setting the option has no effect on input line 701.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 698.
+Package hyperref Info: Option `breaklinks' set `true' on input line 701.
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 698.
+(hyperref)                setting the option has no effect on input line 701.
 
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 698.
+(hyperref)                setting the option has no effect on input line 701.
 
 [1
 
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 717.
+(Font)              <10> on input line 720.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 717.
+(Font)              <7> on input line 720.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 717.
+(Font)              <5> on input line 720.
 [2] [3] [4] [5] [6]
-Overfull \hbox (1.65854pt too wide) in paragraph at lines 742--743
+Overfull \hbox (1.65854pt too wide) in paragraph at lines 745--746
 \OT1/lmr/m/n/12 chal-lenges are those from cross-sectional re-search only am-pl
 i-fied (for a re-view, see[][] Bergman
  []
 
 [7] [8] [9] [10] [11] [12] [13] [14]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-01.
+04.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 801.
-<Figures/Monte_Carlo_comparison.png, id=1765, 936.49875pt x 528.97626pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 804.
+<Figures/Monte_Carlo_comparison.png, id=1769, 936.49875pt x 528.97626pt>
 File: Figures/Monte_Carlo_comparison.png Graphic file (type png)
 <use Figures/Monte_Carlo_comparison.png>
 Package pdftex.def Info: Figures/Monte_Carlo_comparison.png  used on input line
- 801.
+ 804.
 (pdftex.def)             Requested size: 655.54466pt x 370.28085pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 801.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 804.
 [15
 
- <./Figures/Monte_Carlo_comparison.png>] [16] [17
+ <./Figures/Monte_Carlo_comparison.png>] [16]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 804.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 804.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 804.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 804.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 804.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 804.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 804.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 804.
+
+[17
+
 
 ] [18]
-<Figures/prisma_diagram.png, id=1828, 854.19125pt x 517.935pt>
+<Figures/prisma_diagram.png, id=1833, 854.19125pt x 517.935pt>
 File: Figures/prisma_diagram.png Graphic file (type png)
 <use Figures/prisma_diagram.png>
-Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 825.
+Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 828.
 (pdftex.def)             Requested size: 597.92981pt x 362.55202pt.
 [19
 
  <./Figures/prisma_diagram.png>]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 828.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 828.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 828.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 828.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 828.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 828.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 828.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 828.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1726,20 +1785,44 @@ Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 825.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 846.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 849.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.5> on input line 846.
+(Font)              <10.5> on input line 849.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.34996> on input line 846.
+(Font)              <7.34996> on input line 849.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.25> on input line 846.
+(Font)              <5.25> on input line 849.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 846.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 849.
 [20
 
 
 
+
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 886.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 886.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 886.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 886.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 886.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 886.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 886.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 886.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1772,51 +1855,102 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 908
+LaTeX Font Info:    Calculating math sizes for size <7.34996> on input line 911
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.14494> on input line 908.
+(Font)              <5.14494> on input line 911.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.67497> on input line 908.
+(Font)              <3.67497> on input line 911.
 [21
 
 
 
 
+
 ] [22]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 948.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 948.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 948.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 948.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 948.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 948.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 948.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 948.
+
+
 Overfull \vbox (6.72644pt too high) has occurred while \output is active []
 
 [23
 
 
+
 ]
-<Figures/polynomial_vs_nonlinear_plot.pdf, id=1957, 1734.48pt x 867.24pt>
+<Figures/polynomial_vs_nonlinear_plot.pdf, id=1962, 1734.48pt x 867.24pt>
 File: Figures/polynomial_vs_nonlinear_plot.pdf Graphic file (type pdf)
 <use Figures/polynomial_vs_nonlinear_plot.pdf>
 Package pdftex.def Info: Figures/polynomial_vs_nonlinear_plot.pdf  used on inpu
-t line 977.
+t line 980.
 (pdftex.def)             Requested size: 450.95416pt x 225.47708pt.
 [24] [25 <./Figures/polynomial_vs_nonlinear_plot.pdf>]
-<Figures/parameter_explanation_plot.pdf, id=1988, 3257.16875pt x 2353.79375pt>
+<Figures/parameter_explanation_plot.pdf, id=1993, 3257.16875pt x 2353.79375pt>
 File: Figures/parameter_explanation_plot.pdf Graphic file (type pdf)
 <use Figures/parameter_explanation_plot.pdf>
 Package pdftex.def Info: Figures/parameter_explanation_plot.pdf  used on input 
-line 999.
+line 1002.
 (pdftex.def)             Requested size: 553.71136pt x 400.13965pt.
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 999.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 1002.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.5> on input line 999.
+(Font)              <9.5> on input line 1002.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.64996> on input line 999.
+(Font)              <6.64996> on input line 1002.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.75> on input line 999.
+(Font)              <4.75> on input line 1002.
 [26
 
- <./Figures/parameter_explanation_plot.pdf>] [27] [28
+ <./Figures/parameter_explanation_plot.pdf>] [27]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1002.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1002.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1002.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1002.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1002.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1002.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1002.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1002.
+
+[28
+
 
 ] [29] [30]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1045.
+1048.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [31] [32] [33] [34]
@@ -1858,35 +1992,60 @@ Overfull \vbox (1.66794pt too high) has occurred while \output is active []
 [38
 
 
-] [39] [40
+] [39]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1193.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1193.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1193.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1193.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1193.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1193.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1193.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1193.
+
+[40
+
 
 
 ] [41] [42] [43] [44]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 1267.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 1270.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 1267.
+(Font)              <11> on input line 1270.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 1267.
+(Font)              <7.69997> on input line 1270.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 1267.
-<Figures/param_estimation_ex.png, id=2192, 314.17375pt x 374.39874pt>
+(Font)              <5.5> on input line 1270.
+<Figures/param_estimation_ex.png, id=2197, 314.17375pt x 374.39874pt>
 File: Figures/param_estimation_ex.png Graphic file (type png)
 <use Figures/param_estimation_ex.png>
 Package pdftex.def Info: Figures/param_estimation_ex.png  used on input line 12
-67.
+70.
 (pdftex.def)             Requested size: 282.75375pt x 336.95575pt.
 [45 <./Figures/param_estimation_ex.png>] [46] [47] [48]
-Overfull \hbox (3.5571pt too wide) in paragraph at lines 1316--1325
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 1319--1320
 \OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated
  pa-ram-e-ters. Each bias/precision
  []
 
 [49]
-<Figures/logistic_results_plot_exp1.png, id=2249, 456.70625pt x 594.22pt>
+<Figures/logistic_results_plot_exp1.png, id=2260, 456.70625pt x 594.22pt>
 File: Figures/logistic_results_plot_exp1.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp1.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp1.png  used on input 
-line 1325.
+line 1338.
 (pdftex.def)             Requested size: 433.86847pt x 564.5058pt.
 [50] [51 <./Figures/logistic_results_plot_exp1.png>] [52]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1922,22 +2081,22 @@ line 1325.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1352--1352
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1360--1360
 []|[][] 
  []
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1354--1354
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1362--1362
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1356--1356
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1364--1364
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1366--1366
 []|[][] 
  []
 
@@ -1945,56 +2104,79 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1358--1358
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1371.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1371.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1371.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1371.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1371.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1371.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1371.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1371.
+
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1
-391.
+392.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1391.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1392.
 
+<Figures/midpoint_180_plot.pdf, id=2300, 1370.11874pt x 1264.725pt>
+File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
+<use Figures/midpoint_180_plot.pdf>
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1405
+.
+(pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [54
 
 
-]
-<Figures/midpoint_180_plot.pdf, id=2304, 1370.11874pt x 1264.725pt>
-File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
-<use Figures/midpoint_180_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1406
-.
-(pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
-[55]
-<Figures/density_plots_equal_gamma_exp1.pdf, id=2315, 1416.29124pt x 3386.6525p
+
+] [55 <./Figures/midpoint_180_plot.pdf>]
+<Figures/density_plots_equal_gamma_exp1.pdf, id=2324, 1416.29124pt x 3386.6525p
 t>
 File: Figures/density_plots_equal_gamma_exp1.pdf Graphic file (type pdf)
 <use Figures/density_plots_equal_gamma_exp1.pdf>
 Package pdftex.def Info: Figures/density_plots_equal_gamma_exp1.pdf  used on in
-put line 1419.
+put line 1416.
 (pdftex.def)             Requested size: 226.61122pt x 541.87547pt.
-[56 <./Figures/midpoint_180_plot.pdf>] [57 <./Figures/density_plots_equal_gamma
-_exp1.pdf>]
+[56 <./Figures/density_plots_equal_gamma_exp1.pdf>]
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-425.
+424.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1425.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1424.
 
 
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 1425--1435
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 1424--1434
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
 
-<Figures/exp1_plot_days_equal spacing.pdf, id=2344, 2713.13625pt x 2740.2375pt>
+[57]
+<Figures/exp1_plot_days_equal spacing.pdf, id=2350, 2713.13625pt x 2740.2375pt>
 
 File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on inpu
-t line 1435.
+t line 1434.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[58] [59 <./Figures/exp1_plot_days_equal spacing.pdf>] [60] [61] [62] [63]
+[58 <./Figures/exp1_plot_days_equal spacing.pdf>] [59] [60] [61] [62]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2028,54 +2210,80 @@ t line 1435.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1540--1540
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1534--1534
 []|[][] 
  []
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1542--1542
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1536--1536
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1538--1538
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1546--1546
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1540--1540
 []|[][] 
  []
+
+[63
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1545.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1545.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1545.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1545.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1545.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1545.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1545.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1545.
 
 [64
 
 
-] [65
-
 
 ]
-<Figures/midpoint_80_plot.pdf, id=2438, 1370.11874pt x 1264.725pt>
+<Figures/midpoint_80_plot.pdf, id=2443, 1370.11874pt x 1264.725pt>
 File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_80_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1585.
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1602.
 
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
-[66 <./Figures/midpoint_80_plot.pdf>] [67]
-<Figures/exp1_plot_days_time-interval increasing.pdf, id=2469, 2713.13625pt x 2
+[65]
+<Figures/exp1_plot_days_time-interval increasing.pdf, id=2451, 2713.13625pt x 2
 740.2375pt>
 File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  u
-sed on input line 1627.
+sed on input line 1618.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[68 <./Figures/exp1_plot_days_time-interval increasing.pdf>] [69]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1665--1667
+[66 <./Figures/midpoint_80_plot.pdf>] [67 <./Figures/exp1_plot_days_time-interv
+al increasing.pdf>] [68]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1669--1671
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
 
-[70] [71]
+[69] [70]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2109,58 +2317,83 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1698--1698
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1702--1702
 []|[][] 
  []
 
 
-Overfull \hbox (1.44373pt too wide) in paragraph at lines 1700--1700
+Overfull \hbox (1.44373pt too wide) in paragraph at lines 1704--1704
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1702--1702
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1706--1706
 []|[][] 
  []
 
 
-Overfull \hbox (1.99377pt too wide) in paragraph at lines 1704--1704
+Overfull \hbox (1.99377pt too wide) in paragraph at lines 1708--1708
 []|[][] 
+ []
+
+[71
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1713.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1713.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1713.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1713.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1713.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1713.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1713.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1713.
+
+
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1736--1751
+[] [] [] [] [] [] [] [] [] [] 
  []
 
 [72
 
 
-]
-Overfull \hbox (11.99911pt too wide) in alignment at lines 1732--1747
-[] [] [] [] [] [] [] [] [] [] 
- []
-
-[73
-
 
 ]
 File: Figures/midpoint_80_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_80_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1767.
+Package pdftex.def Info: Figures/midpoint_80_plot.pdf  used on input line 1771.
 
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
-[74]
+[73]
 <Figures/exp1_plot_days_time-interval decreasing.pdf, id=2558, 2713.13625pt x 2
 740.2375pt>
 File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  u
-sed on input line 1788.
+sed on input line 1792.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[75] [76 <./Figures/exp1_plot_days_time-interval decreasing.pdf>] [77]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1835--1837
+[74] [75 <./Figures/exp1_plot_days_time-interval decreasing.pdf>] [76]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 1839--1841
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
 
-[78] [79]
+[77] [78]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2194,69 +2427,94 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (7.00366pt too wide) in paragraph at lines 1868--1868
+Overfull \hbox (7.00366pt too wide) in paragraph at lines 1872--1872
 []|[][] 
  []
 
 
-Overfull \hbox (7.00366pt too wide) in paragraph at lines 1870--1870
+Overfull \hbox (7.00366pt too wide) in paragraph at lines 1874--1874
 []|[][] 
  []
 
 
-Overfull \hbox (7.55371pt too wide) in paragraph at lines 1872--1872
+Overfull \hbox (7.55371pt too wide) in paragraph at lines 1876--1876
 []|[][] 
  []
 
 
-Overfull \hbox (7.55371pt too wide) in paragraph at lines 1874--1874
+Overfull \hbox (7.55371pt too wide) in paragraph at lines 1878--1878
 []|[][] 
  []
+
+[79
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 1883.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1883.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 1883.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 1883.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 1883.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 1883.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 1883.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 1883.
 
 [80
 
 
-] [81
-
 
 ]
-Overfull \hbox (6.01045pt too wide) in paragraph at lines 1900--1901
+Overfull \hbox (6.01045pt too wide) in paragraph at lines 1904--1905
 []\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/
 m/n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]D): five, seven,
  []
 
 
-Overfull \hbox (11.99911pt too wide) in alignment at lines 1907--1922
+Overfull \hbox (11.99911pt too wide) in alignment at lines 1911--1926
 [] [] [] [] [] [] [] [] [] [] 
  []
 
 File: Figures/midpoint_180_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_180_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1933
+Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1937
 .
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
-[82]
-Overfull \hbox (0.16234pt too wide) in paragraph at lines 1943--1945
+[81]
+Overfull \hbox (0.16234pt too wide) in paragraph at lines 1947--1949
 []\OT1/lmr/m/n/12 fixed-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/m
 /n/12 ^^M[]$\OT1/lmr/m/n/12 ; Fig-ure [][]2.11[][]B): five and seven,
  []
 
-[83]
+[82]
 <Figures/exp1_plot_days_middle-and-extreme spacing.pdf, id=2665, 2713.13625pt x
  2740.2375pt>
 File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf 
- used on input line 1959.
+ used on input line 1963.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[84 <./Figures/exp1_plot_days_middle-and-extreme spacing.pdf>] [85]
-Overfull \hbox (2.64508pt too wide) in paragraph at lines 1999--2001
+[83 <./Figures/exp1_plot_days_middle-and-extreme spacing.pdf>] [84]
+Overfull \hbox (2.64508pt too wide) in paragraph at lines 2003--2005
 []\OT1/lmr/m/n/12 fixed-effect days-to-halfway el-e-va-tion pa-ram-e-ter ($\U/e
 ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
  []
 
-[86] [87]
+[85] [86]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2290,34 +2548,59 @@ ur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ): seven mea-sure-ments, which
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (5.94765pt too wide) in paragraph at lines 2044--2045
+Overfull \hbox (5.94765pt too wide) in paragraph at lines 2048--2049
 []|[][] 
  []
 
+[87
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2054.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2054.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2054.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2054.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2054.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2054.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2054.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2054.
+
 [88
 
-
-] [89
 
 
 ]
 <Figures/midpoint_plot.pdf, id=2738, 2726.185pt x 2779.38374pt>
 File: Figures/midpoint_plot.pdf Graphic file (type pdf)
 <use Figures/midpoint_plot.pdf>
-Package pdftex.def Info: Figures/midpoint_plot.pdf  used on input line 2075.
+Package pdftex.def Info: Figures/midpoint_plot.pdf  used on input line 2079.
 (pdftex.def)             Requested size: 436.19852pt x 444.7105pt.
-[90 <./Figures/midpoint_plot.pdf>]
-<Figures/deriv_plot.pdf, id=2761, 1793.70125pt x 3339.47626pt>
+[89 <./Figures/midpoint_plot.pdf>]
+<Figures/deriv_plot.pdf, id=2760, 1793.70125pt x 3339.47626pt>
 File: Figures/deriv_plot.pdf Graphic file (type pdf)
 <use Figures/deriv_plot.pdf>
-Package pdftex.def Info: Figures/deriv_plot.pdf  used on input line 2090.
+Package pdftex.def Info: Figures/deriv_plot.pdf  used on input line 2094.
 (pdftex.def)             Requested size: 286.99806pt x 534.32713pt.
-[91] [92 <./Figures/deriv_plot.pdf>] [93]
-Overfull \hbox (5.37029pt too wide) in alignment at lines 2099--2113
+[90] [91 <./Figures/deriv_plot.pdf>] [92]
+Overfull \hbox (5.37029pt too wide) in alignment at lines 2103--2117
 [] [] [] [] [] 
  []
 
-[94] [95] [96] [97]
+[93] [94] [95] [96]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2351,23 +2634,48 @@ Overfull \hbox (5.37029pt too wide) in alignment at lines 2099--2113
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 2151--2151
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2155--2155
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 2151--2152
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2155--2156
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
+
+[97
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2171.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2171.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2171.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2171.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2171.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2171.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2171.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2171.
 
 [98
 
 
-] [99
 
-
-] [100] [101] [102] [103] [104]
-Overfull \hbox (3.5571pt too wide) in paragraph at lines 2283--2293
+] [99] [100] [101] [102] [103]
+Overfull \hbox (3.5571pt too wide) in paragraph at lines 2287--2297
 \OT1/lmr/m/n/12 con-tain a bias/precision plot for each of the nine es-ti-mated
  pa-ram-e-ters. Each bias/precision
  []
@@ -2376,9 +2684,9 @@ Overfull \hbox (3.5571pt too wide) in paragraph at lines 2283--2293
 File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp2.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input 
-line 2293.
+line 2297.
 (pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
-[105] [106 <./Figures/logistic_results_plot_exp2.png>] [107]
+[104] [105 <./Figures/logistic_results_plot_exp2.png>] [106]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2412,30 +2720,55 @@ line 2293.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2326.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 2330.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 2334.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 2338.
 
-[108
+[107
 
 
 ]
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 2347--2348
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2343.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2343.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2343.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2343.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2343.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2343.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2343.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2343.
+
+
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 2351--2352
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
 
-<Figures/exp2_plot_days_equal spacing.pdf, id=2942, 2726.185pt x 2739.23375pt>
+<Figures/exp2_plot_days_equal spacing.pdf, id=2943, 2726.185pt x 2739.23375pt>
 File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on inpu
-t line 2364.
+t line 2372.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[109
+[108
 
 
-] [110 <./Figures/exp2_plot_days_equal spacing.pdf>] [111] [112] [113] [114]
+
+] [109 <./Figures/exp2_plot_days_equal spacing.pdf>] [110] [111] [112] [113]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2468,23 +2801,47 @@ t line 2364.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[115
+[114
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2497.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2497.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2497.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2497.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2497.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2497.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2497.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2497.
+
 <Figures/exp2_plot_days_time-interval increasing.pdf, id=3027, 2726.185pt x 273
 9.23375pt>
 File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  u
-sed on input line 2504.
+sed on input line 2508.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[116
+[115
 
 
- <./Figures/exp2_plot_days_time-interval increasing.pdf>] [117] [118] [119] [12
-0]
+
+ <./Figures/exp2_plot_days_time-interval increasing.pdf>] [116] [117] [118] [11
+9]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2517,28 +2874,52 @@ sed on input line 2504.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[121
+[120
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2625.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2625.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2625.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2625.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2625.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2625.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2625.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2625.
+
 <Figures/exp2_plot_days_time-interval decreasing.pdf, id=3101, 2726.185pt x 273
 9.23375pt>
 File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  u
-sed on input line 2632.
+sed on input line 2636.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[122
+[121
 
 
- <./Figures/exp2_plot_days_time-interval decreasing.pdf>] [123] [124]
-Overfull \hbox (9.4963pt too wide) in paragraph at lines 2694--2696
+
+ <./Figures/exp2_plot_days_time-interval decreasing.pdf>] [122] [123]
+Overfull \hbox (9.4963pt too wide) in paragraph at lines 2698--2700
 \OT1/lmr/m/n/12 el-e-va-tion pa-ram-e-ter [$\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12
  ]) re-sulted from us-ing the fol-low-ing mea-sure-ment num-ber/sample
  []
 
-[125] [126]
+[124] [125]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2572,30 +2953,54 @@ Overfull \hbox (9.4963pt too wide) in paragraph at lines 2694--2696
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2742.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2746.
 
-[127
+[126
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2752.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2752.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2752.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2752.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2752.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2752.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2752.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2752.
+
 <Figures/exp2_plot_days_middle-and-extreme spacing.pdf, id=3184, 2726.185pt x 2
 739.23375pt>
 File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf 
- used on input line 2793.
+ used on input line 2797.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[128
+[127
 
 
-] [129 <./Figures/exp2_plot_days_middle-and-extreme spacing.pdf>] [130]
-Overfull \hbox (6.20961pt too wide) in paragraph at lines 2829--2830
+
+] [128 <./Figures/exp2_plot_days_middle-and-extreme spacing.pdf>] [129]
+Overfull \hbox (6.20961pt too wide) in paragraph at lines 2833--2834
 []\OT1/lmr/m/n/12 random-effect triquarter-halfway delta pa-ram-e-ter ($\U/eur/
 m/n/12 ^^M[]$\OT1/lmr/m/n/12 ): five mea-sure-ments across
  []
 
-[131] [132]
+[130] [131]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2629,59 +3034,84 @@ m/n/12 ^^M[]$\OT1/lmr/m/n/12 ): five mea-sure-ments across
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 2858--2858
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 2862--2862
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 2858--2859
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 2862--2863
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
 
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2883.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2887.
 
 
-Overfull \hbox (3.24399pt too wide) in alignment at lines 2853--2886
+Overfull \hbox (3.24399pt too wide) in alignment at lines 2857--2890
 [] [] [] [] [] [] [] [] 
  []
+
+[132
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 2892.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2892.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 2892.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2892.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 2892.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 2892.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 2892.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 2892.
 
 [133
 
 
-] [134
 
-
-] [135] [136] [137] [138]
+] [134] [135] [136] [137]
 Overfull \vbox (2.13158pt too high) has occurred while \output is active []
 
-[139] [140]
+[138] [139]
 <Figures/cdf_plot.pdf, id=3335, 2148.025pt x 1036.87375pt>
 File: Figures/cdf_plot.pdf Graphic file (type pdf)
 <use Figures/cdf_plot.pdf>
-Package pdftex.def Info: Figures/cdf_plot.pdf  used on input line 2991.
+Package pdftex.def Info: Figures/cdf_plot.pdf  used on input line 2995.
 (pdftex.def)             Requested size: 429.5974pt x 207.37108pt.
-[141 <./Figures/cdf_plot.pdf>]
+[140 <./Figures/cdf_plot.pdf>]
 Overfull \vbox (4.51468pt too high) has occurred while \output is active []
 
-[142] [143]
+[141] [142]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3040.
+(hyperref)                than one, level fixed on input line 3044.
 
-[144] [145]
+[143] [144]
 <Figures/cdf_pdf_plots.pdf, id=3405, 1140.26pt x 912.40875pt>
 File: Figures/cdf_pdf_plots.pdf Graphic file (type pdf)
 <use Figures/cdf_pdf_plots.pdf>
-Package pdftex.def Info: Figures/cdf_pdf_plots.pdf  used on input line 3095.
+Package pdftex.def Info: Figures/cdf_pdf_plots.pdf  used on input line 3099.
 (pdftex.def)             Requested size: 433.3033pt x 346.71893pt.
-[146 <./Figures/cdf_pdf_plots.pdf>] [147] [148]
+[145 <./Figures/cdf_pdf_plots.pdf>] [146] [147]
 File: Figures/logistic_results_plot_exp2.png Graphic file (type png)
 <use Figures/logistic_results_plot_exp2.png>
 Package pdftex.def Info: Figures/logistic_results_plot_exp2.png  used on input 
-line 3148.
+line 3152.
 (pdftex.def)             Requested size: 432.04544pt x 577.34875pt.
-[149] [150] [151]
+[148] [149] [150]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2714,16 +3144,39 @@ line 3148.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[152
+[151
 
 
 ]
 
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 3197.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3197.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 3197.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 3197.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 3197.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 3197.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 3197.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 3197.
+
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3199.
+(hyperref)                than one, level fixed on input line 3203.
 
 
-Overfull \hbox (9.93318pt too wide) in paragraph at lines 3201--3211
+Overfull \hbox (9.93318pt too wide) in paragraph at lines 3205--3215
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
  []
@@ -2733,12 +3186,13 @@ rip-tion of the set of bias/precision
 File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_days_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on in
-put line 3211.
+put line 3215.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[153
+[152
 
 
-] [154 <./Figures/exp3_plot_days_time structured.pdf>] [155] [156] [157] [158]
+
+] [153 <./Figures/exp3_plot_days_time structured.pdf>] [154] [155] [156] [157]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2771,23 +3225,47 @@ put line 3211.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[159
+[158
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 3338.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3338.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 3338.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 3338.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 3338.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 3338.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 3338.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 3338.
+
 <Figures/exp3_plot_days_time unstructured (fast response).pdf, id=3579, 2726.18
 5pt x 2739.23375pt>
 File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast respons
-e).pdf  used on input line 3365.
+e).pdf  used on input line 3369.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[160
+[159
 
 
-] [161 <./Figures/exp3_plot_days_time unstructured (fast response).pdf>] [162] 
-[163] [164] [165]
+
+] [160 <./Figures/exp3_plot_days_time unstructured (fast response).pdf>] [161] 
+[162] [163] [164]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2820,23 +3298,47 @@ e).pdf  used on input line 3365.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[166
+[165
 
 
 ]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 3476.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3476.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 3476.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 3476.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 3476.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 3476.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 3476.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 3476.
+
 <Figures/exp3_plot_days_time unstructured (slow response).pdf, id=3657, 2726.18
 5pt x 2739.23375pt>
 File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow respons
-e).pdf  used on input line 3483.
+e).pdf  used on input line 3487.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[167
+[166
 
 
- <./Figures/exp3_plot_days_time unstructured (slow response).pdf>] [168] [169] 
-[170] [171]
+
+ <./Figures/exp3_plot_days_time unstructured (slow response).pdf>] [167] [168] 
+[169] [170]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2870,53 +3372,78 @@ e).pdf  used on input line 3483.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.83965pt too wide) in paragraph at lines 3566--3566
+Overfull \hbox (8.83965pt too wide) in paragraph at lines 3570--3570
  []|$\U/eur/m/n/10.5 ^^L[]$| 
  []
 
 
-Overfull \hbox (8.27248pt too wide) in paragraph at lines 3566--3567
+Overfull \hbox (8.27248pt too wide) in paragraph at lines 3570--3571
  []|$\U/eur/m/n/10.5 ^^M[]$| 
  []
 
+[171
+
+
+]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 3589.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3589.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 3589.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 3589.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 3589.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 3589.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 3589.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 3589.
+
 [172
 
-
-] [173
 
 
 ]
 <Figures/lgc_path_diagram.png, id=3741, 734.745pt x 419.5675pt>
 File: Figures/lgc_path_diagram.png Graphic file (type png)
 <use Figures/lgc_path_diagram.png>
-Package pdftex.def Info: Figures/lgc_path_diagram.png  used on input line 3610.
+Package pdftex.def Info: Figures/lgc_path_diagram.png  used on input line 3614.
 
 (pdftex.def)             Requested size: 477.57858pt x 272.71564pt.
 
-Overfull \hbox (24.61032pt too wide) in paragraph at lines 3610--3610
+Overfull \hbox (24.61032pt too wide) in paragraph at lines 3614--3614
 [][] 
  []
 
-[174] [175 <./Figures/lgc_path_diagram.png>] [176]
-<Figures/time_structure_plots.pdf, id=3766, 2716.1475pt x 2934.965pt>
+[173] [174 <./Figures/lgc_path_diagram.png>]
+<Figures/time_structure_plots.pdf, id=3762, 2716.1475pt x 2934.965pt>
 File: Figures/time_structure_plots.pdf Graphic file (type pdf)
 <use Figures/time_structure_plots.pdf>
 Package pdftex.def Info: Figures/time_structure_plots.pdf  used on input line 3
-623.
+627.
 (pdftex.def)             Requested size: 448.145pt x 484.24834pt.
-[177 <./Figures/time_structure_plots.pdf>] [178]
-<Figures/def_model.png, id=3801, 729.72626pt x 424.58624pt>
+[175] [176 <./Figures/time_structure_plots.pdf>] [177]
+<Figures/def_model.png, id=3800, 729.72626pt x 424.58624pt>
 File: Figures/def_model.png Graphic file (type png)
 <use Figures/def_model.png>
-Package pdftex.def Info: Figures/def_model.png  used on input line 3639.
+Package pdftex.def Info: Figures/def_model.png  used on input line 3643.
 (pdftex.def)             Requested size: 474.31645pt x 275.97778pt.
 
-Overfull \hbox (21.34819pt too wide) in paragraph at lines 3639--3639
+Overfull \hbox (21.34819pt too wide) in paragraph at lines 3643--3643
 [][] 
  []
 
-[179 <./Figures/def_model.png>]
-Overfull \hbox (10.75684pt too wide) in paragraph at lines 3640--3641
+[178 <./Figures/def_model.png>]
+Overfull \hbox (10.75684pt too wide) in paragraph at lines 3644--3645
 []\OT1/lmr/m/n/12 To show that def-i-ni-tion vari-ables can elim-i-nate the er-
 ror in-curred by time-unstructured
  []
@@ -2927,387 +3454,475 @@ File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic f
 ile (type pdf)
 <use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow resp
-onse).pdf  used on input line 3652.
+onse).pdf  used on input line 3656.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[180] [181 <./Figures/exp3_defplot_days_time unstructured (slow response).pdf>]
+[179] [180 <./Figures/exp3_defplot_days_time unstructured (slow response).pdf>]
 
-Overfull \hbox (0.77768pt too wide) in paragraph at lines 3676--3678
+Overfull \hbox (0.77768pt too wide) in paragraph at lines 3680--3682
 []\OT1/lmr/m/n/12 Bias in the es-ti-ma-tion of the fixed-effect days-to-halfway
  el-e-va-tion pa-ram-e-ter ($\U/eur/m/n/12 ^^L[]$\OT1/lmr/m/n/12 ;
  []
 
-[182] [183] [184] [185]
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3703--3708
+[181] [182] [183] [184]
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3707--3712
 [] [] [] 
  []
 
 
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3708--3713
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3712--3717
 [] [] [] 
  []
 
 
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3713--3715
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3717--3719
 [] [] [] 
  []
 
 
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3715--3717
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3719--3721
 [] [] [] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-718.
+722.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Overfull \hbox (4.40257pt too wide) in alignment at lines 3717--3723
+Overfull \hbox (4.40257pt too wide) in alignment at lines 3721--3727
 [] [] [] 
  []
 
-[186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
-Overfull \hbox (2.3425pt too wide) in paragraph at lines 3772--3773
+[185] [186] [187] [188] [189] [190] [191] [192] [193] [194]
+Overfull \hbox (2.3425pt too wide) in paragraph at lines 3776--3777
 \OT1/lmr/m/n/12 Tech-no-log-i-cal ad-vances such as smart-phones and wear-able 
 sen-sors have al-lowed re-searchers
  []
 
-[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [
-209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [2
-22] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234] [23
-5]
+[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [
+208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [2
+21] [222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [23
+4]
 Overfull \vbox (2.13158pt too high) has occurred while \output is active []
 
-[236] [237] [238]
+[235] [236] [237]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 3874.
+(caption)                outside box or environment on input line 3878.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 3874.
+(caption)                particular \caption on input line 3878.
 See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown chunk defaults to 0 on input 
-line 3874.
-[239]
+line 3878.
+[238]
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3877.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3881.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-3877.
+3881.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmtt on input line 
-3880.
-LaTeX Font Info:    No file OMLlmtt.fd. on input line 3880.
+3884.
+LaTeX Font Info:    No file OMLlmtt.fd. on input line 3884.
 
 LaTeX Font Warning: Font shape `OML/lmtt/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 3880.
+(Font)              for symbol `textless' on input line 3884.
 
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3890.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3894.
 
 
-Underfull \vbox (badness 10000) detected at line 3970
+Underfull \vbox (badness 10000) detected at line 3974
  []
 
 
-Overfull \vbox (8.2965pt too high) detected at line 3970
+Overfull \vbox (8.2965pt too high) detected at line 3974
  []
 
-[240] [241] [242]
+[239] [240] [241]
 <Figures/equal_spacing_schedule.png, id=5021, 695.59875pt x 389.455pt>
 File: Figures/equal_spacing_schedule.png Graphic file (type png)
 <use Figures/equal_spacing_schedule.png>
 Package pdftex.def Info: Figures/equal_spacing_schedule.png  used on input line
- 4011.
+ 4015.
 (pdftex.def)             Requested size: 626.0331pt x 350.50626pt.
+[242
+
+ <./Figures/equal_spacing_schedule.png>]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 4015.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4015.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 4015.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 4015.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 4015.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 4015.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 4015.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 4015.
+
 [243
 
- <./Figures/equal_spacing_schedule.png>] [244
 
-] [245]
+] [244]
 <Figures/time_inc_schedule.png, id=5049, 804.00375pt x 510.90875pt>
 File: Figures/time_inc_schedule.png Graphic file (type png)
 <use Figures/time_inc_schedule.png>
-Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4070
+Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4074
 .
 (pdftex.def)             Requested size: 522.59625pt x 332.08675pt.
+[245
+
+ <./Figures/time_inc_schedule.png>]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 4074.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4074.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 4074.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 4074.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 4074.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 4074.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 4074.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 4074.
+
 [246
 
- <./Figures/time_inc_schedule.png>] [247
 
 ]
 <Figures/time_dec_schedule.png, id=5069, 811.03pt x 525.965pt>
 File: Figures/time_dec_schedule.png Graphic file (type png)
 <use Figures/time_dec_schedule.png>
-Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4107
+Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4111
 .
 (pdftex.def)             Requested size: 527.16325pt x 341.87318pt.
+[247
+
+ <./Figures/time_dec_schedule.png>]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 4111.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4111.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 4111.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 4111.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 4111.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 4111.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 4111.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 4111.
+
 [248
 
- <./Figures/time_dec_schedule.png>] [249
 
-] [250]
+] [249]
 <Figures/mid_ext_schedule.png, id=5096, 843.15pt x 530.98375pt>
 File: Figures/mid_ext_schedule.png Graphic file (type png)
 <use Figures/mid_ext_schedule.png>
-Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4167.
+Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4171.
 
 (pdftex.def)             Requested size: 548.041pt x 345.13533pt.
-[251
+[250
 
- <./Figures/mid_ext_schedule.png>] [252] [253
+ <./Figures/mid_ext_schedule.png>] [251]
 
-] [254] [255] [256] [257] [258] [259]
-<Figures/taylor_vs_nonlin.pdf, id=5189, 650.43pt x 433.62pt>
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 4171.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4171.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 4171.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 4171.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 4171.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 4171.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 4171.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 4171.
+
+[252
+
+
+] [253] [254] [255] [256] [257] [258]
+<Figures/taylor_vs_nonlin.pdf, id=5192, 650.43pt x 433.62pt>
 File: Figures/taylor_vs_nonlin.pdf Graphic file (type pdf)
 <use Figures/taylor_vs_nonlin.pdf>
-Package pdftex.def Info: Figures/taylor_vs_nonlin.pdf  used on input line 4314.
+Package pdftex.def Info: Figures/taylor_vs_nonlin.pdf  used on input line 4322.
 
 (pdftex.def)             Requested size: 455.2979pt x 303.53192pt.
 
-Overfull \hbox (2.32964pt too wide) in paragraph at lines 4314--4314
+Overfull \hbox (2.32964pt too wide) in paragraph at lines 4322--4322
 [][] 
  []
 
-[260] [261 <./Figures/taylor_vs_nonlin.pdf>] [262] [263] [264] [265] [266] [267
-] [268] [269]
-Underfull \hbox (badness 1048) in paragraph at lines 4532--4533
+[259] [260 <./Figures/taylor_vs_nonlin.pdf>] [261] [262] [263] [264] [265] [266
+] [267] [268]
+Underfull \hbox (badness 1048) in paragraph at lines 4538--4539
 \OT1/lmr/m/n/12 the \OT1/lmtt/m/n/12 run[]exp[]simulations() \OT1/lmr/m/n/12 an
 d \OT1/lmtt/m/n/12 create[]logistic[]model[]ns() \OT1/lmr/m/n/12 func-tions fro
 m the
  []
 
-[270]
+[269]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 4534.
+(caption)                particular \caption on input line 4540.
 See the caption package documentation for explanation.
 
 
 LaTeX Font Warning: Font shape `OML/lmtt/bx/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textgreater' on input line 4544.
+(Font)              for symbol `textgreater' on input line 4550.
 
 LaTeX Font Info:    Trying to load font information for OMS+lmtt on input line 
-4548.
-LaTeX Font Info:    No file OMSlmtt.fd. on input line 4548.
+4554.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 4554.
 
 LaTeX Font Warning: Font shape `OMS/lmtt/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 4548.
+(Font)              for symbol `textbackslash' on input line 4554.
 
 
-Underfull \vbox (badness 10000) detected at line 4635
+Underfull \vbox (badness 10000) detected at line 4641
  []
 
-
-Overfull \vbox (4.67525pt too high) detected at line 4635
- []
-
-[271]
-Underfull \vbox (badness 10000) detected at line 4635
- []
-
-
-Underfull \vbox (badness 10000) detected at line 4635
- []
-
-[272]
+[270]
 File: Figures/exp1_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_equal spacing.pdf  used on inpu
-t line 4650.
+t line 4656.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[273]
-<Figures/exp1_plot_likert_equal spacing.pdf, id=5342, 2793.43625pt x 3393.67876
+[271]
+<Figures/exp1_plot_likert_equal spacing.pdf, id=5338, 2793.43625pt x 3393.67876
 pt>
 File: Figures/exp1_plot_likert_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp1_plot_likert_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_equal spacing.pdf  used on in
-put line 4661.
+put line 4667.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
-[274] [275 <./Figures/exp1_plot_likert_equal spacing.pdf>]
+[272] [273 <./Figures/exp1_plot_likert_equal spacing.pdf>]
 File: Figures/exp1_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval increasing.pdf  u
-sed on input line 4673.
+sed on input line 4679.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[276]
-<Figures/exp1_plot_likert_time-interval increasing.pdf, id=5376, 2793.43625pt x
+[274]
+<Figures/exp1_plot_likert_time-interval increasing.pdf, id=5371, 2793.43625pt x
  3393.67876pt>
 File: Figures/exp1_plot_likert_time-interval increasing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_likert_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval increasing.pdf 
- used on input line 4684.
+ used on input line 4690.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
-[277] [278 <./Figures/exp1_plot_likert_time-interval increasing.pdf>]
+[275] [276 <./Figures/exp1_plot_likert_time-interval increasing.pdf>]
 File: Figures/exp1_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp1_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_time-interval decreasing.pdf  u
-sed on input line 4696.
+sed on input line 4702.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[279]
-<Figures/exp1_plot_likert_time-interval decreasing.pdf, id=5407, 2793.43625pt x
+[277]
+<Figures/exp1_plot_likert_time-interval decreasing.pdf, id=5403, 2793.43625pt x
  3393.67876pt>
 File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_likert_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf 
- used on input line 4707.
+ used on input line 4713.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
-[280] [281 <./Figures/exp1_plot_likert_time-interval decreasing.pdf>]
+[278] [279 <./Figures/exp1_plot_likert_time-interval decreasing.pdf>]
 File: Figures/exp1_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_days_middle-and-extreme spacing.pdf 
- used on input line 4719.
+ used on input line 4725.
 (pdftex.def)             Requested size: 434.11067pt x 438.44696pt.
-[282]
-<Figures/exp1_plot_likert_middle-and-extreme spacing.pdf, id=5440, 2793.43625pt
+[280]
+<Figures/exp1_plot_likert_middle-and-extreme spacing.pdf, id=5435, 2793.43625pt
  x 3393.67876pt>
 File: Figures/exp1_plot_likert_middle-and-extreme spacing.pdf Graphic file (typ
 e pdf)
 <use Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_middle-and-extreme spacing.pd
-f  used on input line 4730.
+f  used on input line 4736.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
-[283] [284 <./Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>]
+[281] [282 <./Figures/exp1_plot_likert_middle-and-extreme spacing.pdf>]
 File: Figures/exp2_plot_days_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_days_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on inpu
-t line 4743.
+t line 4749.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[285]
-<Figures/exp2_plot_likert_equal spacing.pdf, id=5471, 2793.43625pt x 3392.675pt
+[283]
+<Figures/exp2_plot_likert_equal spacing.pdf, id=5467, 2793.43625pt x 3392.675pt
 >
 File: Figures/exp2_plot_likert_equal spacing.pdf Graphic file (type pdf)
 <use Figures/exp2_plot_likert_equal spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_equal spacing.pdf  used on in
-put line 4754.
+put line 4760.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[286] [287 <./Figures/exp2_plot_likert_equal spacing.pdf>]
+[284] [285 <./Figures/exp2_plot_likert_equal spacing.pdf>]
 File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  u
-sed on input line 4766.
+sed on input line 4772.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[288]
-<Figures/exp2_plot_likert_time-interval increasing.pdf, id=5505, 2793.43625pt x
+[286]
+<Figures/exp2_plot_likert_time-interval increasing.pdf, id=5500, 2793.43625pt x
  3392.675pt>
 File: Figures/exp2_plot_likert_time-interval increasing.pdf Graphic file (type 
 pdf)
 <use Figures/exp2_plot_likert_time-interval increasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_time-interval increasing.pdf 
- used on input line 4777.
+ used on input line 4783.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[289] [290 <./Figures/exp2_plot_likert_time-interval increasing.pdf>]
+[287] [288 <./Figures/exp2_plot_likert_time-interval increasing.pdf>]
 File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pd
 f)
 <use Figures/exp2_plot_days_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  u
-sed on input line 4789.
+sed on input line 4795.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[291]
+[289]
 File: Figures/exp1_plot_likert_time-interval decreasing.pdf Graphic file (type 
 pdf)
 <use Figures/exp1_plot_likert_time-interval decreasing.pdf>
 Package pdftex.def Info: Figures/exp1_plot_likert_time-interval decreasing.pdf 
- used on input line 4800.
+ used on input line 4806.
 (pdftex.def)             Requested size: 446.95894pt x 542.99971pt.
-[292] [293]
+[290] [291]
 File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
 pdf)
 <use Figures/exp2_plot_days_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf 
- used on input line 4812.
+ used on input line 4818.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[294]
-<Figures/exp2_plot_likert_middle-and-extreme spacing.pdf, id=5558, 2793.43625pt
+[292]
+<Figures/exp2_plot_likert_middle-and-extreme spacing.pdf, id=5553, 2793.43625pt
  x 3392.675pt>
 File: Figures/exp2_plot_likert_middle-and-extreme spacing.pdf Graphic file (typ
 e pdf)
 <use Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>
 Package pdftex.def Info: Figures/exp2_plot_likert_middle-and-extreme spacing.pd
-f  used on input line 4823.
+f  used on input line 4829.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[295] [296 <./Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>]
+[293] [294 <./Figures/exp2_plot_likert_middle-and-extreme spacing.pdf>]
 File: Figures/exp3_plot_days_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_days_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on in
-put line 4836.
+put line 4842.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[297]
-<Figures/exp3_plot_likert_time structured.pdf, id=5590, 2793.43625pt x 3392.675
+[295]
+<Figures/exp3_plot_likert_time structured.pdf, id=5586, 2793.43625pt x 3392.675
 pt>
 File: Figures/exp3_plot_likert_time structured.pdf Graphic file (type pdf)
 <use Figures/exp3_plot_likert_time structured.pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time structured.pdf  used on 
-input line 4847.
+input line 4853.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[298] [299 <./Figures/exp3_plot_likert_time structured.pdf>]
+[296] [297 <./Figures/exp3_plot_likert_time structured.pdf>]
 File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast respons
-e).pdf  used on input line 4859.
+e).pdf  used on input line 4865.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[300]
-<Figures/exp3_plot_likert_time unstructured (fast response).pdf, id=5624, 2793.
+[298]
+<Figures/exp3_plot_likert_time unstructured (fast response).pdf, id=5619, 2793.
 43625pt x 3392.675pt>
 File: Figures/exp3_plot_likert_time unstructured (fast response).pdf Graphic fi
 le (type pdf)
 <use Figures/exp3_plot_likert_time unstructured (fast response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (fast respo
-nse).pdf  used on input line 4870.
+nse).pdf  used on input line 4876.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[301] [302 <./Figures/exp3_plot_likert_time unstructured (fast response).pdf>]
+[299] [300 <./Figures/exp3_plot_likert_time unstructured (fast response).pdf>]
 File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file
  (type pdf)
 <use Figures/exp3_plot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow respons
-e).pdf  used on input line 4882.
+e).pdf  used on input line 4888.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
-[303]
-<Figures/exp3_plot_likert_time unstructured (slow response).pdf, id=5656, 2793.
+[301]
+<Figures/exp3_plot_likert_time unstructured (slow response).pdf, id=5652, 2793.
 43625pt x 3392.675pt>
 File: Figures/exp3_plot_likert_time unstructured (slow response).pdf Graphic fi
 le (type pdf)
 <use Figures/exp3_plot_likert_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_plot_likert_time unstructured (slow respo
-nse).pdf  used on input line 4893.
+nse).pdf  used on input line 4899.
 (pdftex.def)             Requested size: 446.95894pt x 542.8391pt.
-[304] [305 <./Figures/exp3_plot_likert_time unstructured (slow response).pdf>]
+[302] [303 <./Figures/exp3_plot_likert_time unstructured (slow response).pdf>]
 File: Figures/exp3_defplot_days_time unstructured (slow response).pdf Graphic f
 ile (type pdf)
 <use Figures/exp3_defplot_days_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_days_time unstructured (slow resp
-onse).pdf  used on input line 4905.
+onse).pdf  used on input line 4911.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
-[306]
-<Figures/exp3_defplot_likert_time unstructured (slow response).pdf, id=5690, 27
+[304]
+<Figures/exp3_defplot_likert_time unstructured (slow response).pdf, id=5685, 27
 93.43625pt x 3392.675pt>
 File: Figures/exp3_defplot_likert_time unstructured (slow response).pdf Graphic
  file (type pdf)
 <use Figures/exp3_defplot_likert_time unstructured (slow response).pdf>
 Package pdftex.def Info: Figures/exp3_defplot_likert_time unstructured (slow re
-sponse).pdf  used on input line 4916.
+sponse).pdf  used on input line 4922.
 (pdftex.def)             Requested size: 460.8971pt x 559.76723pt.
 
-Overfull \hbox (7.92883pt too wide) in paragraph at lines 4916--4916
+Overfull \hbox (7.92883pt too wide) in paragraph at lines 4922--4922
 [][] 
  []
 
-[307] [308 <./Figures/exp3_defplot_likert_time unstructured (slow response).pdf
->] [309] [310] [311] [312]
+[305] [306 <./Figures/exp3_defplot_likert_time unstructured (slow response).pdf
+>] [307] [308] [309] [310]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3340,7 +3955,7 @@ Overfull \hbox (7.92883pt too wide) in paragraph at lines 4916--4916
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[313
+[311
 
 
 ]
@@ -3348,8 +3963,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5178 \end{longtable}
-                       [314] [315]
+l.5184 \end{longtable}
+                       [312] [313]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 5188.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 5188.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 5188.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 5188.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 5188.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 5188.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 5188.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 5188.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3383,11 +4021,12 @@ l.5178 \end{longtable}
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (2.60944pt too wide) in alignment at lines 5191--5230
+Overfull \hbox (2.60944pt too wide) in alignment at lines 5197--5236
 [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[316
+[314
+
 
 
 
@@ -3397,26 +4036,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5276 \end{longtable}
+l.5282 \end{longtable}
+                       [315]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5328 \end{longtable}
+                       [316]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5374 \end{longtable}
                        [317]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5322 \end{longtable}
-                       [318]
-pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5368 \end{longtable}
-                       [319]
-pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5416 \end{longtable}
-                       [320] [321]
+l.5422 \end{longtable}
+                       [318] [319]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 5425.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 5425.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 5425.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 5425.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 5425.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 5425.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 5425.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 5425.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3450,11 +4112,12 @@ l.5416 \end{longtable}
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (30.85938pt too wide) in alignment at lines 5428--5468
+Overfull \hbox (30.85938pt too wide) in alignment at lines 5434--5474
 [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[322
+[320
+
 
 
 
@@ -3464,50 +4127,99 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5515 \end{longtable}
+l.5521 \end{longtable}
+                       [321]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5568 \end{longtable}
+                       [322]
+pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5615 \end{longtable}
                        [323]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5562 \end{longtable}
-                       [324]
-pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5609 \end{longtable}
-                       [325]
-pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5657 \end{longtable}
-                       [326] [327] [328
+l.5663 \end{longtable}
+                       [324] [325]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 5665.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 5665.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 5665.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 5665.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 5665.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 5665.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 5665.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 5665.
+
+[326
 
 
 
-] [329] [330]
+
+] [327] [328]
+
+Package hyperref Warning: Option `pdfpagemode' has already been used,
+(hyperref)                setting the option has no effect on input line 5734.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 5734.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 5734.
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 5734.
+
+
+Package hyperref Warning: Option `pdfstartview' has already been used,
+(hyperref)                setting the option has no effect on input line 5734.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 5734.
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 5734.
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 5734.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5735.
+(caption)                particular \caption on input line 5741.
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 10000) detected at line 5830
+Underfull \vbox (badness 10000) detected at line 5836
  []
 
-[331
+[329
+
 
 ]
-Underfull \vbox (badness 10000) detected at line 5830
+Underfull \vbox (badness 10000) detected at line 5836
  []
 
 
-Underfull \vbox (badness 10000) detected at line 5830
+Underfull \vbox (badness 10000) detected at line 5836
  []
 
-[332] [333] (./thesis.aux)
+[330] [331] (./thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3515,16 +4227,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 69A4EA43A6A7200DADE339DD3EC23DA2;52365.
+(rerunfilecheck)             Checksum: DA3C52AA662B1D5C0EF36A66A0D3C6A7;52457.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31239 strings out of 478268
- 581856 string characters out of 5846348
- 1404851 words of memory out of 5000000
- 47434 multiletter control sequences out of 15000+600000
+ 31273 strings out of 478268
+ 582889 string characters out of 5846348
+ 1405570 words of memory out of 5000000
+ 47466 multiletter control sequences out of 15000+600000
  713392 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,102p,2449b,5165s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3556,45 +4268,46 @@ ps/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathex
 .enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
-/public/lm/lmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm
-/lmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-di
-st/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/public/lm/lmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/l
-m/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2022/texmf-di
-st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/public/lm/lmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
-/lm/lmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2022/tex
-mf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helveti
-c/uhvro8a.pfb>
-Output written on thesis.pdf (352 pages, 3011882 bytes).
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/lm/lmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
+mmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/lm/lmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/
+lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/lm/lmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/l
+m/lmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/lm/lmtt8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/he
+lvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/
+uhvro8a.pfb>
+Output written on thesis.pdf (350 pages, 3022063 bytes).
 PDF statistics:
  6322 PDF objects out of 7423 (max. 8388607)
  5678 compressed objects within 57 object streams
- 1236 named destinations out of 1440 (max. 500000)
+ 1234 named destinations out of 1440 (max. 500000)
  2272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

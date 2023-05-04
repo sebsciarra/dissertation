@@ -139,6 +139,9 @@ $endif$
 }
 
 
+% Define lscape page style for landscape pages
+% Automatically apply lscape page style at the beginning of landscape environment
+
 %nest all the \frontmatter functions in \oldfrontmatter, which allows us to redefine \frontmatter as everything it was with one modification to the
 %draft watermark
 \let\oldfrontmatter\frontmatter
@@ -190,11 +193,8 @@ $endif$
   \cleardoublepage
 
   $if(ArialFont)$
-   \fancyfoot[C]{\sffamily\arabic{page}}
+   \fancyfoot[C]{\sffamily\arabic{\thepage}}
   $endif$
-
-
-
 }
 
 %nest all the \mainmatter functions in \oldmainmatter, which allows us to redefine \mainmatter as everything it was with one modification to the
@@ -237,6 +237,9 @@ $endif$
 $if(ArialFont)$
  \renewcommand{\footnotesize}{\fontsize{10pt}{10pt}\fontfamily{\sfdefault}\selectfont}%footnotesize
 $endif$
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS, LIST OF FIGURES, & LIST OF TABLES
@@ -633,6 +636,7 @@ breaklinks=true, backref=page
 }
 
 
+
 %example numbering
 \newtheorem{theorem}{Theorem}[section]
 \renewcommand{\thetheorem}{\theapp.\arabic{theorem}}
@@ -664,9 +668,8 @@ $endif$
 
 $if(abstract)$
 \cleardoublepage
-\thispagestyle{empty} %removes page number only for abstract page
-  \begin{abstract}{$linespacing$}{$abstract$}  %[linespacing][abstract][
-
+   %\thispagestyle{empty} %removes page number only for abstract page
+  \begin{abstract}{$linespacing$}{$abstract$}  %[linespacing][abstract]
   \end{abstract}
 $endif$
 
