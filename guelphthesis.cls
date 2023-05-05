@@ -579,9 +579,14 @@
 \thispagestyle{empty}
   \endoldlandscape
 }
-\AfterEndEnvironment{landscape}{
-  \pagestyle{mainmatter}
+
+
+
+\AtBeginEnvironment{ThreePartTable}{
+\pagestyle{empty}
 }
+
+
 
 
 

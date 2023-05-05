@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  3 MAY 2023 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  5 MAY 2023 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1694,32 +1694,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.5> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 804.
 [15
 
- <./Figures/Monte_Carlo_comparison.png>] [16]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 804.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 804.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 804.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 804.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 804.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 804.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 804.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 804.
-
-[17
-
+ <./Figures/Monte_Carlo_comparison.png>] [16] [17
 
 ] [18]
 <Figures/prisma_diagram.png, id=1833, 854.19125pt x 517.935pt>
@@ -1730,29 +1705,6 @@ Package pdftex.def Info: Figures/prisma_diagram.png  used on input line 828.
 [19
 
  <./Figures/prisma_diagram.png>]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 828.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 828.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 828.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 828.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 828.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 828.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 828.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 828.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1798,31 +1750,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.5> not available
 
 
 
-
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 886.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 886.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 886.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 886.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 886.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 886.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 886.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 886.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1866,36 +1794,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-
 ] [22]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 948.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 948.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 948.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 948.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 948.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 948.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 948.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 948.
-
-
 Overfull \vbox (6.72644pt too high) has occurred while \output is active []
 
 [23
-
 
 
 ]
@@ -1921,32 +1823,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <4.75> on input line 1002.
 [26
 
- <./Figures/parameter_explanation_plot.pdf>] [27]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1002.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1002.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1002.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1002.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1002.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1002.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1002.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1002.
-
-[28
-
+ <./Figures/parameter_explanation_plot.pdf>] [27] [28
 
 ] [29] [30]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
@@ -1992,32 +1869,7 @@ Overfull \vbox (1.66794pt too high) has occurred while \output is active []
 [38
 
 
-] [39]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1193.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1193.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1193.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1193.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1193.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1193.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1193.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1193.
-
-[40
-
+] [39] [40
 
 
 ] [41] [42] [43] [44]
@@ -2104,29 +1956,6 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1366--1366
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1371.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1371.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1371.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1371.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1371.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1371.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1371.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1371.
-
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1
 392.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsphv.fd
@@ -2142,7 +1971,6 @@ Package pdftex.def Info: Figures/midpoint_180_plot.pdf  used on input line 1405
 .
 (pdftex.def)             Requested size: 342.52884pt x 316.18048pt.
 [54
-
 
 
 ] [55 <./Figures/midpoint_180_plot.pdf>]
@@ -2232,32 +2060,7 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1540--1540
 [63
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1545.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1545.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1545.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1545.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1545.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1545.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1545.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1545.
-
-[64
-
+] [64
 
 
 ]
@@ -2340,36 +2143,11 @@ Overfull \hbox (1.99377pt too wide) in paragraph at lines 1708--1708
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1713.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1713.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1713.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1713.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1713.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1713.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1713.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1713.
-
-
 Overfull \hbox (11.99911pt too wide) in alignment at lines 1736--1751
 [] [] [] [] [] [] [] [] [] [] 
  []
 
 [72
-
 
 
 ]
@@ -2449,32 +2227,7 @@ Overfull \hbox (7.55371pt too wide) in paragraph at lines 1878--1878
 [79
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 1883.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 1883.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 1883.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 1883.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 1883.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 1883.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 1883.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 1883.
-
-[80
-
+] [80
 
 
 ]
@@ -2555,32 +2308,7 @@ Overfull \hbox (5.94765pt too wide) in paragraph at lines 2048--2049
 [87
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2054.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2054.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2054.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2054.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2054.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2054.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2054.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2054.
-
-[88
-
+] [88
 
 
 ]
@@ -2646,32 +2374,7 @@ Overfull \hbox (8.27248pt too wide) in paragraph at lines 2155--2156
 [97
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2171.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2171.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2171.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2171.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2171.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2171.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2171.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2171.
-
-[98
-
+] [98
 
 
 ] [99] [100] [101] [102] [103]
@@ -2729,30 +2432,6 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2343.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2343.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2343.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2343.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2343.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2343.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2343.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2343.
-
-
 Overfull \hbox (9.93318pt too wide) in paragraph at lines 2351--2352
 []\OT1/lmr/m/n/12 Before pre-sent-ing the re-sults for bias, I pro-vide a de-sc
 rip-tion of the set of bias/precision
@@ -2765,7 +2444,6 @@ Package pdftex.def Info: Figures/exp2_plot_days_equal spacing.pdf  used on inpu
 t line 2372.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [108
-
 
 
 ] [109 <./Figures/exp2_plot_days_equal spacing.pdf>] [110] [111] [112] [113]
@@ -2805,29 +2483,6 @@ t line 2372.
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2497.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2497.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2497.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2497.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2497.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2497.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2497.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2497.
-
 <Figures/exp2_plot_days_time-interval increasing.pdf, id=3027, 2726.185pt x 273
 9.23375pt>
 File: Figures/exp2_plot_days_time-interval increasing.pdf Graphic file (type pd
@@ -2837,7 +2492,6 @@ Package pdftex.def Info: Figures/exp2_plot_days_time-interval increasing.pdf  u
 sed on input line 2508.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [115
-
 
 
  <./Figures/exp2_plot_days_time-interval increasing.pdf>] [116] [117] [118] [11
@@ -2878,29 +2532,6 @@ sed on input line 2508.
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2625.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2625.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2625.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2625.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2625.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2625.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2625.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2625.
-
 <Figures/exp2_plot_days_time-interval decreasing.pdf, id=3101, 2726.185pt x 273
 9.23375pt>
 File: Figures/exp2_plot_days_time-interval decreasing.pdf Graphic file (type pd
@@ -2910,7 +2541,6 @@ Package pdftex.def Info: Figures/exp2_plot_days_time-interval decreasing.pdf  u
 sed on input line 2636.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [121
-
 
 
  <./Figures/exp2_plot_days_time-interval decreasing.pdf>] [122] [123]
@@ -2959,29 +2589,6 @@ LaTeX Font Info:    Font shape `OMS/phv/b/n' in size <10> not available
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2752.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2752.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2752.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2752.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2752.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2752.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2752.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2752.
-
 <Figures/exp2_plot_days_middle-and-extreme spacing.pdf, id=3184, 2726.185pt x 2
 739.23375pt>
 File: Figures/exp2_plot_days_middle-and-extreme spacing.pdf Graphic file (type 
@@ -2991,7 +2598,6 @@ Package pdftex.def Info: Figures/exp2_plot_days_middle-and-extreme spacing.pdf
  used on input line 2797.
 (pdftex.def)             Requested size: 436.19852pt x 438.28636pt.
 [127
-
 
 
 ] [128 <./Figures/exp2_plot_days_middle-and-extreme spacing.pdf>] [129]
@@ -3054,32 +2660,7 @@ Overfull \hbox (3.24399pt too wide) in alignment at lines 2857--2890
 [132
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 2892.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 2892.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 2892.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2892.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 2892.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 2892.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 2892.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 2892.
-
-[133
-
+] [133
 
 
 ] [134] [135] [136] [137]
@@ -3149,29 +2730,6 @@ line 3152.
 
 ]
 
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 3197.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3197.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 3197.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 3197.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 3197.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 3197.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 3197.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 3197.
-
-
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3203.
 
@@ -3189,7 +2747,6 @@ Package pdftex.def Info: Figures/exp3_plot_days_time structured.pdf  used on in
 put line 3215.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [152
-
 
 
 ] [153 <./Figures/exp3_plot_days_time structured.pdf>] [154] [155] [156] [157]
@@ -3229,29 +2786,6 @@ put line 3215.
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 3338.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3338.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 3338.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 3338.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 3338.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 3338.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 3338.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 3338.
-
 <Figures/exp3_plot_days_time unstructured (fast response).pdf, id=3579, 2726.18
 5pt x 2739.23375pt>
 File: Figures/exp3_plot_days_time unstructured (fast response).pdf Graphic file
@@ -3261,7 +2795,6 @@ Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (fast respons
 e).pdf  used on input line 3369.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [159
-
 
 
 ] [160 <./Figures/exp3_plot_days_time unstructured (fast response).pdf>] [161] 
@@ -3302,29 +2835,6 @@ e).pdf  used on input line 3369.
 
 
 ]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 3476.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3476.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 3476.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 3476.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 3476.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 3476.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 3476.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 3476.
-
 <Figures/exp3_plot_days_time unstructured (slow response).pdf, id=3657, 2726.18
 5pt x 2739.23375pt>
 File: Figures/exp3_plot_days_time unstructured (slow response).pdf Graphic file
@@ -3334,7 +2844,6 @@ Package pdftex.def Info: Figures/exp3_plot_days_time unstructured (slow respons
 e).pdf  used on input line 3487.
 (pdftex.def)             Requested size: 449.80112pt x 451.95407pt.
 [166
-
 
 
  <./Figures/exp3_plot_days_time unstructured (slow response).pdf>] [167] [168] 
@@ -3384,32 +2893,7 @@ Overfull \hbox (8.27248pt too wide) in paragraph at lines 3570--3571
 [171
 
 
-]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 3589.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3589.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 3589.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 3589.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 3589.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 3589.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 3589.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 3589.
-
-[172
-
+] [172
 
 
 ]
@@ -3554,32 +3038,7 @@ Package pdftex.def Info: Figures/equal_spacing_schedule.png  used on input line
 (pdftex.def)             Requested size: 626.0331pt x 350.50626pt.
 [242
 
- <./Figures/equal_spacing_schedule.png>]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 4015.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4015.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 4015.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 4015.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 4015.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 4015.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 4015.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 4015.
-
-[243
-
+ <./Figures/equal_spacing_schedule.png>] [243
 
 ] [244]
 <Figures/time_inc_schedule.png, id=5049, 804.00375pt x 510.90875pt>
@@ -3590,32 +3049,7 @@ Package pdftex.def Info: Figures/time_inc_schedule.png  used on input line 4074
 (pdftex.def)             Requested size: 522.59625pt x 332.08675pt.
 [245
 
- <./Figures/time_inc_schedule.png>]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 4074.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4074.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 4074.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 4074.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 4074.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 4074.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 4074.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 4074.
-
-[246
-
+ <./Figures/time_inc_schedule.png>] [246
 
 ]
 <Figures/time_dec_schedule.png, id=5069, 811.03pt x 525.965pt>
@@ -3626,32 +3060,7 @@ Package pdftex.def Info: Figures/time_dec_schedule.png  used on input line 4111
 (pdftex.def)             Requested size: 527.16325pt x 341.87318pt.
 [247
 
- <./Figures/time_dec_schedule.png>]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 4111.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4111.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 4111.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 4111.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 4111.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 4111.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 4111.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 4111.
-
-[248
-
+ <./Figures/time_dec_schedule.png>] [248
 
 ] [249]
 <Figures/mid_ext_schedule.png, id=5096, 843.15pt x 530.98375pt>
@@ -3662,32 +3071,7 @@ Package pdftex.def Info: Figures/mid_ext_schedule.png  used on input line 4171.
 (pdftex.def)             Requested size: 548.041pt x 345.13533pt.
 [250
 
- <./Figures/mid_ext_schedule.png>] [251]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 4171.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4171.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 4171.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 4171.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 4171.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 4171.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 4171.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 4171.
-
-[252
-
+ <./Figures/mid_ext_schedule.png>] [251] [252
 
 ] [253] [254] [255] [256] [257] [258]
 <Figures/taylor_vs_nonlin.pdf, id=5192, 650.43pt x 433.62pt>
@@ -3965,29 +3349,6 @@ as been already used, duplicate ignored
                    \relax 
 l.5184 \end{longtable}
                        [312] [313]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 5188.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 5188.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 5188.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 5188.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 5188.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 5188.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 5188.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 5188.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4030,7 +3391,6 @@ Overfull \hbox (2.60944pt too wide) in alignment at lines 5197--5236
 
 
 
-
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.2}) h
 as been already used, duplicate ignored
@@ -4056,29 +3416,6 @@ as been already used, duplicate ignored
                    \relax 
 l.5422 \end{longtable}
                        [318] [319]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 5425.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 5425.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 5425.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 5425.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 5425.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 5425.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 5425.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 5425.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4121,7 +3458,6 @@ Overfull \hbox (30.85938pt too wide) in alignment at lines 5434--5474
 
 
 
-
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{table.H.3}) h
 as been already used, duplicate ignored
@@ -4146,59 +3482,11 @@ as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5663 \end{longtable}
-                       [324] [325]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 5665.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 5665.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 5665.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 5665.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 5665.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 5665.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 5665.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 5665.
-
-[326
-
+                       [324] [325] [326
 
 
 
 ] [327] [328]
-
-Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 5734.
-
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 5734.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 5734.
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 5734.
-
-
-Package hyperref Warning: Option `pdfstartview' has already been used,
-(hyperref)                setting the option has no effect on input line 5734.
-
-Package hyperref Info: Option `breaklinks' set `true' on input line 5734.
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 5734.
-
-
-Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 5734.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 5741.
@@ -4209,7 +3497,6 @@ Underfull \vbox (badness 10000) detected at line 5836
  []
 
 [329
-
 
 ]
 Underfull \vbox (badness 10000) detected at line 5836
@@ -4233,10 +3520,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31273 strings out of 478268
- 582889 string characters out of 5846348
- 1405570 words of memory out of 5000000
- 47466 multiletter control sequences out of 15000+600000
+ 31267 strings out of 478268
+ 582681 string characters out of 5846348
+ 1405496 words of memory out of 5000000
+ 47460 multiletter control sequences out of 15000+600000
  713392 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,102p,2449b,5165s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4304,7 +3591,7 @@ pe1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022/texmf-dist/fonts
 urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/he
 lvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
-Output written on thesis.pdf (350 pages, 3022063 bytes).
+Output written on thesis.pdf (350 pages, 3021714 bytes).
 PDF statistics:
  6322 PDF objects out of 7423 (max. 8388607)
  5678 compressed objects within 57 object streams
